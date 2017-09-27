@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+	background:#108e2a;
+}
+.banner {
+	background:url(../img/green/slide_bkg.png);
+}
+.login_area {
+	background:url(../img/green/box_login.png);
+}
+.login_area input[type='submit'] {
+	background: transparent url(../img/green/btn_login.png);
+}
+.login_area input[type='submit']:hover {
+	background: transparent url(../img/btn_login_hover.png);
+}
+.box_right_top {
+	background:url(../img/green/box_right_top.png);
+}
+.box_right_middle {
+	background:url(../img/green/box_right_middle.png);
+}
+.box_right_bottom {
+	background:url(../img/green/box_right_bottom.png);
+}

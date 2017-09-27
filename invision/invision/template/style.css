@@ -1,0 +1,326 @@
+/* ================= general ================= */
+body {
+	background-image: url(tile.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #f4f0e5;
+	font-size: 100.01%;
+}
+
+div#container {
+	 width: 760px;
+ }
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "trebuchet ms", arial, sans-serif;
+	color: #008000;
+	font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+		margin-top: 1.5em;
+		margin-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 100px;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+h6 {
+	font-size: 1em;
+}
+
+strong, em em, b {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+	background: #ffc;
+}
+
+code {
+	color: #800;
+}
+
+/* 2 class for image floating */
+img.imgright {
+	float: right;
+	margin-left: 1em;
+}
+
+img.imgleft {
+	float: left;
+	margin-right: 1em;
+}
+
+a:link { color: #24468c }
+a:visited { color: #24468c }
+a:active { color: #f00 }
+a:hover { color: #ff8200 }
+
+div#page ol, div#page ul {
+	margin-left: 3em;
+	margin-bottom: 1em;
+}
+
+div#page ul {
+	list-style: disc;
+}
+
+div#page ol {
+	list-style: decimal;
+}
+
+dl {
+	margin-bottom: 1em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 2em;
+}
+
+/* ================= header ================= */
+div#header {
+	height: 100px;
+}
+
+div#header h1 {
+	padding-left: 1em;
+	color: #fff;
+}
+
+div#header h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* ================= main navigation ================= */
+#navmain {
+	float: left;
+	width: 100%;
+	height: 39px;
+	font-size: 0.8em;
+}
+
+#navmain ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+#navmain li {
+	display: inline;
+	margin: 0;
+	line-height: 30px;
+}
+
+#navmain a {
+	float: left;
+	background: url("tab_right_both.gif") no-repeat 100% 0;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#navmain a span {
+	float: left;
+	display: block;
+	background: url("tab_left_both.gif") no-repeat 0 0;
+	padding: 0px 20px 9px 20px;
+	font-weight: bold;
+	color: #ddd;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#navmain a span { float: none; }
+/* End IE5-Mac hack */
+
+#navmain a:hover span {
+	color: #333;
+}
+
+#navmain a:hover {
+	background: url("tab_right_both.gif") no-repeat 100% -39px;
+}
+
+#navmain a:hover span {
+	background: url("tab_left_both.gif") no-repeat 0 -39px;
+}
+
+
+/* ================= main page ================= */
+div#page div.inner {
+	padding: 2em 3em 1em 3em;
+	background-image: url(page_top.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	font-size: 0.8em;
+}
+
+div#page div.inner p {
+	margin-bottom: 1em;
+}
+
+div#page {
+	line-height: 1.2em;
+	background-color: #fff;
+	background-image: url(page_back.gif);
+	background-repeat: repeat-y;
+	margin-top: 10px;
+}
+
+
+/* ================= footer ================= */
+div#footer {
+	text-align: center;
+	font-style: italic;
+	background-image: url(page_bottom.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	font-size: smaller;
+	color: #555;
+}
+
+
+/* ================= right navigation ================= */
+div#nav {
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+
+div#nav div.inner {
+	padding: 1em;
+}
+
+div#nav ul {
+	margin-left: 0.5em;
+}
+
+div#nav p {
+	margin-bottom: 0.2em;
+	margin-top: 0.6em;
+}
+
+div#nav div.inner ul.menu li {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2px;
+
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+div#nav div.inner ul.menu a {
+	display: block;
+	width: 95%;
+	padding-left: 5px;
+	/*background-color: #fff;*/
+	/*color: #000;*/
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+	text-decoration: none;
+}
+
+div#nav div.inner ul.menu a:link, 
+div#nav div.inner ul.menu a:visited, 
+div#nav div.inner ul.menu a:hover {
+	text-decoration: none;
+}
+
+div#nav div.inner ul.menu a:hover {
+	background-color: #24468c;
+	color: #fff;
+}
+
+
+/* ================= tables ================= */
+table {
+	margin-bottom: 2em;
+}
+
+table caption{
+	background: #F6F4F1;
+	color: #110;
+	border: 1px solid #F2EDDA;
+	font-size: 110%;
+	letter-spacing: .1em;
+	padding: .5em;
+}
+
+td, th {
+	text-align: center;
+}
+
+th{
+	background: #A58F6C;
+	border: 1px solid #F2EDDA;
+	color: #F5F4F0;
+	font-weight: bold;
+	padding: .4em;
+	text-transform: capitalize;
+}
+
+th a:link, th a:visited {
+	color: #fffe80;
+}
+
+th a:hover {
+	color: #ff8200
+}
+
+tr.head th {
+	background: #110;
+}
+
+tr.head th a:link, 
+tfoot td a:link, 
+tfoot td a:visited, 
+tr.head th a:visited {
+	color: #A0C1F8;
+}
+
+tr.head th a:hover,
+tfoot td a:hover {
+	color: #ff8200
+}
+
+td{
+	/* background: #fff; */
+	color: #110;
+	border: 1px solid #F2EDDA;
+	padding: .4em;
+}
+
+tr.odd td, td.odd, .odd {
+	background: #F6F4F1;
+}
+
+tfoot th, tfoot td{
+	background: #666 !important;
+	color: #F5F4F1;
+}

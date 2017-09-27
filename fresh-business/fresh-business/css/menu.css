@@ -1,0 +1,38 @@
+.solidblockmenu{
+	margin: 0;
+	padding: 0;
+	float: left;
+	font: normal 0.8em arial, verdana, sans-serif;
+	width: 100%;
+	background: #643F39;
+}
+
+.solidblockmenu li{
+	display: inline;
+	background: #d3d3d3;
+}
+
+.solidblockmenu li a{
+	float: left;
+	color: #fff;
+	padding: 9px 11px;
+	text-decoration: none;
+	background: #643F39;
+
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li {
+	color: #643F39;
+	background: #fff;
+	text-decoration: none;
+}
+
+
+.solidblockmenu li .current{
+	color: #643F39;
+	background: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+

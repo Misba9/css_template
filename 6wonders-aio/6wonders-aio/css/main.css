@@ -1,0 +1,138 @@
+/*
+
+Original Author: Tomas Lach (www.tomaslach.cz)
+Heavily Modified by OS Templates (http://www.os-templates.com)
+
+Changing colours is now simple, now uses @import to import the individual CSS colour scheme instead of having to use multiple templates
+The template now gracefully degrades for older browsers - IE 7 + 8 are now also partially supported
+
+Template re-named to: 6Wonders AIO (All In One)
+
+*/
+
+/*******************************************************************************************************************
+*  IMPORT OTHER STYLES                                                                                             
+*******************************************************************************************************************/
+@import url(reset.css); 
+@import url(http://fonts.googleapis.com/css?family=Podkova:700); 
+/* 
+Choose the colour you wish to use => colour-blue.css is default
+@import url(colour-blue.css);
+@import url(colour-green.css);
+@import url(colour-orange.css);
+@import url(colour-pink.css);
+@import url(colour-purple.css);
+@import url(colour-red.css);
+*/
+@import url(colour-blue.css);
+
+/*******************************************************************************************************************
+*  BASE                                                                                                            
+*******************************************************************************************************************/
+html{background:#ededed;}
+body{color:#666; font:normal 13px "Helvetice Neue",Arial,Tahoma,Verdana;}
+p{line-height:1.5em; margin-bottom:15px;}
+address{font-style:normal; padding-bottom:15px;}
+
+/*******************************************************************************************************************
+*  LINKS                                                                                                           
+*******************************************************************************************************************/
+a, a:link, a:focus{color:#000; outline:0;}
+a:hover{text-decoration:underline;}
+a.more{padding-right:15px;}
+
+/*******************************************************************************************************************
+*  H1 - H4                                                                                                         
+*******************************************************************************************************************/
+h1, h2, h3, h4{font-family:"Podkova",Arial,Tahoma,Verdana; line-height:1.2em; margin-bottom:15px; font-weight:700;}
+h1{font-size:3.0em; color:#fff;}
+h2{font-size:1.8em; margin-bottom:25px;}
+h3{font-size:1.2em; margin-bottom:5px; font-family:"Helvetice Neue",Arial,Tahoma,Verdana; ;}
+h4{font-size:1.6em; color:#999;}
+
+/*******************************************************************************************************************
+*  HEADER                                                                                                          
+*******************************************************************************************************************/
+header{height:100px; line-height:100px; background:#fff; position:relative;}
+header a#logo{font-size:2.0em; font-weight:bold; display:block; position:absolute; top:0; left:0; color:#848484; text-decoration:none;}
+header a#logo span{color:#000;}
+header a#logo:hover{text-decoration:none; color:#000;}
+header nav ul{position:absolute; top:0; right:0;}
+header nav li{float:left; background:url("img/nav-sep.png") no-repeat 0 50%;}
+header nav li:first-child{background:none;}
+header nav li a{float:left; color:#000; display:block; height:100px; padding:0 20px; font-weight:100;}
+header nav li.active a{cursor:pointer; font-weight:600; text-decoration:none;}
+header nav li a:hover{text-decoration:none;}
+
+#intro{padding:55px 0;}
+#intro p{color:#fff; margin-bottom:20px; padding-right:340px;}
+#intro .button{text-shadow:0 0 0; text-transform:none; border:0; font-size:12px; background-color:#010101; border-radius:5px; color:#fff; display:inline-block; padding:15px 20px; text-decoration:none; font-weight:600; background:-moz-linear-gradient(top, #404040 0%, #010101); background:-webkit-gradient(linear, left top, left bottom, from(#404040), to(#010101));}
+#intro .button:hover{background:-moz-linear-gradient(top, #010101 0%, #404040); background:-webkit-gradient(linear, left top, left bottom, from(#010101), to(#404040));}
+#intro .button i{margin-right:10px; display:inline-block; width:16px; height:16px; float:left;}
+#intro .button i.download{background:url("img/icon-download.png") no-repeat 50% 50%;}
+#intro .button span{color:#b1b1b1; font-weight:100;}
+
+#subIntro{background:#272727 url("img/subintro-bg.png") repeat-x; padding:40px 0; position:relative;}
+#subIntro h2{color:#979797;}
+#subIntro .withIcon{padding-left:35px;}
+#subIntro .icon1{background:url("img/icon1.png") no-repeat 0 50%;}
+#subIntro .icon2{background:url("img/icon2.png") no-repeat 0 50%;}
+#subIntro .icon3{background:url("img/icon3.png") no-repeat 0 50%;}
+#subIntro p{color:#e3e3e3; padding-top:5px;}
+
+/*******************************************************************************************************************
+*  CONTENT                                                                                                         
+*******************************************************************************************************************/
+#content{padding:40px 0 50px;}
+#content .cite{padding-left:70px; font-style:italic;}
+#content .cite strong{font-style:normal; display:block; margin-top:5px;}
+
+/*******************************************************************************************************************
+*  FOOTER                                                                                                          
+*******************************************************************************************************************/
+footer{padding:30px 0; border-top:1px solid #d9d9d9; background:#fff; font-size:0.85em;}
+footer .tweet{padding-left:30px; background:url("img/tweet.png") no-repeat 0 3px;}
+
+/*******************************************************************************************************************
+*  OTHER STYLES                                                                                                    
+*******************************************************************************************************************/
+.wrap{margin:0 auto; position:relative; width:980px;}
+
+.mask{position:absolute; top:0; left:0; width:100%; height:100%;}
+
+a.thumb img, img.thumb{display:block; margin-bottom:10px; border:1px solid #dcdcdc; padding:4px;}
+a.thumb:hover img{border-color:#d1d1d1;}
+
+.col1-3{width:316px; margin-left:16px; float:left;}
+.col1-3 p:last-child, 
+.col2-3 p:last-child{margin-bottom:0;}
+.col1-3:first-child{margin-left:0;}
+.col1-4{width:233px; margin-left:16px; float:left;}
+.col2-4{width:482px; margin-left:16px; float:left;}
+.col1-4:first-child{margin-left:0;}
+.col2-4:first-child{margin-left:0;}
+.col1-3 p, .col2-3 p, .col1-4 p, .col2-4 p{padding-right:20px;}
+
+.date{font-size:11px; color:#999; text-shadow:1px 1px 1px #fff; display:block; margin-bottom:5px;}
+
+.box{margin-bottom:40px;}
+
+.inner5{padding:5px;}
+
+.button {
+	display:inline-block;
+	margin-top:10px;
+	padding:14px 20px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.button:hover {
+	color:#fff;
+	text-decoration:none;
+}

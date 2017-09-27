@@ -1,0 +1,8 @@
+div.navigation {
+margin-bottom:-17px;
+margin-left:43px;
+}
+
+div.navigation li a,div.navigation li a:visited,div.navigation li span {
+padding:5px 11px 6px 16px;
+}

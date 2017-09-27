@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+<head>
+<title>Premium Business | Contact</title>
+<meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/jquery.pngFix.js"></script>
+<script type="text/javascript">
+$().ready(function () {
+    $("#contactForm").validate({
+        rules: {
+            name: "required",
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            name: "* Please enter your name",
+            email: "* Please enter a valid email address"
+        }
+    });
+});
+</script>
+<style type="text/css">
+#contactForm label.error {
+	padding-left:8px;
+	background-color:#ffffff;
+	width: auto;
+	display: inline;
+	}
+</style>
+<script type="text/javascript"> $(document).ready(function(){ $(document).pngFix();  }); </script>
+<!--[if lt IE 8.]><link rel="stylesheet" type="text/css" href="css/style-ie.css" /><![endif]-->
+<!--[if lt IE 7.]><link rel="stylesheet" type="text/css" href="css/style-ie6.css" /><![endif]-->
+<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+var flashvars = {};
+flashvars.xml = "config.xml";
+flashvars.font = "font.swf";
+var attributes = {};
+attributes.wmode = "transparent";
+attributes.id = "slider";
+swfobject.embedSWF("design3edge.swf", "content_slider", "575", "265", "9", "expressInstall.swf", flashvars, attributes);
+</script>
+</head>
+<body>
+<div id="main_body">
+  <div id="header">
+    <div id="header_top"> </div>
+    <div id="header_body">
+      <div id="header_left">
+        <div id="logo"> <a href="index.html"><img src="images/main_logo.png" alt="" /></a> </div>
+        <div id="logo_divider"> <img src="images/logo_divider.png" alt="" /> </div>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="clients.html">CLIENTS</a></li>
+            <li id="menu_active"><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="header_right">
+        <div id="slider_shadow">
+          <div id="content_slider"> <a href="http://www.adobe.com/go/getflashplayer"> <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="" /> </a> </div>
+        </div>
+      </div>
+    </div>
+    <div id="header_bottom"> </div>
+  </div>
+  <div id="content_body">
+    <div id="left_content">
+      <p class="headings"> CONTACT US </p>
+      <p> <img style="margin:0px 7px 7px 0px;float:left;" src="images/contact_icon.png" alt="" /> <span style="font-size:14px;font-weight:bold;font-style:italic;color:#ffffff;"> "Vivamus sit amet odio pellentesque odio faucibus tristique. Morbi facilisis, ligula a faucibus pellentesque, orci justo consequat massa, sit amet dapibus dolor diam viverra mi" </span> </p>
+      <br />
+      <p> Vivamus sit amet odio pellentesque odio faucibus tristique. Morbi facilisis, ligula a faucibus pellentesque, orci justo consequat massa, sit amet dapibus dolor diam viverra mi.</p>
+      <br />
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pulvinar nisi eu enim facilisis dapibus. Duis viverra turpis vitae dui tincidunt eleifend. Etiam sodales, neque in dignissim dictum, dui libero dictum orci, vel cursus felis velit vitae dui. </p>
+      <p> Vivamus sit amet odio pellentesque odio faucibus tristique. Morbi facilisis, ligula a faucibus pellentesque, orci justo consequat massa, sit amet dapibus dolor diam viverra mi. Aenean porttitor, lectus at dapibus egestas, tellus ipsum rhoncus orci. </p>
+      <br />
+      <div class="contact">
+        <form id="contactForm" name="contactForm" method="post" action="#">
+          <p> Name * </p>
+          <p>
+            <input type="text" name="name" id="name" value=""/>
+          </p>
+          <p style="margin-top:20px;"> E-Mail * </p>
+          <p>
+            <input type="text" name="email" id="email" value=""/>
+          </p>
+          <p style="margin-top:20px;"> Your Message </p>
+          <p>
+            <textarea rows="3" cols="50" name="message"></textarea>
+          </p>
+          <p style="margin-top:20px;">
+            <input type="image" src="images/send_btn.png" name="submit" id="submit" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div id="right_content">
+      <p class="headings"> GET IN TOUCH </p>
+      <ul class="more_links">
+        <li>9839 Lorem Ipsum</li>
+        <li>India, Bangalore</li>
+        <li>Asia, India</li>
+        <li>Telephone: <b>+91 - 1234567890</b></li>
+        <li>Email: <b>contact@domain.com</b></li>
+      </ul>
+      <br />
+      <p class="headings"> TESTIMONIAL </p>
+      <div id="testimonial">
+        <p> Technology advances are providing tools to create Rich Internet Applications (RIA) based on the tenets of Web 2.0 </p>
+        <div id="testimonial_author"> - sada (Design3Edge) </div>
+      </div>
+      <div id="follow_us">
+        <p class="headings"> FOLLOW US ON </p>
+        <a href="#"><img src="images/twitter_icon.png" alt="" /></a> <a href="#"><img src="images/facebook_icon.png" alt="" /></a> <a href="#"><img src="images/linkdin_icon.png" alt="" /></a> </div>
+    </div>
+    <div class="clear"> </div>
+  </div>
+  <div id="footer_top_bg"> </div>
+  <div id="footer_content">
+    <div class="left"> <a href="index.html">Home</a> <span>|</span> <a href="about.html">About Us</a> <span>|</span> <a href="#">Services</a> <span>|</span> <a href="clients.html">Clients</a> <span>|</span> <a href="contact.html">Contact Us</a> </div>
+    <div  class="right">Copyright &copy; 2010. All rights reserved. | Design by <a href="http://www.design3edge.com/">Design3edge.com</a>.</div>
+    <div class="clear"> </div>
+  </div>
+  <div id="footer_bottom_bg"> </div>
+</div>
+</body>
+</html>

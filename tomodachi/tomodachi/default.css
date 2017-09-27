@@ -1,0 +1,209 @@
+#wrap #left p {
+}
+#header {background:url(images/headerbg.png) no-repeat;}
+/*Links*/
+a {
+	color:#2C74AE;
+}
+a:visited {color:#336699;}
+a:active {color:#0099FF;}
+a:hover {color:#000000; background:#F4F3D9;}
+
+/*topnavigation*/
+#topnav {background:url(images/topmenu.jpg) no-repeat;}
+#topnav a{background:url(images/left.png) no-repeat left top;}
+#topnav a span {background:url(images/right.png) no-repeat right top; color:#fff;}
+#topnav .active a {color:#000;}
+#topnav .active a span { color:#000;}
+.fp_preview {background:url(images/fp_preveiwbg.jpg) repeat-x; height:117px; border:solid 3px #fff;}
+.fp_preview h2 {display:block; font-size:14px; text-transform: uppercase; height:18px; color:#EBE3D3; padding-left:10px;}
+.fp_preview .cats {padding:5px 0 0 0;}
+.fp_preview .cats ul {list-style:none;}
+.fp_preview .cats li {display: inline; font-size:16px;}
+.fp_preview .cats a {display:block; width:172px; height:28px; float:left; margin-left:1px; color:#FFFFFF; font-weight:bold;
+text-decoration:none; padding:55px 0 0 10px}
+.fp_preview .cats .tech a {background:url(images/previewimg1.jpg) no-repeat;}
+.fp_preview .cats .sci a {background:url(images/previewimg2.jpg) no-repeat;}
+.fp_preview .cats .arts a {background:url(images/previewimg3.jpg) no-repeat;}
+.wideblocktop {background:url(images/editorialhead.png) no-repeat; height:25px; display:block; color:#F0E8D9; padding:5px 5px 0 10px;}
+.editorialbttm {background:url(images/editorialbttm.png) bottom no-repeat; height:12px;}
+.wideblock {color:#fff; background: #25201B;}
+.wideblock a, .wideblock a:visited, .wideblock a:active{color:#fff;}
+.wideblock a:hover {color:#000;}
+
+#logo {
+	display:block;
+	background:url(images/logo.png) no-repeat;
+	height:58px; padding: 5px 0 0 62px; font-family:"Trebuchet MS", Verdana, sans-serif; font-size:24px; width: 175px;
+	margin:35px auto 0 auto;
+	color: #F3F3F3;
+}
+#logo:hover {background:url(images/logo2.png) no-repeat;}
+#logo .slogon {
+	display:block;
+	font-size:12px;
+	color: #91BEE3;
+}
+#logo a {color:#f3f3f3; text-decoration:none;}
+#logo a:hover {color:#fff; text-decoration:none; background:none;}
+#left {width:560px; float:left;}
+#right { margin-left:568px; margin-top:132px;}
+#quicklinks {width:200px; padding:5px; float:right;}
+#featured {background: url(images/ftrd2.png) repeat-y;}
+#ftdtop {background:url(images/ftrd1.png) no-repeat; height:26px;}
+#ftdbtm {background:url(images/ftrd3.png) no-repeat; height:24px;}
+#featured h2 {display:block; background:url(images/h2bg.png) 0px 5px no-repeat; padding:3px 5px 0 27px;}
+.ftdcontent {padding:0 20px 0 20px;}
+#featured img {display:block; float:left; padding:3px; background:#efefef; border:solid 1px #CCCCCC; margin:4px 10px 0 0;}
+#left h1, #left h2, #left h3 {
+	font-family: "Trebuchet MS", Verdana, sans-serif;}
+#left h1 { font-size:24px; color:#000; }
+#left h2 {font-size:20px; color: #463D33;}
+#left h3 {font-size:16px; color:#463D33; font-weight:bold;}
+.subhead {display:block; text-transform:uppercase; color: #463D33;}
+.vtabtop .subhead {padding:5px 5px 0 45px; font-size:18px; font-weight:bold;}
+
+
+/*Vertical Tabs*/
+#v_tab .vtabtop {
+	background: url(images/ql1.jpg) no-repeat;
+	height: 40px;
+	display: block;
+}
+#v_tab .vtabmenu {
+	font-family:"Trebuchet MS", Verdana, sans-serif;
+	float: left;
+	width: 52px;
+}
+#v_tab .vtabcontent {
+	margin-left: 58px;
+	padding: 5px;
+}
+
+#v_tab .vtabbtm {
+	background: url(images/ql3.jpg) no-repeat left bottom;
+	display: block;
+	height: 40px;
+	width: 250px;
+	clear: left;
+}
+#v_tab .vtabmenu ul {
+	list-style: none;
+}
+#v_tab .vtabmenu li {
+	display: block; text-align:center; 
+}
+#v_tab .vtabmenu ul a {
+	background: url(images/qlmenu2.jpg) repeat-y;
+	display: block;
+	padding: 5px 25px 5px 18px;
+	margin-bottom: 3px;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#v_tab { float:right;
+	width: 250px; margin-right:15px;
+	background: url(images/ql2.jpg) repeat-y;
+}
+#v_tab .vtabmenu ul a:hover {
+	background: url(images/qlmenu3.jpg) repeat-y left;
+}
+#v_tab .vtabmenu .active a {
+	background: url(images/qlmenu1.jpg) repeat-y left;
+	display: block;
+	padding: 5px 25px 5px 18px;
+	margin-bottom: 3px;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+#v_tab .vtabmenu a:visited {
+	background: url(images/qlmenu2.jpg) repeat-y;
+}
+#v_tab .vtabmenu .active a:visited {
+	background: url(images/qlmenu1.jpg) repeat-y;
+}
+#v_tab .vtabmenu .active a:active {
+	background: url(images/qlmenu1.jpg) repeat-y;
+}
+
+iframe {
+	border:2px solid #F1EEE9;
+	width: 230px;
+	height: 400px;
+}
+
+ul {list-style:none;}
+
+#v_tab .list_items li {display:block; background: url(images/tabdiv.jpg) bottom no-repeat; padding:5px 0 22px 0;}
+#v_tab h3 { display:block; padding:0; margin:0;}
+#v_tab li img {display:block; float:right; padding:3px; margin:3px; background:#fff;}
+
+.post h2{display:block; background:url(images/h2bg.png) 0px 5px no-repeat; padding:3px 5px 0 27px;}
+.post .postinfo {color: #666666; font-size:10px; display:block; margin:0;}
+.post_end { padding:5px 5px 25px 0; font-size:10px;}
+h1a, h2 a, h3 a {color: #463D33; text-decoration:none;}
+h2 a:visited, h2 a:active {color: #463D33; text-decoration:none;}
+h3 a:visited, h3 a:active {color: #463D33; text-decoration:none;}
+h2 a:hover {color:#000; background:#fff; text-decoration:none;}
+.post_end a {color: #463D33; }
+.post_end a:visited, .post_end a:active  {color: #463D33;}
+.post_end a:hover {background:#fff;}
+#wrap #footer {
+	background: #282522;
+	padding: 15px;
+	color: #F1EEE9;
+	text-align:center;
+}
+#footer a {color:#fff; font-weight:bold; text-decoration:none;}
+#footer a:visited, #footer a:active { color:#fff;}
+#footer a:hover {color:#FFFFCC; background:none; text-decoration:none;}
+#credit {color:#DBD5CC;}
+#credit a{color:#fff;}
+#credit a:hover {color:#ffc; background:#000;}
+
+#sidebar {background:url(images/sbbg.jpg) repeat-y; margin-top:5px;}
+#sbtop {background:url(images/sbtop.jpg) no-repeat; height:39px;}
+#sbbtm {background:url(images/sbbtm.jpg) bottom no-repeat; width:362px; clear:right; height:19px;}
+.sb1 {float:right; width:160px; padding:5px 12px 5px 8px;}
+.sb2 {margin-right:185px; padding:5px 3px 5px 12px;}
+#right h2 { font-family:"Trebuchet MS", Verdana, sans-serif; font-size:16px;}
+#right h3 {font-size:12px;}
+#sidebar h2 { text-transform:uppercase; display:block; background:url(images/sidebarh2.jpg) bottom no-repeat; padding:3px 5px 8px 5px; margin-bottom:10px;}
+#sbtop h2 {background:none; padding:3px; text-align:center; margin:0; color:#FFFFFF;}
+#sidebar h3 {display:block; padding:3px 3px 0 14px; border-bottom: dashed 1px #AB9C8B; background:url(images/ico_sidebarh3.jpg) 0 4px no-repeat;}
+.link_menu li {display:block; height:24px;}
+.link_menu li a {display:block; height:20px; padding:4px 5px 0 5px; color:#000000; text-decoration:none; background:url(images/sidebarmenu.jpg) 0 -24px no-repeat;}
+.link_menu li a:visited, active{display:block; height:20px; padding:4px 5px 0 5px; color:#000000; text-decoration:none; background:url(images/sidebarmenu.jpg) 0 -24px no-repeat;}
+.link_menu li a:hover { background:url(images/sidebarmenu.jpg) 0 0 no-repeat;}
+.banners {padding:4px; margin-top:10px;}
+.banners img {border:none; margin-bottom:5px;}
+.banners a {background:none; border:none;}
+. {display:block; float:right; margin-left:15px; width:250px;}
+blockquote {display:block; font:18px Georgia, "Times New Roman", Times, serif; color:#514533; background:url(images/quote.jpg) no-repeat; padding-left:30px;}
+cite {font:14px "Trebuchet MS", Verdana, sans-serif; color:#000; font-style:normal;}
+.extract {width:250px; float:right; margin-left:15px;}
+img.leftalign{float:left; margin-right:15px; padding:3px; background:#fff; border:solid 1px #B9A991;}
+img.rightaline {float:right; margin-left:15px; padding:3px; background:#fff; border:solid 1px #B9A991;}
+
+/*shopping Cart */
+#catalogue {}
+.item {width:135px; float:left; height:220px;}
+.item h3 {display:block; padding:3px;}
+.item span {display:block; padding:3px;}
+.item .price {color:#993300; font-weight:bold; }
+.item span img {border:none;}
+.item img {}
+img.productimg {border:solid 1px #716148; margin:0 0 0 8px;}
+.clear2 {width:100%; clear:left;}
+.sec_head {display:block; background: #E0D9D1; padding:3px; margin-bottom:15px;}
+
+.page_nav {margin:10px 0 10px 0; padding:5px; background:#E0D9D1;}
+.page_nav .alignleft {float:left;}
+.page_nav .alignright {text-align:right;}
+.page_nav a {color:#544836; text-decoration:none;}
+.page_nav a:hover {color:#000;}

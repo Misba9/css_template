@@ -1,0 +1,229 @@
+	/* The CSS that's required to position the footer */
+
+html {
+height: 100%;
+}
+body {
+height: 100%;
+}
+#nonFooter {
+position: relative;
+min-height: 100%;
+}
+* html #nonFooter {
+height: 100%;
+}
+#footer {
+position: relative;
+margin: 0 auto;
+}
+
+/* A CSS hack that only applies to IE -- specifies a different offset for the footer */
+
+* html #footer {
+margin-top: -5.4em;
+}
+
+body {
+margin : 0;
+padding : 0;
+font : 73% arial, "Trebuchet MS", verdana, helvetica, sans-serif;
+color : #000;
+background : #bbc893 url(images/bgd.jpg) center repeat-y;
+}
+			/*WRAPPER*/
+#container {
+height: 100%;
+margin: 0 auto;
+padding : 0;
+width : 780px;
+}
+			/*TOP BANNER*/
+#banner {
+margin : 10px auto;
+padding : 0;
+width : 750px;
+height : 130px;
+color : #000;
+background : #bbc893 url(images/banner.jpg) no-repeat center;
+}
+#banner h1 {
+padding : 60px 0 20px 130px;
+font-size : 175%;
+letter-spacing : 5px;
+color : #57642f;
+background : transparent;
+}
+			/*TOP MENU*/
+#menu {
+margin : 0 auto;
+padding : 5px;
+width : 740px;
+height : 20px;
+font-weight : bold;
+letter-spacing: 3px;
+background : #57642f;
+color : #b3b3ad;
+}
+#menu_list {
+margin : 0;
+padding : 0;
+text-align : left;
+}
+#menu_list li {
+margin : 0;
+padding : 0 5px 0 0;
+display : inline;
+}
+#menu_list a {
+font-size : 1.2em;
+text-decoration : none;
+background : inherit;
+color : #fff;
+}
+#menu_list a:hover {
+font-size : 14px;
+background : inherit;
+color : #000;
+}
+			/*MAIN CONTENT*/
+#content {
+float : left;
+margin : 0;
+padding : 5px;
+width : 510px;
+line-height : 1.7em;
+background : inherit;
+color : #333;
+}
+html> body div#content {
+margin-left : 14px;
+}
+#left_content {
+float : left;
+width : 243px;
+}
+#main_content {
+clear : both;
+padding-top : 0;
+}
+#right_content {
+float : right;
+width : 243px;
+}
+			/*SIDEBAR*/
+#sidebar {
+float : right;
+width : 220px;
+margin : 0 14px 10px 0;
+padding : 5px;
+line-height : 1.7em;
+color : #333;
+background : #f9f9f9;
+}
+.side ul {
+list-style-type : none;
+padding : 0;
+margin : 0;
+}
+.side li {
+list-style-image : url(images/db_red.gif);
+padding-left : 0.5em;
+margin: 10px;
+}
+#sidebar a:link, #sidebar a:visited {
+background : inherit;
+color : #57642F;
+text-decoration : none;
+}
+#sidebar a:hover {
+background : inherit;
+color : #333;
+text-decoration : underline;
+}
+			/*FOOTER*/
+#footer {
+clear : both;
+width : 750px;
+padding : 5px;
+font-size : 0.9em;
+background : #57642f;
+color : #BCE0A8;
+}
+			/*SCROLLBAR*/
+div.scroll {
+overflow : auto;
+height : 10em;
+width : 180px;
+border : 1px solid #a0ad78;
+padding : 1em;
+background : #f9f9f9;
+color : #666;
+margin : 0 0 0 10px;
+}
+			/*LINKS*/
+a:link, a:visited {
+background : inherit;
+color : #E05222;
+text-decoration : none;
+}
+a:hover {
+background : inherit;
+color : #333;
+text-decoration : underline;
+}
+a img {
+border : none;
+}
+			/*TYPOGRAPHY*/
+h1 {
+padding : 5px 0 5px 10px;
+font-size : 140%;
+}
+h2 {
+padding : 10px;
+font-size : 110%;
+text-transform : uppercase;
+}
+h3 {
+padding : 5px;
+font-size : 120%;
+text-transform : uppercase;
+}
+h4 {
+font-size : 90%;
+text-transform : uppercase;
+}
+h1,h2,h3,h4 {
+letter-spacing: 3px;
+font-weight : bold;
+color : #57642f;
+background : inherit;
+}
+
+.img {
+float : left;
+padding : 5px;
+margin : 10px;
+border : 1px solid #44443f;
+}
+.img2 {
+float : right;
+padding : 5px;
+margin : 10px;
+border : 1px solid #44443f;
+}
+.news {
+font-size : 90%;
+}
+.clear {
+clear: both;
+overflow: hidden;
+width: 0;
+height: 0;
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}

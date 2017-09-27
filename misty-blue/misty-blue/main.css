@@ -1,0 +1,113 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ color: #666666;
+ background-color: #FFFFFF;
+ font-size: 12px;
+ background-image: url(images/top-shade.jpg);
+ background-repeat: repeat-x;
+}
+.wrapper {
+ width: 650px;
+ margin: 0 auto;
+}
+/* Start Header */
+.header {
+ margin: 30px 0px 10px 0px;
+ min-height: 118px;
+}
+* html .header {height: 118px} /* IE Min-Height Hack */ 
+
+.header-left {
+ float: left;
+ width: 130px;
+}
+.header-right {
+ float: left;
+ width: 510px;
+ text-align: right;
+}
+/* End Header */
+
+/* Start Navigation Bar */
+.navbar {
+ margin: 0px 5px 0px 5px;
+}
+
+ul.navbar, li.nav-bar {
+ display: inline;
+ margin-right: 22px;
+}
+/* End Navigation Bar */
+
+.block {
+ display: block;
+ border: 1px solid #ccc;
+ background-color: #F3F3F3;
+ padding: 4px;
+}
+
+blockquote {
+ margin-top: 20px;
+  background: url(images/quote-left.jpg) left top no-repeat;
+}
+blockquote div {
+  padding: 15px 15px;
+  background: url(images/quote-right.jpg) right bottom no-repeat;
+}
+
+
+/* Start Main Columns */
+#leftcolumn { /* Parent Wrapper for inside boxes */
+ margin: 10px 0px 0px 0px;
+ display: inline; /* IE Hack */
+ width: 190px;
+ float: left;
+}
+
+#rightcolumn {
+ margin: 10px 0px 0px 15px;
+ display: inline; /* IE Hack */
+ float: left;
+ width: 440px;
+ min-height: 152px;
+}
+* html #rightcolumn {height: 155px} /* IE Min-Height Hack */ 
+/* End Main Columns */
+
+h1 {
+ margin-top: 10px;
+ font-size: 24px;
+}
+img {border: none; }
+/* Start Links */
+a:link {
+ text-decoration: none;
+ color: #83BDDA;
+}
+a:visited {
+ text-decoration: none;
+  color: #83BDDA;
+}
+a:hover {
+ text-decoration: none;
+  color: #5BA9CE;
+}
+
+
+/* End Links */
+
+.footer {
+ padding: 7px 7px 7px 11px;
+ background-image: url(images/footer.jpg);
+ background-repeat: no-repeat;
+
+ width: 650px;
+ min-height: 32px;
+ margin-bottom: 15px;
+
+}
+* html .footer {height: 32px} /* IE Min-Height Fix */ 

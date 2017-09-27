@@ -1,0 +1,88 @@
+/*
+Template Name: VoIP Business
+Version: 1.0
+Design: Karlo Domic ( karlodomic@gmail.com )
+Code: Slicejack ( www.slicejack.com // info@slicejack.com )
+*/
+
+body { background: #57404a url('../images/layout/body.gif') top repeat-x; font-family: Arial, Helvetica, sans-serif;}
+
+.container { margin: 0 auto; width: 900px; }
+
+/* =HEADER
+----------------------------------------------- */
+#header { width: 900px; margin: 0 auto; position: relative; height: 141px; }
+	#header h1 a { display: block; width: 267px; height: 48px;  position: absolute; top: 73px; left: 20px; text-decoration: none; font-size: 35px; color: #fff; font-weight: bold; }
+	#header h1 a:hover { color: #ccc; }
+	
+	#main-nav { position: absolute; top: 75px; right: 0; }
+	#main-nav li { display: inline; }
+	#main-nav li a { display: block; float: left; font-size: 16px; font-weight: bold; color: #6c3a3b; text-decoration: none; background: url('../images/menus/mainnav_a.gif') left no-repeat; padding: 10px 0 10px 25px; margin-left: 8px; }
+	#main-nav li a span { background: url('../images/menus/mainnav_a_span.gif') right no-repeat; padding: 10px 25px 10px 0; }
+	
+	#main-nav li a:hover, #main-nav li a.active { background: url('../images/menus/mainnav_a_hover.gif') left no-repeat; color: #fff; }
+	#main-nav li a:hover span, #main-nav li a.active span { background: url('../images/menus/mainnav_a_span_hover.gif') right no-repeat; }
+	
+	#header form { position: absolute; top: 10px; left: 553px; }
+	#header form legend { display: none; }
+	#header form ul li { display: inline; }
+	#header form ul li label { display: block; float: left; font-size: 11px; color: #a38f98; margin-right: 5px; padding-top: 3px; }
+	#header form .input-text { background: url('../images/form/header_input_text.gif') no-repeat; border: none; width: 88px; height: 17px; font-size: 11px; display: block; float: left; padding: 3px 6px 0 6px; }
+	#header form .input-text.custom { margin-right: 10px; }
+	#header form .input-button { background: url('../images/form/header_input_button.gif') no-repeat; border: none; cursor: pointer; width: 20px; height: 20px; margin-left: 5px; }
+	#header form .input-button:hover { background-position: right; }
+	
+/* =SUB HEADER
+----------------------------------------------- */
+#sub-header {  background: url('../images/layout/subheader.png') bottom repeat-x; padding-bottom: 22px; position: relative; z-index: 1000;  }
+	#sub-header-inner { background: url('../images/layout/subheader_inner.gif') top repeat-x; height: 187px; }
+	#sub-header-inner img { margin: 14px 38px 0 53px; float: left; }
+	#sub-header-inner .content { background: url('../images/layout/subheader_content.gif') right top no-repeat; width: 655px; float: left; padding-top: 52px; margin-top: 1px; }
+	#sub-header-inner .content h2 { font-size: 30px; font-weight: bold; color: #666; margin: -10px 0 12px 0; }
+	#sub-header-inner .content h2 strong { color: #888; }
+	#sub-header-inner .content p { font-size: 12px; color: #666; line-height: 1.6; }
+	
+/* =CONTENT
+----------------------------------------------- */
+#content { background: #e8e4be; margin-top: -8px; }
+
+	.column { float: left; margin-right: 10px; }
+	.column.last { margin: 0; }
+	.column.wide { background: url('../images/layout/column_wide.gif') repeat-y; padding: 20px; width: 400px; }
+	.column.wide p { font-size: 12px; line-height: 1.4; color: #666; margin-bottom: 15px; }
+	.column.wide h2 { color: #805a6a; font-size: 20px; margin-bottom: 15px; }
+	.column.wide h3 { font-size: 12px; font-weight: bold; color: #666; margin-bottom: 15px; }
+	.column.wide ul li { font-size: 12px; line-height: 1.8; color: #666; background: url('../images/icons/bullet.gif') left no-repeat; padding-left: 10px; }
+	.column.wide .image-holder { background: url('../images/layout/image_holder.gif') no-repeat; width: 118px; height: 80px; float: left; margin: 0 8px 0 -2px; padding: 7px 0 0 7px; }
+	
+	.column.mid { width: 220px; }
+	.column.mid h2, .column.last h2 { background: url('../images/layout/column_h2.gif') top repeat-x; font-size: 15px; font-weight: bold; color: #fff; height: 38px; position: relative; }
+	.column.mid h2.rounded { background: url('../images/layout/column_h2_rounded.gif') top repeat-x; }
+	.column.mid h2 span, .column.last h2 span { position: absolute; left: 46px; top: 10px; }
+	.column.mid h2 img, .column.last h2 img { position: absolute; left: 14px; top: 9px; }
+	.column.mid .box { background: #fff url('../images/layout/column_box.gif') bottom no-repeat; padding: 10px 10px 28px 10px; margin-bottom: 10px; }
+	.column.mid .box p { font-size: 11px; color: #666; line-height: 1.6; }
+	.column.mid .box p strong { font-weight: bold; }
+	
+	.column.last { width: 220px; }
+	.column.last h2.first-item { background: url('../images/layout/column_h2.gif') top repeat-x; }
+	.column.last h2 { background: url('../images/layout/column_last_h2.gif') top repeat-x; }
+	.column.last h2 a { color: #fff; text-decoration: none; }
+	.column.last .box { padding: 10px; background: #fff url('../images/layout/column_last_box.gif') bottom repeat-x; font-size: 11px; line-height: 1.5; color: #666; }
+	.column.last .box .image-holder { background: url('../images/layout/column_last_image_holder.gif') no-repeat; width: 82px; height: 56px; float: left; margin: 0 6px 0 -4px; padding: 5px 0 0 6px; }
+	.column.last p.info { background: url('../images/layout/info.gif') no-repeat; height: 26px; text-align: center; font-size: 11px; color: #cb9b9c; padding-top: 12px; position: absolute; width: 220px; }
+	
+/* =FOOTER
+----------------------------------------------- */
+#footer { border-top: 10px solid #816b74; padding: 15px 0; background: url('../images/layout/footer_bg.gif') top repeat-x; }
+	#footer .container { width: 880px; position: relative; }
+	#footer a:hover { color: #fff; text-decoration: underline; }
+	#footer ul { padding: 0 0 0 28px; width: 110px; float: left; background: url('../images/icons/checkmark.gif') left top no-repeat; }
+	#footer ul li h4 { font-size: 12px; font-weight: bold; color: #a38f98; }
+	#footer ul li { line-height: 1.2; }
+	#footer ul li a { color: #a38f98; text-decoration: none; font-size: 11px; background: url('../images/icons/footer_bullet.gif') left no-repeat; padding-left: 8px; }
+	#footer p { font-size: 11px; position: absolute; top: 0; right: 0; color: #a38f98; text-align: right; line-height: 1.6; }
+	#footer p strong { font-size: 12px; font-weight: bold; }
+	#footer p.authors { top: 20px; }
+	#footer p.authors a { color: #d8c0cb; text-decoration: none; }
+	#footer p.authors a:hover { color: #fff; text-decoration: underline; }

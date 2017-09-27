@@ -1,0 +1,134 @@
+/*  
+Theme Name: Obsession
+Theme URI: http://www.toptut.com/obsession
+Description: 1 Column Artistic theme featuring artwork by <a href="http://www.liza-kliko.com/art">Liza Kliko</a>. Parts of code based on "Day Dream" Theme.
+Version: 1.0
+Author: Lorelei
+Author URI: http://toptut.com
+*/
+
+
+body{background:#2f1500;text-align:center;font-family:Georgia, "Book Antiqua", "Souvenir Lt BT", "Times New Roman", serif;margin:0;padding:0;}
+
+#wrapper{width:641px;background:#2f1500 url("./images/wrap_bg.jpg") repeat-y;margin:0 auto;}
+a{color:#2f1500;text-decoration:none;}
+
+#header{width:528px;height:114px;background:#09F url("./images/header.jpg");text-align:center;margin:0 auto;padding:160px 0 0;}
+
+h1{font-size:2.8em;font-weight:400;margin:0 0 0 2px;}
+
+h1 a,h1:visited{color:#fff;text-decoration:none;}
+
+.description{color:#fff;font-size:1.2em;margin:0 0 0 2px;}
+
+#topbar{width:527px;height:27px;background:url(images/navbg.gif) repeat-x;margin:1px auto 0;}
+
+#topbar ul{list-style:none;margin:0 25px;padding:0;}
+
+#topbar ul li{display:block;list-style:none;float:left;font-size:0.9em;}
+
+#topbar ul li a,#topbar ul li a:visited{float:left;display:block;height:22px;color:#fff;text-decoration:none;padding:3px 8px 0;}
+#topbar ul li a:hover{background:url(images/navbg-h.gif) repeat-x;}
+
+#topbar ul li ul,#topbar ul li ul li{margin:0;padding:0;}
+
+#topbar ul li ul li a,#topbar ul li ul li a:visited{float:left;display:block;height:19px;color:#fff;text-decoration:none;padding:6px 8px 0;}
+
+#content{width:527px;text-align:left;margin:0 auto;padding:20px 0 0;}
+
+.post{padding:28px 0 20px; line-height:150%;}
+
+.post h2{font-size:1.89em;font-weight:400;color:#2f1500;margin:-10px 20px 0 30px;}
+
+.post h2.single{margin:-10px 20px 12px 30px;}
+
+.post .data{font-size:0.8em;border-top:1px solid #8f4000;font-weight:400;color:#2f1500;margin:0 10px 15px;padding:5px;}
+
+.post h3{font-size:1.1em;font-weight:400;color:#2f1500;margin:20px 20px -10px 0;}
+
+#content>.post h3{margin-bottom:8px;}
+
+.entry{width:426px;font-size:0.8em;margin:0 auto;}
+
+.postmetadata{width:426px;border:1px solid #8f4000;background:#c27229;text-align:center;font-size:0.8em;margin:25px auto 15px;padding:8px 10px;}
+
+
+.postmetadata#single{margin:0 auto 30px;}
+
+.postmetadata small{font-size:0.8em;}
+
+blockquote{border-left:3px dotted #493301;color:#493301;margin:10px 0 10px 30px;padding:0 0 0 5px;}
+.post ul{margin:10px 0;padding:0 0 0 27px;}
+
+.navigation{width:447px;height:18px;font-size:0.8em;border:1px solid #8f4000;margin:0 auto;padding:8px 40px;}
+
+.alignleft{float:left;text-align:left;}
+
+.alignright{float:right;text-align:right;}
+
+#commentformarea{width:450px;border:#2f1500;margin:0 auto 8px;padding:8px 10px;}
+
+#commentform{margin:15px 0 10px 40px;}
+
+#commentformarea h3{font-size:1.3em;font-weight:400;color:#2f1500;margin:10px 0 15px 20px;}
+#commentform p{margin:0 0 3px;}
+
+
+#commentform input,#commentform textarea{border:2px solid #2f1500;background:#f3c565;font-family:Verdana, Geneva, Helvetica, Arial, sans-serif;font-size:0.8em;padding:3px;}
+
+#commentform textarea{width:420px;}
+
+#commentform input#submit{font-family:Georgia, "Book Antiqua", "Souvenir Lt BT", "Times New Roman", serif;width:130px;color:#2f1500;}
+
+h4{text-align:center;font-weight:400;color:#2f1500;margin:25px 0 20px;}
+
+ol.commentlist{width:426px;list-style:none;font-size:0.9em;margin:0 auto 50px;padding:0;}
+
+ol.commentlist li{border-top:3px dotted #c27229;margin:0 0 20px;padding:20px 0 0;}
+
+ol.commentlist p.await_mod{color:#2f1500;margin:0 0 8px;}
+
+ol.commentlist p{margin:0 0 10px;}
+
+ol.commentlist span.cmntmeta{color:#2f1500;}
+
+.sanda h2{font-size:1.9em;font-weight:400;color:#2f1500;text-align:center;margin:35px 0 0;}
+
+.sanda>h2{margin:15px 0 0;}
+
+.sanda h3{margin:0 40px 15px;}
+
+ul#sidebar{width:507px;background:#553c08;border:1px solid #8f4000;margin:8px auto 0;padding:0 0 25px;}
+
+#wrapper>#sidebar{padding:15px 0 25px;}
+
+#sidebar_wrapper{width:467px;margin:15px 15px 0 45px;padding:0 0 -20px;}
+
+#sidebar>#sidebar_wrapper{margin-top:0;}
+
+ul#sidebar li,ul#sidebar li ul,ul#sidebar li ul li{text-align:left;margin:0;padding:0; list-style:square;}
+
+#sidebar li h2{color:#070300;font-weight:400;font-size:1.6em;width:140px;margin:0;}
+
+ul#sidebar li{width:150px;float:left;margin:0 0 15px;padding:0;}
+
+ul#sidebar li ul{width:135px;padding:5px 0 15px 10px;}
+
+ul#sidebar li ul li{width:130px;}
+
+input#s{width:250px;border:1px solid #070300;background:url(images/search-bg.gif) no-repeat top;color:#8f4000;text-align:center;margin:0;padding:4px 0;}
+
+div>input#s{margin-bottom:0;margin-top:15px;}
+
+.feedicon{width:45px;height:45px;}
+
+#topbar .feedicon{background:url("./images/rss.gif") 
+no-repeat;display:inline;float:right;margin:2px 10px 0 0;}
+
+#footer{width:527px;background:#c27229;text-align:center;border:1px solid #8f4000;margin:8px auto 0;padding:5px;}
+
+#footer p{font-size:0.7em;color:#000;margin:0 0 10px;padding:10px 0 0;}
+
+#wrapper>#footer p{margin:0;padding:15px 0;}
+
+a:hover,.post h2 a:hover,.post a:hover{color:#fff;}

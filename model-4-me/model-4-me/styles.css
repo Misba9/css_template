@@ -1,0 +1,285 @@
+
+body {
+        background: #000000 url(images/d_bg2.jpg);
+	font: 78.5%/1.6em Tahoma, verdana, geneva, sans-serif;
+	word-spacing:2px;
+	color:#444;
+	margin:20px;
+}
+
+* {
+	margin:0;
+	padding:0;
+	
+}
+
+a {
+	color:#001A2A;
+}
+a:hover {
+	text-decoration:bold;
+}
+
+#wrapper {
+	background:#fff;
+	max-width:900px;
+	width:expression(this.width > 320 ? "320px" : this.width);
+	min-width:760px;
+	margin:0 auto;
+}
+
+* html #wrapper
+{
+	w\idth: expression(document.documentElement.clientWidth > 900 ? "900px" : "auto");
+}
+
+#header {
+        background:url(images/head.jpg);
+        height:340px;
+	padding:0px 0px 0px 0px;
+	border:2px solid #1E475B;
+	margin:5px 5px 5px 5px;
+}
+
+#header h1 {
+	color:#FFFFFF;
+}
+#header h1 a {
+	color:#001A2A;
+	text-decoration:none;
+}
+
+#header h2 {
+	color:#001A2A;
+}
+
+#header form {
+	float:right;
+}
+
+#header form input {
+	padding:2px;
+	font:110% Tahoma;
+	color:#000;
+	border:1px solid #001A2A;
+}
+
+.clear {
+	clear:both;
+}
+
+.menu {
+	background:url(images/menu.jpg) top right repeat-x #000000;
+	height:50px;
+}
+
+ul#nav {
+	
+}
+
+ul#nav li {
+	list-style:none;
+	float:left;
+	height:40px;
+	
+}
+
+.clear {
+	clear:both;
+}
+
+ul#nav li a {
+	height:50px;
+	background:url(images/nav_a.jpg) top repeat-x #000000;
+	display:block;
+	width:115px;
+        margin-top: 8px;
+	padding-right:11px;
+        border-left:1px solid #001A2A;
+	color:#fff;
+	text-transform:uppercase;
+        text-align: center;
+	text-decoration:none;
+	font:120% Tahoma;
+        font-style:bold;
+	
+}
+
+ul#nav li a:hover {
+	background:url(images/nav_a_hover.jpg) top repeat-x #000000;
+        color:#000000;
+        text-decoration:bold;
+}
+
+ul#nav li a em {
+	font-style:normal;
+	text-decoration:bold;
+}
+
+
+
+#sidebar {
+	width:330px;
+	float:right;
+	margin:5px 12px 0 0!important;
+	margin:5px 6px 0 0;
+	background:url(images/sidebar.jpg) bottom repeat-x #EEEEEE;
+}
+
+#sidebar h1 {
+	background:#001A2A;
+	color:#fff;
+	font:150% Tahoma;
+	padding:10px;
+	border-bottom:5px solid #fff;
+}
+
+#sidebar p {
+	padding:10px 20px;
+	margin:0 0 10px 0;
+	font-size:90%;
+}
+
+#sidebar p.first {
+	padding:20px;
+	font-size:110%;
+}
+
+#sidebar h2 {
+	font:150% Tahoma;
+	color:#001A2A;
+	border-bottom:1px solid #001A2A;
+	margin:10px;
+}
+
+#sidebar h3 {
+	font:90% Tahoma;
+	text-transform:uppercase;
+	margin:0 10px;
+	color:#1E475B;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+
+#sidebar ul,ol {
+	margin:0 0 0 30px;
+	padding:5px;
+}
+
+#sidebar ul li {
+	padding:3px;
+}
+
+#content {
+	margin:5px 348px 0 0 !important;
+	
+}
+
+#content .first {
+	background:url(images/nav_a_hover.jpg) bottom repeat-x #1E475B;
+	padding:20px;
+}
+
+#content .first h2 {	
+	color:#fff;
+	background:none;
+	padding:0;
+}
+
+#content .first p {
+	color:#fff;
+}
+
+#content .first p a {
+	color:#fff;
+	font-weight:bold;
+	border-bottom:1px solid #001A2A;
+	text-decoration:none;
+}
+
+#content p {
+	line-height:27px;
+	margin:10px 15px;
+	padding:5px;
+}
+
+#content h2 {
+	font:160% Tahoma;
+	color:#001A2A;
+	margin:2px 0 5px 0;
+	padding:15px;
+	text-transform:uppercase;
+	background:url(images/h2.jpg) top repeat-x;
+}
+
+#content h2 a {
+	color:#001A2A;
+	text-decoration:none;
+}
+
+#content p img {
+	float:left;
+	margin:0 10px 0 0;
+	padding:1px;
+	background:#ccc;
+	border:4px solid #1E475B;
+}
+
+#content h3 {
+	font:140% Tahoma;
+	color:#1E475B;
+	margin:15px 15px;
+}
+
+blockquote {
+	margin:0 0 0 20px;
+	border-left:2px solid #1E475B;
+}
+
+#content ul {
+	margin:0 0 0 40px;
+}
+
+#content form {
+	padding:10px;
+	margin:20px;
+	border:1px solid #001A2A;
+}
+
+#content form label {
+	font-weight:bold;
+	color:#444;
+	display:block;
+}
+
+#content form input {
+	width:96%;
+	border:1px solid #001A2A;
+	padding:4px;
+	margin:5px 0 10px 0;
+	font:90% Tahoma;
+}
+
+#content form textarea {
+	width:96%;
+	border:1px solid #001A2A;
+	padding:4px;
+	margin:5px 0 10px 0;
+	font:90% Tahoma;
+}
+
+#footer {
+	margin:30px 0;
+	border-top:2px solid #001A2A;
+	padding:20px;
+	font:90% Tahoma;
+	color:#999;
+}
+
+#footer a {
+	color:#666;
+	font-weight:bold;
+	text-decoration:none;
+}
+	
+

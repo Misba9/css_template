@@ -1,0 +1,105 @@
+/*
+Template Name: BrownFolio
+Coded By: Design Coder - http://www.design-coder.com/
+Design By: http://designm.ag/tutorials/one-page-portfolio-photoshop/
+Licence: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+*/
+
+body{margin:0; padding:0; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; color:#CFCCB3; background-color:#201B0E;}
+
+img{margin:0; padding:0; border:none;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgl, .imgr{border:1px solid #272727; padding:5px;}
+.imgl{float:left; margin:0 10px 10px 0; clear:left;}
+.imgr{float:right; margin:0 0 10px 10px; clear:right;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0; padding:0; font-size:18px; font-weight:normal; line-height:normal;}
+
+.col1{color:#CFCCB3; background:url("../images/body_bg.jpg") top center no-repeat #362914; border-bottom:4px solid #1C150A;} 
+
+
+.col2{color:#CFCCB3; background-color:#201B0E; border-top:1px solid #594522; border-bottom:1px solid #16130A;}
+.col3{color:#CFCCB3; background-color:#2D2413; border-top:1px solid #594522; border-bottom:1px solid #594522;}
+.col4, .col4 a{color:#CFCCB3; background-color:#201B0E; border-top:1px solid #16130A; font-family:Georgia, "Times New Roman", Times, serif;}
+.col4 a{border:none;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, .container, #intro, #copyright{position:relative; margin:0 auto; display:block; width:960px;}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+
+#header h1{margin:0; padding:0; font-size:30px; text-transform:uppercase; line-height:normal;}
+#header h1 a{color:#CFCCB3; background-color:transparent;}
+#header p.slogan{margin:0; padding:0; font-style:italic; font-weight:bold; color:#AE9670; background-color:transparent;}
+#header ul{margin:0; padding:0; list-style:none;}
+#header li{display:inline; margin-right:25px;}
+#header li.last{ margin-right:0;}
+#header li a{color:#AF9571; background-color:transparent; text-transform:lowercase; font-size:18px; font-weight:normal; font-family:Arial, Helvetica, sans-serif;}
+
+#header #intro{clear:both; padding-top:50px; line-height:1.4em;}
+#header #intro div.fl_left, #header #intro div.fl_right{width:465px;}
+#header #intro h2{color:#E99F3D; background-color:transparent; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase;}
+#header #intro a{color:#E99F3D; background-color:transparent;}
+#header #intro img.fl_left{border:none; padding:0;}
+
+
+/* ----------------------------------------------Container-------------------------------------*/
+
+.container{padding:30px 0; line-height:1.4em;}
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6{margin:0 0 15px 0; color:#E99F3D; background-color:transparent; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase;}
+.container a{color:#E99F3D; background-color:transparent;}
+
+/* ----------------------------------------------Services-------------------------------------*/
+
+#services .box{display:block; float:left; width:300px; margin:0 30px 35px 0; padding:0;}
+#services .last{margin-right:0;}
+
+#services h2, #services p, #services ul{margin:0; padding:0; list-style:none;}
+#services h2{margin-bottom:10px;}
+#services p, #services li{margin-top:20px;}
+#services strong.title{font-size:14px; font-weight:bold; color:#AF9571; background-color:#2D2413;}
+
+#services ul.social li{display:block; margin:30px 0 0 0;}
+#services ul.social a{padding:8px 0 8px 40px; background:left center no-repeat;}
+#services ul.social a.twitter{background-image:url("../images/social/twitter.jpg");}
+#services ul.social a.delicious{background-image:url("../images/social/delicious.jpg");}
+#services ul.social a.flickr{background-image:url("../images/social/flickr.jpg");}
+
+/* ----------------------------------------------Gallery-------------------------------------*/
+
+#gallery ul{margin:0; padding:0; list-style:none;}
+#gallery ul li{display:block; float:left; width:300px; margin:25px 30px 0 0;}
+#gallery ul li img{display:block; width:290px; height:155px; margin:0 0 10px 0; padding:4px; border:1px solid #3C3218;}
+#gallery ul li strong{display:block; margin:0; padding:0; color:#AF9571; background-color:#201B0E;}
+#gallery ul li.last{margin-right:0;}
+
+/* ----------------------------------------------Back to top-------------------------------------*/
+
+.container #backtotop{display:block; width:100%; clear:both;}
+.container #backtotop a{}
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:50px 0; font-size:14px;}
+#copyright p{margin:0; padding:0;}

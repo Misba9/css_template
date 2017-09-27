@@ -1,0 +1,4 @@
+.slider-big-frame {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slider-frame.png', sizingMethod='image');
+}

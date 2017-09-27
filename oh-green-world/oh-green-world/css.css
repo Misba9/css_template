@@ -1,0 +1,190 @@
+/************* GENERAL CSS ************/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+    font : normal 12px "Trebuchet MS", sans-serif;
+	color: #7b7b7b;
+}
+p.comment_nb a:link, p.comment_nb a:visited{
+color:#FF6600;
+}
+p.post-info, p.post-info, p.post-info a:link, p.post-info a:visited, p.comment_nb a:link, p.comment_nb a:visited{
+display:inline;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+p.comment_nb, p.comment_nb a:link{
+font-size:10px;
+}
+p.post-info, p.post-info, p.post-info a:link, p.post-info a:visited{
+color:#CCC;
+}
+h2, h3, h4, h5, h6 {
+	font-family: "Trebuchet MS", sans-serif;
+	color: #D1D63A;
+}
+#ogreen h1 {
+	font-family: "Trebuchet MS", sans-serif;
+	color: #565656;
+	font-size:36px;
+}
+#ogreen p {
+	font-family: "Trebuchet MS", sans-serif;
+	color: #d7d7d7;
+	font-size:10px;
+	font-style:italic;
+	text-align:justify;
+	margin-top:-40px;
+	margin-left:-5px;
+}
+#ogreen a:link, #ogreen a:visited, #ogreen a:hover, #ogreen a:active{
+	color: #D1D63A;
+}
+ul, li {
+list-style-type : none;
+}
+img {
+opacity : 1.0;
+border : none;
+margin-top:10px;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: #ff6600;
+}
+
+
+/************* HEADER STUFF ************/
+
+#header {
+	height: 5px;
+	margin: 0px auto;
+	background : #D1D63A;
+}
+
+#header img {
+	margin: 19px 60px;
+
+}
+#backgroundslim {
+border-bottom: 1px dashed #E5E5E5;
+}
+#backgroundslim, #right  {
+	height: 220px;
+	background : #FBFBFB;
+	margin-top: 10px;
+}
+#backgroundslim p{
+text-align:center;
+}
+code {
+  margin: 5px 0;
+  padding: 10px;
+  text-align: left;
+  display: block;
+  overflow: auto;  
+  font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace;
+  /* white-space: pre; */
+  background: #FAFAFA;
+  border-top: 1px solid #f2f2f2;  
+  border-bottom: 1px solid #f2f2f2;  
+  border-left: 4px solid #ff6600; 
+}
+blockquote {
+	margin: 15px;
+ 	padding: 0 0 0 20px;  	
+  	background: #FAFAFA;
+	border: 1px solid #f2f2f2; 
+	border-left: 4px solid #ff6600;   
+	color: #565656;
+	font: 1.2em/1.5em Georgia, 'Bookman Old Style', Serif; 
+}
+/************* MENU ************/
+
+#menu {
+	background : #3c3c3c;
+
+	padding: 6px 0px 5px 0px;
+	width:400px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-align: center;
+}
+
+#menu li{
+	display: inline;
+	border-left: 1px solid #3c3c3c;
+}
+#menu li:hover{
+	display: inline;
+	margin: 0px;
+	padding: 6px 0px 0px 0px;
+}
+
+#menu li.selected{
+    background-color:#D1D63A;
+	padding: 10px 0px;
+	border-top:1px solid #D1D63A;
+	border-bottom: 1px solid #EAEAEA;
+	border-left: none;
+}
+#menu a, #menu a:hover {
+	padding: 5px 14px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+
+}
+
+/************* CONTENT ************/
+
+#content, #smallr, #mounu, #ogreen{
+	width: 770px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+}
+#ajaxcontentarea , #right {
+margin-top:30px;
+border : 1px solid #EAEAEA;
+}
+
+#content h2, #content h3, #content h4, #content h5, #content h6 {
+	font-weight: normal;
+}
+
+
+
+#ajaxcontentarea {
+	float: left;
+	width: 500px;
+	
+}
+#right {
+	float: right;
+	width: 260px;
+}
+#ogreen {
+padding-top:60px;
+}
+/************* FOOTER ************/
+
+#footr {
+	clear: both;
+background : #FBFBFB;
+border-top: 1px dashed #d7d7d7;
+	text-align:center;
+}
+
+#footr a:link, a:hover, a:active, a:visited{
+color:#7b7b7b;
+text-decoration:none;
+}
+

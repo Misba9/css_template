@@ -1,0 +1,118 @@
+body {
+	text-align:center;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrap {
+	width:800px;
+	text-align:left;
+	margin:0 auto;
+}
+#header {
+	height:268px;
+	background:url(images/hd_bg.jpg) no-repeat;
+}
+#footer {
+	height:202px;
+	background:url(images/ft.gif) no-repeat;
+	clear:both;
+	text-align:center;
+	color:#FFF;
+}
+#footer a {
+	color:#FFF;
+}
+#footer a:hover {
+	color:#FFF;
+	text-decoration:underline
+}
+#ftlink {
+	padding-top:100px;
+}
+#ftlink, #copyright {
+	padding-bottom:8px;
+}
+.inner {
+	padding:0 40px;
+}
+#content h2 {
+	color:#f5c715;
+	font-size:32px;
+	padding-bottom:10px;
+}
+#content img {
+	float:left;
+}
+#content p {
+	float:right;
+	width:530px;
+	padding-top:10px;
+}
+#content .blog {
+	float:left;
+	width:219px;
+	padding-bottom:20px;
+	padding-right:20px;
+}
+#content .blog h2 {
+	float:left;
+	font-size:24px;
+	padding-bottom:10px;
+	padding-left:27px;
+}
+#content .blog p {
+	width:190px;
+}
+#content p.qoute {
+	float:left;
+	background:url(images/quote.gif) no-repeat;
+	height:58px;
+	width:219px;
+}
+#content p.qoute span {
+	display:block;
+	height:58px;
+	width:180px;
+	padding:0 0 0 40px;
+}
+.clearfix {
+	clear:both;
+}
+.line {
+	clear:both;
+	background:url(images/line.gif);
+	height:13px;
+}
+#logo {
+	font-size:20px;
+	margin-left:270px;
+	padding-top:25px;
+	padding-left:50px;
+	background:url(images/logo.gif) no-repeat 0 20px;
+	height:47px;
+}
+#slogan {
+	color:#876b00;
+	padding-left:320px;
+	margin-top:-25px;
+}
+ul#nav {
+	float:right;
+	margin-top:-3px;
+	width:150px;
+}
+ul#nav a {
+	color:#6f1900;
+	font-weight:700;
+}
+ul#nav a:hover {
+	color:#000;
+	
+}
+ul#nav li {
+	line-height:30px;
+}

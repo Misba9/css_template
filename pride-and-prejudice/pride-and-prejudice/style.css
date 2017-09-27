@@ -1,0 +1,282 @@
+/*PRIDE by Payal Dhar, 2006
+(http://writeside.net)*/
+
+*{
+padding:0;
+margin:0;
+outline:0;
+}
+
+body{
+background:url(images/body.jpg) fixed;
+color:#737373;
+font:0.8em 'Trebuchet MS', Verdana, sans-serif;
+}
+
+#wrapper{
+margin:0 auto;
+width:750px;
+
+}
+
+/*Styles for the header*/
+#header{
+font-size:3em;
+height:234px;
+background:url(images/header1.jpg) left no-repeat;
+border-bottom:3px #D2A675 solid;
+text-align:center;
+}
+
+.title{
+padding:75px;
+text-align:center;
+}
+
+.small{
+font-size:0.5em;
+font-style:italic;
+}
+
+/*Styles for the mainbar*/
+
+#mainbar{
+padding:4px;
+text-align:center;
+}
+
+#mainbar ul li{
+list-style:none;
+display:inline;
+padding:2px;
+}
+
+#mainbar a{
+color:#f0f0f0;
+text-decoration:none;
+padding:4px;
+background:#D2A675;
+}
+
+#mainbar a:hover{
+color:#800000;
+}
+
+/*Styles for content area*/
+#content{
+border-top:3px #D2A675 solid;
+background:url(images/back.gif);
+}
+
+/*Styles for the sidebar*/
+#sidebar{
+width:25%;
+float:left;
+margin:10px 5px;
+}
+
+#sidebar ul li{
+list-style:none;
+padding:5px;
+}
+
+#sidebar ul li ul{
+margin:7px 5px 0px 5px;
+font-size:0.9em;
+}
+
+#sidebar a{
+color:#D2A675/*808080*/; /*In case you think the links are too light, change to the other colour*/
+text-decoration:none;
+padding:5px;
+}
+
+#sidebar a:hover{
+color:#800000;
+text-decoration:none;
+border-bottom:1px solid #800000;
+}
+
+#sidebar ul li ul a:hover{
+border:0;
+}
+
+/*Styles for main text area*/
+
+#text{
+float:right;
+width:70%;
+margin:10px 5px;
+}
+
+#text p{
+padding:5px 5px 5px 0px;
+line-height:1.5em;
+}
+
+#text a{
+color:#D2A675;
+}
+
+#text a:hover{
+color:#800000;
+}
+
+#text ul{
+list-style:none;
+padding:5px;
+}
+
+#text ul li{
+padding-left:15px;
+background:url(images/bullet.gif) left no-repeat;
+}
+
+#text ol{
+list-style:lower-roman;
+padding:5px 5px 5px 25px;
+}
+
+#text img{
+padding:2px;
+border: 1px solid #D2A675;
+}
+
+#text img:hover{
+border:1px solid #800000;
+}
+
+.left{
+float:left;
+margin-right:2px;
+}
+
+.right{
+float:right;
+margin-left:2px;
+}
+
+#gallery{
+clear:both;
+border-top:1px solid #707070;
+width:100%;
+}
+
+#gallery .photos{
+width:60%;
+float:right;
+padding:5px;
+}
+
+#gallery .links{
+width:35%;
+float:left;
+padding:5px;
+}
+
+#gallery img{
+border:1px solid #D2A675;
+padding:2px;
+margin:10px;
+float:left;
+}
+
+#gallery img:hover{
+border:1px solid #800000;
+}
+
+#gallery ul li{
+list-style:none;
+padding:5px 5px 2px 10px;
+}
+
+#gallery a{
+color:#808080;
+text-decoration:none;
+border-bottom: 1px solid #808080;
+display:block;
+width:100%;
+}
+
+#gallery a:hover, a:active{
+color:#800000;
+text-decoration:none;
+border-bottom:1px solid #800000;
+}
+
+blockquote{
+margin:15px 25px;
+padding:5px;
+border-right:2px solid #D2A675;
+border-left:1px solid #D2A675;
+border-top:1px solid #D2A675;
+border-bottom:2px solid #D2A675;
+}
+
+/*Styles for footer*/
+#footer{
+clear:both;
+text-align:center;
+border-top:3px solid #D2A675;
+padding:3px;
+font-size:0.85em;
+}
+
+#footer a{
+color:#D2A675;
+}
+
+#footer a:hover{
+color:#800000;
+}
+
+/*Styles for headers*/
+
+#text h1, #gallery h1, #sidebar h1{
+background:url(images/h1.gif) left no-repeat;
+padding:10px 5px 5px 25px;
+font-size:1.51em;
+}
+
+#text h2, #gallery h2{
+font-size:1.2em;
+border-bottom:1px solid #737373;
+padding:10px 5px 5px 0px;
+}
+
+#text h3{
+font-size:1em;
+padding:10px 5px 5px 0px;
+}
+
+#sidebar h1{
+font-size:1.2em;
+}
+
+#gallery h2{
+border:0;
+padding:5px 0px;
+}
+
+/*Form styles*/
+input{
+border:1px solid #D2A675;
+background:url(images/back.gif);
+padding:4px;
+margin:0 0 4px 4px;
+}
+
+input:hover, input:focus{
+border:1px solid #800000;
+}
+
+
+textarea{
+border:1px solid #D2A675;
+padding:4px;
+margin:0 0 4px 4px;
+}
+
+textarea:hover, textarea:focus{
+border:1px solid #800000;
+}

@@ -1,0 +1,89 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#d9d9cd; color:#40483d; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#40483d; text-decoration:underline;}
+p a:hover{ color:#40483d; text-decoration:none;}
+
+.headline{font:12px/14px Tahoma, Geneva, sans-serif; color:#e18b07; font-weight:bold}
+
+#container{width:775px; position:relative; margin:0 auto; border:#111 1px solid}
+
+/* HEADER */
+
+#header{width:775px; height:336px;  position:relative; background:url(../images/B_header.jpg) 0 0 repeat-x;}
+#header img#logo{position:absolute; top:20px; left:53px}
+#header img#slogan1{position:absolute; top:38px; left:262px}
+#header img#slogan2{position:absolute; top:158px; left:73px}
+
+#header ul.menu{position:absolute; top:90px; left:53px; width:420px}
+#header ul.menu li{height:16px; margin-right:14px; float:left}
+#header ul.menu li a{height:16px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:16px;}
+
+#header ul.menu li.btn_1 a{width:41px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_1 a:hover{width:41px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_2 a{width:47px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_2 a:hover{width:47px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_3 a{width:63px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_3 a:hover{width:63px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_4 a{width:71px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_4 a:hover{width:71px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_5{margin-right:0}
+#header ul.menu li.btn_5 a{width:65px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_5 a:hover{width:65px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.line{width:2px; background:url(../images/line_m.gif) 0 0 no-repeat}
+
+/* CONTENT */
+
+#content{width:775px; position:relative; padding:0}
+
+#leftPan{width:165px; float:left; margin-right:20px; margin-left:36px; display:inline}
+#centerPan{width:280px; float:left; margin-right:20px; }
+#rightPan{width:225px; float:left;}
+
+ul.btn_more li{background:url(../images/arrow2.gif) 62px 5px no-repeat;}
+ul.btn_more li a{font:11px/14px Trebuchet MS, sans-serif; color:#111111; text-decoration:none; font-weight:bold; }
+ul.btn_more li a:hover{color:#111111; text-decoration:underline}
+
+#news{margin-bottom:25px; margin-top:5px}
+#news h2{height:15px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:13px}
+#news p{margin:0 0 15px 0;}
+
+#spotlight h2{height:15px; position:relative; background:url(../images/h_spotlight.gif) 0 0 no-repeat; margin-bottom:18px}
+
+#spotlight ul{width:160px; margin-left:2px}
+#spotlight ul li{font:10px/14px Tahoma, sans-serif; background:url(../images/arrow1.gif) 0 5px no-repeat; padding-left:11px; height:22px;}
+#spotlight ul li a{color:#646b61; text-decoration:underline;}
+#spotlight ul li a:hover{color:#fff; text-decoration:none; background:#646b61}
+
+#welcome{width:265px; margin-bottom:25px;}
+#welcome h2{height:44px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:16px}
+#welcome img{float:left; margin-right:14px; margin-left:6px; display:inline}
+#welcome p#w01{width:105px; float:left; padding-top:3px}
+#welcome p#w02{margin-left:6px; margin-top:15px; margin-bottom:10px}
+
+#welcome ul.btn_more {margin-left:179px;}
+
+#services{margin-top:5px}
+#services h2{height:15px; position:relative; background:url(../images/h_services.gif) 0 0 no-repeat; margin-bottom:20px}
+#services .Sv_topic{margin-bottom:20px;}
+#services .Sv_topic img{float:left; margin-right:12px;}
+#services .Sv_topic p{width:165px; float:left}
+
+#services ul.btn_more {margin-left:139px;}
+
+/* FOOTER */
+
+#footer{height:54px; clear:both; width:775px; margin-top:20px; background:#111111}
+#footer p{padding: 10px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#d9d9cd;}
+#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#d9d9cd; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:none; background:#fff; color:#111}

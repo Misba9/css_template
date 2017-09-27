@@ -1,0 +1,81 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#2c2c2c url(../images/b_body.jpg) 0 0 repeat-x; color:#616161; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#a18d21; text-decoration:none;}
+p a:hover{ color:#a18d21; text-decoration:underline;}
+
+.headline{font:10px/14px Tahoma, Geneva, sans-serif; color:#a18d21; font-weight:bold}
+
+#container{width:714px; position:relative; margin:0 auto;}
+
+/* TOP */
+
+#topPan{width:714px; height:99px; position:relative}
+
+img#btn_sale{position:absolute; top:10px; left:590px; }
+img#logo{position:absolute; top:31px; left:0; }
+
+#topPan ul.menu{position:absolute; top:60px; left:308px; width:405px}
+#topPan ul.menu li{height:17px; margin-right:12px; float:left}
+#topPan ul.menu li a{height:17px; display:block; text-indent:-20000px; }
+#topPan ul.menu li a:hover{height:17px;}
+
+#topPan ul.menu li.btn_1 a{width:39px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_1 a:hover{width:39px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_2 a{width:45px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_2 a:hover{width:45px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_3 a{width:82px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_3 a:hover{width:82px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_4 a{width:41px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_4 a:hover{width:41px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_5 {margin-right:0}
+#topPan ul.menu li.btn_5 a{width:59px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_5 a:hover{width:59px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.line{width:6px; background:url(../images/bulletm.gif) 0 6px no-repeat}
+
+/* HEADER */
+
+#header{width:714px; height:261px; position:relative; background:url(../images/b_header.gif)  0 0 no-repeat}
+
+#header img#summer{position:absolute; top:69px; left:19px; }
+#header img#btn_collection{position:absolute; top:137px; left:19px; }
+
+/* CONTENT */
+
+#content{width:714px; position:relative; background:#FFF}
+
+#leftPan{width:200px; float:left; margin:15px 24px 0 11px; display:inline}
+#middlePan{width:231px; float:left; margin:15px 27px 0 0; }
+#rightPan{width:201px; float:left; margin:15px 0 0 0;}
+
+#welcome h2{height:48px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:7px}
+#welcome p{margin-left:15px;}
+#welcome p.headline{margin-bottom:15px}
+
+#featured h2{height:35px; position:relative; background:url(../images/h_items.gif) 0 0 no-repeat; margin-bottom:12px}
+.featItem{margin-bottom:8px; position:relative; width:231px}
+.featItem img{float:left; margin-right:10px;}
+.featItem p{float:left; width:166px}
+
+#trends h2{height:35px; position:relative; background:url(../images/h_trends.gif) 0 0 no-repeat; margin-bottom:10px}
+#trends img{margin-bottom:12px}
+#trends p{margin-left:3px}
+#trends p.headline{margin-bottom:15px}
+
+.clear#end{height:20px}
+
+/* FOOTER */
+
+#footer{height:44px; clear:both; width:714px;}
+#footer p{padding: 9px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#fff}

@@ -1,0 +1,57 @@
+/* CSS Document */
+body
+{
+margin:0px;
+padding:0px;
+background-color:#ffffff;
+}
+p{ margin:0px; padding:0px; }
+.flt{ float:left; }
+.flr { float:right; }
+.clr{ clear:left; }
+.ds{ display:inline; }
+.lk { text-decoration:none; border:0px; }
+
+/*top*/
+.tp1 { background-image:url(../images/tp_bk1.jpg); width:495px; height:269px; }
+.tp2 { background-image:url(../images/tp_bk2.jpg); width:505px; height:269px; }
+.t_edy { color:#ffffff; font:40px georgia; /*[ZapfElliptical711BT];*/ }
+.t_bld { color:#D8A60F; font:40px georgia; }
+.t_lk { color:#ffffff; font:bold 12px/14px verdana; }
+
+/*left*/
+.l_y { color:#BD2E12; font:24px georgia; }
+.l_tx { color:#5F5F5F; font:11px/14px tahoma; }
+.l_lk { color:#5F5F5F; font:bold 11px tahoma; }
+.l_tile { background:url(../images/l_tl.gif) repeat-x; }
+.l_rd { color:#42423C; font:12px/14px tahoma; }
+.l_spl { color:#09221A; font:18px verdana; }
+.l_bk_ch { background-image:url(../images/l_bk.gif); width:319px; height:82px; }
+.rd { color:#FD2801; font:11px/14px tahoma; }
+.l_ch { color:#FF0000; font:31px georgia; }
+
+
+/*center*/
+.c_bk { background-image:url(../images/c_tp.gif); width:260px; height:180px; }
+.c_our { color:#FD2801; font:19px/22px tahoma; }
+.c_tx { color:#0B350D; font:12px/14px tahoma; }
+.c_lk { color:#0B350D; font:bold 12px/22px tahoma; }
+.c_gbk { background-image:url(../images/c_gr_bk.gif); width:214px; height:98px; }
+.c_yr { color:#ffffff; font:25px georgia; }
+.c_span1 { background-color:#D0CEC3; padding-bottom:15px; }
+
+/*right*/
+.r_dt { color:#1B1111; font:bold 9px/11px tahoma; }
+.r_tx { color:#2B2B2B; font:11px/14px tahoma; }
+.r_you { color:#BD2E12; font:9px/14px tahoma; }
+.r_mm_bk { background-image:url(../images/r_mmb_bk.gif); width:220px; height:150px; margin:16px 0px 0px 0px; }
+.r_lgn { background-image:url(../images/r_lg.gif); width:48px; height:21px; margin:10px 0px 0px 24px; }
+.r_mbr { color:#ffffff; font:18px tahoma; margin:12px 0px 0px 22px; }
+.r_log { color:#ffffff; font:17px georgia; }
+.r_tbx { width:166px; color:#535655; font:14px tahoma; margin:15px 0px 0px 22px; }
+
+/*footer*/
+.f_bk { background:url(../images/f_tl.gif) repeat-x; }
+.f_tx { color:#ffffff; font:bold 10px/16px tahoma; }
+.f_cp { color:#ffffff; font:9px tahoma; }
+.f_lk_bk { background-image:url(../images/f_tx_bk.gif); width:90px; height:16px; }

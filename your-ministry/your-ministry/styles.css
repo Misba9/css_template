@@ -1,0 +1,260 @@
+* 	{margin: 0;
+	padding: 0;}
+
+body {
+	background: #767962 url(images/body.gif);
+	font-size: 8pt;
+}
+
+#container {
+	position:absolute; 
+	margin: auto;
+	width: 760px;
+	height: 750px;
+	background-color: #767962;
+	border-right:  1px solid #50543D;
+	border-bottom:  1px solid #50543D;
+}
+
+#topsection {
+	position:absolute; 
+	left:0px; 
+	top:0px;
+	width:760px; 
+	height:91px;
+	background-color: #fff;
+}
+
+#logo {
+	position:absolute; 
+	font-family: Poor Richard,"Times New Roman",Times,serif;
+	font-size:17pt;
+	left:26px; 
+	top:35px;
+	width:160px; 
+	height:38px;
+	color: #698463;
+}
+
+#topsection_menu {
+	position:absolute; 
+	left:632px; 
+	top:16px;
+	width:117px; 
+	height:11px;
+	font-family: Microsoft Sans Serif, "verdana", Times, serif;
+	font-size: 8pt;
+	color: #000;
+}
+
+#mainmenu_box {
+	position:absolute; 
+	left:0px; 
+	top:92px;
+	width:200px; 
+	height:199px;
+	background-color: #080904;
+}
+
+#imagebox {
+	position:absolute;
+	left:200px; 
+	top:92px;
+	width:560px; 
+	height:199px;
+	background-image: url(images/branch.jpg);
+}
+
+#mainmenu {
+	position:absolute; 
+	left:14px; 
+	top:104px;
+	width:175px; 
+	height:175px;
+	font-family: verdana,"century", Times, serif;
+	font-size: 10pt;
+	color: #FFFFFF;
+	padding: 7px 12px 12px 12px;
+}
+
+#mainmenu a:link {
+	color: #F5F5F5;
+	text-decoration: none;
+}
+
+#mainmenu a:hover {
+	color: #58794E;
+	background-color: #fff;
+	text-decoration: none;
+}
+
+#mainmenu a:visited {
+	color: #58794E;
+    text-decoration: none;
+}
+		   
+
+#navlist li {	
+	list-style-type: none;
+	color: #ffffff;
+	border-left:  1px solid #505050;
+	padding: 7px 7px 7px 7px;
+}
+
+
+
+#contentarea {
+	position:absolute; 
+	left:0px; 
+	top:292px;
+	width:760px; 
+	height:417px;
+	background-color: #fff;
+}
+
+#sidebar {
+	position:absolute; 
+	left:487px; 
+	top:15px;
+	width:260px; 
+	height:387px;
+	background-color: #EBEEE3;
+	
+}
+
+#textarea {
+	position:absolute;
+	font-family: verdana,"century", Times, serif;
+	font-size: 8pt;
+	left: 26px;
+	top: 23px;
+	width: 430px; 
+	height: 350px;
+	background-color: #fff;
+}
+
+h1 {
+	font-family: Poor Richard,"Times New Roman",Times,serif;
+	font-size:17pt;
+	color:#517342;
+	font-weight: 400;
+	border-bottom:  8px solid #EBEEE3;
+}
+
+h2 {
+	font-family: verdana,"century", Times, serif;
+	font-size: 14pt;
+	font-weight: 400;
+	color: #696A60;
+}
+
+h3 {
+	font-family: verdana,"century", Times, serif;
+	font-size: 8pt;
+	font-style: bold;
+	color: #698B5E;
+}
+
+h4 {
+	font-family: verdana,"century", Times, serif;
+	font-size: 8pt;
+	font-style: bold;
+	background-color: #fff;
+	color: #698B5E;
+	padding: 3px 6px;
+}
+
+h5 {
+	font-family: verdana,"century", Times, serif;
+	font-size: 8pt;
+	font-style: bold;
+	color: #756556;
+}
+
+#textarea2 {
+	font-family: verdana,"century", Times, serif;
+	font-size: 8pt;
+	color: #898683;
+	padding: 20px 12px 12px 12px;
+}
+
+#textarea3 {
+	font-family: verdana,"century", Times, serif;
+	font-size: 8pt;
+	color: #898683;
+	padding: 20px 12px 12px 12px;
+}
+
+#textarea4 {
+	font-family: verdana,"century", Times, serif;
+	font-size: 8pt;
+	color: #898683;
+	padding: 20px 12px 12px 12px;
+}
+
+#book {
+	width: 220px;
+	padding: 7px 7px 12px 5px;
+
+}
+
+#book img {
+	width: 45px;
+	height: 65px;
+	padding: 0 12px 0 0;
+	float: left;
+}
+
+a {
+	color: #3E73C1;
+    text-decoration: none;
+}	
+
+a:link {
+	color: #4E713B;
+	text-decoration: none;
+}
+		
+a:visited {
+	color: #4E713B;
+    text-decoration: underline;
+}
+		   
+a:hover {
+	color: #435839;
+	background-color: #fff;
+	text-decoration: underline;
+}
+		  
+#footerinfo {
+	position:absolute; 
+	left:25px; 
+	top:12px;
+	width:314px; 
+	height:11px;
+	font-family: verdana,"century", Times, serif;
+	font-size: 7pt;
+	color: #292E29;
+
+}
+
+#footercredit {
+	position:absolute; 
+	left:641px; 
+	top:12px;
+	width:100px; 
+	height:11px;
+	font-family: verdana,"century", Times, serif;
+	font-size: 7pt;
+	color: #292E29;
+
+}
+#footer {
+	position:absolute; 
+	left:0px; 
+	top: 710px;
+	width:760px; 
+	height:40px;
+	background-color: #fff;
+}
+	

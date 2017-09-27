@@ -1,0 +1,213 @@
+/*************************************************
+  AUTHOR: Luke Symes (luke.wpDesign.org)
+  PURPOSE: Style the page layout of "blended".
+*************************************************/
+
+/* PAGE WIDTH WRAPPER */
+
+#wrap1 {
+background-color:#fff;
+margin:0 auto;
+position:relative;
+}
+
+/* Classes that can be applied to #wrap1, changing the page width */
+
+.width800 {
+width:760px;
+}
+
+.width1024 {
+width:964px;
+}
+
+.widthFluid {
+width:90%;
+max-width:1000px;
+}
+
+.widthElastic {
+width:50em;
+}
+
+
+#wrap2 {
+/* Spacing between page shadow and content */
+padding:25px;
+}
+
+/*HEADER*/
+
+#header-{
+color:#FFF;
+width:100%;
+}
+
+/*MAIN NAVIGATION*/
+
+#navbar {
+/* gives a 1px top border, the same colour as #wrap1's background */
+margin-top:1px;
+}
+
+#navbar ul {
+margin-bottom:-1px;
+}
+
+#navbar li {
+/* Make this the same colour as #wrap1 background */
+background:#FFF;
+
+float:left;
+display:block;
+}
+
+#navbar li a {
+color:#B100A4;
+padding:0 12px;
+margin:0 1px 1px 0;
+line-height:2.7em;
+display:block;
+text-decoration:none;
+}
+
+/* CONTENT */
+
+#contentWrap {
+background:#FFF;
+padding-bottom:2em;
+}
+
+
+/*MAIN CONTENT CLASSES*/
+
+#mainContent {
+}
+
+.gotOneLeft {
+/* Left column width */
+margin-left:13.5em;
+}
+
+.gotTwoLeft {
+/* Double the left column width */
+margin-left:26em;
+}
+
+.gotOneRight {
+/* Right column width */
+margin-right:13.5em;
+}
+
+.gotTwoRight {
+/* Double the right column width */
+margin-right:26em;
+}
+
+
+/* THUMBNAILS */
+
+img.floatLeft {
+margin:5px 15px 5px 5px;
+}
+
+img.floatRight {
+margin:5px 5px 5px 15px;
+}
+
+a.thumbnail {
+margin:5px 10px;
+}
+
+a img.floatLeft, a img.floatRight {
+margin:0;
+}
+
+
+/*SIDE CONTENT*/
+
+.sideContent {
+width:12em;
+margin:0 0.5em;
+}
+
+.sideContent h3 {
+}
+
+.sideContent ul {
+margin:1em 0 2em;
+}
+
+.sideContent ul ul {
+margin:0 4px 2px;
+}
+
+.sideContent li {
+margin:8px 3px;
+display:block;
+}
+
+.sideContent ul ul li {
+margin:0;
+}
+
+.sideContent li a {
+padding:1em 10px;
+display:block;
+text-decoration:none;
+}
+
+.sideContent ul ul li a {
+padding:0.4em 10px;
+border-top-width:0;
+}
+
+.sideContent ul ul li a:hover {
+border-top-width:1px;
+margin-top:-1px;
+}
+
+
+/*FOOTER*/
+
+#footer {
+color:#FFF;
+clear:both;
+}
+
+#footer p {
+margin:0;
+padding:1.5em;
+}
+
+#footer p.smallText {
+padding:1.8em;
+}
+
+#footer a {
+color:#FFF;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#DDD;
+}
+
+
+/* GENERIC CLASSES */
+
+.clear {
+clear:both;
+}
+
+.floatLeft {
+float:left;
+}
+
+.floatRight {
+float:right;
+}
+
+.smallText {
+font-size:0.85em;
+}

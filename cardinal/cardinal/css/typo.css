@@ -1,0 +1,120 @@
+/*
+$Id: typo.css 67 2007-03-26 22:48:54Z Massimo $
+*/
+
+body { 
+	font-family: verdana, sans-serif ;
+}
+
+p, ul, ol, dl { 
+	padding-bottom: 1em; 
+}
+
+ul, ol {
+	padding-left: 2em;
+}
+
+ol {
+	margin-left: 0.5em;
+}
+
+dt { font-weight: bold; }
+
+dd { padding-left: 1em; }
+
+h1, h2, h3 {
+	font-family: georgia, "times new roman", serif;
+	line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.1em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+em {color:#222}
+
+code { 
+	font-family: courier, monospace;
+	color: #800;
+}
+
+/* LINKS */
+a, a:link a:active, a:visited {
+	color: #660000;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #fff;
+	background-color: black;
+	text-decoration: none;
+}
+/* END LINKS */
+
+
+#header-p.logo {
+	position: absolute;
+	top: 50px;
+	left: 90px;
+	width: 95px;
+	height: 84px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#header-p.head, #header-p.subhead {
+	font-family: georgia, "times new roman", serif;
+	color: #fff;
+	font-variant: small-caps;
+	text-align: center;
+	/* margin-left: 30px; */ /* if remove the logo */
+	margin-left: 250px;
+	margin-right: 30px;
+}
+
+#header-p.head {
+	font-size: 2.3em;
+	padding-top: 55px;
+	padding-bottom: 0px;
+	letter-spacing: 20px;
+}
+
+#header-p.subhead {
+	font-size: 1.1em;
+	letter-spacing: 5px;
+}
+
+#page {
+	padding-top: 20px;
+	font-size: 76%;
+	line-height: 140%;
+}
+
+#footer {
+	font-size: 76%;
+}
+
+#footer p {
+	padding-top:10px;
+}
+
+#footer a, #footer a:link #footer a:active, #footer a:visited {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}

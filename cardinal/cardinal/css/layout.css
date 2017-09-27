@@ -1,0 +1,47 @@
+/*
+$Id: layout.css 63 2007-03-26 22:11:03Z Massimo $
+*/
+
+* { margin: 0; padding: 0 }
+
+/* IE hack */
+body { text-align: center }
+
+#container {
+	margin: 0 auto 20px auto;
+	text-align: left;
+	width: 740px;
+	position: relative;
+}
+
+#header-{
+	height: 140px;
+}
+
+#login {
+	margin: 0 30px;
+	padding: 10px;
+	text-align: right;
+}
+
+#main {
+	float: right;
+	width: 420px;
+	margin-right: 50px;
+	display: inline;
+}
+
+#nav {
+	float: left;
+	margin-left: 50px;
+	width: 200px;
+	display: inline;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 1px; /* stupid IE hack */
+	vertical-align:bottom;
+}

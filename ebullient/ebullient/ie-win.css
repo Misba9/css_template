@@ -1,0 +1,24 @@
+#header h1 { height: 95px; background-image: url(images/logo.gif); }
+
+#navigation a { position: relative; }
+
+#navigation li.active a:hover,
+#navigation li.active a:active
+{
+	color: #3f4d1e;
+	background-color: #ffffff;
+}
+
+p.pagination { margin-left: 10px; width: 85%; }
+
+#content { overflow: hidden; margin-left: 0; }
+
+.post { width: 90%; }
+
+#sidenotes { width: 300px; overflow: hidden; margin-right: 5px; }
+
+#sidenotes hr { display: none; }
+
+#sidenotes li a { margin-bottom: 0; margin-top: -1px; }
+
+#footer .block { width: 230px; }

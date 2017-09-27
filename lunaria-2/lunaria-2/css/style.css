@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* general */
+
+html {
+	font-size: 62.5%;
+}
+body {
+	color: #333333;
+	background: #302b26;
+}
+div {
+	position: relative;
+}
+h1, h2, h3 {
+	font-weight: 100;
+	font-family: "Trajan Pro", Georgia, "Georgia Ref", serif;
+	font-style: italic;
+}
+
+/* classes */
+
+.wrapper {
+	margin: 0px auto;
+	width: 960px;
+}
+.clear {
+	clear: both;
+}
+.top_margin {
+	margin-top: 40px;
+}
+.right {
+	float: right;
+}
+.nav_space {
+	margin-left: 12px;
+}
+
+/* header */
+
+#header {
+	font-family: "Trajan Pro", Georgia, "Georgia Ref", serif;
+	background: #ede9dd;
+	height: 80px;
+	width: 960px;
+	color: #FFFFFF;
+}
+#logo {
+	background: url(../images/logo.jpg);
+	height: 120px;
+	width: 190px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	z-index: 90;
+	text-align: center;
+	font-size: 3.4em;
+	letter-spacing: -1px;
+	line-height: 38px;
+}
+#logo #top_word {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	z-index: 92;
+}
+#top_word a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#logo #bottom_word {
+	position: absolute;
+	left: 12px;
+	top: 21px;
+	color: #333;
+	z-index: 91;
+}
+#nav {
+	position: absolute;
+	top: 61px;
+	right: 20px;
+	z-index: 98;
+}
+#nav div {
+	float: left;
+}
+#left_nav {
+	background: url(../images/left_nav.jpg);
+	height: 38px;
+	width: 24px;
+}
+#right_nav {
+	background: url(../images/right_nav.jpg);
+	height: 38px;
+	width: 24px;
+}
+#middle_nav {
+	background: url(../images/nav.jpg);
+	height: 32px;
+	padding-top: 6px;
+}
+#middle_nav a {
+	font-size: 2em;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+#middle_nav a:hover {
+	border-bottom: 1px dotted #FFFFFF;
+}
+
+/* main content */
+
+#purple_bg {
+	background: #4a3e49;
+	margin-right: auto;
+	margin-left: auto;
+}
+#content {
+	background: #FFFFFF;
+	width: 920px;
+	padding: 80px 20px 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+#content a {
+	text-decoration: none;
+	border-bottom: 1px dotted #6A5F87;
+	padding-bottom: 3px;
+	color: #6A5F87;
+}
+#content a:hover {
+	border-style: none;
+}
+#sidebar {
+	background: #ede9dd;
+	float: left;
+	width: 170px;
+	padding: 10px;
+}
+#sidebar h2 {
+	font-size: 2.2em;
+	letter-spacing: -1px;
+	background: url(../images/arrow4.png) no-repeat;
+	padding-left: 30px;
+}
+#sidebar p {
+	font-size: 1.2em;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	line-height: 20px;
+}
+#sidebar li {
+	font-size: 1.2em;
+	line-height: 22px;
+	list-style: square inside;
+}
+#main {
+	float: right;
+	width: 700px;
+	margin-top: -40px;
+	padding-right: 10px;
+}
+#main h1 {
+	font-size: 2.6em;
+	background: url(../images/arrow7.png) no-repeat;
+	padding-left: 30px;
+}
+#main h2 {
+	font-size: 2.4em;
+	background: url(../images/arrow6.png) no-repeat;
+	padding-left: 30px;
+}
+#main p {
+	font-size: 1.5em;
+	line-height: 25px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+#main img {
+	float: right;
+	padding: 2px;
+	border: 3px solid #EDE9DD;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#main li {
+	font-size: 1.5em;
+	list-style: square inside;
+	font-style: italic;
+	line-height: 25px;
+}
+
+/* footer area */
+
+#lower {
+	background: #ede9dd;
+	clear: both;
+	padding: 16px 20px 8px;
+	height: 40px;
+	width: 920px;
+	font-family: "Trajan Pro", Georgia, "Georgia Ref", serif;
+}
+#lower h2 {
+	font-size: 2.6em;
+	background: url(../images/arrow6.png) no-repeat;
+	padding-left: 30px;
+}
+#footer {
+	height: 120px;
+	color: #FFFFFF;
+	text-align: right;
+	width: 940px;
+	font-family: Helvetica, Arial, sans-serif;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+#footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px dotted #FFFFFF;
+}

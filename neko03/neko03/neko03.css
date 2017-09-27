@@ -1,0 +1,228 @@
+
+/***** BEGIN LICENSE BLOCK *****
+# 
+# This document is part of NEKODESIGN.NET
+#  css template : neko03
+# author : robin / robin[at]biboo.net
+#
+# this design in distribued under a "Attribution-NonCommercial-ShareAlike 2.0 France" Creative Commons licence :
+# http://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
+#
+# You are free:
+# * to Share — to copy, distribute and transmit the work
+# * to Remix — to adapt the work
+# Under the following conditions:
+# * Attribution : You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+# * Noncommercial : You may not use this work for commercial purposes.
+# * Share Alike : If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+#
+# For any reuse or distribution, you must make clear to others the license terms of this work.
+# Any of the above conditions can be waived if you get permission from the copyright holder.
+# Apart from the remix rights granted under this license, nothing in this license impairs or restricts the author's moral rights.
+#
+# Your fair dealing and other rights are in no way affected by the above.
+# This is a human-readable summary of the Legal Code : http://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode
+# 
+#
+# ***** END LICENSE BLOCK *****/
+body {
+	margin: 10px 0;
+	padding: 0;
+	text-align: center;
+	background: #F5E3E3;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+div#wrapper {
+	width: 770px;
+	margin: 0 auto;
+	text-align: left;
+	border: 2px solid #7A3139;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+div#wrapper ul, div#wrapper ol {
+	margin: 0 0 0 23px;
+}
+
+/*    header
+******************************************************************/
+h1#header {
+	height: 150px;
+	margin: 0;
+	background: url(img/child.jpg) no-repeat left top;
+}
+
+h1#header a {
+	width: 351px;
+	height: 103px;
+	display: block;
+	background: url(img/logo2.png) no-repeat;
+	position: relative;
+	left: 350px;
+	top: 15px;
+}
+
+h1#header a span {
+	display: none;
+}
+
+/*       rollover navugation menu
+***********************************************************/
+ul#menu {
+	margin: 0!important;
+	padding: 0;
+	height: 36px;
+	background: url(img/ul-bg.png) repeat-x 0 -26px;
+	list-style-type: none;
+}
+
+ul#menu li {
+	float: left;
+	text-align: center;
+}
+
+ul#menu li a {
+	line-height: 26px; /*width: 130px;*/
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+	background-color: transparent;
+	display: block;
+	text-decoration: none;
+	border-right: 2px solid #FFFFFF;
+	padding: 0 6px;
+}
+
+ul#menu li a:hover {
+	background: url(img/ul-bg.png) repeat-x 0 0;
+}
+
+/*        #contenu
+********************************************************************/
+div#content h1 {
+	text-align: center;
+	color: #6F282F;
+	background-color: transparent;
+}
+
+div#content h2 {
+	padding: 18px 0 0 56px;
+	font-size: 1.4em;
+	background: transparent url(img/feuille.png) no-repeat left bottom;
+	color: #3F6B2C;
+	border-bottom: 1px solid #6F282F;
+}
+
+div#content h3 {
+	margin: 30px 0 5px 15px;
+	padding-left: 5px;
+	border-bottom: 1px solid #93B896;
+	border-left: 3px solid #93B896;
+	color: #545C36;
+	background-color: transparent;
+}
+
+div#content p {
+	text-align: justify;
+	text-indent: 2em;
+}
+
+div#content ol, div#content p {
+	line-height: 1.3em;
+}
+
+div#content ol li {
+	margin: 10px;
+}
+
+/*  index.htm / id="index"
+*******************************************************/
+body#index div#content {
+	padding: 0 25px 0 100px;
+	background: transparent url(img/logo-enfant.png) no-repeat 15px 15px;
+	position: relative;
+}
+
+.floatright {
+	float: right;
+}
+
+.clear {
+	clear: both;
+	padding-top: 17px;
+}
+
+#div-superposed {
+	position: relative;
+}
+
+/* texte superposé */
+p#superposed {
+	position: absolute;
+	left: 100px;
+	top: 40px;
+	font-size: 40px;
+	width: 500px;
+	text-indent: 0!important;
+	margin: 0px;
+	padding: 0px;
+	color: #592224;
+	background-color: transparent;
+	font-family: "Trebuchet MS",arial,sans-serif;
+}
+
+/*          footer
+*************************************************************/
+p#footer {
+	font-size: 80%;
+	margin: 0;
+	padding-right: 10px;
+	line-height: 30px;
+	text-align: right;
+	color: #777777;
+	background-color: transparent;
+	clear: both;
+}
+
+p#footer a {
+	color: #777777;
+	background-color: transparent;
+}
+
+/*  CC licence : respect it ! */
+div#CC-licence {
+	border: 4px solid #E0AD4B;
+	background: transparent url(img/CC-licence-bg.png) no-repeat 195px 30px;
+	width: 230px;
+	padding: 2px;
+}
+
+div#CC-licence p {
+	margin: 0px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+}
+
+div#CC-licence a {
+	color: #D20000;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+div#CC-licence a:hover {
+	text-decoration: underline;
+	color: #7D0000;
+	background-color: transparent;
+}
+
+img.CC-floatleft {
+	float: left;
+	margin: 4px 2px 0 0;
+}
+
+/* END  CC licence */

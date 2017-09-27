@@ -1,0 +1,37 @@
+body {margin:0; padding:0;}
+
+#wrap {max-width:940px; margin:0 auto; padding:18px 10px;}
+
+/*
+.one {width:14.894%;}
+.two {width:31.915%;}
+.three {width:48.936%;}
+.four {width:65.957%;}
+.five {width:82.979%;}
+.six {width:100%;}
+*/
+
+/*
+.one {width:140px;}
+.two {width:300px;}
+.three {width:460px;}
+.four {width:620px;}
+.five {width:780px;}
+.six {width:940px;}
+*/
+
+.one {width:11.6667em;}
+.two {width:25em;}
+.three {width:38.3333em;}
+.four {width:51.6667em;}
+.five {width:65em;}
+.six {width:78.3333em;}
+
+.marginleft {margin-left:10px;}
+.marginright {margin-right:10px;}
+
+.paddingleft {padding-left:10px;}
+.paddingright {padding-right:10px;}
+
+.floatleft {float:left;}
+.floatright {float:right;}

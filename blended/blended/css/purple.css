@@ -1,0 +1,70 @@
+/*****************************************************
+  AUTHOR: Luke Symes (luke.wpDesign.org)
+  PURPOSE: Style page using a purple color scheme.
+*****************************************************/
+
+a {
+color:#A400FD;
+}
+
+a:hover {
+color:#4500B1;
+}
+
+h3 {
+color:#6300FD;
+}
+
+h4 {
+color:#A400FD;
+}
+
+img {
+border-color:#D8BFFF;
+}
+
+img:hover {
+border-color:#A400FD;
+}
+
+* html a.thumbnail {
+background:#D8BFFF;
+}
+
+* html a.thumbnail:hover {
+background:#A400FD;
+}
+
+#header-{
+color:#FFF;
+background:#A400FD url(../img/purple/hdr-colour.png) top repeat-x;
+}
+
+#navbar, #navbar li a {
+background:#E9BFFF url(../img/purple/navbar.png) bottom repeat-x;
+}
+
+#navbar li a {
+color:#B100A4;
+}
+
+#navbar li a:hover, #navbar li.current a {
+background:#D280FF;
+color:#7300B1;
+}
+
+.sideContent li a {
+background:#E9BFFF url(../img/purple/side-link.png) bottom repeat-x;
+border:1px solid #D280FF;
+color:#7300B1;
+}
+
+.sideContent li a:hover {
+background:#D280FF;
+border-color:#A400FD;
+}
+
+#footer {
+color:#FFF;
+background:#A400FD url(../img/purple/ftr-colour.png) bottom repeat-x;
+}

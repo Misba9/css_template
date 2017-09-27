@@ -1,0 +1,24 @@
+/*****************************************************
+  AUTHOR: Luke Symes (luke.wpDesign.org)
+  PURPOSE: Remove images from page styles.
+*****************************************************/
+
+#wrap2 {
+padding:15px;
+}
+
+#header-{
+background-image:none;
+}
+
+#navbar, #navbar li a {
+background-image:none;
+}
+
+.sideContent li a {
+background-image:none;
+}
+
+#footer {
+background-image:none;
+}

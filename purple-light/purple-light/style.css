@@ -1,0 +1,272 @@
+/*
+ * Title: Purple Light v.1.0
+ * Site: http://www.chamadigital.com
+ * Author: Anselmo Ribeiro
+ * Last Modified: 24_03_2008
+*/
+
+
+
+/*global reset */
+
+
+html *{
+	padding: 0;
+	margin: 0;
+}
+a img, :link img, :visited img {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ol, ul {
+  list-style: none;
+}
+
+p{
+	line-height: 18px;
+	margin-bottom: 14px;
+}
+/* end global reset */
+
+
+
+/* base html */
+
+body {
+  background: #2f0d28 url(images/bg_main.jpg);
+  
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;/*this is in place to center in older browsers*/
+}
+a {
+ text-decoration: none;
+ color:#e57ad2;
+}
+a:link {/* unvisited link */
+ color:#e57ad2;
+}     
+ 
+a:hover { /* mouse over link */
+ color:#e57ad2;
+ text-decoration: underline;
+}  
+a:active {/* selected link */
+ color:#e57ad2;
+}
+/* Clearing floats without extra markup  */
+
+.wrapper { display: inline-block; }
+
+.wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+* html .wrapper { height: 1%; }
+
+.wrapper { display: block; }
+
+/* End Clearing floats without extra markup  */
+h2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 22px;
+	color: #e57ad2;
+	padding-bootom: 5px;
+	margin-bottom: 20px;
+}
+h2 a:hover{
+	border-bottom: 1px solid #e57ad2;
+	text-decoration: none;
+}
+
+/* end base html */
+
+/* layout */
+#top{
+	float: left;
+	width: 760px;
+	margin-bottom: 40px;
+}
+h1#logo{
+	float: left;
+	font-family: "Times New Roman", Georgia, Times, serif;
+	font-size: 30px;	
+	color: #fff;
+	font-weight: normal;
+}
+h1#logo a{
+	color: #fff;
+	text-decoration: none;
+}
+#search{
+	float: right;
+	
+}
+
+#wrapper{
+	width: 760px;
+	margin: 40px auto 40px auto;
+	text-align: left;
+}
+#content{
+	width: 760px;
+	
+	
+}
+#main-content{
+	width: 490px;
+	float: left;
+	margin-right: 58px;
+	margin-top: 9px;
+	display: inline;
+}
+#sidebar-right{
+	width: 200px;
+	float: right;
+	margin-top: 34px;
+	display: inline;
+}
+#sidebar-right h2{
+	margin-bottom: 10px;
+}
+#footer{
+	width: 760px;
+	clear: both;
+	border-bottom: 1px solid #48133e;
+	border-top: 1px solid #48133e; 
+	margin-bottom: 30px;
+}
+#footer p{
+	text-align: center;
+	margin: 0;
+	padding: 7px 0;
+}
+/* end layout */
+.post{
+	
+	width: 490px;
+	padding-bottom: 25px;
+	
+	margin-top: 25px;
+	border-bottom: 1px solid #48133e;
+	
+}
+
+.meta-date{
+	
+	width: 490px;
+	
+}
+.meta-date p.date{
+	float: left;
+	color: #a0dff2;
+	padding-left: 22px;
+	background: url(images/clock.gif) no-repeat 0 50%;
+	margin: 0;
+}
+.meta-date p.meta{
+	float: right;
+	margin: 0;
+}
+.meta-date .meta a.comments{
+	padding-left: 22px;
+	background: url(images/comments.gif) no-repeat 0 50%;
+}
+/* navigation */
+#navigation {
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	float: left;
+	
+}
+#navigation ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#navigation li { float: left; }
+
+#navigation a {
+	display:block;
+	text-decoration:none;
+	padding:7px 10px;
+	
+	color:#fff;
+	margin-right:9px;
+	font-weight: bold;
+	line-height: 16px;
+}
+#navigation li.active a{
+	background-color:#fff;
+	color:#742866;
+}
+#navigation a:hover {
+	background: none;
+	color:#e57ad2;
+}
+#search input{
+	float: left;
+	background-color: #1f081b;
+	border: none;
+	padding: 3px;
+	padding-left: 6px;
+	color: #fff;
+	width: 152px;
+}
+#search .btn{
+	border: 0;
+	margin: 4px 0 0 7px;
+	padding: 0;
+	padding-left: 6px;
+	width: auto;
+	background: transparent;
+}
+.sideblock{
+	width: 200px;
+	
+	margin-bottom: 40px;
+	
+}
+.sideblock ul{
+	width: 200px;
+	
+}
+.sideblock ul li{
+	width: 187px;
+	padding: 8px 0;
+	padding-left: 13px;
+	border-bottom: 1px solid #48133e;
+	background: url(images/arrow.gif) 0 50% no-repeat;
+}
+.sideblock ul li a{
+	color: #fff;
+}
+.sideblock ul li a:hover{
+	color: #fff;
+	text-decoration:underline;
+}
+.prev-next{
+	
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.prev-next p.prev{
+	margin: 0;
+	float: left;
+}
+.prev-next p.next{
+	margin:0;
+	float: right;
+}
+.prev-next a:hover{
+	background: #fff;
+	text-decoration: none;
+	padding: 3px 7px;
+	color:#742866;
+}

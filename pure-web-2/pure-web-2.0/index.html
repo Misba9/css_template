@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pure Web 2.0</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="ie_style.css" /><![endif]-->
+<!--[if lt IE 7]>
+<script language="JavaScript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+   var arVersion = navigator.appVersion.split("MSIE")
+   var version = parseFloat(arVersion[1])
+   if ((version >= 5.5) && (document.body.filters)) 
+   {
+      for(var i=0; i<document.images.length; i++)
+      {
+         var img = document.images[i]
+         var imgName = img.src.toUpperCase()
+         if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+         {
+            var imgID = (img.id) ? "id='" + img.id + "' " : ""
+            var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+            var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+            var imgStyle = "display:inline-block;" + img.style.cssText 
+            if (img.align == "left") imgStyle = "float:left;" + imgStyle
+            if (img.align == "right") imgStyle = "float:right;" + imgStyle
+            if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+            var strNewHTML = "<span " + imgID + imgClass + imgTitle
+            + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+            + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+            + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+            img.outerHTML = strNewHTML
+            i = i-1
+         }
+      }
+   }    
+}
+window.attachEvent("onload", correctPNG);
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <div id="head">
+    <div id="logo"></div>
+    <div id="navi">
+      <ul>
+        <li><a href="#">NASLOVNA</a></li>
+        <li><a href="#">O NAMA</a></li>
+        <li><a href="#">USLUGE</a></li>
+        <li><a href="#">KONTAKT</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="header">
+    <div id="logoH"></div>
+    <div id="headerBox">
+      <div class="header_h1"> Lorem ipsum</div>
+      <div class="header_p"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec non enim ut enim eleifend sagittis. Nam bibendum lacus nec eros sodales sagittis.<br />
+        <br />
+        Mauris porttitor, eros at cursus fermentum, felis nibh rhoncus quam, a volutpat enim mauris at elit.<br />
+        <br />
+        <em>Lorem ipsum dolor sit amet</em></div>
+    </div>
+  </div>
+  <div id="servicesbox">
+    <div class="servicesItem"><img src="images/work.png" class="news1" alt="" /><br />
+      <br />
+      <br />
+      <ul>
+        <li><a href="#">Staff</a></li>
+        <li><a href="#">Directions</a></li>
+        <li><a href="#">Legal Advices</a> </li>
+        <li><a href="#">Oppurtunities</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Technology</a> </li>
+        <li><a href="#">Services</a> </li>
+        <li><a href="#">Lorem</a> </li>
+      </ul>
+    </div>
+  </div>
+  <div id="newsbox">
+    <div class="newsbox_h1"><img src="images/news_box.png" class="news" alt="" /></div>
+    <div class="newsbox_p"> <img src="images/latestblog.gif" class="floatLeft" alt="" /> Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet.</div>
+    <div class="newsbox_p1"><a href="#">Detaljnije</a></div>
+    <div class="newsbox_p"><img src="images/latestblog.gif" class="floatLeft" alt="" /> Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet.</div>
+    <div class="newsbox_p1"><a href="#">Detaljnije</a></div>
+  </div>
+  <div id="contactbox">
+    <div class="contactbox_h1"> <img src="images/blog.png" class="news" alt="" /></div>
+    <div class="contactbox_p"><br/>
+      <br />
+      <br/>
+      <br />
+      <img src="images/comment.gif" class="floatLeft"/></div>
+    <p><b>21.1.2008</b></p>
+    <p>dolor site amet lorem ispsum</p>
+    <div class="contactbox_p"> <img src="images/comment.gif" class="floatLeft" alt="" /></div>
+    <p><b>16.1.2008</b></p>
+    <p>dolor site amet lorem ispsum</p>
+    <div class="contactbox_p"> <img src="images/comment.gif" class="floatLeft" alt="" /></div>
+    <p><b>11.1.2008</b></p>
+    <p>dolor site amet lorem ispsum</p>
+  </div>
+</div>
+<div id="footerwrapper">
+  <div id="footer">
+    <div class="footerItem">
+      <h2>About</h2>
+      <ul>
+        <li><a href="#">Staff</a></li>
+        <li><a href="#">Directions</a></li>
+        <li><a href="#">Contact Us</a> </li>
+      </ul>
+    </div>
+    <div class="footerItem">
+      <h2>Quick Links </h2>
+      <ul>
+        <li><a href="#">Lorem </a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Dolor sit</a></li>
+        <li><a href="#">Amet</a></li>
+        <li><a href="#">Lorem</a></li>
+      </ul>
+    </div>
+    <div class="footerItem">
+      <h2>Stay Connected </h2>
+      <ul>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Ipsum</a></li>
+        <li><a href="#">Dolor sit amet</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Opportunities</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="copyrightwrapper">
+  <div id="copyright">
+    <div class="copyItems">
+      <p>&copy; Your Company All Rights Reserved.</p>
+      <p><a href="#">Who We Are</a> | <a href="#">Get Connected</a> | <a href="#">How We Serve</a> | <a href="#">Get Equipped</a> | <a href="#">News &amp; Events</a> | <a href="#">Resources</a></p>
+    </div>
+    <div class="copyItems2">
+      <p>Design by</p>
+      <p><a href="http://webmajstor.org">Synestetic WD Team</a></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

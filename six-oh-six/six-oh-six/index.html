@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Six Oh Six</title>
+<meta http-equiv="content-language" content="en-us" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="author" content="Six Oh Six" />
+<meta name="design" content="Sadhana Ganapathiraju" />
+<meta name="copyright" content="Copyright (c) 2006 Six Oh Six" />
+<meta name="description" content="Description of the site goes here" />
+<meta name="keywords" content="seo,rich,keywords,of,the,site,go,here" />
+<link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
+<!--[if lt ie 7]>	
+		<link rel="stylesheet" type="text/css" media="screen" href="ie-win.css" />
+	<![endif]-->
+</head>
+<body>
+<div id="header">
+  <h1><a href="#">Six Oh Six</a></h1>
+</div>
+<div id="navigation">
+  <ul>
+    <li class="active"><a href="#00">Home</a></li>
+    <li><a href="#01">Blog</a></li>
+    <li><a href="#02">Portfolio</a></li>
+    <li><a href="#03">Articles</a></li>
+    <li><a href="#04">About</a></li>
+    <li><a href="#05">Contact</a></li>
+  </ul>
+</div>
+<div id="wrapper">
+  <div id="content-wrapper">
+    <div id="content">
+      <div class="post-wrapper">
+        <h3 class="post-title"><a href="#21" rel="bookmark">More Examples</a></h3>
+        <div class="post">
+          <p>Hi! <a href="http://www.nikhedonia.com/free_templates/606/">606</a> is a free template created by Sadhana Ganapathiraju, aka SimplyGold. It started out its life as a commercial template, but now it's a free template released under <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/"><acronym title="Creative Commons Attribution-NonCommercial-ShareAlike 2.5">CC</acronym> license</a>, which basically means that you can use it, modify it, and do whatever you want with it as long as it doesn't have anything to do with commercial use. </p>
+          <p>I included a link at the bottom that says that the design was by me. You don't need to keep it, but I'd much appreciate it if you do. :-) Except for this one, pretty much all other links need to be modified.</p>
+          <pre><code><span class="kwd">protected void</span> Page_Load(<span class="kwd">object</span> sender, EventArgs e)
+{
+    <span class="kwd">try</span>
+    {
+        MailMessage message = <span class="kwd">new</span> MailMessage(<span class="str">
+                "from@example.com"</span>, 
+                <span class="str">"to@example.com"</span>, 
+                <span class="str">"Some Important Message"</span>, 
+                <span class="str">"This is a test message &amp; 
+			it's not that important."</span>);
+
+        SmtpClient client = <span class="kwd">new</span> SmtpClient(
+			<span class="str">"your.smtp.server.com"</span>);
+
+        System.Net.NetworkCredential credentials = <span class="kwd">new</span> 
+                System.Net.NetworkCredential(
+                        <span class="str">"username"</span>, 
+                        <span class="str">"password"</span>);
+
+        client.UseDefaultCredentials = <span class="kwd">true</span>;
+
+        client.Credentials = credentials;
+
+        client.Send(message);
+    }
+
+    <span class="kwd">catch</span> (Exception ex)
+    {
+        Response.Write(<span class="str">"Oops! Couldn't send the e-mail: "</span> + 
+                ex.ToString());
+    }
+}</code></pre>
+        </div>
+        <div class="post-footer"> Posted By: <a href="#00">Fisterkit</a> on July 5, 2006 | <a href="#02">Comments(275)</a> | <a href="#03">Trackbacks(321)</a> </div>
+      </div>
+      <div class="post-wrapper">
+        <h3 class="post-title"><a href="#11" rel="bookmark">Last of the Books</a></h3>
+        <div class="post">
+          <p class="img"><img src="images/sample_pic.jpg" width="250px" height="171px" alt="Sample Picture Here" /></p>
+          <p> Praesent eget sem nec sem pretium mattis. Pellentesque iaculis sapien. In sem quam, molestie ut, sagittis non, 
+            auctor a, leo. <a href="#89">In hac habitasse platea dictumst</a>. Nunc augue diam, lacinia non, vulputate sce <a href="#92">lerisque, pretium ut</a>, lectus. </p>
+          <p> Fusce justo. <abbr title="Fake non-abbreviation">I'm abbr.</abbr> Lalala. <acronym title="I'm a fake acronym">Acro </acronym>. Donec magna tortor, dictum in, suscipit a, posuere in, erat. Quisque non velit. Nulla quis nunc. </p>
+          <p> Vestibulum vel odio eget metus faucibus ullamcorper. Proin sodales urna quis velit. Mauris eros diam, egestas eu, 
+            consectetuer nec, semper sit amet, eros. Fusce ac libero. Aliquam sapien. Aliquam erat volutpat. Cras varius orci 
+            sed pede. Fusce eleifend tincidunt odio. Aenean magna. Duis sed leo et mi fermentum viverra. Phasellus nisi turpi, 
+            adipiscing sed, adipiscing placerat, convallis ac, sem. Aenean at turpis in nisi pulvinar ullamcorper. Ut sed nib. 
+            Aenean orci lacus, porta ac, aliquet id, malesuada a, nisl. Curabitur venenatis gravida nisi. Aliquam mattis. Nula 
+            sapien dui, consequat a, varius a, laoreet a, metus. In feugiat orci eget sapien. Etiam ultrices, leo vel gravidar 
+            sodales, eros eros tristique sem, at vulputate purus nisi vel neque. Donec vel enim. Quisque a arcu in ligula moll
+            is placerat. Aliquam imperdiet. </p>
+          <blockquote>
+            <p> Sed urna. Duis vitae sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. 
+              Nunc sit amet nunc. Cras augue urna, posuere eu, porttitor ut, tempor vitae, diam. Vivamus vel velit. Vestibulum in sapi. 
+              Maecenas nisl ligula, hendrerit eu, consequat nec, euismod id, neque. Donec mi risus, varius at, condimentum vitae, tinci 
+              dunt id, tellus. Nullam magna nisi, consectetuer vel, scelerisque nec, viverra eget, justo. Ut porta. Suspendisse conguer 
+              risus in libero dictum eleifend. Curabitur tempor lectus vel pede. Fusce luctus. Ut eu felis. Nulla ligula erat, tempor 
+              in, pretium non, elementum non, mauris. Nulla facilisi. Curabitur eu ligula. </p>
+          </blockquote>
+          <p> <del>Nam hendrerit, dolor ac venenatis venenatis.</del> <ins>Diam urna posuere velit, at imperdiet turpis urna interdum nunc.</ins> </p>
+        </div>
+        <div class="post-footer"> Posted By: <a href="#00">Fisterkit</a> on Jan 5, 2006 | <a href="#02">Comments(182)</a> | <a href="#03">Trackbacks(113)</a> </div>
+      </div>
+    </div>
+  </div>
+  <div id="sidebar-wrapper">
+    <div id="sidebar">
+      <div class="sideblock">
+        <h3>Overview</h3>
+        <dl>
+          <dt>Hilarious Windows 2000 Source Code Review</dt>
+          <dd><a href="http://www.kuro5hin.org/story/2004/2/15/71552/7795">Who knew Microsoft programmers swore so much?</a></dd>
+          <dt>God Created the World, With a Computer!</dt>
+          <dd><a href="http://www.pi.pwp.blueyonder.co.uk/creation.html">In the beginning, there was the Computer</a></dd>
+          <dt>The Fully Automated System</dt>
+          <dd><a href="http://thedailywtf.com/forums/thread/92732.aspx">It was to be the perfect system.</a></dd>
+          <dt>Persistence Gets the Job Done</dt>
+          <dd><a href="http://thedailywtf.com/forums/thread/92484.aspx">Kristopher has the pleasure of working with Robert, the Infallible Programmer.</a></dd>
+          <dt>Not Another DLL!</dt>
+          <dd><a href="http://thedailywtf.com/forums/thread/92281.aspx">"Told ya' so."</a></dd>
+          <dt>Legendary Configuration</dt>
+          <dd><a href="http://thedailywtf.com/forums/thread/92037.aspx">Not too many of us are locky to work side-by-side with a living Software legend.</a></dd>
+          <dt>Surgical Module Changes</dt>
+          <dd><a href="http://thedailywtf.com/forums/thread/91869.aspx">Tom's experience on the Client Management Module</a></dd>
+          <dt>Credits</dt>
+          <dd>The first two articles are from <a href="http://www.digg.com/">Digg</a> and the rest from <a href="http://www.thedailywtf.com/">The Daily WTF</a>.</dd>
+        </dl>
+      </div>
+      <div class="sideblock">
+        <h3>By Category</h3>
+        <ul>
+          <li><a href="#15">100 Greatest Cartoons</a></li>
+          <li><a href="#16">Laptops vs. Actors</a></li>
+          <li><a href="#17">Internet vs. Television</a></li>
+          <li><a href="#18">Characters</a></li>
+          <li><a href="#19">.NET Framework</a></li>
+          <li><a href="#20">Dead Albums</a></li>
+          <li><a href="#21">Antidisestablishmentarianism</a></li>
+          <li><a href="#22">2006 Births</a></li>
+          <li><a href="#23">Charmed</a></li>
+          <li><a href="#24">1324 B.C.E.</a></li>
+          <li><a href="#25">Google</a></li>
+          <li><a href="#26">MSN</a></li>
+          <li><a href="#27">Books</a></li>
+          <li><a href="#28">Establishments</a></li>
+          <li><a href="#29">Technology &amp; What Not</a></li>
+          <li><a href="#30">Processes &amp; Meetings</a></li>
+        </ul>
+      </div>
+      <div class="sideblock">
+        <h3>By Month</h3>
+        <ul>
+          <li><a href="#31">August 2006</a></li>
+          <li><a href="#32">July 2006</a></li>
+          <li><a href="#33">June 2006</a></li>
+          <li><a href="#34">May 2006</a></li>
+          <li><a href="#35">April 2006</a></li>
+          <li><a href="#36">March 2006</a></li>
+          <li><a href="#37">February 2006</a></li>
+          <li><a href="#38">January 2006</a></li>
+          <li><a href="#39">December 2005</a></li>
+          <li><a href="#40">November 2005</a></li>
+          <li><a href="#41">October 2005</a></li>
+          <li><a href="#42">September 2005</a></li>
+          <li><a href="#43">August 2005</a></li>
+          <li><a href="#44">July 2005</a></li>
+          <li><a href="#45">June 2005</a></li>
+          <li><a href="#46">May 2005</a></li>
+          <li><a href="#47">April 2005</a></li>
+          <li><a href="#48">March 2005</a></li>
+          <li><a href="#48">February 2005</a></li>
+          <li><a href="#50">January 2005</a></li>
+          <li><a href="#51">December 2005</a></li>
+          <li><a href="#52">November 2005</a></li>
+          <li><a href="#53">October 2005</a></li>
+          <li><a href="#54">September 2005</a></li>
+          <li><a href="#55">August 2005</a></li>
+          <li><a href="#56">July 2005</a></li>
+          <li><a href="#57">June 2005</a></li>
+        </ul>
+      </div>
+      <div class="sideblock">
+        <h3>Subscribe</h3>
+        <ul>
+          <li><a href="#12">Rss Feed</a></li>
+          <li><a href="#13">Atom Feed</a></li>
+          <li><a href="#14">E-mail Subscription</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div id="extras">
+    <div id="friends">
+      <h6>Friends</h6>
+      <ul>
+        <li><a href="#">Veer &amp; Virile</a></li>
+        <li><a href="#">Bits &amp; Pieces</a></li>
+        <li><a href="#">Someone with a Blog</a></li>
+        <li><a href="#">Design First</a></li>
+        <li><a href="#">Last Upside Down</a></li>
+        <li><a href="#">Jerk Around the Town</a></li>
+        <li><a href="#">Wikipedia</a></li>
+        <li><a href="#">Google</a></li>
+        <li><a href="#">GodPowers</a></li>
+        <li><a href="#">Chocolates</a></li>
+      </ul>
+    </div>
+    <div id="links">
+      <h6>Interesting Tidbits</h6>
+      <dl>
+        <dt><a href="#">Aliquam Mollis Odio Ut Pedu</a></dt>
+        <dd>Vestibulum enim erat, tristique quis, dignissim et, imperdiet ac, augue. Proin ac risus id urna venenatis viverra.</dd>
+        <dt><a href="#">Vivamus Eget Metus Eget Est</a></dt>
+        <dd> Mauris sollicitudin feugiat nisl. Fusce lorem justo, pharetra sit amet, vestibulum in, convallis at, tortor. Suspendisse 
+          eget lacus in mauris suscipit iaculis. Ut risus eros, scelerisque ac. </dd>
+        <dt><a href="#">Etiam Mattis</a></dt>
+        <dd> Maecenas adipiscing lectus nec velit consectetuer scelerisque. </dd>
+      </dl>
+    </div>
+    <div id="about">
+      <h6>About</h6>
+      <p> Nullam eu eros eget massa fringilla porta. Donec consectetuer. Praesent vel ipsum. Vivamus vitae orci. Qui 
+        sque sit amet est. Suspendisse dapibus orci. Pellentesque semper mi vestibulum libero. Vivamus pharetra tu 
+        rpis eu neque. Morbi convallis. Nunc a ipsum eu lorem. <a href="#">More &rarr;</a> </p>
+    </div>
+  </div>
+  <p> Design by <a href="http://www.nikhedonia.com/" title="SimplyGold">Sadhana Ganapathiraju</a> | 
+    All rights reserved | <a href="#">Terms of Service</a> | <a href="#">Privacy</a> | <a href="#">Contact</a> | <a href="#">About</a> | <a href="http://validator.w3.org/check/referer" title="Valid XHTML 1.0 Strict">Xhtml</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer?warning=no&amp;profile=css2" title="Valid CSS 2.0 Strict">Css</a> </p>
+</div>
+</body>
+</html>

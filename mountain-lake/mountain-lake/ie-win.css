@@ -1,0 +1,13 @@
+/* Because IE 6 is an idiot and can't do padding properly */ 
+
+#navigation a { height: 30px; padding-top: 0; padding-bottom: 0; line-height: 30px; }
+
+/* Closing the nasty gap between list items */
+
+li a { display: inline-block; }
+
+li a { display: block; }
+
+/* Getting the sidebar to show up to the right */
+
+pre { width: 80%; }

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Multipurpose</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="css/reset.ie.css"><![endif]-->
+<link rel="stylesheet" href="css/magenta_style.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css"/>
+<link rel="alternate stylesheet" href="css/black_style.css" media="screen" title="black" />
+<link rel="alternate stylesheet" href="css/magenta_style.css" media="screen" title="magenta" />
+<link rel="alternate stylesheet" href="css/cyan_style.css" media="screen" title="cyan" />
+<link rel="alternate stylesheet" href="css/turqoise_style.css" media="screen" title="turquoise" />
+<link rel="alternate stylesheet" href="css/blue_style.css" media="screen" title="blue" />
+<link rel="alternate stylesheet" href="css/green_style.css" media="screen" title="green" />
+<link rel="alternate stylesheet" href="css/orange_style.css" media="screen" title="orange" />
+<link rel="alternate stylesheet" href="css/red_style.css" media="screen" title="red" />
+<link rel="alternate stylesheet" href="css/violet_style.css" media="screen" title="violet" />
+<link rel="alternate stylesheet" href="css/purpure_style.css" media="screen" title="purpure" />
+<script type="text/javascript" src="js/styleswitch.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="js/jquery_1.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<script type="text/javascript" src="js/jquery_3.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function () {
+    if (navigator.appVersion.search(/MSIE (6|5|4)/gi) == -1) {
+        jQuery('#parallax').jparallax({
+            xparallax: true,
+            yparallax: false
+        }, {
+            width: 1600,
+            height: 1200
+        }, {
+            width: 1800,
+            height: 1400
+        }, {
+            width: 2000,
+            height: 1800
+        });
+    }
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    var s = jQuery.noConflict();
+    s('#slider_area').coinslider({
+        width: 636,
+        height: 271,
+        navigation: false,
+        delay: 5000,
+        titleSpeed: 4000,
+        navigation: true
+    });
+});
+</script>
+</head>
+<body>
+<div class="colorPicker">
+  <ul class="color">
+    <li>Pick a color</li>
+    <li><a href="#" onclick="setActiveStyleSheet('black'); return false;">Black</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('magenta'); return false;">Magenta</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('cyan'); return false;">Cyan</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('turquoise'); return false;">Turquoise</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('blue'); return false;">Blue</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('green'); return false;">Green</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('orange'); return false;">Orange</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('red'); return false;">Red</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('violet'); return false;">Violet</a></li>
+    <li><a href="#" onclick="setActiveStyleSheet('purpure'); return false;">Purpure</a></li>
+  </ul>
+</div>
+<div id="parallax">
+  <div id="layer1"></div>
+  <div id="layer2"></div>
+  <div id="layer3"></div>
+</div>
+<div id="header"> <img src="img/logo.png" alt="" class="logo"/>
+  <div class="navigation_area">
+    <ul>
+      <li><a href="#"><img src="img/home_img.png" alt=""/></a></li>
+      <li><a href="#"><img src="img/about_img.png" alt=""/></a></li>
+      <li><a href="#"><img src="img/services_img.png" alt=""/></a></li>
+      <li><a href="#"><img src="img/clients_img.png" alt=""/></a></li>
+      <li><a href="#"><img src="img/contact_img.png" alt=""/></a></li>
+    </ul>
+  </div>
+  <div class="banner">
+    <div class="slide lefts">
+      <div class="img_news_slider"></div>
+      <div id="slider_area"> <a href="#"> <img src="img/img_slide.png" /> <span> Description for picture </span> </a> <a href="#"> <img src="img/img_slide2.png" /> <span> Description for picture </span> </a> <a href="#"> <img src="img/img_slide3.png" /> <span> Description for picture </span> </a> </div>
+    </div>
+    <div class="login_area rights">
+      <form action="#">
+        <input type="text" value="" />
+        <input type="text" value="" />
+        <input type="submit" value="Login"  />
+        <div class="clear"></div>
+        <ul>
+          <li><a href="#">Forgot Password?</a></li>
+          <li><a href="#">New Account</a></li>
+        </ul>
+        <label>
+          <input type="checkbox" value="stay_signed" name=""/>
+          Stay signed </label>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="see_it">
+  <div class="see_it_area">
+    <ul>
+      <li>
+        <h2>See it!</h2>
+      </li>
+      <li>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt odio erat, ut fermentum lacus. Fusce fermentum ligula ac eros</p>
+      </li>
+      <li><span>Duis nec porttitor lorem Mauris et nisi urna nonfaucibus</span></li>
+    </ul>
+  </div>
+</div>
+<div id="content">
+  <div class="box_right">
+    <div class="box_right_top"></div>
+    <div class="box_right_middle">
+      <div class="contain_news lefts">
+        <h2>Want to see our Offices?</h2>
+        <span>Phasellus bibendum magna non enim porta. </span>
+        <p>Aenean tincidunt commodo orci, non varius ante tempor eu. Nunc viverra dapibus leo sed ullamcorper. Vestibulum pharetra magna vitae ante porta ac auctor risus venenatis. Donec non dolor sed nibh elementum tincidunt. Nullam lacinia pulvinar euismod. </p>
+        <img alt="" src="img/line_img.png" class="line_separe"/>
+        <input value="" type="button" class="read_more"/>
+      </div>
+      <img src="img/img_1.png" class="img_news rights" alt="" /> </div>
+    <div class="box_right_bottom"></div>
+    <div class="content_latest">
+      <h2>About Our Company</h2>
+      <img src="img/img_3.png" alt="" />
+      <p>Cras nec posuere arcu.Sed gravida commodo lacus sed faucibus. Donec et nibh mauris. In lobortis massa quis nibh varius at euismod risus eleifend. aecenas id mi ante. Morbi adipiscing molestie convallis. Morbi est metus, porttitor quis fermentum laoreet, aliquam ut arcu. <a href="#">Read More»</a></p>
+    </div>
+    <div class="content_latest">
+      <h2>Our Latest Work</h2>
+      <img src="img/img_4.png" alt="" />
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend est eu diam gravida aliquam. Cras nec posuere arcu. Sed gravida commodo lacus sed faucibus. Donec et nibh mauris. In lobortis massa quis nibh varius at euismod risus eleifend. <a href="#">Read More»</a></p>
+    </div>
+  </div>
+  <div class="siderbar">
+    <h2>Stay in touch</h2>
+    <img alt="" src="img/contact2_img.png"/>
+    <table>
+      <tr>
+        <td>Address: </td>
+        <td>0000 Av. of Success - NY - USA</td>
+      </tr>
+      <tr>
+        <td>Telephone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td >+000-0000-0000</td>
+      </tr>
+      <tr>
+        <td>FAX:</td>
+        <td>+000-0000-0000</td>
+      </tr>
+      <tr>
+        <td>Others:</td>
+        <td>+000-0000-0000 (ext. 00)</td>
+      </tr>
+      <tr>
+        <td>E-mail:</td>
+        <td>mail@company.com</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <h2>From the blog</h2>
+    <img alt="" src="img/blog_img.png" />
+    <p><small>00 Oct 2010 | 00 comments</small><br />
+      <strong>Duis nec porttitor lorem</strong><br />
+      Mauris et nisi urna nonfaucibus magna. Integer lacus ante then ullamcorper ut vulputate..</p>
+    <p> <small>00 Oct 2010 | 00 comments</small><br />
+      <strong>Aenean interdum</strong> Vestibulum ante ipsum primis in faucibus orci luctus ultrices ante posuere.</p>
+    <p> <small>00 Oct 2010 | 00 comments</small><br />
+      <strong>Integer vitae nisl</strong> Duis volutpat ligula laoreet orci lectus placerat Curabitur lectus malesuada pulvinar. </p>
+  </div>
+</div>
+<div class="bottom_content">
+  <div class="bottom_content_area">
+    <div class="bottom_content_left lefts"> <span>This is Popular</span>
+      <ul>
+        <li><a href="#">Our Work | 00</a></li>
+        <li><a href="#">About us (11)</a></li>
+        <li><a href="#">Iconshock (33)</a></li>
+        <li><a href="#">Templates (21)</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Our Work | 00</a></li>
+        <li><a href="#">About us (11)</a></li>
+        <li><a href="#">Iconshock (33)</a></li>
+        <li><a href="#">Templates (21)</a></li>
+      </ul>
+    </div>
+    <div class="bottom_content_right lefts"> <span>A Brief History</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tristique varius tortor. Ut nec dui in nisi volutpat rutrum. Morbi ullamcorper orci nec augue. Duis consequat blandit lacus. Morbi eu orci eu arcu congue tincidunt. Donec vitae justo condimentum pede aliquet consequat. Mauris vel mi. Nunc pede tortor, vestibulum at, bibendum condimentum, ultricies sed, mi. Suspendisse potenti. Phasellus eget metus in diam ornare porta. Curabitur aliquet elit in metus. </p>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="footer_area">
+    <div class="footer_navigation lefts margin">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">CLIENTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <small>Copyright &copy; <a href="#">Domain Name</a>, All rights reserved | Design by <a target="_blank" href="http://www.wordpressthemeshock.com/">ThemeShock</a></small> </div>
+    <div class="footer_navigation lefts">
+      <ul>
+        <li><a href="#"><img alt="" src="img/delicious.png"/></a></li>
+        <li><a href="#"><img alt="" src="img/facebook.png"/></a></li>
+        <li><a href="#"><img alt="" src="img/linked_in.png"/></a></li>
+        <li><a href="#"><img alt="" src="img/my_space.png"/></a></li>
+        <li><a href="#"><img alt="" src="img/technoratic.png"/></a></li>
+        <li><a href="#"><img alt="" src="img/rss.png"/></a></li>
+      </ul>
+    </div>
+    <a href="#"><img alt="" src="img/logo_footer.png" /></a> </div>
+</div>
+</body>
+</html>

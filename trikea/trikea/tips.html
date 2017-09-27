@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>trikea - spartan 3 column design</title>
+<meta name="Description" content="trIKEA is a spartan, 3 color 3 column blog style design inspired by the simplicity and utilitarianism of IKEA" />
+<meta name="Keywords" content="your, keywords" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Kevin Murray (www.1guywebdesign.com)" />
+<meta name="Robots" content="index,follow" />
+<link rel="stylesheet" type="text/css" href="css/trikea.css" />
+</head>
+<body id="tips">
+<div id="viewport"><a href="#"><img src="images/trikea.jpg" title="home" alt="" /></a>
+  <h1 class="accessibility">Your Website Title here</h1>
+  <h2 class="accessibility">Fancy pants slogan</h2>
+  <div id="center" class="contentBlock">
+    <!--MAIN CONTENT HERE-->
+    <span id="typoTitle">Tips &amp; Tweaks</span>
+    <h3>The <span>&lt;h1&gt; </span> tag</h3>
+    <p class="typo_help">The h1 html/css tag is used to display the title of the most important element on a document. In our case, it's the title of the site. If you look at the top left corner you'll see the trikea logo which is our logo but, it doesn't look anything like a screen font does it?. Hidden, way off to the side of your monitor is the h1 text. If your browser supports the application command "view source" or "disable css" try it and you'll see big, ugly screen font screaming the default name of this design. <br />
+      Search engines and screen readers/browsers that don't have image display capabilities need a way to discover your site identity so, we display the image-logo as a background-image which appears to all current browsers as the logo image and "push" the h1 title well off the side (via -999em) of most browser displays while leaving it totally viewable to screen readers and folks with images turned off. </p>
+    <h3>Content is King</h3>
+    <p class="typo_help">Newspapers know, news websites know, magazines and other media that needs to grab a viewers attention know... "Most important content moves to the head of the class". While we want our viewers to relax, enjoy the 3 column view and see all the important bits and links within the intended design sensibility we've spent months getting just right, it's also important to get your website content viewable quickly and easily by search engines.</p>
+    <h4>The gaff</h4>
+    <p class="typo_help">We see content from left to right. e.g. Left Column, Center Column, Right Column but, the most important information our website has isn't in the left column but rather it's in the center column. Search engines and screen readers will plow through your entire blogroll, recent posts list, calendar and who knows what else before they find any content that will tell them they want to continue reading. So, how can we change that?</p>
+    <h4>Three shell Monty</h4>
+    <p class="typo_help">With a bit of design forethought and a little css we can swap the order between the left and center column so that to normal browsers the left column appears before the center column but, with css disabled (how screenreaders and search engines see websites) it's all center column first, then left and finally the right. Life is good! </p>
+    <h3>Keyboard Shortcuts</h3>
+    <p class="typo_help">You folks are probably starting to think I'm obsessing about search engines and Disability accessibility but, it all ties together in the end if the results get you more eyetime with the public and better search positions. Keyboard shortcuts (combination keys that can perform the same navigation functions you'd get from clicking with your mouse) can be a real asset to those with disabilities that prevent mouse use. </p>
+    <div class="fittycent"> <strong>MAC Accesskey Mappings for trikea</strong>
+      <ul>
+        <li><em>ctrl  H</em>=Home</li>
+        <li><em>ctrl  U</em>=Useage</li>
+        <li><em>ctrl  Y</em>=Typography</li>
+        <li><em>ctrl  W</em>=W3c</li>
+        <li><em>ctrl  T</em>=Tips</li>
+        <li><em>ctrl  S</em>=Search</li>
+        <li><em>ctrl  C</em>=Contact</li>
+        <li><em>ctrl  O</em>=Colophon</li>
+        <li><em>ctrl  F</em>=FAQ</li>
+      </ul>
+    </div>
+    <div class="fittycent"> <strong>PC Accesskey Mappings for trikea</strong>
+      <ul>
+        <li><em>alt  H</em>=Home</li>
+        <li><em>alt  U</em>=Useage</li>
+        <li><em>alt  Y</em>=Typography</li>
+        <li><em>alt  W</em>=W3c</li>
+        <li><em>alt  T</em>=Tips</li>
+        <li><em>alt  S</em>=Search</li>
+        <li><em>alt  C</em>=Contact</li>
+        <li><em>alt  O</em>=Colophon</li>
+        <li><em>alt  F</em>=FAQ</li>
+      </ul>
+    </div>
+    <!--/MAIN CONTENT-->
+  </div>
+  <!--/center contentBlock-->
+  <div id="left">
+    <div id="leftBlock"> </div>
+    <!--/leftBlock-->
+  </div>
+  <!--/left-->
+</div>
+<!--/viewport-->
+<div id="right">
+  <h2 class="access">Viewing the Tips-N-Tweaks page</h2>
+  <div class="vmenuBlock">
+    <ul class="nav">
+      <li><a href="index.html" accesskey="h" class="mainlevel"><span class="acckey">H</span>ome</a></li>
+      <li><a href="cca.html" accesskey="u" class="mainlevel">&copy; and <span class="acckey">U</span>seage</a></li>
+      <li><a href="typo.html" accesskey="y" class="mainlevel">Content T<span class="acckey">y</span>pography</a></li>
+      <li><a href="w3c.html" accesskey="w" class="mainlevel" ><span class="acckey">W</span>3c Compliance</a></li>
+      <li><a href="tips.html" accesskey="t" class="mainlevel" id="active"><span class="acckey">T</span>weaks-n-Tips</a></li>
+      <li><a href="search.php.html" accesskey="s" class="mainlevel" ><span class="acckey">S</span>earch Form Demo</a></li>
+      <li><a href="contact.php.html" accesskey="c" class="mainlevel" ><span class="acckey">C</span>ontact Form Demo</a></li>
+      <li><a href="colo.html" accesskey="o" class="mainlevel" >C<span class="acckey">o</span>lophon</a></li>
+      <li><a href="faq.html" accesskey="f" class="mainlevel" ><span class="acckey">F</span>AQs</a></li>
+    </ul>
+  </div>
+  <!--/vmenuBlock-->
+</div>
+<!--/right-->
+<div id="footer">
+  <div id="footerBlock">
+    <p>&copy; 2007 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/"> Creative Commons License </a>3.0 | Design: visualweb - <a href="http://www.1guywebdesign.com/" title="design, develop, deploy">1guywebdesign</a> | Valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> and <a href="http://validator.w3.org/check?uri=referer">XHTML1.1-strict</a></p>
+  </div>
+  <!--/footerBlock-->
+</div>
+<!--/footer-->
+</body>
+</html>

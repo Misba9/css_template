@@ -1,0 +1,228 @@
+/* Design By: http://DENiAL-Design.com */
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body {
+	color: #FFF;
+	font: 0.9em 'Trebuchet MS', Verdana, sans-serif;
+	background: #f2efdc;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: #26465B;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: #405f72;
+}
+h1 {
+	font-family: Georgia, serif;
+	font-size: 200%;
+	font-weight: normal;
+	color: #405f72;
+}
+h2 {
+	font-family: Georgia, serif;
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #405f72;
+}
+h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font-family: Georgia, serif;
+	font-size: 140%;
+	line-height: 1em;
+	font-weight: normal;
+	color: #405f72;
+}
+h3 a {
+	font-size: 110%;
+}
+h3 a:hover {
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+ li {
+	background: #959179 url(images/bullet.png) left center no-repeat;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+blockquote {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #CECAB5;
+	border-left: 5px solid #171717;
+	color: #7C8585;
+	padding: 5px;
+		font-family: Georgia, serif;
+	font-size: 100%;
+	font-weight: bold;
+}
+#wrapper {
+	width: 780px;
+	margin: 0px auto 10px;
+}
+.logo {
+	float: left;
+	width: 780px;
+	text-align: left;
+	margin-bottom: -36px;
+	padding-left: 15px;
+	background: url(images/ufo_logo.png) no-repeat;
+}
+.logo h1 {
+	padding-left: 32px;
+
+}
+/*header-styles */
+#header-{
+	float: right;
+	width: 50%;
+	font-size: 93%;
+	line-height: normal;
+}
+#header-ul {
+	margin: 0;
+	padding: 10px 10px 0;
+	list-style: none;
+}
+#header-li {
+	float: left;
+	background: url("images/left.gif") no-repeat left top;
+	margin: 0;
+	padding: 0 0 0 9px;
+}
+#header-a {
+	float: left;
+	display: block;
+	background: url("images/right.gif") no-repeat right top;
+	padding: 5px 15px 4px 6px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #625E56;
+}
+/* Commented Backslash Hack   hides rule from IE5-Mac \*/
+#header-a {
+	float: none;
+}
+/* End IE5-Mac hack */
+#header-a:hover {
+	color: #eee;
+}
+#header-#current {
+	background-image: url("images/left_on.gif");
+}
+#header-#current a {
+	background-image: url("images/right_on.gif");
+	color: #fff;
+	padding-bottom: 5px;
+}
+.con_top {
+	background: #959179 url(images/con_top.gif) no-repeat;
+	margin-left: -10px;
+	margin-top: 9px;
+	height: 17px;
+}
+#con_mid {
+	background: #959179 url(images/cont.gif) top repeat;
+	padding: 10px;
+}
+.con_bottom {
+	background: #959179 url(images/con_bottom.gif) no-repeat;
+	margin-left: -10px;
+	height: 17px;
+}
+#top {
+	margin-top: 17px;
+	background: #cecab5 url(images/top.gif) top no-repeat;
+	padding: 10px;
+}
+#text p {
+	padding: 5px 15px;
+}
+.post {
+	width: 520px;
+}
+.post p {
+	padding: 0;
+	font-size: 100%;
+	line-height: 1.5em;
+}
+/* sidebar */
+#sidebar {
+	float: right;
+	width: 190px;
+	padding: 5px;
+}
+#sidebar ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+#sidebar li {
+	background: #959179 url(images/bullet.png) left center no-repeat;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+#sidebar h3 {
+padding-top: 6px;
+padding-left: 10px;
+background: url(images/side_title.png) no-repeat;
+height: 35px;
+margin-bottom: -5px;
+}
+.side_photo {
+	text-align: center;
+	padding: 5px;
+}
+.center {
+	text-align: center;
+}
+.left {
+	float: left;
+	padding-right: 5px;
+}
+.right {
+	float: right;
+	padding-left: 5px;
+}
+/* Meta */
+.meta {
+	float: right;
+	width: 95%;
+	padding: 5px;
+}
+.comments {
+	text-align: left;
+	padding: 30px 0 0;
+	position: relative;
+}
+.commentslink {
+	padding: 2px 0 2px 20px;
+	background: url('images/comments.png') left center no-repeat;
+	margin-right: 10px;
+}
+/*Footer styles*/
+#footer {
+	background: url(images/bottom.gif) bottom no-repeat;
+	text-align: center;
+	padding: 5px;
+	font-size: 0.8em;
+}
+#footer a {
+	color: #625E56;
+	text-decoration: none;
+}
+#footer a:hover, a:active {
+	color: #405f72;
+	background: none;
+}

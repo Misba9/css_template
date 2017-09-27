@@ -1,0 +1,208 @@
+/* -------------------------------------------
+The "Idyllic" template was Designed and
+handmade by Ian Smith of www.n-vent.com
+----------------------------------------------*/
+
+/* general layout and menu styles
+============================= */
+body {
+	background:#fff url(images/bg.jpg) no-repeat top center;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 90%;
+	padding: 0;
+	margin: 0;
+	color: #444;
+	}
+
+#page {
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	text-align: left;
+	width: 1000px;
+	}
+
+a img {
+	border: none;
+	}
+
+h1#sitetitle,
+h1#pagetitle,
+h2#pagedesc {
+	position: absolute;
+	color: #fff;
+	text-align: right;
+	width: 480px;
+	margin-left: 220px;
+	font-weight: normal;
+	}
+
+h1#sitetitle {
+	margin-top: 70px;
+	font-size: 3em;
+	}
+
+h1#pagetitle {
+	margin-top: 130px;
+	font-size: 1.4em;
+	margin-bottom: 0;
+	}
+
+h2#pagedesc {
+	font-size: 0.9em;
+	margin-top: 160px;
+	}
+
+#rightcol {
+    position: absolute;
+	margin: 0;
+	padding: 0 0 0 5px;
+	top: 145px;
+	left: 715px;
+	border-left: 1px solid #fff;
+	width: 270px;
+	min-height: 800px;
+	}
+
+#rightcol a:link{
+    color: #000;
+	}
+
+#rightcol a:hover, #rightcol a:focus {
+    color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+	}
+
+#rightcol a:visited {
+	color: #000;
+    background-image: url(images/visited.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+	padding-right: 10px;
+	}
+
+#rightcol h2, #rightcol ul, #rightcol li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #000;
+	}
+
+#rightcol h2 {
+    border-bottom: 1px solid #fff;
+	margin: 0 0 5px 0;
+	font-size: 1.3em;
+	}
+
+#rightcol ul {
+    padding-bottom: 10px;
+	}
+
+#rightcol li {
+    padding-left: 5px;
+	}
+
+#content {
+	position: absolute;
+	top: 255px;
+	left: 220px;
+	width: 475px;
+	padding: 0;
+	margin: 0;
+	}
+
+#leftcol {
+	position: absolute;
+	top: 255px;
+	left: 100px;
+	width: 110px;
+    background-image: url(images/leftside.jpg);
+    background-repeat: no-repeat
+}
+
+#footer {
+	border-top: 1px dashed #3fdb28;
+	font-size: 75%;
+	text-align: center;
+	color: #555;
+	margin: 30px 0;
+	clear: both;
+	}
+#footer a {
+	color: #555;
+	}
+a:link {
+    color: #1a97fd;
+	}
+a:hover, a:focus {
+	color: #3fdb28;
+	text-decoration: none;
+	}
+a:visited {
+	color: #000;
+    background-image: url(images/visited.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+	padding-right: 10px;
+	}
+
+
+/* content styles
+===================== */
+blockquote {
+	padding: 0 0 0 23px;
+	margin: 10px;
+	color: #666;
+    background-image: url(images/quote.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-style: italic
+}
+
+h1, h2, h3, h4 {
+    margin: 0 0 5px;
+	padding: 0;
+	}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #1a97fd;
+	}
+
+#content h1 {
+    border-bottom: 1px dashed #1a97fd;
+	}
+
+
+h2 {
+	font-size: 1.2em;
+	color: #009700;
+	}
+
+h3, h4 {
+	font-size: 1em;
+	color: #000;
+	}
+
+p {
+    padding: 0;
+	margin: 0 0 10px;
+}
+
+.imgright {
+    float: right;
+	padding: 0;
+	margin: 0 0 6px 6px;
+	}
+
+.imgleft {
+    float: left;
+	padding: 0;
+	margin: 0 6px 6px ;
+	}
+
+

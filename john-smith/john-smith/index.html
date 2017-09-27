@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>John Smith</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<link rel="stylesheet" href="styles/prettyPhoto.css" type="text/css" />
+<!--[if lt IE 8]><style type="text/css">.container .gallery{padding-bottom:28px;}</style><![endif]-->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="scripts/jquery.scrollTo-min.js" type="text/javascript"></script>
+<script src="scripts/cufon-yui.js" type="text/javascript"></script>
+<script src="scripts/Bergamo_Std_400_italic_400.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+Cufon.replace('.Bergamo_Std', { fontFamily: 'Bergamo Std', fontWeight: '400' });
+Cufon.replace('.Bergamo_Ita', { fontFamily: 'Bergamo Std', fontWeight: '400', fontStyle: 'italic' });
+$(document).ready(function () {
+    $('#topnav a').click(function () {
+        var to = $(this).attr('href');
+        $.scrollTo(to, 1200);
+        return false;
+    });
+    $('a.topOfPage').click(function () {
+        $.scrollTo(0, 1200);
+        return false;
+    });
+	$("a[rel^='prettyPhoto']").prettyPhoto({theme:'dark_rounded'}); 
+});
+</script>
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div class="wrapper">
+  <div id="header">
+    <h1><a href="#" class="Bergamo_Std">John Smith</a> <em class="Bergamo_Ita">freelance designer</em></h1>
+    <div id="topbar" class="clear">
+      <ul id="topnav">
+        <li><a href="#services">My Services</a></li>
+        <li><a href="#mywork">My Work</a></li>
+        <li><a href="#content">About Me</a></li>
+        <li class="last"><a href="#shout">Get in Touch</a></li>
+      </ul>
+      <p>find me on: <a href="#">Twitter</a>, <a href="#">Facebook</a></p>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="services" class="services clear">
+      <!-- Box 1 -->
+      <div class="box">
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac augue quam, id scelerisque massa. Nullam et convallis libero. Sed at diam libero, ac tristique justo. Duis tortor dui, dictum non lobortis non, fringilla sit amet neque. Ut nec convallis augue. Pellentesque elit ipsum, consectetur eu volutpat at, varius id enim.</p>
+      </div>
+      <!-- Box 2 -->
+      <div class="box">
+        <h2>Web Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac augue quam, id scelerisque massa. Nullam et convallis libero. Sed at diam libero, ac tristique justo. Duis tortor dui, dictum non lobortis non, fringilla sit amet neque. Ut nec convallis augue. Pellentesque elit ipsum, consectetur eu volutpat at, varius id enim.</p>
+      </div>
+      <!-- Box 3 -->
+      <div class="box last">
+        <h2>Logo Design</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac augue quam, id scelerisque massa. Nullam et convallis libero. Sed at diam libero, ac tristique justo. Duis tortor dui, dictum non lobortis non, fringilla sit amet neque. Ut nec convallis augue. Pellentesque elit ipsum, consectetur eu volutpat at, varius id enim.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="mywork" class="gallery clear">
+      <ul>
+        <li><a href="images/placeholders/500x500.gif" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/280x160.gif" alt="" /></a></li>
+        <li><a href="images/placeholders/500x500.gif" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/280x160.gif" alt="" /></a></li>
+        <li><a href="images/placeholders/500x500.gif" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/280x160.gif" alt="" /></a></li>
+        <li><a href="images/placeholders/500x500.gif" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/280x160.gif" alt="" /></a></li>
+        <li><a href="images/placeholders/500x500.gif" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/280x160.gif" alt="" /></a></li>
+        <li><a href="images/placeholders/500x500.gif" rel="prettyPhoto[g1]" title="Image Caption Goes Here"><img src="images/placeholders/280x160.gif" alt="" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="content">
+      <h2>About me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac augue quam, id scelerisque massa. Nullam et convallis libero. Sed at diam libero, ac tristique justo. Duis tortor dui, dictum non lobortis non, fringilla sit amet neque. Ut nec convallis augue. Pellentesque elit ipsum, consectetur eu volutpat at, varius id enim.</p>
+      <p>Sed rhoncus suscipit nibh, vitae euismod augue laoreet sed. Maecenas pulvinar mauris arcu, ac interdum lectus. Quisque ut risus lectus, ac ullamcorper massa. Vivamus lobortis, diam eu rhoncus fermentum, massa eros rhoncus quam, id vehicula nibh risus sit amet ipsum. In leo nunc, ornare sed tincidunt tristique, tempus ut metus. Maecenas tempor tellus vitae metus scelerisque convallis.</p>
+    </div>
+    <!-- / ### -->
+    <div id="column">
+      <h2>My Skills</h2>
+      <ul id="skills">
+        <li class="star0">Adobe Photoshop</li>
+        <li class="star1">Adobe Illustrator</li>
+        <li class="star2">Adobe InDesign</li>
+        <li class="star3">Adobe Fireworks</li>
+        <li class="star4">HTML/CSS:</li>
+        <li class="star5">PHP</li>
+        <li class="star5">Flash</li>
+      </ul>
+    </div>
+    <!-- / ### -->
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div id="shout">Want to hire me? To contact me about your project, send an email to <a href="#">johnsmith@example.com</a>.</div>
+    <!-- / ### -->
+    <div id="backtotop"><a href="#header" class="topOfPage">back to top</a></div>
+    <!-- / ### -->
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper col1">
+  <div id="copyright" class="clear">
+    <p class="fl_left">Copyright &copy; 2010 - <a href="#">SiteName</a>, All Rights Reserved</p>
+    <p class="fl_right">Coded by: <a target="_blank" href="http://www.free-psd.co/">Free PSD Templates</a></p>
+  </div>
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<!-- END PAGE SOURCE -->
+</body>
+</html>

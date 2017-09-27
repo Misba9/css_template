@@ -1,0 +1,277 @@
+body {
+	font-family: Arial, Verdana, Geneva, helvetica, sans-serif;
+	margin: 0px;
+	background-image: url(images/back.gif);
+	background-repeat: repeat-x;
+	background-color:#871902;
+  	font-size: 12px;
+  	color: #222;
+}
+
+table {
+	font-size: 12px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #b60000;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	color: #b60000;
+	font-weight: normal;
+	margin: 0px;
+	padding-top: 0px;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+	margin: 0px;
+}
+
+a:link {
+	color: #871902;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #871902;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#container_big {
+	width: 794px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#container {
+	float: left;
+	position: relative;
+	width: 794px;
+	text-align: left;
+	padding: 0px;
+}
+
+
+#header {
+	float: left;
+	position: relative;
+	width: 794px;
+	height: 77px;
+	text-align: left;
+	background-image: url(images/header.gif);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+	float: right;
+	position: absolute;
+	width: 450px;
+	height: 29px;
+	right: 0px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	text-align: center;
+	top: 47px;
+}
+
+#navigation a
+{
+color: #fff;
+text-decoration: none;
+padding-left: 13px;
+} 
+
+#navigation a span
+{
+background: url("images/a_link_r.gif") right top no-repeat;
+padding-right: 13px;
+padding-top: 6px;
+}
+
+#navigation a, #navigation a span
+{
+display: block;
+float: left;
+height: 36px;
+}
+
+#navigation a:hover
+{
+color: #fff;
+background: #fff url("images/a_hover.gif") left top no-repeat;
+text-decoration: none;
+padding-left: 13px
+}
+
+#navigation a:hover span
+{
+background: url("images/a_hover_r.gif") right top no-repeat;
+padding-right: 13px;
+padding-top: 6px;
+}
+
+#navigation
+{
+list-style: none;
+padding: 0;
+margin: 0;
+height: 36px;
+}
+
+#navigation li
+{
+float: left;
+display: block;
+margin: 0;
+padding: 0;
+margin-left: 4px;;
+height: 36px;
+}
+
+
+#steps {
+	float: left;
+	position: relative;
+	width: 794px;
+	height: 221px;
+	left: 0px;
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	color: #222;
+	top: 0px;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.box {
+	float: left;
+	position: relative;
+	width: 235px;
+	margin-left: 10px;
+}
+
+
+#content {
+	float: left;
+	position: relative;
+	width: 794px;
+	text-align: left;
+	padding: 0px;
+	overflow: hidden;
+	background-image: url(images/content_back.gif);
+	background-repeat: repeat-y;
+	background-color: #FFFFFF;
+}
+
+#right {
+	width: 247px;;
+	float: right;
+	position: relative;
+	right: 6px;
+	background: #CCCC66;
+	top: 4px;
+	color: #fff;
+	background: #871902;
+}
+
+#right a {
+	color: #fff;
+}
+
+#right h1 {
+	color: white;
+}
+
+#main {
+	float: left;
+	position: relative;
+	width: 535px;
+	left: 6px;
+}
+
+#footer {
+	float: left;
+	position: relative;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 794px;
+	background-image: url(images/footer.gif);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	text-align: center; 
+	color: #eaeaea;
+	padding-top: 5px;
+	height: 41px;
+}
+
+#footer img {
+	margin: 2px;
+	border: solid 3px #F2D2A8;
+}
+
+#footer a {
+	color: #fff;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footer a:hover {
+	color: #111;
+	text-decoration: none;
+}
+
+input, textarea, button { 
+	background-color: #fff;
+	color: #94C00D;
+	border: solid 2px #94C00D;
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+	height: 20px;
+	margin-top: 4px;
+}
+
+.btn {
+	border: 0px;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 20px;
+	position: absolute;
+}
+
+ul {
+	list-style-type: square;
+}
+
+#ttitle {
+	background-color: #900000;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+h1#logo {color:#fff; padding-top: 15px; padding-left: 30px;} 
+#slogan{color:#fff;  padding-left: 30px;} 

@@ -1,0 +1,75 @@
+/* CSS Document */
+
+body{margin:0px; padding:0px; background:#4A4E4A; font:11px/14px verdana,arial;
+}
+p{margin:0px; padding:0px;
+}
+img{border:0px;}
+.flt{ float:left;}
+.flt1{ clear:left; float:left;}
+.flt2{ float:right;}
+#main_block{width:945px; margin:auto; background:#ffffff;}
+.cp_block{width:945px; margin:0px; background:#ffffff;}
+.tp_logo{margin:43px 46px 0px 18px;}
+.topblock{width:945px; height:241px; background:url(../images/tp_backgr.jpg) no-repeat;}
+#lftblock{display:inline; float:left; width:650px; height:41px; margin-top:70px;} 
+#lftblock span{
+	float:left;
+	display:inline;
+	background:url(../images/tp_tabhome.gif) no-repeat;
+	width:124px;
+	height:41px;
+	margin-right:3px;
+	}
+#lftblock span a{
+float:left;
+	color:#FFFFFF;
+	margin-left:30px;
+	text-decoration:none;
+}
+.tp_home{font:bold 15px/24px Trebuchet MS; color:#ffffff; text-align:center; margin-top:12px; text-decoration:none;}
+.lp_padd{display:inline; width:609px; margin:0px 0px 0px 32px; background:#ffffff;}
+.lp_weltxt,.lp_childtxt,.rp_head,.inn_about,.inn_testi{font:bold italic 22px/24px Georgia; color:#A55702; margin-top:22px; width:580px;}
+.rp_serv,.inn_our,.inn_traing{font:bold italic 22px/24px Georgia; color:#fefefe; margin:18px 0px 0px 19px; width:270px;}
+.inn_traing{color:#ffffff; margin:28px 0px 0px 23px; width:480px; }
+.inn_our{color:#000000; margin:12px 0px 0px 18px; width:230px;}
+.rp_head{color:#333329; margin:18px 0px 0px 14px; width:260px;}
+.lp_childtxt{color:#747474; margin-top:17px; width:270px;}
+.inn_about{color:#747474; margin:22px 0px 0px 20px; width:652px;}
+.inn_testi{color:#747474; margin:14px 0px 0px 20px; width:466px;}
+.lp_loremtxt{width:580px; margin-top:12px; color:#2A2A2A;}
+.lp_loremtxt2{width:260px; margin-top:12px; color:#2A2A2A;}
+.rp_facitxt{width:260px; margin:8px 0px 0px 14px; color:#333329;}
+.lp_linktxt,.lp_linktxt2{width:230px; margin-top:10px; color:#848483;}
+.lp_linktxt2{width:258px; display:inline; }
+.cp_line{margin-top:14px;}
+.cp_vertline{margin-top:52px;}
+.lp_arrow{margin:15px 8px 0px 0px;}
+.lp_facitxt{width:280px; margin-top:14px; color:#000000;}
+.rp_padd{ display:inline; width:303px; margin:0px; background:#FFFFCB; padding-bottom:2px; border-right:1px solid #ffffff;}
+.rp_bck{ display:inline; width:302px; margin:0px; background:#C5C591; border-left:1px solid #FFFFCB;}
+.rp_img1{margin:20px 0px 0px 13px;}
+.rp_img2{margin:12px 0px 0px 17px;}
+.rp_img3{margin:20px 20px 0px 18px;}
+.rp_arrow{margin:15px 8px 0px 19px;}
+.rp_linktxt{width:230px; margin-top:10px; color:#ffffff;}
+.rp_add{display:inline; width:259px; height:114px; margin:26px 0px 0px 20px; background:url(../images/rp_addjoin.jpg) no-repeat; padding-bottom:36px;}
+.ft_bg{display:inline; width:943px; height:74px; margin:0px; background:url(../images/ft_bg.gif) repeat-x; border-left:1px solid #ffffff; border-right:1px solid #ffffff; font:11px/14px verdana,arial; color:#ffffff;}
+.ft_pipe{margin:26px 10px 0px 10px;}
+.ft_home{margin:26px 0px 0px 242px; color:#ffffff; text-decoration:none;}
+.ft_home2{margin:26px 0px 0px 0px; color:#ffffff; text-decoration:none;}
+.ft_home3{margin:6px 0px 0px 300px; color:#ffffff; width:640px;}
+.rp_moretxt{width:100px; margin:78px 0px 0px 26px; color:#ffffff;}
+.inn_lppadd{ display:inline; width:262px; margin:0px; background:#FFFFCB; padding-bottom:56px; border:3px solid #ffffff;}
+.inn_rppadd{ display:inline; width:677px; margin:0px;}
+.inn_arrow{margin:16px 18px 0px 14px;}
+.inn_linktxt{width:208px; margin-top:11px; color:#3C3C3B;}
+.inn_add{display:inline; width:224px; height:120px; margin:26px 0px 0px 13px; background:url(../images/inn_lpadd.jpg) no-repeat;}
+.inn_abttxt{width:490px; margin:14px 0px 0px 20px; color:#000000;}
+.inn_imgfamily{margin:14px 0px 0px 4px;}
+.inn_imggirl{margin:22px 0px 0px 20px;}
+.inn_testtxt{width:444px; margin:8px 0px 0px 20px; color:#2F1C1B;}
+.inn_train{display:inline; width:638px; height:173px; margin:22px 0px 0px 18px; background:url(../images/inn_ladybg.gif) repeat-x;}
+.inn_arrow2{margin:12px 14px 0px 26px;}
+.inn_linktxt2{width:456px; margin-top:8px; color:#FFFFFF; text-decoration:none;}
+

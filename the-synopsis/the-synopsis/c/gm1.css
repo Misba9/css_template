@@ -1,0 +1,355 @@
+/*
+//////////////////////////////////////////////////////////////////////////
+© Gordon Mackay. All rights reserved.
+Use at your own risk. Your server may blow up and browsers may fail miserably.
+//////////////////////////////////////////////////////////////////////////
+Please see the Creative Commons License at: 
+http://creativecommons.org/licenses/by-sa/2.0/
+*/
+body {
+	background: #FFFFFF;
+	color: #333333;
+	font: 62.5% Arial, Helvetica, sans-serif;
+	margin: 20px 0 20px 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1,h2,h3,h4 {
+	background: transparent;
+	color: #4D6B6D;
+	line-height: 1.2em;
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: .5em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.9em;
+}
+
+.post h2 {
+	background: url(../i/gm_posthdbg.jpg) no-repeat left center;
+	padding: 0 0 0 25px;
+}
+
+#blogheading {
+	height: 52px;
+	margin: 0 0 30px 0;
+	position: relative;
+	width: auto;
+}
+
+#blogheading span {
+	background: url(../i/gm_synopsis.jpg) no-repeat;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+#siding {
+	height: 52px;
+	margin: 0 0 30px 0;
+	position: relative;
+	width: auto;
+}
+
+#siding span {
+	background: url(../i/gm_sidebarhead.jpg) no-repeat;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+li, dd, blockquote, table, label, p, form {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+img {
+	border: 0 none;
+}
+
+table {
+	border: 1px solid #889A9E;
+	border-collapse: collapse;
+}
+
+td, th {
+	font-size: 1.1em;
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+}
+
+thead {
+	background: #ECEEF0;
+	color: #8C9B9E;
+}
+
+a:link {
+	background: transparent;
+	color: #546D71;
+}
+
+a:visited {
+	background: transparent;
+	color: #000000;
+}
+
+a:hover,a:focus,a:active {
+	background: transparent;
+	color: #000000;
+}
+
+ul {
+	list-style: none;
+	margin: 1em 0 1em 0;
+	padding: 0;
+}
+
+ul li {
+	background: url(../i/gm_ulbul.gif) no-repeat left center;
+	padding: 0 0 0 17px;
+}
+
+dl dd {
+	padding: 0 0 0.8em 0;
+}
+
+dl dt {
+	font-weight: bold;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+blockquote strong {
+	background: transparent;
+	color: #8C9B9E;
+	font-weight: bold;
+	text-transform: none;
+}
+
+cite {
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+
+input {
+	background: transparent;
+	border: 1px solid #546D71;
+	color: #8C9B9E;
+	font-size: 1.1em;
+	margin: 0.5em 0 0.5em 0;
+}
+
+textarea {
+	background: transparent;
+	border: 1px solid #546D71;
+	color: #8C9B9E;
+	margin: 0.5em 0 0.5em 0;
+}
+
+select {
+	background: #FFFFFF;
+	border: 1px solid #546D71;
+	color: #8C9B9E;
+	font-size: 1.1em;
+	margin: 0.5em 0 0.5em 0;
+}
+
+fieldset {
+	border: 1px solid #546D71;
+	margin: 0;
+	padding: 1em;
+}
+
+						
+legend {
+	background: transparent;
+	color: #8C9B9E;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+	line-height: 1em;
+	margin: 0;
+	padding: 0.5em;
+	text-transform: uppercase;
+}
+
+div.codeholder {
+	height: 100px;
+	margin: 1em 0 1em 0;
+	overflow: auto;
+	padding: 10px;
+	width: 320px;
+}
+
+code,pre {
+	background: transparent;
+	color: #000000;
+	font: 14px normal monospace, sans-serif;
+	margin: 0 0 1em 0;
+	padding: 1em 0 1em 0;
+}
+
+code strong {
+	background: transparent;
+	color: #333333;
+	font-weight: bold;
+	text-transform: none;
+}
+
+#wrapper {
+	background: url(../i/gm_wrapbg.jpg) repeat-y;
+	border-bottom: 7px solid #546D71;
+	border-top: 7px solid #546D71;
+	margin: 0 auto;
+	padding: 0 7px 0 7px;
+	text-align: left;
+	width: 700px;
+	w\idth: 686px;
+}
+
+#logo {
+	height: 293px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#navigation {
+	height: 49px;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation img {
+	margin: 0;
+	padding: 0;
+}
+
+#skipnav {
+	left: 10px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 270px;
+}
+
+#skipnav a {
+	color: #FFFFFF;
+	font-size: .8em;
+}
+
+#left {
+	float: left;
+	width: 386px;
+}
+
+#content-left {
+	padding: 0 14px 6px 14px;
+	font-size: 1.1em;
+}
+
+#right {
+	float: right;
+	width: 293px;
+}
+
+#content-right {
+	padding: 14px 14px 6px 14px;
+	font-size: 1em;
+}
+
+#datemainpage {
+	color: #8C9B9E;
+	font-size: .9em;
+	letter-spacing: .1em;
+	margin-top: -.8em;
+	text-transform: uppercase;
+}
+
+#downloadsbox {
+	border: 1px solid #546D71;
+	margin: 0;
+	padding: .5em;
+}
+
+#downloadsbox p {
+	font-size: 1.1em;
+}
+
+#footer {
+	border-top: 4px solid #546D71;
+	clear: both;
+	font-size: 9px;
+	line-height: 1.2em;
+	padding: 16px 0 0 10px;
+	text-transform: uppercase;
+}
+
+.clearit {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.post {
+	border-bottom: 1px solid #DDDDDD;
+	margin: 0 0 1em 0;
+	padding: 0 0 1em 0;
+}
+
+.date {
+	color: #666666;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0 0 .2em 0;
+	text-transform: uppercase;
+}
+
+p.comment {
+	display: block;
+	margin: 0;
+}
+
+.bolden {
+	font-weight: bold;
+}
+
+.noborder {
+	border: 0 none;
+}
+
+img.photo {
+	border: 1px solid #546D71;
+	margin: 4px;
+	padding: 4px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}

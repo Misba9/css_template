@@ -1,0 +1,20 @@
+/* width - IE hack */
+
+/*
+
+Import this stylesheet putting this in the <head>
+
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="template/micro_ie.css" title="default" media="screen" />
+<![endif]-->
+
+
+*/
+
+
+.right20         {*width: 19.9%}
+.right25         {*width: 24.9%}
+.left33, .right33 {*width: 33.9%}
+.right50         {*width: 49.9%}
+.left75, .right75 {*width: 74.9%}
+.left80, .right80 {*width: 79.9%}

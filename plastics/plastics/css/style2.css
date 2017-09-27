@@ -1,0 +1,370 @@
+*,body,#header,#mainnav,#content,#footer,.sidebottom,.sidebottom p,#bottomright,#bottomright p,h2,#navlist,#footer p {
+	margin:0
+}
+
+*,body,#mainnav,#content,#sidebar,.added-div1,.added-divin1,.sidebottom,.sidebottom p,#added-div-2,#added-divin-2,#bottomright,h5,#navcontainer {
+	padding:0
+}
+
+body {
+	background:#f9f9f7;
+	font:85% tahoma,Georgia,"Times New Roman",Times,serif;
+	color:#505367
+}
+
+body,.sidebottom p,h3,.thumbnail,.gallery {
+	text-align:center
+}
+
+#container {
+	width:780px;
+	margin:0 auto 10px
+}
+
+#container,.sidecontainer,.sidenavlist li {
+	text-align:left
+}
+
+#container,#header {
+	padding:20px 0 0
+}
+
+#header {
+	background:url(../images/head.gif) no-repeat center top;
+	height:295px
+}
+
+#mainnav {
+	height:42px
+}
+
+#content {
+	background:url(../images/mid.gif) repeat-y right top
+}
+
+#content,#sidebar,.added-div1,.added-divin1,#added-div-2,#added-divin-2,h3,.thumbnail,#footer h3 {
+	height:auto
+}
+
+#footer {
+	background:#f9f9f7 url(../images/footer1.gif) no-repeat center;
+	height:80px
+}
+
+#footer,#footer a,#footer a:link,h2,#navlist a,#navlist a:link,#footer p {
+	color:#d4d0c8
+}
+
+#footer,.sidenavlist a,.sidenavlist a:link {
+	font-size:0.8em
+}
+
+#footer,.clearboth {
+	clear:both
+}
+
+#footer,h1,#footer p {
+	text-align:right
+}
+
+#footer,#bottomright p,h1,h3 {
+	padding-top:0
+}
+
+#footer a,#footer a:link,a,a:link {
+	text-decoration:underline
+}
+
+#footer a:hover {
+	color:#f9f9f7
+}
+
+#sidebar,h3,.fancyfont {
+	background:no-repeat
+}
+
+#sidebar,.added-div1,.added-divin1,.sidebottom,#added-div-2,#added-divin-2,#navlist,.sidecontainer {
+	position:relative
+}
+
+#sidebar,.added-div1,.added-divin1,.sidebottom {
+	width:215px
+}
+
+#sidebar,.added-div1,.added-divin1,.sidebottom,#added-div-2,#added-divin-2,.thumbnail,a.thumbnail,a.thumbnail:link {
+	float:left
+}
+
+#sidebar {
+	margin:0 5px 0 0
+}
+
+#sidebar h3 {
+	color:#fdf5f4;
+	margin-top:12px;
+	margin-bottom:20px
+}
+
+.added-div1 {
+	background:url(../images/sidetop3.jpg) no-repeat center top;
+	margin:0 5px 0 10px
+}
+
+.added-div1,.added-divin1,.sidebottom {
+	z-index:1
+}
+
+.added-divin1 {
+	background:url(../images/sidemid2.jpg) repeat-y center;
+	margin:20px 0 0
+}
+
+.sidebottom {
+	background:url(../images/sidebottom2.jpg) no-repeat center bottom;
+	height:25px
+}
+
+.added-div1 p,.thumbnail {
+	margin:5px
+}
+
+#added-div-2 {
+	background:url(../images/topright2.jpg) no-repeat center top;
+	margin:10px 0 0 10px
+}
+
+#added-div-2,#added-divin-2,#bottomright {
+	width:500px
+}
+
+#added-divin-2 {
+	background:url(../images/midright2.jpg) repeat-y center;
+	margin:25px 0 0
+}
+
+#bottomright {
+	background:url(../images/bottomright4.jpg) no-repeat center;
+	height:54px
+}
+
+#bottomright p,h4 {
+	padding-left:20px
+}
+
+h1,.fancyfont,a.fancyfont,a.fancyfont:link,a.fancyfont:hover {
+	color:#5b473f
+}
+
+h1,h2,a:link,#navlist a,#navlist a:link {
+	font-size:1em
+}
+
+h1,h2,h3,h4,h5,#navlist a,#navlist a:link,#current,#current a,#current a:link {
+	font-weight:normal
+}
+
+h1,h2,h3,.sidenavlist li,.thumbnail {
+	width:auto
+}
+
+h1,.fancyfont {
+	height:100px
+}
+
+h1 {
+	margin-top:40px;
+	padding-right:50px
+}
+
+h1,.sidecontainer,.sidenavlist li,ul .sidenavlist {
+	padding-left:0
+}
+
+h2 {
+	background:url(../images/quotesleft.jpg) no-repeat 40px center;
+	height:50px;
+	padding:10px 40px 0 110px;
+	border-bottom-color:#e5e5e4;
+	border-bottom-width:1px
+}
+
+h3,h4 {
+	color:#5c5c5e
+}
+
+h3,h5 {
+	margin:0 0 10px
+}
+
+.leftcol {
+	background:right top
+}
+
+h4,#navlist {
+	padding-top:10px
+}
+
+h5,a:hover {
+	color:#a12621
+}
+
+a,a:link {
+	color:#747474
+}
+
+a,.rightcol {
+	font-size:0.9em
+}
+
+a:active {
+	color:#800000
+}
+
+#navcontainer,.floatright {
+	float:right
+}
+
+#navcontainer {
+	margin:80px 60px 0 0
+}
+
+#navlist {
+	padding-bottom:3px
+}
+
+#navlist,ul #navlist {
+	padding-left:70px
+}
+
+ul #navlist {
+	white-space:nowrap
+}
+
+#navlist li,#current a:visited,.sidecontainer,.sidenavlist li,.sidenavlist a,.sidenavlist a:link,.sidenavlist a:visited,.sidenavlist a:hover,ul .sidenavlist,#sidecurrent a,#sidecurrent a:link,#sidecurrent a:visited {
+	list-style-type:none
+}
+
+#navlist li,.floatright {
+	display:inline
+}
+
+#navlist li,#footer h3 {
+	margin-bottom:0
+}
+
+#navlist li,.sidenavlist a,.sidenavlist a:link,ul .sidenavlist,.gallery {
+	margin-left:0
+}
+
+#navlist li,.sidecontainer {
+	padding-right:3px
+}
+
+#navlist a,#navlist a:link {
+	padding-right:5px;
+	padding-left:5px
+}
+
+#navlist a:link,#navlist a:visited,#current a:visited,#current a:hover,.sidenavlist a:link,.sidenavlist a:visited,#sidecurrent,#sidecurrent a:visited,a.fancyfont,a.fancyfont:link,a.fancyfont:visited,a.fancyfont:hover,.thumbnail,a.thumbnail,a.thumbnail:link,a.thumbnail:visited,a.thumbnail:hover {
+	text-decoration:none
+}
+
+#navlist a:hover {
+	background:#a73434;
+	color:#f6f6f6
+}
+
+#current,#current a,#current a:link {
+	color:#fff
+}
+
+#current a:hover {
+	color:#e8e8cc
+}
+
+.rightcol {
+	padding:0 20px 10px
+}
+
+.sidecontainer {
+	background:no-repeat left center;
+	width:160px;
+	margin:15px 6px 15px 20px;
+	border-top:1px none #c4e786;
+	border-bottom:1px none #c4e786
+}
+
+.sidecontainer,.sidenavlist li,.sidenavlist a,.sidenavlist a:link,.fancyfont {
+	display:block
+}
+
+.sidenavlist li {
+	margin-top:5px
+}
+
+.sidenavlist a,.sidenavlist a:link {
+	color:#000
+}
+
+.sidenavlist a {
+	width:120px;
+	border-style:none none solid;
+	border-width:medium medium 1px;
+	border-color:#000 #000 #ccc
+}
+
+.sidenavlist a:hover {
+	color:#c4c3b1;
+	border-right:medium none;
+	border-bottom:1px solid #000
+}
+
+#sidecurrent a,#sidecurrent a:link {
+	color:#ce0000
+}
+
+.fancyfont {
+	padding-right:40px
+}
+
+a.fancyfont,a.fancyfont:link {
+	background:url(../images/text1.jpg) no-repeat 80% 0
+}
+
+img {
+	border-style:none
+}
+
+.floatright {
+	margin-left:5px
+}
+
+.floatright,.thumbnail,a.thumbnail,a.thumbnail:link,a.thumbnail:hover {
+	padding:3px
+}
+
+.floatright,.thumbnail,a.thumbnail,a.thumbnail:link {
+	border:solid 1px #8d7539
+}
+
+a.thumbnail,a.thumbnail:link {
+	font-weight:bold
+}
+
+a.thumbnail:hover {
+	border:solid 1px #a73434
+}
+
+.gallery {
+	width:400px;
+	padding-left:110px
+}
+
+#footer h3 {
+	margin-top:0
+}
+
+#footer p {
+	padding:45px 110px 0 0
+}
+

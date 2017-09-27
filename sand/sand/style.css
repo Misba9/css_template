@@ -1,0 +1,248 @@
+body {
+   background: #39322B;
+   margin: 0 0 50px 0; padding: 0;
+   }
+
+
+
+
+/* ___________________________________________________________________ */
+
+
+
+
+ /* This holds and centers the lot. */
+
+#holder {
+   position: absolute;
+   left: 50%; top: 0;
+   width: 600px; height: auto;
+   margin-left: -300px;
+   padding: 0;
+   background: #eed;
+   text-align: center;
+   border-left: 2px #fff solid; border-right: 2px #fff solid;
+   }
+
+
+
+
+/* ___________________________________________________________________ */
+
+
+
+
+
+ /* This holds everything inside the header. */
+
+#header {
+   position: relative;
+   left: 0; top: 0;
+   width: 90%; height: auto;
+   padding: 5%;
+   background: #eed;
+   border-bottom: 2px #fff solid;
+   }
+
+#header #wrapper{
+   width: auto;
+   height: auto;
+}
+
+ /* This styles the above (big) text. */
+
+#header #one {
+   font: 3em "Trebuchet MS", Trebuchet, serif;
+   color: #fff;
+   display: block;
+   clear: both;
+   }
+
+ /* This styles the below (small) text. */
+
+#header #two {
+   font: italic 1em georgia, serif;
+   color: #998;
+   display: block;
+   }
+
+
+
+
+/* ___________________________________________________________________ */
+
+
+
+
+ /* This holds the menu - below the header. */
+
+#menu {
+   position: relative;
+   left: 0; top: 0;
+   width: 98%; height: auto;
+   padding:  3px 1% 4px 1%;
+   border-top: 2px #eed solid;
+   background: #D3D2B8;
+   font: bold .8em/100% arial, sans-serif;
+   text-align: left;
+   z-index: 0;
+}
+
+#menu a{
+   color: #645846;
+   text-decoration: none;
+   margin: 0 5px 0 5px;
+}
+
+#menu a:hover{
+   color: #fff;
+}
+
+
+
+
+/* ___________________________________________________________________ */
+
+
+
+
+ /* This is the box on the left - below the menu. */
+
+#content {
+   float: left;
+   padding: 25px 12px 12px 12px;
+   width: 70%; height: auto;
+   background: #fff;
+   text-align: left;
+   border-left: 2px #eed solid; border-top: 2px #eed solid;
+}
+
+#content h1 {
+   margin: 0 0 10px 0;
+   padding: 0;
+   font: 1.6em garamond, serif;
+   color: #77773C;
+   border-bottom: 1px #77773C dashed;
+}
+
+#content p {
+   float: left;
+   width: 94%;
+   padding: 0 0 0 3%;
+   margin: 0 0 20px 0;
+   font: .8em/150% arial, sans-serif;
+   color: #222;
+   text-align: justify;
+}
+
+#content p.indent{
+    text-indent: 30px;
+}
+
+#content p a{
+   color: #77773C;
+   border: none;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+#content p a:hover{
+   color: #aaa;
+   text-decoration: none;
+}
+
+
+
+
+
+
+/* ___________________________________________________________________ */
+
+
+
+
+ /* This is the box on the right - below the menu. */
+
+#right_pane {
+   float: left;
+   margin: 0;
+   padding: 5px 4px 5px 4px;
+   width: 24%; height: auto;
+   background: #D3D2B8;
+   border-left: 2px #eed solid; border-bottom: 2px #fff solid;
+   font: .7em arial, sans-serif;
+   color: #555;
+   text-align: left;
+   z-index: 1;
+}
+
+#right_pane h5{
+   font: bold 1.3em verdana, sans-serif;
+   color: #77773C;
+   margin: 0 0 15px 0; padding: 0;
+}
+
+#right_pane .date{
+   background: transparent;
+   border-top: 1px #D3D2B8 solid;
+   margin: 0; padding: 0;
+   font-style: italic;
+   font-weight: bold;
+   border: none;
+}
+
+#right_pane p{
+   width: auto;
+   border: 1px #D3D2B8 solid;
+   background: #fff;
+   margin: 0 0 5px 0; padding: 5px;
+}
+
+
+#right_pane p a{
+   color: #77773C;
+   border: none;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+#right_pane p a:hover{
+   color: #aaa;
+   text-decoration: none;
+}
+
+
+
+
+
+#footer{
+ margin: 0;
+}
+
+#footer p{
+   text-indent: 0;
+   margin-top: 50px;
+   font: bold .6em verdana, sans-serif;
+   color: #bbb;
+   text-align: right;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+acronym{
+   text-decoration: none;
+   border-bottom: 1px #77773C dotted;
+}

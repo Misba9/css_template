@@ -1,0 +1,192 @@
+/*
+Gordonmac dot com | Version 12.0.
+*********************************
+These style-sheets, accompanying graphics and design are copyrighted.
+That means YOU MAY NOT USE THEM!! If you are looking for free stuff please visit
+the templates and PNG sections of the site instead. 
+----------------------------------------------- */
+@media screen {
+	
+* { font-size: 100%; margin: 0; padding: 0; }
+
+html { height: 100%; }
+
+body { background: url(../i/GM12_bg_body.jpg) #FFFFFF repeat-x 0 0; color: #666666; font: 62.5%/1.6em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif; min-width: 810px; }
+
+p, ul, li, h1, h2, h3, h4, h5, h6, dl, dt, dd, form, input, textarea, blockquote, pre, table { margin: 0 0 .5em 0; }
+
+/* =Headings - Generic styles
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { background: transparent; color: #50514B; font-weight: normal; letter-spacing: .1em; }
+
+#content h2 { font-size: 1.4em; }
+
+#content h3 { font-size: 1.2em; }
+
+#content h4 { font-size: 1em; }
+
+#content h5{ font-size: 1em; }
+
+#content h6 { font-size: 1em; }
+
+/* =Anchors
+----------------------------------------------- */
+a img { border: none; }
+
+a:link { background: transparent; color: #666666; }
+
+a:visited, a:hover, a:focus, a:active { background: transparent; color: #000000; }
+
+/* =Lists
+----------------------------------------------- */
+#content ol { list-style-position: inside; list-style-type: lower-roman; }
+
+#content ul { list-style-type: none; }
+
+#content ul li { background: transparent; }
+
+#content dt { font-weight: bold; }
+
+#validation li { display: inline; margin-right: 4px; }
+
+/* =Wrappers
+----------------------------------------------- */
+#wrapper-a { background: transparent url(../i/GMV12_bg_wrappera.jpg) no-repeat 793px 44px; border-bottom: 10px double #505148; width: auto; }
+
+#wrapper-b { border-bottom: 10px solid #505148; width: auto; }
+
+#wrapper-c { background: transparent url(../i/GM12_bg_wrapper.jpg) repeat-y 0 0; text-align: left; width: 788px; }
+
+#content { background: transparent url(../i/GM12_bg_content.jpg) no-repeat 0 0; width: auto; }
+
+/* =Heading
+----------------------------------------------- */
+#heading { position: relative; }
+
+#heading h1, #heading h2 { left: -9999px; position: absolute; }
+
+#homebutton { left: 52px; position: absolute; text-indent: -9999px; top: 38px; }
+
+#homebutton a { background: url(../i/GMV12_bg_homebutton.jpg) no-repeat 0 0; display: block; height: 33px; overflow: hidden; width: 33px; }
+
+/* =General layout
+----------------------------------------------- */
+#content-a { float: left; width: 386px; }
+
+#content-a-inner { padding: 233px 20px 0 66px; }
+
+#content-b { float: left; width: 402px; }
+
+#content-b-inner { padding: 45px 20px 0 5px; }
+
+#footer { background: transparent url(../i/GM12_bg_footer.jpg) no-repeat 0 0; clear: both; height: 50px; text-indent: -9999px; }
+
+/* =Main Navigation
+----------------------------------------------- */
+#nav-main{ background: url(../i/GM12_bg_nava.jpg) #FFFFFF no-repeat 0 100%; list-style-type: none; padding-bottom: 38px; }
+
+#nav-main li { margin: 0; }
+
+#nav-main li a { display: block; height: 23px; overflow: hidden; text-indent: -9999px; width: 184px; }
+
+#nav-main-about a { background: url(../i/GM12_bg_nava_about.jpg) no-repeat 0 0; }
+
+#nav-main-downloads a { background: url(../i/GM12_bg_nava_downloads.jpg) no-repeat 0 0; }
+
+#nav-main-tutorials a { background: url(../i/GM12_bg_nava_tutorials.jpg) no-repeat 0 0; }
+
+#nav-main-contact a { background: url(../i/GM12_bg_nava_contact.jpg) no-repeat 0 0; }
+
+#nav-main-about a:hover, #nav-main-about a:focus, #nav-main-about a:active, #nav-main-downloads a:hover, #nav-main-downloads a:focus, #nav-main-downloads a:active, #nav-main-tutorials a:hover, #nav-main-tutorials a:focus, #nav-main-tutorials a:active, #nav-main-contact a:hover, #nav-main-contact a:focus, #nav-main-contact a:active { background-position: -280px 0; }
+
+/* =Forms
+----------------------------------------------- */
+label { background: transparent; color: #999999; display: block; }
+
+label span { background: transparent; color: #D1E010; font-size: .8em; text-transform: uppercase; }
+
+input, textarea, select { background: transparent url(../i/GM12_form_inputtext.jpg) repeat-x 0 0; border: 1px solid #DDDDDD; color: #666666; display: block; font: .9em "Lucida Grande", "Lucida Sans Unicode", verdana, geneva, sans-serif; margin-top: .5em; -moz-border-radius: 4px; padding: 2px; }
+
+#contactform table td { padding: 0; }
+
+#contactform-name, #contactform-email, #contactform-subject, #contactform-message { width: 180px; }
+
+#contactform-subject, #contactform-message { width: 369px; }
+
+#contactform-message { height: 140px; }
+
+#subscribe-name, #subscribe-email { width: 200px; }
+
+input.imagesubmit { border: none; margin: 0; padding: 0; }
+
+/* =Quotations
+----------------------------------------------- */
+blockquote { font-style: normal; margin-left: 10px; margin-right: 10px; text-indent: -.7em; }
+
+blockquote cite { display: block; font-style: normal; margin: .5em 0 0 .6em; }
+
+q { color: #999999; font-style: italic; }
+
+/* =Code
+----------------------------------------------- */
+code, pre, var { background: transparent; color: #50514B; font: 1em Pragmata, "Courier New", Courier, monospace; }
+
+pre { background: #FFFFFF; border: 1px solid #DDDDDD; height: auto; -moz-border-radius: 4px 4px 0 0; overflow: -moz-scrollbars-horizontal; overflow: auto; padding: 4px; width: 367px; }
+
+pre.php { color: #B22222; }
+
+pre.php span.comment { color: #FFA500 !important; }
+
+pre.php var { color: #333333; }
+
+pre.html span.comment { color: #999999 !important; }
+
+/* =Misc. Text Formatting
+----------------------------------------------- */
+kbd { background: transparent; color: #000000; font: 1em Pragmata, "Courier New", Courier, monospace; }
+
+del { background: transparent; color: #DDDDDD; }
+
+ins { background: transparent; color: #333333; text-decoration: underline; }
+
+/* =Warnings and notes
+----------------------------------------------- */
+p.note-general, p.note-warning { background: transparent; border: 1px solid #DDDDDD; color: #999999; font-size: .9em; padding: 2px 4px 2px 34px; }
+
+p.note-general { background: url(../i/GM12_note_general.gif) no-repeat 8px 4px; }
+
+p.note-warning { background: url(../i/GM12_note_warning.gif) no-repeat 8px 4px; }
+
+p.note-general:before { background: transparent; color: #50514B; content: 'Note: '; font-weight: bold; }
+
+p.note-warning:before { background: transparent; color: #FF6347; content: 'Warning: '; font-weight: bold; }
+
+p.note-general:hover { border: 1px solid #D1E010; color: #666666; }
+
+p.note-warning:hover { border: 1px solid #FF6347; color: #666666; }
+
+} 
+@media print {
+body { background: #FFFFFF; color: #333333; font: 8pt Arial, Helvetica, sans-serif; }
+
+h1, h2, h3, h4, h5, h6, code, pre { color: #333333; }
+
+h2	{ font-size: 10pt; }
+
+h3	{ font-size: 9pt; }
+
+h4, h5, h6 { font-size: 8pt; }
+
+abbr, acronym { border-bottom: none; }
+
+abbr:after, acronym:after { content: ' (' attr(title) ') '; }
+
+a:after { content: ' (' attr(href) ') '; }
+
+a { color: #333333; text-decoration: none; }
+
+#nav-main, form { display: none; }
+
+#heading { border-bottom: 2px solid #666666; }
+
+}

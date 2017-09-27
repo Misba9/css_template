@@ -1,0 +1,287 @@
+/*
+Theme Name: darkforest
+Theme URI: http://freethemelayouts.com/
+Description: Designed by <a href="http://freethemelayouts.com">FTL</a>.<br /> This work is licensed <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License.</a> This means you may use it and make any changes you like. However, credit links must remain on footer for legal use.
+Version: 1
+Author: FreeThemeLayout/DreamTemplate
+Author URI: http://www.freethemelayouts.com/
+*/
+
+body { background:#202020 url(images/bg_main.jpg) repeat-x top;  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; padding:0; margin:0; color: #242424; }
+
+html { padding:0; margin:0; }
+
+a:link { text-decoration:none; color :#7f262e; border:0; }
+a:active { text-decoration:underline; color :#7f262e; border:0; }
+a:visited { text-decoration:none; color :#7f262e; border:0; }
+a:hover { text-decoration:underline; color :#7f262e; border:0; } 
+a:focus { outline:none;}
+
+.clr { clear:both; }
+
+h1, h2, h3, h4 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; }
+
+img { padding:0; margin:0; border:none; text-align:center; }
+hr1 { border-left:0 solid #000000; border-right:0 solid #000000; border-top:0 dotted #000000; border-bottom:1px solid #000000; height :1px; }
+hr { border-left:0 solid #7f262e; border-right:0 solid #7f262e; border-top:0 dotted #7f262e; border-bottom:1px solid #7f262e; height :1px; }
+
+form { padding:0; margin:0; }
+input { font-family:'Verdana'; color:#282b31; font-size:11px; }
+textarea { font-family:'Verdana'; color:#282b31; font-size:11px; }
+select { font-family:'Verdana'; color:#282b31; font-size:11px; }
+
+/* Header +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#bgcontainer {width:1000px; margin:0; padding:0; background:url(images/CON_bg_body.gif) repeat-y top; }
+
+/**/ * html .Header {height:291px; } /* */ 
+
+.Syn {	height:40px; width:357px; float:right;}
+.Syn ul { margin:0px 5px 5px 5px; padding:0 10px 0 10px; background:url(images/RSS.jpg) top left no-repeat  ; height:40px; }
+.Syn li {margin:5px 5px 0 0; padding:5px 0 5px 55px; list-style-type:none; color:#000;}
+.Syn li a {color:#000;}
+.Syn li a:visited {color:#000; }
+.Syn li a:hover {color:#000; }
+
+.Header { width:1000px; margin:0; height:291px; background:url(images/header.jpg) top no-repeat;}
+
+.Logo {height:40px; width:220px; float:left; margin:80px 0 0 25px;}
+
+.Header .LogoText h1 {font-size:32px; line-height:32px; letter-spacing:0px; padding:10px 0 0 106px; margin:0; font-weight:normal; font-family:Arial, Helvetica, sans-serif; position:relative; top:15px; width:327px; height:66px; color:#FFFFFF;}
+.Header .LogoText a { color:#FFFFFF; text-decoration:none; }
+.Header .LogoText a:visited { color:#FFFFFF; text-decoration:none; }
+.Header .LogoText a:hover { color:#FFFFFF; text-decoration:none; }
+
+.Header .Desc {	position:absolute;	color:#ffffff; font-size:12px; line-height:14px; font-weight:normal; font-family:Arial, Helvetica, sans-serif; padding:0; margin:0 0 0 106px; top:141px;}
+/* Menu +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Menu {padding:0 0 0 0; margin:0; height:71px; width:1000px; position:absolute; top:220px; background:url(images/menu_bg.jpg) top no-repeat;}
+.Menu ul { list-style:none; margin:0; padding:0; height:70px; }
+.Menu ul li { padding:10px 0 35px 15px; margin:0; float:left; line-height:12px; }
+.Menu ul li a { padding:30px 20px 30px 20px; margin:0; outline:0; background:none; line-height:18px; letter-spacing:-1px; font:bold 16px Arial, Helvetica, sans-serif; color:#FFFFFF;}
+.Menu ul li a:hover { background:url(images/menu_hover.gif) no-repeat center;}
+
+/* Container +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.CON { width:731px; padding:0 169px 0 100px; float:none; margin:0; background:url(images/CON_bg.jpg) no-repeat top;}
+
+.CON p { padding: 0 10px;}
+
+/* Side Central +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SC { width:500px; padding:10px 0 0 0; margin:20px 41px 0 0; float:left; background:url(images/bl_t.gif) no-repeat top;}
+.SC_f { width:500px; padding:0 0 19px 0; margin:0 0 0 0; background:url(images/bl_b.gif) no-repeat bottom;}
+.SC_bg { width:500px; padding:0 0 0 0; margin:0; background:url(images/bl_bg.gif);}
+/* Post +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Post {padding:0; margin:0; color:#d7ceae;}
+.pagetitle { line-height:18px; letter-spacing:-1px; padding:5px 0 5px 10px; margin:0 0 5px 10px; color:#e2c47c; font:normal 18px Arial, Helvetica, sans-serif;}
+
+.PostHead { border:0;}
+.PostHead h2 { line-height:24px; letter-spacing:-1px; padding:5px 0 5px 30px; margin:0 0 5px 10px; color:#e2c47c; font:normal 20px Arial, Helvetica, sans-serif; background:url(images/bg_CS.jpg) no-repeat left; }
+.PostHead h2 a { color:#e2c47c; text-decoration:none; }
+.PostHead h2 a:visited { color:#e2c47c; text-decoration:none; }
+.PostHead h2 a:hover { color:#e2c47c; text-decoration:underline; }
+
+/**/ * html .PostTime { } /**/ 
+.PostTime { height:25px; padding:0 10px 0 10px; margin:0 1px 0 1px; color:#000000; background:#9a9646 url(images/panel.gif) no-repeat left; float: right; line-height:25px;}
+.PostTime strong { font-weight:normal; font-size:14px; }
+.PostTime .day { font-size:14px; }
+.PostTime .month { font-size:14px; }
+.PostTime .year { font-size:14px; }
+
+.PostHead small {padding:5px 0 ; margin:0; font-size:14px; line-height:14px; font-weight:normal; }
+
+.PostAuthor { color:#ffffff; }
+
+.PostCat { color:#000000; }
+.PostCat a { color:#ffffff; text-decoration:none; }
+.PostCat a:visited { color:#ffffff; text-decoration:none; }
+.PostCat a:hover { color:#ffffff; text-decoration:underline; }
+
+.PostContent { padding:0 0 0 10px; font-size:11px; color: #97938a; font-family:Verdana, Arial, Helvetica, sans-serif; }
+.PostContent p { font-size:11px; color:#8a867c; padding:0 10px 0 10px;}
+.PostContent p strong {}
+.PostContent img { margin:0; padding:0; }
+.PostContent ol { padding:10px 0 10px 25px; margin:0; }
+.PostContent ol li { padding:2px 0 2px 0 ; font-size:12px; line-height:15px; color:#9a9646; }
+.PostContent ul { padding:5px 0 ; margin:0; }
+.PostContent ul li { padding:2px 0 2px 15px; list-style-type:none; font-size:11px; line-height:15px; color:#9a9646; }
+.PostContent blockquote { padding:10px; margin:0; color:#8a867c; background:#000; }
+.PostContent blockquote p { font-size:12px; padding:0; margin:0; line-height:15px; }
+.PostContent blockquote li { padding:2px 0 2px 15px; list-style-type:none; font-size:12px; line-height:15px; }
+.PostContent blockquote a { color:#fff; }
+.PostContent blockquote a:visited { color:#fff; }
+.PostContent blockquote a:hover { color:#fff; text-decoration:underline; }
+
+/**/ * html .PostContent p img { } /* */ 
+.PostContent p img { max-width:420px; }
+.PostContent img { margin:0 10px 10px 0 ; float:left; }
+
+.PostCom { padding:10px 0; }
+.PostCom ul { padding:0; margin:0; }
+.PostCom li { padding:5px 0 5px 25px; margin:0 5px 0 0; list-style-type:none; display:inline; color:#2a688c; font-size:14px; } 
+.PostCom li a { font-weight:normal; text-decoration:underline; color:#9a9646; } 
+.PostCom li a:visited { font-weight:normal; text-decoration:underline; color:#9a9646; }
+.PostCom li a:hover { font-weight:normal; text-decoration:none; color:#9a9646; }
+
+.PostCom .Com { background:url(images/ct.gif) no-repeat left center; }
+.PostCom .Tags { padding-left:0; }
+
+.edit_this { padding:5px 10px;}
+
+
+/* Note ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.Note { padding-left: 10px; padding-right: 10px; margin:0; color: #b8b8b8; }
+.Note li { padding:3px 0 3px 15px; margin:0; list-style-type:none; font-size:12px; }
+
+/* TrackbackList ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.TrackList { background:#f4ebef url(images/TrackListBottom.gif) no-repeat bottom; padding:15px; margin-top:20px; position:relative; }
+.TrackListTop { background:#f4ebef url(images/TrackListTop.gif) no-repeat top; position:absolute; top:0; left:0; width:455px; height:10px; }
+.TrackList h3 { font-size:14px; font-weight:bold; margin:0 0 5px 0; padding:0 0 5px 0; color:#333366; letter-spacing:-1px; border-bottom:dashed 1px #beb4c1; }
+.TrackList ul { padding:0; margin:0; }
+.TrackList li { padding:0 0 0 10px; margin:0; list-style-type:none; font-size:11px; background:url(images/TrackListIco.gif) no-repeat left top; }
+.TrackList li a { color:#cc3366; }
+
+/* Navigation - PlugIn +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Nav { font-size:11px; padding:10px 0 ; color:#666; font-family:'Verdana'; }
+.Nav a { padding:1px 6px 1px 4px; border-right:solid 1px #666; font-size:11px; }
+.Nav a:visited { padding:1px 6px 1px 4px; border-right:solid 1px #666; }
+.Nav a:hover { padding:1px 6px 1px 4px; border-right:solid 1px #666; text-decoration:none; }
+.Nav span { padding:1px 6px 1px 4px; color:#666; border-right:solid 1px #666; }
+.Nav .on { padding:1px 6px 1px 4px; border-right:solid 1px #666; font-size:11px; color:#003366; }
+
+/* Comments ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Comments { margin:20px 10px 0 10px; position:relative; color:#cccccc; }
+.Comments h3 { font-size:16px; letter-spacing:-1px; margin:0 0 5px 0; padding:10px 0; color:#e2c47c; }
+
+/* Comments List  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.List ol { padding:0; margin:0; }
+.List li { position:relative; padding:5px 0 ; margin:10px 0 ; list-style-type:none; background:url(images/PostDotted.gif) repeat-x bottom; }
+
+/**/ * html .List .LGrav { right:30px; } /* */ 
+.List .LGrav { position:absolute; right:0; top:10px; }
+.List .LGrav img { border:solid 1px #ccc; padding:2px; background:#fff; }
+
+.List .LUsr { margin:0; padding:0; font-size:11px; line-height:12px; color:#999; }
+.List .LUsr a { color:#999; text-decoration:none; }
+.List .LUsr strong { font:bold 16px "Trebuchet MS", sans-serif; letter-spacing:-1px; color:#666; }
+.List .LUsr strong a { color:#cc0000; text-decoration:none; }
+
+.List .LCon { margin:10px 0 0 0 ; padding:0; font-size:12px; line-height:16px; border-top:solid 1px #ccc; }
+.List .LCon p { margin:0; padding:5px 0 ; font-size:12px; line-height:16px; }
+
+.List .Author { background:#fff; }
+
+/* Comments Form ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Form .Email { }
+
+.Form {  padding:0 0 10px 0 ; position:relative; margin:0; font-family:'Verdana'; }
+.Form form { margin:0; padding:0; }
+.Form a { text-decoration:underline; }
+.Form p { padding:0 0 2px 0 ; margin:0; color:#9a9646; }
+.Form p small strong { font-weight:bold; color:#9a9646; }
+.Form p small { font-size:11px; display:block; padding:6px 0 ; color:#9a9646; }
+.Form .TextField { color:#003366; background:#e9f8ff; border:solid 1px #d5e7f0; padding:6px 6px 6px 30px; font-size:12px; display:block; }
+.Form .TextArea { color:#003366; background:#e9f8ff; border:solid 1px #d5e7f0; padding:6px; font-size:12px; }
+.Form input.SubmitComment { height:29px; margin-top:4px; }
+
+
+/* Side Right +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SR { width:190px; float:left; padding:0; margin:0; }
+
+/* Side Right Right +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SRR { width:190px; margin:0; padding:0; }
+.SRR h2 { letter-spacing:1px; padding:0 15px 10px 15px; margin:0; font:normal 18px Tahoma, Arial; color:#dad8b7; }
+.SRR ul { margin:0; padding:0 0 0 20px; }
+.SRR li { margin:0; padding:0; list-style-type:none; }
+.SRR a { color:#a1a1a1; text-decoration:none; }
+.SRR a:visited { color:#a1a1a1; }
+.SRR a:hover { color:#a1a1a1; text-decoration:underline; }
+
+/* Categories +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SRR .widget { width:190px; margin:0; padding:0; background:url(images/right.gif) no-repeat top; }
+.SRR .widget h2 { font:normal 24px "Times New Roman", Times, serif; color:#dad8b7; padding:10px 15px 20px 15px; margin:0; }
+.SRR .widget ul { margin:0; padding:0 0 20px 0 ; color:#98b2a2; }
+.SRR .widget li { margin:0; padding:1px 0 1px 0 ; list-style-type:none; font-size:12px; color:#98b2a2; }
+.SRR .widget ul li { margin:0 5px; padding:1px 0 5px 15px; list-style-type:none; font-size:12px; color:#98b2a2; font-weight:normal; }
+.SRR .widget li a { color:#a1a1a1; text-decoration:none; }
+.SRR .widget li a:visited { color:#a1a1a1; }
+.SRR .widget li a:hover { color:#a1a1a1; text-decoration:underline; }
+
+.SRR .widget_categories { width:180px; margin:0; padding:0 0 10px 10px; background: url(images/menu_bgbg.gif) no-repeat bottom; }
+.SRR .widget_categories h2 { font:normal 24px  tahoma, Arial; color:#ffffff; padding:10px 25px 5px 10px; margin:0; background: url(images/menu_t.gif) no-repeat top; }
+.SRR .widget_categories ul { margin:0; padding:0 0 10px 0; background:url(images/menu_b.gif) no-repeat bottom; list-style:none; }
+.SRR .widget_categories ul li { margin:0; padding:3px 0 4px 25px; list-style-type:none; font-size:12px; color:#a9631a; background:url(images/menu_ba.gif) no-repeat bottom; color:#dedb98; }
+.SRR .widget_categories li a { color:#dedb98; text-decoration:none; }
+.SRR .widget_categories li a:visited { color:#dedb98; }
+.SRR .widget_categories li a:hover { color:#dedb98; text-decoration:underline; }
+.SRR .widget_tag_cloud { font-family:"Trebuchet MS"; line-height:22px; }
+
+.SRR .widget_calendar h2 { font:italic 24px "Times New Roman", Times, serif; color:#7a491e; padding:10px 15px 20px 15px; margin:0; }
+.SRR .widget_calendar table { width:100%; }
+.SRR .widget_calendar table td { text-align:center; padding:3px; }
+.SRR .widget_calendar caption { background:#fff3e2; padding:5px 0 ; }
+.SRR .widget_calendar #today { background:#fff3e2; }
+
+.SRR .widget_tag_cloud { font-family:"Trebuchet MS"; line-height:22px; }
+
+.SRR .widget_calendar table { width:100%; }
+.SRR .widget_calendar table td { text-align:center; padding:3px; }
+.SRR .widget_calendar caption { background:#ffe0bf; padding:5px 0 ; }
+.SRR .widget_calendar #today { background:#ffe0bf; }
+
+/* Search ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/**/ * html .Search  { } /**/ 
+.Search { padding:0; background:url(images/foot2_bg.gif) no-repeat  bottom; width:190px; float:left;}
+.Search form { margin:0; }
+.Search input { color:#330033; font-size:12px; }
+.Search  input.keyword {border:1px solid #8a8671; width:110px; height:25px; float:left; color:#666666; } 
+.Search  input.search { width:48px; height:28px; margin:0 5px 0 10px; padding:0; }
+.Search .bt { padding:0; margin:0; background:none; float:left; }
+
+/* Footer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.FBG { width:1000px; min-height:226px; margin:0 0 0 0; padding:15px 0 0 0; background:#191919 url(images/footerp.gif) no-repeat top;}
+.FBG .Footer p { font:normal 12px "Times New Roman", Times, serif; color:#FFFFFF;}
+
+.FBG .FooterPanel { width:731px; padding:0 169px 20px 100px; margin:0 0 10px 0; background:url(images/footer_p_bg.gif); }
+/* TabContent ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.FBG .TabContent { width:500px; margin:20px 41px 0 0; padding:10px 0 0 0; background:url(images/bl2_t.gif) no-repeat top; float:left }
+.FBG .TabContent h2 { font:normal 24px "Times New Roman", Times, serif; color:#303030; padding:10px 15px 10px 15px; margin:0; background:url(images/bl2_bg.gif) repeat-y; }
+.FBG .TabContent ul { margin:0; padding:0 0 10px 0 ; color:#303030; background:url(images/bl2_b.gif) no-repeat bottom; }
+.FBG .TabContent ul li { margin:0; padding:1px 0 3px 15px; list-style-type:none; font-size:12px; color:#303030; font-weight:normal; background:url(images/bl2_bg.gif) repeat-y; }
+.FBG .TabContent li a { color:#303030; text-decoration:none; }
+.FBG .TabContent li a:visited { color:#303030; }
+.FBG .TabContent li a:hover { color:#303030; text-decoration:underline; }
+/* Flickrrss ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.widget_flickrrss { width:190px; float:left ;padding:0; margin:20px 0 0 0;}
+.widget_flickrrss h2 { font:normal bold 14px Tahoma, Arial; color:#282e30; padding:10px 15px 20px 15px; margin:0; line-height:14px; }
+.widget_flickrrss ul { margin:0; padding:0 0 0 10px; text-align:center; }
+.widget_flickrrss li { float:left; list-style:none; padding:3px 5px 0 5px; margin:0px; }
+.widget_flickrrss li a img { background:#fff; padding:0; border:1px solid #cebea9; }
+.widget_flickrrss li a:visited img { background:#fff; padding:0; border:1px solid #cebea9; }
+.widget_flickrrss li a:hover img { background:#660000; padding:0; border:1px solid #660000; }
+
+/* Banners ADs ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.banner { width:800px; margin:0 auto; padding:0; float:none;}
+.banner h2 { font:normal 24px tahoma, Arial; color:#e2c47c; padding:10px 15px 20px 15px; margin:0; }
+.banner ul {margin:0; padding:0 0 15px 20px ; }
+.banner li { margin:0; padding:5px 5px 5px 10px; list-style-type:none; float:left; }
+
+/* Recent ADs ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.FBG .Recent {width:264px; margin:0; padding:0; background:url(images/Recent.gif) no-repeat top; float:left; }
+.FBG .Recent h2 { font:normal  bold 20px Tahoma, Arial; color:#fff; padding:50px 15px 20px 60px; margin:0; }
+.FBG .Recent ul {margin:0; padding:0 0 15px 0 ; }
+.FBG .Recent li { margin:0; padding:1px 20px 1px 15px; list-style-type:none; }
+
+.Footer { width:1000px; height:46px; padding:0 0 0 0; background:url(images/footer.jpg) top no-repeat; margin:0; text-align:center;}
+.Footer p { font-size:10px; line-height:15px; color:#fff; padding:0; margin:0; font-family:'Verdana';}
+.Footer a { color:#fff; text-decoration:underline;}

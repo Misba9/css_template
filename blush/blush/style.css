@@ -1,0 +1,174 @@
+body {
+margin-top : 5px;
+padding : 0;
+text-align : left;
+font : 76% "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #666;
+}
+#container {
+width : 750px;
+margin-left : auto;
+margin-right : auto;
+padding : 0;
+border : 5px solid #666;
+line-height : 1.7em;
+background : #eee;
+color : #666;
+}
+			/*TOP BANNER*/
+#topimg {
+height : 100px;
+padding : 0;
+margin : 0;
+background : #7e0101 url(img/banner.jpg) no-repeat left top;
+color : #666;
+}
+#topimg h1 {
+float : right;
+margin : 10px 50px 0 0;
+font-size : 1.8em;
+letter-spacing: 3px;
+background : transparent;
+color : #eee;
+}
+			/*TOP NAVIGATION*/
+#tabsE {
+float : left;
+width : 750px;
+border-top : 5px solid #666;
+border-bottom : 5px solid #666;
+margin-bottom : 20px;
+font-size : 1.3em;
+background : #bc1f26;
+color : #666;
+}
+#tabsE ul {
+margin : 0;
+padding : 0 5px 0 0;
+list-style : none;
+}
+#tabsE li {
+display : inline;
+margin : 0;
+padding : 0;
+}
+#tabsE a {
+float : left;
+background : url(img/tableftE.gif) no-repeat left top;
+margin : 0;
+padding : 0 0 0 0;
+text-decoration : none;
+}
+#tabsE a span {
+float : left;
+display : block;
+background : url(img/tabrightE.gif) no-repeat right top;
+padding : 5px 15px 4px 6px;
+color : #fff;
+}
+#tabsE a span {
+float : none;
+}
+#tabsE a:hover span {
+color : #fff;
+background : inherit;
+}
+#tabsE a:hover {
+background-position : 0% -42px;
+}
+#tabsE a:hover span {
+background-position : 100% -42px;
+}
+			/*MAIN CONTENT*/
+#content {
+margin : 0 0 5px 165px;
+padding : 0;
+border-left : 1px solid #ddd;
+background : #eee;
+color : #666;
+}
+#content a:link, #content a:visited {
+text-decoration : none;
+background : inherit;
+color : #bc1f26;
+}
+#content a:hover {
+text-decoration : underline;
+background : inherit;
+color : #996681;
+}
+			/*SIDEBAR*/
+#sidebar {
+clear : both;
+float : left;
+margin : 0;
+width : 150px;
+background : #eee;
+color : #333;
+}
+			/*SIDE MENU*/
+.sidemenu ul {
+list-style-type : none;
+text-align : left;
+background : inherit;
+color : #1f85bd;
+}
+.sidemenu ul li {
+display : block;
+margin-bottom: 10px;
+color : #BC1F26;
+background : inherit;
+}
+.sidemenu ul li a {
+background : transparent url(img/list-off-red.gif) no-repeat left center;
+padding-left : 15px;
+font : normal 1em "Lucida Grande", "Lucida Sans Unicode", verdana, lucida, sans-serif;
+text-decoration : none;
+color :#666;
+}
+.sidemenu ul li a:hover {
+background : transparent url(img/list-on.gif) no-repeat left center;
+color :  #BC1F26;
+}
+.sidemenu ul li a#current {
+background : transparent url(img/list-active.gif) no-repeat left center;
+color : #333;
+}
+			/*FOOTER*/
+#footer {
+clear : both;
+height : 45px;
+padding : 5px;
+margin-top : 5px;
+border-top : 5px solid #666;
+background : #bc1f26;
+color : #eee;
+}
+#footer a:link, #footer a:visited {
+text-decoration : none;
+background : inherit;
+color : #333;
+}
+#footer a:hover {
+border-bottom : 1px dashed #f7cdbf;
+background : inherit;
+color : #f7cdbf;
+}
+			/*TYPOGRAPHY*/
+p {
+margin : 20px;
+}
+h2 {
+margin-left : 15px;
+text-transform : uppercase;
+font-size : 120%; 
+letter-spacing: 3px;
+background : inherit;
+color : #000;
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}

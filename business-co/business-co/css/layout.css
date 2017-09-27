@@ -1,0 +1,36 @@
+#header .header, #content .content{
+	font-size:0.75em;
+	width:1000px;
+	margin:0 auto;
+}
+.col-1, .col-2, .col-3 {
+	float:left;
+}
+#page1 #content .col-1 {
+	width:391px;
+	margin-right:88px;
+}
+#page1 #content .col-2 {
+	width:404px;
+}
+#page2 #content .col-1 {
+	width:391px;
+	margin-right:88px;
+}
+#page2 #content .col-2 {
+	width:404px;
+}
+#page5 #content .col-1 {
+	width:550px;
+	margin-right:95px;
+}
+#page5 #content .col-2 {
+	width:209px;
+}
+#page6 #content .col-1 {
+	width:550px;
+	margin-right:95px;
+}
+#page6 #content .col-2 {
+	width:209px;
+}

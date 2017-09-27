@@ -1,0 +1,449 @@
+body {
+	color:#FFFFFF;
+	background:#000000 url(images/bg.jpg) no-repeat top center;
+	margin:0;
+	padding:0;
+	}
+
+ul li{
+	list-style-type:none;
+	background:url(images/arrow_right.gif) left center no-repeat;
+	padding-left:18px;
+	}
+
+.floatright {
+	float:right;
+	margin: 5px 0px 0px 10px;
+	padding:0px;
+	}
+
+.floatleft {
+	float:left;
+	margin: 5px 15px 0px 0px;
+	padding:0px;
+	}
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+
+#container {
+	display:block;
+	position:relative;
+	width:940px;
+	margin:0 auto;
+	}
+
+
+/* ********************************************* */
+/* *****************  Links  ******************* */
+/* ********************************************* */
+
+a:link, a:visited, a:hover{
+	color:#FF6600;
+	outline:none;
+	}
+
+a:link img, a:visited img, a:hover img{
+	border-color:#FF6600;
+	}
+
+a:hover {
+	color:#0099FF;
+	}
+
+a:hover img{
+	border-color:#0099FF;
+	}
+
+
+/* ********************************************* */
+/* *****************  Header  ****************** */
+/* ********************************************* */
+
+
+#header {
+	display:block;
+	width:940px;
+	}
+
+#header img {
+	border:none;
+}
+
+#leftheader {
+	display:block;
+	float:left;
+	width:461px;
+	height: 140px;
+	}
+
+
+#rightheader, #nav{
+	display:block;
+	float:right;
+	width:470px;
+	}
+
+/* ********************************************* */
+/* *****************  Navigation  ************** */
+/* ********************************************* */
+
+#nav {
+	margin-top: 30px;
+}
+
+#nav ul{
+	padding:5px;
+	margin: 10px 0;
+	list-style: none;
+}
+
+#nav ul li {
+	float:left;
+	display:inline;
+	margin:0 12px;
+	background:none;
+	padding:0;
+	}
+ 
+#nav a:link, #nav a:visited, #nav a:hover{
+	float:left;
+	text-decoration: none;
+	color:#ccc;
+	padding:0 8px 4px 0;
+	margin:0;
+	font: 900 14px "Arial", Helvetica, sans-serif;
+	}
+
+#nav a span {
+	display:block;
+	padding:4px 0 8px 8px;
+	}
+
+
+#nav ul li a.current, #nav ul li a.current:hover{
+ 	color:#FFFFFF;
+	background:url("images/bttn.png") no-repeat top right;
+}
+ 
+#nav ul li a.current span, #nav ul li a.current:hover span{
+	background:url("images/bttn.png") no-repeat top left;
+}
+
+#nav ul li a:hover {
+ 	color:#FFFFFF;
+	background:url("images/bttnactive.png") no-repeat top right;
+}
+ 
+#nav ul li a:hover span {
+	background:url("images/bttnactive.png") no-repeat top left;
+}
+
+/* ********************************************* */
+/* *****************  Button  ****************** */
+/* ********************************************* */
+
+.bttn {
+	display:block;
+	height:30px;
+	margin:10px 0;
+	text-align:right;
+	}
+
+#container .bttn a:link, #container .bttn a:visited, #container .bttn a:hover{
+	float:right;
+	text-decoration: none;
+	color:#FFFFFF;
+	padding:0 15px 0 0;
+	margin:0;
+	font: 900 14px "Arial", Helvetica, sans-serif;
+	background:url("images/bttn.png") no-repeat top right;
+	}
+
+#container .bttn a span {
+	display:block;
+	padding:6px 0 8px 15px;
+	background:url("images/bttn.png") no-repeat top left;
+	}
+
+#container .bttn a:hover{background:url("images/bttnactive.png") no-repeat top right;}
+#container .bttn a:hover span{background:url("images/bttnactive.png") no-repeat top left;}
+
+/* ********************************************* */
+/* *****************  Intro1  ****************** */
+/* ********************************************* */
+
+#intro1 {
+	display:block;
+	width:940px;
+	padding:7px 0 0 0;
+	margin:10px 0 0 0;
+	font-size: 28px;background:url(images/topintro1.gif) no-repeat top left;
+	}
+
+#intro1 p, #intro2 p {
+	margin: 0;
+	padding:0;
+}
+
+.botintro {
+	display:block;
+	width:940px;
+	padding:0 0 7px 0;
+	background:url(images/botintro1.gif) no-repeat bottom left;
+	}
+
+.midintro {
+	display:block;
+	background:transparent url(images/midintro1.gif) repeat-y top left ;
+	width:900px;
+	padding:0 20px;
+	}
+
+
+/* ********************************************* */
+/* *****************  Content  ***************** */
+/* ********************************************* */
+
+#content{
+	display:block;
+	margin: 20px 0 0 0;
+	padding:6px 0 0 0;
+	width:940px;
+	color:#333333;
+	background:url(images/topcont.gif) no-repeat top left;
+	}
+
+#midcontent {
+	display:block;
+	width:860px;
+	margin:0;
+	padding:33px 40px;
+	background:url(images/midcont.gif) repeat-y top left;
+	}
+
+#botcontent {
+	display:block;
+	width:940px;
+	padding:0 0 7px 0;
+	background:url(images/botcont.gif) no-repeat bottom left;
+	}
+
+#leftcontent {
+	display:block;
+	float:left;
+	width:310px;
+	}
+
+#leftcontent h2 {
+	margin:0;
+	padding:0;
+	}
+
+#leftcontent .bttn {
+	padding:0;
+	margin:0;
+	}
+
+#rightcontent{
+	display:block;
+	float:right;
+	width:500px;
+	}
+
+#rightcontent img{
+	margin:0;
+	padding:0;
+	border:10px solid #d6cfc8; 
+	}
+
+/* ********************************************* */
+/* *****************  Intro2  ****************** */
+/* ********************************************* */
+
+#intro2 {
+	display:block;
+	width:940px;
+	margin:20px 0 0 0;
+	padding:6px 0 0 0;
+	font-size: 28px;
+	background:url(images/topintro2.gif) no-repeat top left;
+	}
+
+.midintro2 {
+	display:block;
+	width:900px;
+	padding:0 20px;
+	background:url(images/midintro2.gif) repeat-y scroll top left ;
+	}
+
+.midintro2 img{
+	float:left;
+	margin-right:15px;
+	}
+
+.botintro2 {
+	display:block;
+	width:940px;
+	padding:0 0 6px 0;
+	background:url(images/botintro2.gif) no-repeat bottom left;
+	}
+
+/* ********************************************* */
+/* *****************  Footer  ****************** */
+/* ********************************************* */
+
+#footer {
+	display:block;
+	width:938px;
+	margin:20px 0 0 0;
+	color:#777777;
+	background:url(images/footvertical.gif) repeat-y top center #000000;
+	border:1px solid #30251b;
+	}
+
+#footer h2 {
+	color:#DFD2BF;
+}
+
+#footer ul{
+	margin:0 0 0 15px;
+	padding:0;
+	}
+
+#footer ul li {
+	color:#FFFFFF;
+	padding-left:24px;
+}
+
+#leftfoot {
+	display:block;
+	float:left;
+	width:298px;
+	padding:10px;
+	background:url(images/leftfootbg.jpg) no-repeat top left;
+	}
+
+#midfoot { 
+	display:block;
+	float:left;
+	width:282px;
+	padding:10px;
+	}
+
+#rightfoot {
+	display:block;
+	float:right;
+	width:298px;
+	padding:10px;
+	}
+
+
+/* ********************************************* */
+/* *****************  Bottom Links  ************ */
+/* ********************************************* */
+
+#bottomlinks {
+	display:block;
+	width:908px;
+	margin:20px auto;
+	padding:15px;
+	color:#564433;
+	background-color:#211a13;
+	border:1px solid #564433;
+	}
+
+#bottomlinks p{
+	margin:0;
+	padding:0;
+	}
+
+#bottomlinks a:link, #bottomlinks a:visited, #bottomlinks a:hover{
+	color:#81724e;
+	background-color:#211a13;
+	text-decoration: underline;
+	}
+
+#bottomlinks a:hover {
+	color:#CCCCCC;
+	background-color:#211a13;
+	}
+
+/* ********************************************* */
+/* *****************  Form  ******************** */
+/* ********************************************* */
+
+fieldset {  
+	margin: 10px;  
+	padding:0;
+	text-align:right;
+	}
+
+legend {  
+	margin-left: 1em;  
+	color:#DFD2BF;  
+	font-weight: bold;
+	}
+
+fieldset ol {  
+	margin:0;  
+	padding:10px;
+	list-style-type:none;
+	}
+
+fieldset ol li{  
+	margin-bottom:10px;
+	}
+
+fieldset label{
+	display:inline;
+	margin-right:8px;
+	}
+
+fieldset.submit {  
+	border-style: none;
+	text-align:left;
+	padding:0;
+	}
+
+
+/* ********************************************* */
+/* *****************  General Typography  ****** */
+/* ********************************************* */
+	
+h1 {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 120%;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 70%;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 64%;
+	font-weight: bold;
+}
+
+

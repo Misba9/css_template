@@ -1,0 +1,43 @@
+/*******************************************************************************************************************
+*  BASE                                                                                                            
+*******************************************************************************************************************/
+html{background:#fff url("img/green/background.png") repeat-x;}
+
+/*******************************************************************************************************************
+*  LINKS                                                                                                           
+*******************************************************************************************************************/
+a, a:link, a:focus{color:#3f9005;}
+a:hover{color:#3f9005;}
+a.more{background:url("img/green/arrow.gif") no-repeat 100% 50%;}
+
+/*******************************************************************************************************************
+*  H1 - H4                                                                                                         
+*******************************************************************************************************************/
+h1 span{color:#e1aa02;}
+
+/*******************************************************************************************************************
+*  HEADER                                                                                                          
+*******************************************************************************************************************/
+.reflection{text-shadow:1px 1px 1px #1f3707;}
+#header{border-bottom:1px solid #142b00;}
+#header nav li.active a, #header nav li a:hover{border-bottom:1px solid #ecc306;}
+#intro #slider h2{color:#dedede;}
+#intro a.prev{background:url("img/green/prev.png") no-repeat;}
+#intro a.next{background:url("img/green/next.png") no-repeat;}
+
+/*******************************************************************************************************************
+*  FOOTER                                                                                                          
+*******************************************************************************************************************/
+#footer .followUs a.facebook{background-image:url("img/green/icon-facebook.png");}
+#footer .followUs a.twitter{background-image:url("img/green/icon-twitter.png");}
+#footer .followUs a.rss{background-image:url("img/green/icon-rss.png");}
+#footer .followUs a.linkedin{background-image:url("img/green/icon-linkedin.png");}
+#footer .followUs a.vimeo{background-image:url("img/green/icon-vimeo.png");}
+#footer .followUs a.digg{background-image:url("img/green/icon-digg.png");}
+#footer .followUs a.delicious{background-image:url("img/green/icon-delicious.png");}
+
+/*******************************************************************************************************************
+*  OTHER STYLES                                                                                                    
+*******************************************************************************************************************/
+a.button{background:url("img/green/button-left.png") no-repeat;}
+a.button span{background:url("img/green/button-right.png") no-repeat 100% 0; text-shadow:1px 1px 1px #b18f04;}

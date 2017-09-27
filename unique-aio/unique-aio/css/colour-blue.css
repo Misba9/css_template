@@ -1,0 +1,43 @@
+/*******************************************************************************************************************
+*  BASE                                                                                                            
+*******************************************************************************************************************/
+html{background:#fff url("img/blue/background.png") repeat-x;}
+
+/*******************************************************************************************************************
+*  LINKS                                                                                                           
+*******************************************************************************************************************/
+a, a:link, a:focus{color:#f26904;}
+a:hover{color:#f26904;}
+a.more{background:url("img/blue/arrow.gif") no-repeat 100% 50%;}
+
+/*******************************************************************************************************************
+*  H1 - H4                                                                                                         
+*******************************************************************************************************************/
+h1 span{color:#e1aa02;}
+
+/*******************************************************************************************************************
+*  HEADER                                                                                                          
+*******************************************************************************************************************/
+.reflection{text-shadow:1px 1px 1px #042332;}
+#header{border-bottom:1px solid #032b3e;}
+#header nav li.active a, #header nav li a:hover{border-bottom:1px solid #f26904;}
+#intro #slider h2{color:#badae9;}
+#intro a.prev{background:url("img/blue/prev.png") no-repeat;}
+#intro a.next{background:url("img/blue/next.png") no-repeat;}
+
+/*******************************************************************************************************************
+*  FOOTER                                                                                                          
+*******************************************************************************************************************/
+#footer .followUs a.facebook{background-image:url("img/blue/icon-facebook.png");}
+#footer .followUs a.twitter{background-image:url("img/blue/icon-twitter.png");}
+#footer .followUs a.rss{background-image:url("img/blue/icon-rss.png");}
+#footer .followUs a.linkedin{background-image:url("img/blue/icon-linkedin.png");}
+#footer .followUs a.vimeo{background-image:url("img/blue/icon-vimeo.png");}
+#footer .followUs a.digg{background-image:url("img/blue/icon-digg.png");}
+#footer .followUs a.delicious{background-image:url("img/blue/icon-delicious.png");}
+
+/*******************************************************************************************************************
+*  OTHER STYLES                                                                                                    
+*******************************************************************************************************************/
+a.button{background:url("img/blue/button-left.png") no-repeat;}
+a.button span{background:url("img/blue/button-right.png") no-repeat 100% 0; text-shadow:1px 1px 1px #b85404;}

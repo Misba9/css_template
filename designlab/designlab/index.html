@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DesignLab</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" /><![endif]-->
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+</head>
+<body>
+<div id="page">
+  <div id="container">
+    <div id="header"> <a id="logo" href="#"><img src="images/logo.png" alt="" /></a>
+      <div id="social-icons"> <a href="#"><img src="images/social-icon-rss.png" alt="" /></a> <a href="#"><img src="images/social-icon-twitter.png" alt="" /></a> <a href="#"><img src="images/social-icon-facebook.png" alt="" /></a> <a href="#"><img src="images/social-icon-email.png" alt="" /></a> </div>
+      <div class="clearer"></div>
+    </div>
+    <!--/end #header -->
+    <div id="navigation-row">
+      <ul id="navigation">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <form action="#" method="post" id="search-form">
+        <div>
+          <input type="text" class="search-input" value="Type and hit Enter to search" onfocus="clearInput(this);" onblur="restoreInput(this);" />
+          <input type="image" src="images/icon-search.gif" />
+        </div>
+      </form>
+      <div class="clearer"></div>
+    </div>
+    <!--/end #navigation-row -->
+    <div id="image-slider"> <a href="#" class="prev"><img src="images/arrow-left.png" alt="" /></a>
+      <ul>
+        <li><img src="images/slide1.jpg" alt="" /></li>
+        <li><img src="images/slide2.jpg" alt="" /></li>
+        <li><img src="images/slide3.jpg" alt="" /></li>
+      </ul>
+      <a href="#" class="next"><img src="images/arrow-right.png" alt="" /></a> </div>
+    <!--/end #image-slider -->
+    <div id="content">
+      <div class="column-1-3">
+        <div class="white-box">
+          <div class="box-title"> Services
+            <div class="subtitle"><img src="images/subtitle-what-we-can-do.png" alt="" /></div>
+            <div class="icon"><img src="images/title-icon-services.png" alt="" /></div>
+          </div>
+          <div class="box-content fixed-height">
+            <ul class="services">
+              <li class="icon-web-dev"><a href="#">Web Design &amp; Development &raquo;</a></li>
+              <li class="icon-seo"><a href="#">Search Engine Optimization &raquo;</a></li>
+              <li class="icon-logo-design"><a href="#">Logo Design &raquo;</a></li>
+              <li class="icon-mobile-apps"><a href="#">Web &amp; Mobile Apps &raquo;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/end .column-1-3 -->
+      <div class="column-1-3">
+        <div class="white-box">
+          <div class="box-title"> Portfolio
+            <div class="subtitle"><img src="images/subtitle-our-previous-works.png" alt="" /></div>
+            <div class="icon"><img src="images/title-icon-portfolio.png" alt="" /></div>
+          </div>
+          <div class="box-content fixed-height">
+            <ul class="portfolio">
+              <li><a href="#"><img src="images/portfolio-icon.gif" alt="" /></a></li>
+              <li><a href="#"><img src="images/portfolio-icon.gif" alt="" /></a></li>
+              <li><a href="#"><img src="images/portfolio-icon.gif" alt="" /></a></li>
+              <li><a href="#"><img src="images/portfolio-icon.gif" alt="" /></a></li>
+              <li><a href="#"><img src="images/portfolio-icon.gif" alt="" /></a></li>
+              <li><a href="#"><img src="images/portfolio-icon.gif" alt="" /></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--/end .column-1-3 -->
+      <div class="column-1-3">
+        <div class="white-box">
+          <div class="box-title"> Hire us
+            <div class="subtitle"><img src="images/subtitle-lets-work-together.png" alt="" /></div>
+            <div class="icon"><img src="images/title-icon-contact.png" alt="" /></div>
+          </div>
+          <div class="box-content fixed-height">
+            <form action="#" method="post" class="contact-form">
+              <div>
+                <input class="text-input" type="text" value="Name" onfocus="clearInput(this);" onblur="restoreInput(this);" />
+                <br/>
+                <input class="text-input" type="text" value="Email" onfocus="clearInput(this);" onblur="restoreInput(this);" />
+                <br/>
+                <textarea class="text-input" onfocus="clearInput(this);" onblur="restoreInput(this);">Message</textarea>
+                <br/>
+                <div class="align-right"> <span class="blue-button"><span>
+                  <input type="submit" value="SEND &raquo;" />
+                  </span></span> </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--/end .column-1-3 -->
+      <div class="clearer"></div>
+      <div class="spacer"></div>
+      <div class="column-2-3">
+        <div class="white-box">
+          <div class="box-title"> Blog
+            <div class="subtitle"><img src="images/subtitle-tutorials-articles-resources.png" alt="" /></div>
+            <div class="icon"><img src="images/title-icon-blog.png" alt="" /></div>
+          </div>
+          <div class="box-content">
+            <div class="post">
+              <div class="post-image"><img src="images/post-image.jpg" alt="" /></div>
+              <div class="post-text">
+                <h1>Web Application Website</h1>
+                <p>In this web design tutorial, I will show you how to create a layout for a web app's website using Photoshop. We will create all the popular components of a web application website, like a "featured" area for a short description of the app, call-to-action buttons, screenshots/videos presentation areas to show the users how the app looks like and what it can do, a "features" area to present product features, and more.</p>
+                <span class="blue-button"><span><a href="#">Continue reading &raquo;</a></span></span> </div>
+            </div>
+            <!--/end .post -->
+            <div class="post">
+              <div class="post-image"><img src="images/post-image.jpg" alt="" /></div>
+              <div class="post-text">
+                <h1>Web Application Website</h1>
+                <p>In this web design tutorial, I will show you how to create a layout for a web app's website using Photoshop. We will create all the popular components of a web application website, like a "featured" area for a short description of the app, call-to-action buttons, screenshots/videos presentation areas to show the users how the app looks like and what it can do, a "features" area to present product features, and more.</p>
+                <span class="blue-button"><span><a href="#">Continue reading &raquo;</a></span></span> </div>
+            </div>
+            <!--/end .post -->
+          </div>
+        </div>
+      </div>
+      <!--/end .column-2-3 -->
+      <div class="column-1-3">
+        <div class="white-box">
+          <div class="box-title"> Categories
+            <div class="icon"><img src="images/title-icon-categories.png" alt="" /></div>
+          </div>
+          <div class="box-content">
+            <ul class="categories">
+              <li><a href="#">Articles</a></li>
+              <li><a href="#">Digital Art</a></li>
+              <li><a href="#">Freebies</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Icon &amp; Logo Design</a></li>
+              <li><a href="#">Print Design</a></li>
+              <li><a href="#">Text Effects</a></li>
+              <li><a href="#">Web Design</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="spacer-small"></div>
+        <div class="white-box">
+          <div class="box-title"> Twitter feed
+            <div class="icon"><img src="images/title-icon-twitter.png" alt="" /></div>
+          </div>
+          <div class="box-content">
+            <div class="twitter-feed"> <em>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum eros et turpis aliquet non convallis augue amet.”</em><br/>
+              <em class="grey">12 minutes ago via web</em> </div>
+            <div class="twitter-feed"> <em>“Duis condimentum fermentum cursus. Maecenas vitae diam ac massa.” </em><br/>
+              <em class="grey">35 minutes ago via web</em> </div>
+          </div>
+        </div>
+      </div>
+      <!--/end .column-1-3 -->
+      <div class="clearer"></div>
+    </div>
+    <!--/end #content -->
+    <div id="footer">
+      <div class="footer-content">Copyright &copy; <a href="#">Domain Name</a> - All Rights Reserved | Design By <a target="_blank" href="http://designinstruct.com/">Design Instruct</a> &amp; Coded by <a target="_blank" href="http://www.getpurlize.com/">Purlize</a></div>
+    </div>
+    <!--/end #footer -->
+  </div>
+  <!--/end container -->
+</div>
+<!--/end #page -->
+</body>
+</html>

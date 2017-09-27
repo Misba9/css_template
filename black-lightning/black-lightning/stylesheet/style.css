@@ -1,0 +1,146 @@
+/* CSS Document */
+
+BODY{
+background-image:url(../images/bg.png);
+background-attachment:scroll;
+background-repeat:repeat-x;
+font-family: Trebuchet MS, Helvetica, sans-serif;
+background-color:#63737A;}
+
+.header{
+width:730px;
+background-image:url(../images/header.gif);
+height:69px;}
+
+.mid_column{
+width:730px;}
+
+.block_btm{
+width:730px;
+height:45px;}
+
+.blocks1{
+width:152px; 
+height:35px;
+background-color:#333333; 
+float:left;
+color:#C2F203;
+padding:5px;
+padding-left:15px;
+padding-right:15px;
+font-weight:bold;
+font-size:11px;}
+
+.blocks2{
+width:151px; 
+height:35px;
+background-color:#333333; 
+float:left;
+color:#C2F203;
+padding:5px;
+padding-left:15px;
+padding-right:15px;
+font-weight:bold;
+font-size:11px;}
+
+.main_content_area{
+	background-color:#FFFFFF;
+	width:730px;
+	padding-top: 15px;
+}
+
+.footer{
+width:730px;
+}
+
+
+.title{
+	color:#FFFFFF;
+	padding-top: 15px;
+	float:left;
+	width:200px;
+	height:50px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+}
+
+.navigation{
+float:right;
+padding-top:35px;
+padding-right:15px;
+color:#FFFFFF;}
+
+.content_area{
+width:547px;
+float:left;
+border-right: 1px #CCFF00 solid;
+}
+
+.sub_content{
+	background-color:#49555B;
+	width:167px;
+	float:right;
+	color: #FFFFFF;
+	margin-right:8px;
+}
+
+.sub_nav{
+width:163px;
+padding:10px;
+color:#49555B;
+border-right: 1px #CCFF00 solid;
+font-size:10px;
+}
+
+h2{
+font-size:16px;
+margin:0px;
+}
+
+.content_area2{
+width:350px;
+float:right;
+padding-right:5px;
+padding-left:5px;
+font-size:11px;}
+
+
+a:link {color: #6666CC}   
+a:visited {color: #6666CC}
+a:hover {color: #006699}  
+a:active {color: #6666CC} 
+
+.scroller{
+overflow:auto;
+width:150px;
+height:200px;
+border: solid 1px #CCCCCC;
+list-style:none;}
+
+.nav{
+text-decoration:none;
+color:#FFFFFF;
+color:#FFFFFF;
+font-weight:bold;
+font-size:10px;}
+
+.nav:visited{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+.nav:hover{
+text-decoration:none;
+color:#FFFFFF;}
+
+ul.menu{
+margin:0px;
+padding:5px;
+list-style:none;
+width:110px;}
+
+img.screenshot{
+width:60px;
+height:50px;
+float:right;}

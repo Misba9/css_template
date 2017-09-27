@@ -1,0 +1,128 @@
+body {
+	background-color: #FFE8A7;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size:  12px;
+	color:#200;
+}
+
+a {
+	color:#600;
+	text-decoration: none;
+	font-weight:bold;
+	border: 0;	
+}
+
+a:hover {
+	color:#900;	
+}
+
+ 
+#container {
+	width: 800px;
+	margin: 0 auto;
+	background-color:#FFE8A7;
+}
+
+#header{
+	width: 800px;
+	height: 200px;
+	background: url(images/header.jpg);
+}
+
+h1 {
+	text-align: right;
+	padding: 0 15px 0 0;
+	color: #300;
+}
+
+/*BEGIN NAVIGATION STYLING RIGHT HORIZONTAL*/
+
+#menu {
+	
+	width: 400px;
+	font-style:italic;
+	padding: 20px 0 0 363px;
+	display: inline-block;/*for IE5*/
+	clear:left;/*for IE5*/
+}
+
+.cssnav	{
+	position: relative;
+	float:right;
+	margin: 0;
+	width: 80px;
+	height: 17px;
+	text-align: center
+}
+
+.cssnav a {
+	display: block;
+	width: 80px;
+	height: 17px;
+	float: right; 
+	text-decoration: none;	
+}
+/* END OF NAVIGATION */
+
+
+/*BEGIN CONTENT*/
+
+#content{
+	width: 800px;
+	background: url(images/extender.jpg) repeat-y;
+	
+}
+	
+#contentflower{
+	width: 800px;
+	background:transparent url(images/flower.gif) no-repeat;
+	min-height: 550px;
+	
+	
+		
+}
+
+.contentleft{
+	width: 430px;
+	padding: 10px 5px 10px 40px;	
+}
+
+.contentright{
+	width: 250px;
+	float: right;
+	padding: 0 32px 0 37px;
+	
+}
+
+b {
+	color: #300;
+	font-size: 100%;
+	font-weight:800;
+}
+
+h2 {
+	color:#300;
+	font-size: 110%;
+	font-style:italic;
+	text-align:left
+}
+
+
+
+#footer{
+	clear: both;
+	width: 800px;
+	height: 120px;
+	background: url(images/footer.jpg) no-repeat;
+	padding-top: 10px;
+}
+
+
+
+#footer p{
+	padding: 50px 0 30px 0;
+	text-align: center;
+	font-size: 85%;
+	
+}
+	

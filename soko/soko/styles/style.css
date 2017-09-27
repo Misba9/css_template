@@ -1,0 +1,112 @@
+/*
+Template Name: Soko HTML Template
+Description: A Clean & Minimialistic Photography Template
+Author: Chris Creed
+URL: http://www.chris-creed.com
+*/
+
+/* Colors -- Orange: #f34607 */
+
+@import "reset.css";
+
+/* -------------------- */
+/* -- General Styles -- */
+/* -------------------- */
+#wrap { width: 1020px; margin: 0 auto; }
+body { font: 12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #555; background: url(../images/bg-pattern.png) repeat; }
+h1 { font-size: 38px; margin: 0 0 30px 0; }
+h2 { font-size: 16px; margin: 0 0 30px 0; }
+h3 { font-size: 16px; margin: 30px 0 15px 0; }
+h4 { font-size: 15px; margin: 20px 0 15px 0; }
+h5 { font-size: 14px; margin: 15px 0 5px 0; }
+h6 { font-size: 14px; margin: 10px 0 5px 0; }
+p { margin: 0 0 15px 0; }
+a { text-decoration: none; color: #f34607; }
+a:hover { color: #222; }
+em { font-style: italic; }
+ul { margin: 0 0 15px 15px; list-style-type: circle; }
+ol { margin: 15px 0 15px 20px; list-style-type: decimal; }
+strong, b { font-weight: bold; }
+.sidebar-line, .content-line { border-bottom: 1px #ddd dotted; margin: 30px 0; }
+.hide { display: none; }
+
+/* ------------ */
+/* -- Layout -- */
+/* ------------ */
+#content { float: left; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; width: 490px; margin: 0 0 0 60px; padding: 70px 50px 30px 50px; overflow: hidden; min-height: 946px; }
+
+/* ------------- */
+/* -- Sidebar -- */
+/* ------------- */
+#sidebar { float: left; width: 290px; background: url(../images/sidebar-bg.png) repeat-x; background-color: #fff; padding: 70px 40px 0 40px; height: 100%; }
+#sidebar h1 { font-size: 26px; color: #555; margin: 0 0 8px 0; letter-spacing: -1px; }
+#sidebar h2 { font-size: 24px; color: #ccc; letter-spacing: -1px;  }
+#sidebar h3 { font-size: 16px; margin: 0 0 10px 0; }
+#sidebar a { color: #f34607; }
+#sidebar a:hover { color: #222; }
+#status { font-size: 13px; }
+#sidebar #status span { font-style: italic; }
+
+/* --------- */
+/* -- Nav -- */
+/* --------- */
+#nav { margin: 30px 0 0 0; overflow: hidden; border-top: 1px #eee solid; border-bottom: 1px #eee solid; padding: 5px 0; list-style: none; }
+#nav li { float: left; font-size: 12px; padding: 0 0 0 0; text-decoration: none; color: #555; }
+#nav span { padding: 0 10px; }
+#nav li a { color: #555; }
+#nav li a:hover { color: #f34607; }
+#nav li.current a { color: #f34607; }
+
+/* --------- */
+/* -- Bio -- */
+/* --------- */
+#bio { margin: 30px 0 0 0; }
+.author-img { padding: 5px; background: #f5f5f5; border: 1px #eee solid; margin: 0 0 15px 0; width: 140px; }
+
+/* --------------- */
+/* -- Galleries -- */
+/* --------------- */
+.gallery-title { margin: 0 0 25px 0; }
+#gallery-nav { background: #f5f5f5; border: 1px #eee solid; margin: 0; padding: 5px 10px; margin: 0 0 0 0; }
+#gallery-nav a { color: #555; text-shadow: 0 1px 0 white; }
+#gallery-nav a:hover { color: #f34607; }
+#gallery-nav .current { color: #f34607; } 
+
+/* ------------------ */
+/* -- Testimonials -- */
+/* ------------------ */
+#testimonials .testimonial { padding: 0 0 15px 0; font-style: italic; }
+#testimonials .author-details { color: #333; margin: -12px 0 0 0; font-style: normal; }
+
+/* ------------- */
+/* -- Gallery -- */
+/* ------------- */
+#gallery { float: left; width: 590px; margin: 20px 0 0 0; }
+#gallery ul { list-style: none; margin: 0; }
+#gallery ul li { float: left; width: 235px; height: auto; background-color: #eee; margin: 0 20px 20px 0;  }
+#gallery ul li:hover { background: none; background-color: #eee; cursor: pointer; }
+#gallery ul li img { margin: 5px 0 0 5px; width: 225px; }
+#gallery ul li img:hover { opacity: 0.8; }
+
+/* -------------- */
+/* -- Articles -- */
+/* -------------- */
+#content .article-title { margin: 0 0 2px 0; padding: 0; }
+#content .article-meta { color: #888; margin: 0 0 15px 0; padding: 0; }
+.first-title { margin-top: 0; }
+
+/* ------------------ */
+/* -- Contact Page -- */
+/* ------------------ */
+#contact-form { clear: both; margin: 24px 0 0 0; border: none; }
+#contact-form input[type=text] { width: 250px; border: 1px #eee solid; margin: 0 0 15px 0; padding: 10px; color: #444; font: 12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif; }
+#contact-form textarea { width: 350px; height: 150px; border: 1px #eee solid; padding: 10px; font-size: 14px; line-height: 24px; font: 12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #444; }
+#contact-form input[type=submit] { display: block; background: url(../images/submit-button-orange.jpg) no-repeat; width: 109px; height: 38px; margin: 15px 0 0 -5px; border: none; cursor: pointer; }
+#contact-form input[type=submit]:hover { background: url(../images/submit-button-orange-hover.jpg) no-repeat; }
+#response { padding: 10px; border: 1px #ddd solid; background-color: #eee; color: #f34607; }
+
+/* ------------ */
+/* -- Footer -- */
+/* ------------ */
+#footer { border-top: 1px #ccc dotted; margin: 50px 0 0 0; padding: 10px 0 30px 0; }
+#footer p { font-size: 11px; color: #aaa; }

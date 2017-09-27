@@ -1,0 +1,131 @@
+@charset "utf-8";
+* { padding:0; margin:0;
+}
+.clear {clear:both; display:block;}
+body {
+	background:#4E4741;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrap {background:url(images/pagebg.jpg) repeat; width:930px; padding:10px; margin:35px auto 0 auto;}
+#header {width:362px; height:127px; float:right;}
+#topnav {width:560px; height:64px; float:left; padding-top:5px;}
+#credit {font-size:10px; padding:5px 10px 5px 10px; margin:0 auto 35px auto; width:930px; }
+
+/*SlidingDoor menu*/
+#topnav ul {
+	margin:0;
+	padding:15px 10px 0 50px;
+	list-style:none;
+      }
+    #topnav li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #topnav a {
+      float:left;
+      margin:0 1px 0 1px;
+      padding:0 0 0 5px;
+      text-decoration:none;
+      }
+    #topnav a span {
+      float:left;
+      display:block;
+      padding:5px 15px 4px 6px;
+      }
+	#topnav .active a {background-position:0% -29px;}
+	#topnav .active a span {background-position:100% -29px;}
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #topnav a span {float:none;}
+    /* End IE5-Mac hack */
+      
+
+    #topnav a:hover {
+      background-position:0% -29px;
+      }
+    #topnav a:hover span {
+      background-position:100% -29px; color:#000;
+      }
+
+#left p {line-height:18px; margin:10px 0 15px 0;}
+#right p {line-height:18px; margin:5px 0 10px 0;}
+
+.wideblock {
+	background:#FFF8F0;
+	padding:10px;
+}
+.wideblock img {background:#fff; padding:3px; border:solid 1px #D3CDC7;}
+.wideblock img.author {float: right; margin:5px;}
+#search {background:url(images/searchbar.png) no-repeat; height:73px; margin-bottom:10px;}
+#wrap #right #search .keyword {
+	border: 0px none #FFFFFF;
+	background-color:transparent;
+	width: 255px;
+	float: left;
+	margin-top: 12px;
+}
+#wrap #right #search #searchform div {
+	padding-left: 12px;
+	padding-top: 5px;
+	height: 37px;
+}
+#searchbttn {
+	margin-left:18px;
+}
+#search span {font-size:14px; font-weight:bold; color:#CCCCCC; display:block; float:left; margin-top:3px; padding:3px 5px 0 15px;}
+#search span img {margin:0 5px 0 0; display:block; float:left;}
+#search span a, #search span a:visited, #search span a:active{color:#CCCCCC; text-decoration:none;} #search span a:hover {color:#fff; background:#000;}
+ol { margin-left:25px;}
+ol li {padding:0 8px 8px 0;}
+.post ul li {display: block; background:url(images/listbullet.jpg)3px 4px no-repeat; padding:0 8px 8px 25px;}
+
+.textfield {
+	display: block;
+	width:50%;
+	margin:3px 3px 3px 30px;
+	padding:3px;
+	border: 1px solid #B9A991;
+	background: #F8F7F3;
+}
+label {
+	display: block;
+	margin:3px;
+	padding: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #716148;
+}
+.button {
+	display: block;
+	padding:5px;
+	margin:3px;
+	border: 1px solid #716148;
+	color:#000000;
+	background: #F8F7F3;
+}
+.textfield:hover {
+	background:#FFFFCC;
+}
+.textfield:focus {background:#ffffff;}
+.hide {display:none;}
+
+#left table {
+	width:90%;
+	border:1px solid #716148;
+	margin-bottom:20px;
+}
+#left th {
+	background:#E2DBD3;
+	padding:5px 15px 5px 15px;
+	color:#716148;
+	text-align:center;
+	border-bottom:1px solid #716148;
+	font: bold 16px "Trebuchet MS", Verdana, sans-serif;
+	text-transform: uppercase;
+}
+#left td {
+	border-bottom:1px solid #716148;
+	padding:5px 15px 5px 15px;
+	border-right:1px solid #716148;
+}

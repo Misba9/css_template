@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Route 66 Gallery</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<!-- ##### BEGIN LAYOUT ##### -->
+<div id="container">
+  <!-- ##### BEGIN header-##### -->
+  <div id="header">
+    <h1>Route 66</h1>
+  </div>
+  <!-- ##### END header-##### -->
+  <div id="wrapper">
+    <div id="content">
+      <div id="maintext">
+        <!-- ##### BEGIN CONTENT ##### -->
+        <span class="pagename">Gallery</span> <br />
+        <span class="headline">A Photo Gallery with CSS Popups</span>
+        <h4>Example:</h4>
+        <p><img src="images/zoom.gif" alt="" height="16" width="16" /> </p>
+        <div class="thumbnail"> <a class="gallery" href="#nowhere"><img src="images/photo.jpg" alt="" width="80" height="60" /><b><img src="images/photo.jpg" alt="" width="320" height="240" /></b></a> </div>
+        <div class="thumbnail"> <a class="gallery" href="#nowhere"><img src="images/photo.jpg" alt="" width="80" height="60" /><b><img src="images/photo.jpg" alt="" width="320" height="240" /></b></a> </div>
+        <div class="thumbnail"> <a class="gallery" href="#nowhere"><img src="images/photo.jpg" alt="" width="80" height="60" /><b><img src="images/photo.jpg" alt="" width="320" height="240" /></b></a> </div>
+        <div class="thumbnail"> <a class="gallery" href="#nowhere"><img src="images/photo.jpg" alt="" width="80" height="60" /><b><img src="images/photo.jpg" alt="" width="320" height="240" /></b></a> </div>
+        <div class="thumbnail"> <a class="gallery" href="#nowhere"><img src="images/photo.jpg" alt="" width="80" height="60" /><b><img src="images/photo.jpg" alt="" width="320" height="240" /></b></a> </div>
+        <div class="thumbnail"> <a class="gallery" href="#nowhere"><img src="images/photo.jpg" alt="" width="80" height="60" /><b><img src="images/photo.jpg" alt="" width="320" height="240" /></b></a> </div>
+        <div class="thumbnail"> <a class="gallery" href="#nowhere"><img src="images/photo.jpg" alt="" width="80" height="60" /><b><img src="images/photo.jpg" alt="" width="320" height="240" /></b></a> </div>
+        <h4>Note:</h4>
+        Use image dimensions 320px x 240px for best results.
+        <h2>A simple Photo Gallery with PHP</h2>
+        <h4>Requirements:</h4>
+        <ul>
+          <li>A <a href="#">source code editor</a></li>
+          <li><a href="#">PHP</a> installed on your server</li>
+        </ul>
+        <h4>Step 1:</h4>
+        <p>Copy and paste the code below in your site, where you wish the gallery to appear. The file extension of your site must be <strong>*.php</strong>, e.g. <strong>gallery.php</strong>.</p>
+        <code> &lt;?php<br />
+        $d = dir('gallery/');<br />
+        $i = 0;<br />
+        while(false !== ($e = $d-&gt;read())){<br />
+        if(strpos($e,'.jpg')){<br />
+        ++$i;<br />
+        echo '&lt;div class="thumbnail"&gt;&lt;a class="gallery" href="#nowhere"&gt;&lt;img src="gallery/'.$e.'" alt="Photo" width="80" height="60" /&gt;&lt;b&gt;&lt;img src="gallery/'.$e.'" alt="Photo" width="320" height="240" /&gt;&lt;/b&gt;&lt;/a&gt;&lt;/div&gt;'.chr(10);
+        if(!($i%6))<br />
+        echo '&lt;br /&gt;';<br />
+        }<br />
+        }<br />
+        ?&gt; </code>
+        <h4>Step 2:</h4>
+        <p>Create a folder on your server and name it <strong>gallery</strong> and upload your photos to this folder.</p>
+        <p>Upload your gallery.php to the root directory on your server and <strong>your're done</strong>!</p>
+        <p>The PHP script creates dynamically in conjunction with the CSS and the XHTML of this Design a gallery with popups as shown in the example above.</p>
+        <h4>Credits:</h4>
+        <a href="#">Stu Nicholls</a> (Gallery script)<br />
+        <a href="#">stock.xchng</a> (Photos)<br />
+        <a href="#">Solucija Forum/Simple PHP gallery</a> (PHP script)
+        <!-- ##### END CONTENT ##### -->
+      </div>
+    </div>
+  </div>
+  <!-- ##### BEGIN LEFT COLUMN ##### -->
+  <div id="leftcolumn">
+    <!-- ##### BEGIN NAVIGATION ##### -->
+    <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="cms.html">Create a Simple CMS</a></li>
+      <li><a href="contact.html">Contact Form</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="rss.html">RSS feed</a></li>
+      <li><a href="template.html">Page Template</a></li>
+    </ul>
+    <!-- ##### END NAVIGATION ##### -->
+    <div class="infobox">
+      <h4>News</h4>
+      <!-- ##### BEGIN NEWS ##### -->
+      HTML, short for Hypertext Markup Language, is the predominant markup language for the creation of web pages. It provides a means to describe the structure of text-based information in a document - by denoting certain text as headings, paragraphs, lists, and so on - and to supplement that text with interactive forms, embedded images, and other objects.
+      <p><a href="#">Read more...</a></p>
+      <!-- ##### END NEWS ##### -->
+    </div>
+  </div>
+  <!-- ##### END LEFT COLUMN ##### -->
+  <!-- ##### BEGIN FOOTER ##### -->
+  <div id="footer"> &copy; Copyright 2007 by Your Name | Design by <a href="http://www.wfiedler-online.de">wfiedler</a> </div>
+  <!-- ##### END FOOTER ##### -->
+</div>
+<!-- ##### END LAYOUT ##### -->
+</body>
+</html>

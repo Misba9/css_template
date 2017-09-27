@@ -1,0 +1,16 @@
+body {margin:0; font-size:12px; line-height:16px; font-family:Arial, Tahoma, Helvetica, sans-serif; background:url(images/body.jpg) repeat-x #8d8d8d; color:#cccccc;}
+a {color:#FFFF00;text-decoration:none;}
+a:hover {text-decoration:underline;}
+h1 {text-transform:uppercase; font-size:16px;}
+#all {width:1000px; margin:0 auto; background:url(images/body_bckg.jpg) no-repeat #000000;}
+#container {background:url(images/footer_bckg.jpg) no-repeat bottom left;}
+#logo {padding:50px 0 0 100px; height:80px;}
+#logo a {color:#FFFFFF; text-decoration:none; font-weight:bold; font-size:20px; text-transform:uppercase;}
+#menu {padding:50px 135px 0 0; float:right;}
+#menu ul {margin-top:0;}
+#menu ul li {display:inline;}
+#menu a {font-size:14px; text-decoration:none; color:#FFFFFF; padding:5px 10px; text-transform:lowercase;}
+#menu a:hover {border-bottom:2px solid #FFFF00;}
+#main {padding:0 100px; min-height:500px;}
+#footer {text-align:right; padding:80px 100px; color:#3b3b3b; font-size:11px;}
+#footer a {color:#575757;}

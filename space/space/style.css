@@ -1,0 +1,78 @@
+* { 
+	padding: 0;
+	margin: 0;
+}
+
+body { 
+background: #414b68 url(images/fd_body.gif) center;
+padding: 0;
+	margin: auto;}
+p {font-size: 75%;font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif}
+
+h2 { text-transform: lowercase;color: #fff;}
+h3 {color: #6a83c7;border-bottom: 1px #5e5e5e solid;font-size: 85%;font-family: Trebuchet, Georgia;}
+a { color: #d2d2c7;text-decoration: underline;}
+
+#wrap {	margin: 0px auto;	width: 910px; background: #211d2b ;}
+
+
+#header {
+height: 225px;
+margin: 0;
+padding: 0;background-image: url(images/head.jpg);}
+
+#header h1 { margin: 0; padding-left: 1px; padding-top: 12px; font-size:95%;; color: #d1b606; }
+#header h1 a {color: #fff; text-decoration: none;padding-left: 40px;font-size: 95%;}
+#header h2 { margin: 0; padding-left: 45px; padding-top: 2px;color: #fff;margin-top: 40px;text-align: left;text-indent: 205px;font-size: 80%;}
+
+#topmenu a { 
+color: #FFF;
+text-decoration: none;
+line-height: 22px;margin-right: 10px;} 
+
+#topmenu a:hover {color: #8093c9;}
+#topmenu a:visited {color: #b4b4b4;}
+
+#topmenu {  
+font: 80%  "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+text-align: right;
+background: #444 url(images/s_head.jpg);
+margin-bottom: 5px;
+color: #fff;
+height: 22px;}
+
+#right {
+font: 70%;
+float: right;
+width: 670px;
+margin-top: 5px;
+margin-left: 10px;
+color: #f4f4f4;}
+
+#left { 
+font: 70% "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+width: 200px;
+padding: 0px;display: block;visibility: inherit;float: left;
+height: 10px;text-transform: uppercase;margin-left: 5px;}
+
+#left li { list-style-type: none; border-bottom: 1px dotted #fff;padding-left: 0px;background-color: #46516e;margin-top: 2px;}
+#left li a {text-decoration: none;display:block; min-height:1.5em /*Non-IE6*/; height:auto !important; height:1.5em /*IE6*/; line-height:1.5em; padding:0px 10px 0px 40px; border:none; font-weight:normal; text-decoration:none; color: rgb(255,255,255);}
+#left li a:hover { text-decoration:none;color: #000;background-color: #686f8b;background-image: url(images/fd_btn_hover.gif);}
+
+.extra {float: left;color: #fff;font-size: 80%;width: 200px;margin-top: 175px;margin-left: 15px;}
+.titre_extra {color: #6a83c7;border-bottom: 1px #5e5e5e solid;font-size: 85%;font-family: Trebuchet, Georgia;}
+
+#footer {
+clear:both; 
+width:910px;
+height: 23px;
+margin: 0;
+padding: 0;background-color: #fff;background-image: url(images/fd_btn_hover.gif);text-align: center;}
+#footer a {color: #000;}
+.col1 {width: 650px; margin-bottom:5px /*IE6*/;text-align: justify;}
+
+.left {float:left; margin:10px 10px 5px 0;}
+.right {float:right; margin:10px 0 5px 10px;}
+
+.img {border: none;}
+

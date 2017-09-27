@@ -1,0 +1,291 @@
+/****************************************
+
+  InternetPhenomenon Master STYLESHEET
+  
+            DESIGNED BY VINCHE7
+			
+E-MAIL: vinche7@gmail.com       WEBSITE: http://aquaticus.us.to
+
+****************************************/
+* {		
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border-width: 0px;
+	display:block;
+}
+
+h1, h2, h3 {
+	color: #fff;
+	font-family: Arial, Helvetica;
+	font-weight: normal;
+	text-align: left;
+}
+
+p {
+	font-family: Arial, Helvetica;
+}
+
+body {
+	font-family: Arial, Helvetica;
+	text-align: center;
+	background-color: #222222;
+}
+
+#wrapper {
+	display: table;
+	width: 932px;
+	margin: 50px auto;
+	margin-bottom: 20px;
+}
+/******************************
+	LEFT COLUMN
+******************************/
+#leftcol {
+	float: left;
+	width: 648px;
+}
+
+#websitetitle {
+	text-align: left;
+	font-family: "TW Cen MT", Arial, Helvetica;
+}
+
+#websitetitle span {
+	color:#b4e2ff;
+}
+
+/******************************
+	NAVIGATION
+******************************/
+#nav {
+	display: table;
+	width: 643px;
+	margin-top: 28px;
+	margin-left: 5px;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#nav ul li a, nav ul li a:active, nav ul li a:visited {
+	font-family: Arial, Helvetica;
+	font-size: 14px;
+	color: #fff;
+	
+	letter-spacing: -1px;
+	text-decoration: none;
+	
+	padding-left: 17px;
+	padding-right: 40px;
+	
+	background: url(images/nav.jpg) left center no-repeat;
+}
+
+#nav ul li a:hover {
+	background: url(images/navhover.jpg) left center no-repeat;
+}
+
+/******************************
+	WELCOME BOX
+******************************/
+
+#welcomebox {
+	display: table;
+	width: 636px;
+	margin-top: 20px;
+	padding: 5px;
+	border: 1px solid #4b4b4b;
+}
+
+#welcomebox h2 {
+	font-family: Arial, Helvetica;
+	text-align: left;
+	color: #b4e2ff;
+}
+
+#welcomebox img {
+	float: left;
+	margin-right: 15px;
+}
+
+#welcomebox p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	text-align: left;
+	text-indent: 10px;
+	color: #fff;
+	
+	margin-right: 70px;
+	line-height: 25px;
+}
+
+/******************************
+    MAIN CONTENT STYLING
+******************************/
+#contentheading {
+	width: 618px;
+	height: 24px;
+	margin-top:15px;
+	padding-top: 2px;
+	padding-left: 30px;
+	background: url(images/mainlcorner.jpg) top left no-repeat #324045;
+}
+
+#contentbox {
+	width: 602px;
+	padding: 12px 22px 12px 22px;
+	background: url(images/contentbg.jpg) top left repeat-y;
+	border-width: 0px 1px 0px 1px;
+	border-style: solid;
+	border-color: #4b4b4b;
+}
+
+#content {
+	width: 572px;
+	background-color:#fff;
+	padding: 20px 15px 20px 15px;
+}
+
+#content p {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: -1px;
+	text-align: left;
+	text-indent: 10px;
+	color: #555555;
+	
+	margin-bottom: 10px;
+
+}
+
+#content p span {
+	margin-left: 20px;
+}
+
+#content blockquote {
+	margin: 0px 20px 10px 40px;
+	padding: 10px 0px 10px 0px;
+	background-color: #f5f5f5;
+	border: 1px solid #cccccc;
+	border-left: 5px #777 solid;
+	
+	font-family: Tahoma, Verdana, Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	color: #222222;
+}
+
+/******************************
+	  RIGHT COLUMN
+******************************/
+
+#rightcol {
+	width: 258px;
+	margin-left: 10px;
+	padding: 20px 6px 20px 6px;
+	float: left;
+	border: 2px solid #373737;
+}
+
+#rightcol h2 {
+	color: #c9c9c9;
+}
+
+.section {
+	display: table;
+	width: 244px;
+	margin-bottom: 28px;
+	padding: 0px 7px 30px 7px;
+	background: url(images/rightcolhdot.jpg) left bottom repeat-x;
+}
+
+.section p {
+	margin-top: 15px;
+	font-size: 12px;
+	text-align: left;
+	text-indent: 10px;
+	color: #fff;
+}
+
+/******************************
+	SEARCH FORM STYLES
+******************************/
+
+#searchInput {
+	width: 236px;
+	height: 18px;
+	border: 2px solid #777777;
+	margin-top: 10px;
+}
+
+#searchSubmit {
+	width: 51px;
+	height: 25px;
+	background: url(images/searchsubmit.jpg) no-repeat;
+	border-width: 0px;
+	
+	margin-top: 18px;
+	float:right;
+	
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+/******************************
+	NEWS POSTING STYLES
+******************************/
+
+.posted {
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	color: #c9c9c8;
+	
+	margin-top: 28px;
+	float: right;
+}
+
+.posted span {
+	color: #ff9d15;
+}
+
+.date {
+	font-family: Arial, Helvetica;
+	font-size: 11px;
+	color: #c9c9c8;
+	margin-top: 3px;
+	
+	clear: right;
+	float: right;
+}
+
+/******************************
+	FOOTER/COPYRIGHT
+******************************/
+
+#copyright {
+	margin-top: 80px;
+	font-size: 13px;
+	color: #fff;
+}
+
+#copyright a, #copyright a:active, #copyright a:visited {
+	text-decoration: none;
+	color: #b4e2ff;
+}
+
+#copyright a:hover {
+	text-decoration: underline;
+}

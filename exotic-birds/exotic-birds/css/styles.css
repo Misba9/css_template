@@ -1,0 +1,109 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#fff; color:#818181; font:10px/14px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+/* CONTAINER */
+
+#container{width:775px; margin: 0 auto; position:relative;}
+
+/* LEFT */
+
+#leftPan{width:107px;float:left }
+
+/* RIGHT */
+
+#rightPan{width:668px; float:left }
+
+/* HEADER */
+
+#header{width:668px; height:77px; position:relative; background:url(../images/topline.jpg) 0 0 no-repeat;}
+
+#header ul{width:610px; height:19px; position:relative; top:33px; left:45px}
+#header ul li{float:left; margin-right:8px}
+
+#header ul li.home a{width:83px; height:19px; display:block; background:url(../images/btn_home.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul li.home a:hover{width:83px; height:19px; background:url(../images/btn_home_over.gif) 0 0 no-repeat;}
+
+#header ul li.about a{width:73px; height:19px; display:block; background:url(../images/btn_about.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul li.about a:hover{width:73px; height:19px; background:url(../images/btn_about_over.gif) 0 0 no-repeat;}
+
+#header ul li.gallery a{width:100px; height:19px; display:block; background:url(../images/btn_gallery.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul li.gallery a:hover{width:100px; height:19px; background:url(../images/btn_gallery_over.gif) 0 0 no-repeat;}
+
+#header ul li.birds a{width:97px; height:19px; display:block; background:url(../images/btn_birds.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul li.birds a:hover{width:97px; height:19px; background:url(../images/btn_birds_over.gif) 0 0 no-repeat;}
+
+#header ul li.contacts a{width:76px; height:19px; display:block; background:url(../images/btn_contacts.gif) 0 0 no-repeat; text-indent:-20000px;}
+#header ul li.contacts a:hover{width:76px; height:19px; background:url(../images/btn_contacts_over.gif) 0 0 no-repeat;}
+
+#header ul li.bullet{width:19px; height:19px; display:block; background:url(../images/bullet_m.jpg) 0 0 no-repeat;}
+
+/* MAINIMG */
+
+#main{width:664px; height:285px; position:relative; background:url(../images/mainimg.jpg) 0 0 no-repeat; clear:both; margin-left:4px}
+#main img{position:absolute; top:65px; left:67px;}
+
+/* CONTENT */
+
+#content{width:664px; position:relative; clear:both; margin-left:4px;}
+
+#content a{font:10px/14px Tahoma, sans-serif; color:#236364; font-weight:bold; text-decoration:none }
+#content a:hover{color:#000; border-bottom: #000 1px dotted; text-decoration:none }
+
+#content a.a1{font:10px/14px Tahoma, sans-serif; color:#e34d09; font-weight:bold; text-decoration:none }
+#content a.a1:hover{color:#000; border-bottom: #000 1px dotted; text-decoration:none }
+
+#content a.a2{font:10px/14px Tahoma, sans-serif; color:#e34d09; font-weight:normal; text-decoration:underline}
+#content a.a2:hover{color:#000; border-bottom: #000 1px dotted; text-decoration:none }
+
+#content p span.headline{font:12px/12px Trebuchet MS, sans-serif; color:#236364; font-weight:bold; }
+
+#left{width:210px; margin: 17px 12px 10px 1px; float:left; display:inline;}
+
+#news{width:210px; position:relative; margin-bottom:27px;}
+#news h2{width:210px; height:37px; background:#f4f4f4 url(../images/h_news.gif) 15px 11px no-repeat; margin-bottom:10px}
+#news p{width:184px; padding-left:16px; }
+#news p.bullet{width:174px; padding-left:36px; background:url(../images/bullet.gif) 16px 3px no-repeat; font:12px/12px Trebuchet MS, sans-serif; color:#e34d09; font-weight:bold; padding-bottom:5px;}
+.line{height:1px; background:#e9efef; margin:20px}
+
+#partners{width:210px; position:relative;}
+#partners h2{width:210px; height:37px; background:#f4f4f4 url(../images/h_partners.gif) 15px 11px no-repeat; margin-bottom:10px}
+#partners p{width:184px; padding-left:16px; }
+
+#right{width:396px; margin: 17px 0 10px 0; float:left; display:inline;}
+
+#welcome{width:396px; position:relative; margin-bottom:20px;}
+#welcome h2{width:396px; height:37px; background:#e9e9e9 url(../images/h_welcome.gif) 15px 11px no-repeat; clear:both;}
+#welcome #frame{background:#f4f4f4; clear:both;}
+#welcome #frame img{float:left; margin: 0 11px 0 0; width:182px}
+#welcome #frame #weltext{float:left; padding-top:20px; width:181px}
+.line2{height:1px; background:#dfe5e5; margin:10px 0;}
+
+#advice{width:396px; position:relative;}
+#advice h2{width:396px; height:37px; background:#f4f4f4 url(../images/h_advice.gif) 15px 11px no-repeat; clear:both; margin-bottom:15px;}
+#advice p.bullet2{width:230px; padding-left:38px; background:url(../images/bullet.gif) 18px 4px no-repeat; padding-bottom:10px }
+#advice img{position:absolute; top:42px; left:277px}
+
+/* FOOTER */
+
+#footer{width:668px; height:60px; position:relative; background:url(../images/b_footer.jpg) 0 0 no-repeat;}
+#footer #copy{width:215px; float:left;}
+#footer #copy p{padding: 25px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+
+#footer #links{width:453px; float:left;}
+#footer #links p{padding: 25px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#818181;}
+#footer #links p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#818181; text-decoration:none; padding: 0 3px }
+#footer #links p a:hover{color:#000; background:#dedede; border-bottom: #000 1px dotted; }
+.sponsor {
+	margin: auto;
+	width: 728px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.sponsor img {
+	margin-top: 5px;
+}

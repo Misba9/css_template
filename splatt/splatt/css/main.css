@@ -1,0 +1,173 @@
+html,body{
+    margin:0;
+    padding:0;
+    border:0;
+    font:12px Arial, Helvetica, sans-serif;
+    color:#fff;
+    background:#B2D100}
+body{
+    width:770px;
+    margin:0 auto}
+a{
+    outline:none;
+    color:#fff;
+    font-weight:bold}
+    a:hover{
+        text-decoration:none}
+#hd{
+    height:71px;
+    background:url(../img/bghd.gif) 0 0 no-repeat;
+    padding:9px 0 0 0}
+    #hd ul{
+        margin:0;
+        padding:0;
+        list-style:none}
+    #hd #logo{
+        font-size:32px;
+        font-weight:bold;
+        width:auto;
+        padding:0 20px 0 0;
+        margin:0 0 0 64px;
+        width:150px;
+        background:url(../img/bglogo.gif) right 0 no-repeat}
+        #hd #logo a{
+            display:block;
+            line-height:70px;
+            color:#fff;
+            text-decoration:none}
+        #hd #logo a:hover{
+            color:#B2D100}
+#ct{
+    float:left;
+    width:474px}
+    #ct #men{
+        height:49px;
+        list-style:none;
+        padding:0;
+        margin:0 0 0 51px}
+        #ct #men li{
+            float:left;
+            margin:0 8px 0 0}
+        #ct #men a{
+            font-size:14px;
+            display:block;
+            font-weight:bold;
+            text-align:center;
+            color:#fff;
+            text-decoration:none;
+            line-height:49px}
+            #ct #men #m1{
+                background:url(../img/bgm1.gif) 0 0 no-repeat;
+                width:66px}
+            #ct #men #m2{
+                background:url(../img/bgm2.gif) 0 0 no-repeat;
+                width:67px}
+            #ct #men #m3{
+                background:url(../img/bgm3.gif) 0 0 no-repeat;
+                width:77px}
+            #ct #men #m4{
+                background:url(../img/bgm4.gif) 0 0 no-repeat;
+                width:79px}
+            #ct #men #m5{
+                background:url(../img/bgm5.gif) 0 0 no-repeat;
+                width:76px}
+            #ct #men #m1 a:hover,#ct #men #m1 a.act{
+                background:url(../img/bgm1o.gif) 0 0 no-repeat}
+            #ct #men #m2 a:hover,#ct #men #m2 a.act{
+                background:url(../img/bgm2o.gif) 0 0 no-repeat}
+            #ct #men #m3 a:hover,#ct #men #m3 a.act{
+                background:url(../img/bgm3o.gif) 0 0 no-repeat}
+            #ct #men #m4 a:hover,#ct #men #m4 a.act{
+                background:url(../img/bgm4o.gif) 0 0 no-repeat}
+            #ct #men #m5 a:hover,#ct #men #m5 a.act{
+                background:url(../img/bgm5o.gif) 0 0 no-repeat}
+#ctc{
+    padding:0 0 0 64px;
+    width:410px;
+    position:relative}
+    #ctc h1{
+        font-size:14px;
+        margin:0;
+        padding:12px 0 10px 0}
+    #ctc p{
+        padding:0 0 13px 0;
+        margin:0;
+        line-height:140%}
+    #ctc h2{
+        font-size:13px;
+        margin:0;
+        padding:5px 0}
+    #ctc h3{
+        font-size:12px;
+        margin:0;
+        padding:5px 0}
+    #ctc ol,#ctc ul{
+        margin:0;
+        padding:0 0 13px 30px}
+    #ctc blockquote,#ctc code{
+        border:1px solid #87B200;
+        border-left:5px solid #87B200;
+        padding:0 10px;
+        margin:0 0 13px 17px;
+        background:#A8C801}
+        #ctc blockquote p{
+            padding:4px 0}
+        #ctc blockquote blockquote{
+            margin-bottom:0;
+            background:#B2D100}
+    #ctc code{
+        display:block;
+        padding:2px 10px;
+        color:#E64218}
+    #ctc b,#ctc strong{
+        background:#A8C801;
+        padding:0 3px}
+    #ctc em{
+        font-style:normal;
+        color:#E64218}
+#ctr{
+    position:absolute;
+    margin:0 0 0 504px !important;
+    margin:0 0 0 453px;
+    z-index:1000;
+    width:268px}
+    #ctr dl,#ctr dt,#ctr dd,#ctr ul,#ctr ol{
+        width:268px;
+        margin:0;
+        padding:0;
+        list-style:none}
+        #ctr dl{
+            padding:0 0 0 9px;
+            background:url(../img/bgdl.gif) 0 0 no-repeat}
+        #ctr dt{
+            padding:32px 0 10px 15px;
+            font-size:14px;
+            font-weight:bold}
+        #ctr dd{
+            width:200px;
+            padding:0 10px 10px 15px;
+            background:#97BD00 url(../img/bgdd.gif) 0 bottom no-repeat}
+            #ctr dd img{
+                display:block;
+                float:right;
+                border:6px solid #BAD457;
+                margin:0 0 0 5px}
+        #ctr ol,#ctr ul{
+            padding:10px 0 0 35px}
+            #ctr ol li,#ctr ul li{
+                line-height:17px;
+                padding:0 0 0 10px}
+            #ctr ul li{
+                background:url(../img/bgbllt.gif) left no-repeat}
+            #ctr a{
+                font-weight:normal}
+    #ctr h2{
+        font-size:14px;
+        margin:10px 54px 0 27px;
+        border-bottom:1px solid #97BD00;
+        padding:0 0 0 0}
+#ft{
+    height:47px;
+    padding:39px 0 10px 64px;
+    clear:both;
+    background:url(../img/bgft.jpg) 26px 0 no-repeat}

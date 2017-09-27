@@ -1,0 +1,660 @@
+/*  
+Theme Name: Ophelia
+Theme URL: http://www.toptut.com
+Author: Lorelei
+Author URL: http://www.loreleiwebdesign.com/
+Description: 2 Columns wordpress theme by <a href="http://www.toptut.com/">Lorelei</a>. Please visit author's website for more themes.
+*/
+
+
+
+
+/* CSS Document */
+
+body {
+background-color:#ffffff;
+background:url(images/bg_ver_loreleiwebdesign.jpg) top repeat-x;
+color:#464646;
+margin:0;
+padding:0;
+}
+
+/* the links at the bottom of each posts */
+.links {
+display:block;
+width:95%;
+height:25px;
+background:url(images/ul_bg_loreleiwebdesign.jpg) top repeat-x;
+border-top:#ccc 1px solid;
+border-left:#ccc 1px solid;
+border-bottom:#adadad 1px solid;
+border-right:#adadad 1px solid;
+color:#444;
+line-height:25px;
+font-size:85%;
+padding:3px 10px;
+}
+
+.links a {
+text-decoration:none;
+color:#666;
+}
+
+.links a:hover {
+color:#666;
+text-decoration:none;
+}
+
+.links .comment {
+display:block;
+float:left;
+background:url(images/comment.jpg) no-repeat left center;
+padding-left:20px;
+margin-right:45px;
+}
+
+.links .feed {
+display:block;
+float:left;
+background:url(images/feed.jpg) no-repeat left center;
+padding-left:20px;
+margin-right:45px;
+}
+
+.links .cat {
+display:block;
+float:left;
+background:url(images/categories.jpg) no-repeat left center;
+padding-left:20px;
+}
+
+.postmetadataalt {
+font-size:0.81em;
+padding:7px;
+border: 1px solid #6890bb;
+}
+.partner{
+font-size:0.81em;
+padding:7px;
+margin: 25px;
+border: 1px solid #6890bb;
+}
+
+.pagetitle {
+margin:0;
+padding:0 0 15px 18px;
+}
+
+html {
+font-size:11px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.normal {
+font-size:1.01em;
+}
+
+.big {
+font-size:1.31em;
+}
+
+.small {
+font-size:0.91em;
+}
+
+h1 {
+    font-family: Tahoma, Verdana, Helvetica, sans-serif; 
+color:#5c0005;
+font-size:3.21em;
+text-transform:uppercase;
+font-weight:400;
+line-height:1.01em;
+margin:0;
+padding:0;
+}
+
+#respond {
+color:#464646;
+font-size:1.01em;
+text-transform:uppercase;
+margin:0;
+padding:0;
+}
+
+.content_txt h2 a {
+color:#5c0005;
+text-decoration:none;
+
+}
+
+.h3 {
+font-size:1.3em;
+color:#1d3e59;
+text-transform:none;
+text-align:center;
+margin:0px;
+height:30px;
+padding-top:10px;
+background:url(images/ul_bg_loreleiwebdesign.jpg) top repeat-x;
+letter-spacing: 2px;
+border-top:1px solid #dcdcdc;
+border-left:1px solid #dcdcdc;
+border-right:1px solid #abaaaa;
+border-bottom:1px solid #abaaaa;
+
+
+}
+
+.h4 {
+font-size:1.01em;
+color:#5c0005;
+text-transform:uppercase;
+vertical-align:middle;
+margin:0;
+padding:0;
+}
+
+.border {
+width:800px;
+vertical-align:top;
+text-align:left;
+
+}
+
+.main_div {
+height:100%;
+vertical-align:top;
+background:url(images/main_bg.gif) left top repeat-y;
+margin:0 0 0 1px;
+}
+
+.main_table {
+width:800px;
+display:table;
+background:url(images/top_bg.jpg) left top no-repeat;
+}
+
+.main_table_row {
+width:800px;
+height:100%;
+display:table-row;
+}
+
+
+.left_1 {
+width:27px;
+height:100%;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+.main_left {
+width:183px;
+height:100%;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+.left_2 {
+width:22px;
+height:100%;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+.main_cent {
+width:497px;
+height:100%;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+
+}
+
+.co_name_bg {
+width:497px;
+height:280px;
+vertical-align:top;
+
+}
+
+.co_name {
+vertical-align:top;
+text-align:right;
+font-size:1.2em;
+padding:29px 0px 0;
+font-weight:700;
+}
+
+.co_name a {
+font-family:Georgia, "Book Antiqua", "Souvenir Lt BT", "Times New Roman", serif;
+color:#5e4221;
+text-decoration:none;
+font-size:0.8em;
+}
+
+.co_name a:hover {
+color:#5e4221;
+text-decoration:none;
+
+}
+
+.slogan {
+color:#5d6e76;
+vertical-align:top;
+text-align:right;
+font-size:0.8em;
+padding:0;
+padding-top:10px;
+}
+
+.search_bg {
+height:36px;
+width:497px;
+vertical-align:top;
+}
+
+#search {
+vertical-align:top;
+color:#000;
+padding:0;
+padding-top:30px;
+}
+
+#search input {
+background:url(images/search-bg.gif) no-repeat top;
+font-size:11px;
+color:#9b000a;
+ font-family: Tahoma, Verdana, Helvetica, sans-serif; 
+width:190px;
+height:18px;
+vertical-align:middle;
+margin:0 4px 0 12px;
+padding:0;
+border: 1px solid #410606;
+}
+
+#search .input {
+width:30px;
+height:20px;
+background:none;
+border:none;
+vertical-align:middle;
+margin:0;
+padding:0;
+}
+
+.head_bg {
+width:497px;
+vertical-align:top;
+
+}
+
+.table2 {
+width:497px;
+display:table;
+}
+
+.table_row2 {
+width:497px;
+display:table-row;
+height:100%;
+}
+
+.left2 {
+width:356px;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+
+/* post title */
+
+.head {
+color:#3c861c;
+font-size: 1.0em;
+line-height:1.11em;
+padding:10px 0 7px 18px;
+
+}
+
+.head a {
+color:#000;
+text-decoration:none;
+}
+
+.head a:hover {
+color:#cc000b;
+text-decoration:none;
+}
+
+.right2 {
+width:107px;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+/* Calendar */
+.calendar {
+float:right;
+clear:right;
+background:url(images/calendar.jpg) no-repeat right top;
+width:50px;
+height:55px;
+
+}
+
+.calendar .month {
+display:block;
+clear:both;
+text-align:center;
+font-size:14px;
+color:#FFF;
+font-weight:700;
+margin-bottom:0;
+}
+
+.calendar .date {
+display:block;
+clear:right;
+
+text-align:center;
+font-size:30px;
+color:#393939;
+font-weight:700;
+margin-bottom:0;
+line-height:35px;
+}
+
+
+.content_txt {
+line-height:1.55em;
+padding:12px;
+margin-bottom: 15px;
+font-size: 1.29em;
+border:1px dotted #ccc;
+background:#f6f6f6;
+
+}
+
+.content_txt b a {
+color:#5c0005;
+font-weight:400;
+text-decoration:underline;
+}
+
+.content_txt b a:hover {
+color:#cc000b;
+font-weight:400;
+text-decoration:none;
+}
+
+
+
+.comment a {
+color:#5c0005;
+font-weight:700;
+text-decoration:underline;
+}
+
+.comment a:hover {
+color:#cc000b;
+font-weight:700;
+text-decoration:none;
+}
+
+.content_txt li {
+list-style:none;
+background:url(images/li_bg2.gif) left top no-repeat;
+vertical-align:top;
+line-height:1.81em;
+color:#5c0005;
+margin:0;
+padding:0 0 0 12px;
+}
+
+.content_txt ul li a {
+text-decoration:underline;
+color:#5c0005;
+}
+
+.table3 {
+width:450px;
+display:table;
+}
+
+.table_row3 {
+width:450px;
+display:table-row;
+height:100%;
+}
+
+.left3 {
+width:151px;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+.cent3 {
+width:131px;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+.right3 {
+width:168px;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+.right_1 {
+width:71px;
+height:100%;
+vertical-align:top;
+display:table-cell;
+text-align:left;
+}
+
+.widget_style {
+vertical-align:top;
+text-align:left;
+padding:0;
+}
+
+.cats_head_bg {
+vertical-align:top;
+
+}
+
+.widget_style ul {
+margin:0;
+padding:15px 0 15px 20px;
+}
+
+.widget_style li {
+list-style:none;
+vertical-align:top;
+line-height:1.51em;
+color:#60000f;
+margin:0;
+padding:2px;
+
+}
+
+.widget_style ul li a {
+text-decoration:none;
+color:#60000f;
+
+}
+
+.widget_style li a:hover {
+color:#cc000b;
+text-decoration:none;
+
+}
+
+#calendar_wrap {
+vertical-align:top;
+color:#2e4263;
+padding:0 0 15px 29px;
+}
+
+#calendar_wrap a {
+color:#2c5c72;
+text-decoration:none;
+font-weight:700;
+}
+
+#calendar_wrap a:hover {
+color:#cc000b;
+text-decoration:none;
+font-weight:700;
+}
+
+#search_txt {
+vertical-align:top;
+text-align:left;
+margin:0;
+padding:15px 0;
+}
+
+#search_txt input {
+font-size:11px;
+color:#464646;
+    font-family: Tahoma, Verdana, Helvetica, sans-serif; 
+width:140px;
+height:15px;
+vertical-align:top;
+margin:0;
+padding:0;
+}
+
+#search_txt strong {
+color:#FFF;
+text-transform:uppercase;
+font-size:1.01em;
+}
+
+#search_txt .input {
+width:59px;
+height:22px;
+background:none;
+border:none;
+vertical-align:top;
+margin:0;
+padding:0;
+}
+
+.footer {
+border-top:1px dotted #ccc;
+height:85px;
+color:#900313;
+font-size: 0.9em;
+position:relative;
+
+
+}
+
+.footer_txt {
+vertical-align:top;
+font-weight:600;
+
+text-align:center;
+color:#900313;
+padding:10px 5px 0 50px;
+}
+
+.footer_txt a {
+color:#900313;
+text-decoration:none;
+}
+.footer_txt a:hover {
+color:#900313;
+text-decoration:none;
+}
+
+a {
+color:#900313;
+text-decoration:none;
+}
+
+.content_txt a {
+color:#900313;
+text-decoration:none;
+border-bottom: 1px dotted #515151;
+}
+
+a:hover,.content_txt h2 a:hover {
+color:#9b000a;
+text-decoration:none;
+}
+
+p,.content_txt ul {
+margin:0;
+padding:0px;
+}
+
+h2,h3,.h2 {
+color:#3c861c;
+font-size:1.8em;
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif; 
+
+
+}
+.content_txt a:hover,{
+color:#5c0005;
+text-decoration:none;
+}
+.content_txt li a:hover {
+color:#fff;
+text-decoration:none;
+}
+.footer_txt a:hover {
+color:#9f0507;
+text-decoration:none;
+}
+
+
+
+.content_txt strong,.content_txt b {
+color:#5c0005;
+}
+
+#links_with_style,#archives,#meta,#recent-comments,#recent-posts,#categories,#calendar,#pages {
+vertical-align:top;
+padding:15px 0 0;
+}
+
+#google-search,#text-1,#delicious {
+vertical-align:top;
+}
+
+#gsearch,#textwidget,#delicious-box {
+text-align:left;
+padding:15px 0 0;
+}
+
+
+blockquote {
+	margin: 15px;
+ 	padding: 10px;  	
+  	background: #f5f7de;
+	border-left: 1px dotted #8d0411; 
+}
+
+img {
+	border:0;
+	}
+img a {
+	border:0;
+	}

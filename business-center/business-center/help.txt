@@ -1,0 +1,48 @@
+--HELP FILE TEMPLATE--
+
+Business Center
+Created: 12/11/2008
+By: DeveloperFox
+
+
+Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form. Thanks so much!
+
+--TABLE OF CONTENTS--
+
+A) HTML Structure 
+B) CSS Files 
+C) PSD Files
+
+----------------------------------------------------------------------------------------------------------
+
+A) HTML Structure
+
+This theme is a fixed layout with three columns in homepage and two columns in sub pages. 
+all contents go under a div with id of "content". There is a div with "products" id which is used for showcasing 3 products.
+there are also some divs named box-1 to box-4 for main content columns and Naviagation div id is "nav".
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+B) CSS
+
+There is only one css file used in this template.
+
+- style.css	     : contains all of the specific stylings for the page
+
+
+Style.css file is commented completely.
+ 
+
+If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+C) PSD Files
+
+I've included 1 psd with this theme:
+
+PSD file name: PSD.psd
+

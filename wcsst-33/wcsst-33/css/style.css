@@ -1,0 +1,267 @@
+* {
+	padding:0;
+	margin:0;
+	outline:0;
+}
+body {
+	font-size:12px;
+	font-family:Arial, "Trebuchet MS", sans-serif;
+	color:#565656;
+	background:#f7f7f7;
+}
+a {
+	color:#565656;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+a img {
+	border:0;
+}
+a.left img {
+	margin:2px 8px 6px 0;
+}
+.cl, .clear {
+	display:block;
+	height:0;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+	clear:both;
+}
+.shell {
+	width:963px;
+	margin:0 auto;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+#header {
+	position:relative;
+	height:80px;
+}
+#logo {
+	position:absolute;
+	top:0;
+	left:0;
+}
+#logo a {
+	width:271px;
+	height:80px;
+	background:url(images/logo.gif);
+	display:block;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+#navigation {
+	float:right;
+}
+#navigation ul {
+	list-style:none;
+	padding-top:41px;
+}
+#navigation ul li {
+	float:left;
+	padding:0 13px;
+	border-right:1px solid #423e3e;
+}
+#navigation ul li.last {
+	border:0;
+	padding-right:1px;
+}
+#navigation ul li a {
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	color:#423e3e;
+	text-decoration:none;
+}
+#navigation ul li a:hover, #navigation ul li a.active {
+	border-bottom:2px solid #000;
+	color:#000;
+}
+#slider {
+	z-index:1;
+}
+.slider-holder, .jcarousel-clip {
+	width:960px;
+	height:350px;
+	overflow:hidden;
+	position:relative;
+}
+.slider-holder ul {
+	list-style:none;
+	width:960px;
+	height:350px;
+	overflow:hidden;
+	position:relative;
+}
+.slider-holder ul li {
+	width:960px;
+	float:left;
+}
+.slider-navigation {
+	margin-top:6px;
+	width:960px;
+	height:50px;
+	background:url(images/slider-navigation.jpg);
+}
+.slider-navigation ul {
+	list-style:none;
+	padding:17px 0 0 18px;
+}
+.slider-navigation ul li {
+	float:left;
+	display:inline;
+	width:17px;
+	padding-right:2px;
+}
+.slider-navigation ul li a {
+	float:left;
+	display:inline;
+	width:17px;
+	height:18px;
+	background:url(images/slider-navigation-a.gif);
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+.slider-navigation ul li a.active, .slider-navigation ul li a:hover {
+	background-position:right top;
+}
+.slider-big-frame {
+	background:url(images/slider-frame.png);
+	width:960px;
+	height:350px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:3;
+}
+#main {
+	padding:11px 0 16px 0;
+	width:972px;
+}
+#main .box {
+	float:left;
+	padding-right:21px;
+	background:url(images/box-bg.gif) left bottom repeat-y;
+	width:310px;
+	position:relative;
+	left:-4px;
+}
+#main .box .box-t {
+	background:url(images/box-top.gif) left top no-repeat;
+	width:310px;
+}
+#main .box .box-t .box-b {
+	background:url(images/box-bottom.gif) left bottom no-repeat;
+	padding:28px 0 5px 20px;
+	width:288px;
+	min-height:180px;
+	position:relative;
+}
+#main .last-box {
+	padding-right:0;
+}
+#main .box h2 {
+	width:269px;
+	padding:0 0 4px 0;
+	border-bottom:1px dotted #dcdcdc;
+	color:#252323;
+	font-size:16px;
+}
+#main .box a.right {
+	position:absolute;
+	top:23px;
+	right:19px;
+}
+#main .entry {
+	padding-top:10px;
+	height:163px;
+}
+#main .entry {
+	width:278px;
+}
+#main .entry p {
+	line-height:19px;
+}
+#main .entry a img {
+	border:2px solid #b7b7b7;
+}
+#main .entry a.a-blue {
+	color:#235e9e;
+}
+#main .news {
+	position:relative;
+	top:-2px;
+}
+#main .news ul {
+	list-style:none;
+}
+#main .news ul li {
+	line-height:18px;
+	border-bottom:1px dotted #dcdcdc;
+	padding:0 0 15px 0;
+	margin-bottom:3px;
+}
+#main .news ul li.last {
+	border-bottom:0;
+}
+#main .news ul li h5 {
+	color:#235e9e;
+	font-size:10px;
+	font-weight:normal;
+}
+#main .news ul li a {
+	color:#235e9e;
+}
+#main .buttons {
+	height:25px;
+	padding-bottom:18px;
+}
+#main .buttons a, #main .buttons a span {
+	height:25px;
+	line-height:25px;
+	background:url(images/button.gif);
+	float:left;
+	cursor:pointer;
+}
+#main .buttons a {
+	padding-left:19px;
+	background-position:left top;
+	font-size:11px;
+	text-decoration:none;
+	color:#fff;
+}
+#main .buttons a span {
+	padding-right:13px;
+	background-position:right top;
+}
+.footer {
+	border-top:1px solid #ddddde;
+	height:36px;
+	padding-top:7px;
+	font-size:10px;
+	line-height:10px;
+}
+.footer, .footer a {
+	color:#191818;
+	text-decoration:none;
+}
+.footer p {
+	margin:0;
+	padding:0;
+	line-height:normal;
+}
+.footer .lf {
+	float:left;
+}
+.footer .rf {
+	float:right;
+}

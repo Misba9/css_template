@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Luvbold</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/sifr.css" type="text/css" />
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+<script src="js/sifr.js" type="text/javascript"></script>
+<script src="js/sifr-debug.js" type="text/javascript"></script>
+<script src="js/activate-sIFR" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript">
+var chunkfive = {
+    src: 'chunkfive.swf',
+    ratios: [6, 1.41, 9, 1.35, 15, 1.29, 21, 1.25, 22, 1.22, 27, 1.24, 29, 1.21, 34, 1.22, 41, 1.21, 45, 1.2, 46, 1.21, 59, 1.2, 68, 1.19, 69, 1.2, 96, 1.19, 97, 1.18, 102, 1.19, 103, 1.18, 107, 1.19, 108, 1.18, 112, 1.19, 114, 1.18, 116, 1.19, 120, 1.18, 121, 1.19, 1.18]
+};
+// You probably want to switch this on, but read <http://wiki.novemberborn.net/sifr3/DetectingCSSLoad> first.
+// sIFR.useStyleCheck = true;
+sIFR.activate(chunkfive);
+sIFR.replace(chunkfive, {
+    selector: 'h2,h4',
+    wmode: 'transparent',
+    css: ['.sIFR-root { color: #66733f;}']
+});
+sIFR.replace(chunkfive, {
+    selector: 'h1 a, ul#nav li a,button.submit',
+    wmode: 'transparent',
+    css: ['.sIFR-root { color: #88857a; cursor: pointer; }']
+});
+</script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<script type="text/javascript">
+//<![CDATA[
+$(function() {
+  $('#gallery a').lightBox();
+});
+//]]>
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="top">
+    <h1> <a href="#">Luvbold</a><span>subtagline</span> </h1>
+    <ul id="nav">
+      <li> <a href="#">Home</a><span>Back to top</span> </li>
+      <li> <a href="#">About Me</a><span>few words</span> </li>
+      <li> <a href="#">Portfolio</a><span>my works</span> </li>
+      <li> <a href="#">Contact</a><span>with me</span> </li>
+    </ul>
+  </div>
+  <div id="middle">
+    <div id="text_placement"> <span>Welcome to online home of</span>
+      <h2> Your Name </h2>
+      <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
+      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </div>
+    <div id="about" class="content">
+      <h4> About You </h4>
+      <span><a href="#">back to top</a></span>
+      <p> <img src="images/img_bg.jpg" width="250" height="150" alt="" /> </p>
+      <p class="border"> <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <a href="#">cupidatat</a> proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in <a href="#">reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </div>
+    <div id="portfolio" class="content">
+      <h4> Some of my works </h4>
+      <span><a href="#">back to top</a></span>
+      <div id="gallery">
+        <ul>
+          <li> <a href="photos/image1.jpg"><img src="photos/thumb_image1.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image2.jpg"><img src="photos/thumb_image2.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image3.jpg"><img src="photos/thumb_image3.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image4.jpg"><img src="photos/thumb_image4.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image5.jpg"><img src="photos/thumb_image5.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image1.jpg"><img src="photos/thumb_image1.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image2.jpg"><img src="photos/thumb_image2.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image3.jpg"><img src="photos/thumb_image3.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image4.jpg"><img src="photos/thumb_image4.jpg" width="72" height="72" alt="" /></a> </li>
+          <li> <a href="photos/image5.jpg"><img src="photos/thumb_image5.jpg" width="72" height="72" alt="" /></a> </li>
+        </ul>
+      </div>
+    </div>
+    <div id="contact" class="content">
+      <h4> Contact with me </h4>
+      <span><a href="#">back to top</a></span>
+      <p class="border"> <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <a href="#">cupidatat</a> proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <p class="border"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in <a href="#">reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      <form action="#">
+        <fieldset>
+          <div>
+            <label>Name</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>e-mail</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Subject</label>
+            <textarea></textarea>
+          </div>
+          <div>
+            <button type="submit" class="submit">Send</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  <div id="footer">
+    <p> 2009 &copy; Copyright <a href="#">Domain Name</a>. All Rights Reserved | Designed by <a href="http://gaelian.carbonmade.com/">Wojtek Konieczny</a></p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,478 @@
+* {
+	margin: 0; padding: 0;
+}
+body {
+	text-align: center;
+	font: 11px Arial;
+	color: #333333;
+	background: url(images/background.gif) repeat-x 0 0;
+}
+a {
+	text-decoration: none;
+	color: #E2560B;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border: 0;
+}
+
+.break {
+	font-size: 0;
+	width: 0; height: 0;
+	clear: both;
+}
+.alignleft {
+	float: left;
+	margin: 4px 10px 5px 0;
+}
+.alignright {
+	float: right;
+	margin: 4px 0 5px 10px;
+}
+.aligncenter {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+
+/** BEGIN wrapper **/
+.wrapper {
+	width: 1005px;
+	margin: auto auto;
+	text-align: left;
+}
+/** END wrapper **/
+
+/** BEGIN header **/
+#header {
+	height: 142px;
+}
+	#header ul {
+		list-style-type: none;
+		height: 35px;
+		padding: 5px 0 0 35px;
+	}
+		#header ul li {
+			float: left;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 1.1em;
+		}
+		#header ul li a {
+			color: #ffffff;
+			display: block;
+			padding: 10px 12px;
+		}
+		#header ul li a:hover {
+			background-color: #F9CBB3;
+			color: #CF682F;
+			text-decoration: none;
+		}
+	#header h1 {
+		font-size: 3.3em;
+		text-transform: uppercase;
+		padding: 28px 0 0 42px;
+	}
+		#header h1 a {
+			color: #CF682F;
+		}
+/** END header **/
+
+/** BEGIN content **/
+#content {
+	width: 525px;
+	float: left;
+	padding-bottom: 20px;
+}
+	#content .post {
+		padding: 20px 10px 20px 20px;
+	}
+	#content h2 {
+		font-size: 2.2em;
+		border-bottom: 1px dotted #BCBCBC;
+		padding-bottom: 2px;
+		margin-bottom: 5px;
+	}
+		#content h2 a {
+			color: #A23D00;
+		}
+	#content .details {
+		padding-bottom: 20px;
+		color: #666666;
+	}
+		#content .details .author a {
+			color: #666666;
+			padding: 2px 0 2px 18px;
+			background: url(images/author.gif) no-repeat 0 0;
+		}
+		#content .details .date {
+			padding: 2px 0 2px 18px;
+			background: url(images/date.gif) no-repeat 0 0;
+			color: #666666;
+		}
+		#content .details .l {
+			float: left;
+			margin-bottom: 0;
+		}
+		#content .details .r {
+			float: right;
+			margin-bottom: 0;
+		}
+			#content .details .r a {
+				padding-left: 17px;
+				background: url(images/comments.gif) no-repeat 0 2px;
+			}
+		#content .tags {
+			padding: 5px 10px;
+			border-width: 1px 0;
+			border-style: dotted;
+			border-color: #BCBCBC;
+			margin-top: 10px;
+		}
+	#content p {
+		line-height: 1.4em;
+		margin-bottom: 10px;
+	}
+	#content h3 {
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+	#content ul {
+		margin: 0 0 10px 16px;
+	}
+	#content ol {
+		margin: 0 0 10px 18px;
+	}
+	#content li {
+		line-height: 1.4em;
+		padding: 2px 0;
+	}
+	#content blockquote {
+		padding: 10px 20px;
+		color: #808080;
+		line-height: 1.4em;
+	}
+	#comments {
+		padding: 10px;
+	}
+		#comments h2 {
+			font-size: 1.3em;
+			padding-bottom: 10px;
+		}
+		#comments .gravatar {
+			padding: 3px;
+			border: 1px solid #CCCCCC;
+			float: left;
+			margin: 0 10px 10px 0;
+		}
+		#comments .comment1 {
+			padding: 10px 10px 0;
+			border-bottom: 1px dotted #BCBCBC;
+		}
+		#comments .author {
+			float: left;
+		}
+			#comments .author strong {
+				font-size: 1.3em;
+			}
+			#comments .author a {
+				color: #A23D00;
+			}
+		#comments .date {
+			float: right;
+		}
+		#comments .details2 {
+			height: 30px;
+			color: #666666;
+		}
+/** END content **/
+
+/** BEGIN sidebar **/
+.sidebar {
+	width: 228px;
+	float: left;
+	padding: 20px 0 20px 10px;
+}
+	.sidebar h2 {
+		color: #A23D00;
+		font-size: 1.3em;
+		margin-bottom: 5px;
+	}
+	.sidebar .about {
+		padding-bottom: 10px;
+		color: #666666;
+		line-height: 1.5em;
+	}
+		.sidebar .about img {
+			padding: 4px;
+			border: 1px solid #CCCCCC;
+			float: left;
+			margin: 0 10px 4px 0;
+		}
+	.sidebar ul {
+		list-style-type: none;
+		padding: 5px 0 15px;
+	}
+		.sidebar ul li {
+			line-height: 1.4em;
+			padding: 4px 0 4px 20px;
+			background: url(images/categories.gif) no-repeat 0 5px;
+			border-bottom: 1px dotted #BCBCBC;
+		}
+		.sidebar ul.archives li { background-image: url(images/archives.gif); }
+		.sidebar ul.blogroll li { background-image: url(images/blogroll.gif); }
+		.sidebar ul.meta li { background-image: url(images/meta.gif); }
+		.sidebar ul li a {
+			color: #666666;
+		}
+		.sidebar ul li a:hover {
+			
+		}
+	.sidebar .search {
+		width: 206px; height: 26px;
+		background: url(images/search.gif) no-repeat 0 0;
+		padding: 0 !important;
+		margin: 5px 0 20px;
+	}
+		.sidebar .search button {
+			border: 0;
+			width: 26px; height: 26px;
+			text-indent: -9999px;
+			background-color: transparent;
+			float: left;
+		}
+		.sidebar .search input {
+			float: left;
+			border: 0;
+			width: 172px;
+			margin: 5px 4px;
+			font-size: 1.1em;
+			font-style: Verdana;
+		}
+	.sidebar .box {
+		padding: 5px 0 15px;
+	}
+	.sidebar .flckr {
+	}
+		.sidebar .flckr img {
+			margin: 0 10px 10px 0;
+			width: 75px; height: 75px;
+		}
+	.sidebar .tags {
+		
+	}
+		.sidebar .tags a {
+			color: #666666;
+		}
+		.sidebar .tags a:hover {
+			color: #E2560B;
+			text-decoration: none;
+		}
+	.sidebar .ad {
+		
+	}
+/** END sidebar **/
+
+/** BEGIN footer **/
+#footer {
+	clear: both;
+	background: #CAE7FD url(images/footer.gif) repeat-x 0 bottom;
+	border-top: 1px solid #9EC0DA;
+	padding-top: 20px;
+}
+	#footer .wrapper2 {
+		margin-left: -10px;
+	}
+	#footer .box {
+		width: 280px;
+		float: left;
+		padding: 0 0 20px 45px;
+	}
+	#footer .bottom {
+		clear: both;
+		height: 41px;
+		color: #ffffff;
+		width: 1005px;
+		margin: auto auto;
+		text-align: left;
+	}
+		#footer .bottom a {
+			color: #ffffff;
+		}
+		#footer .bottom p {
+			padding: 15px 15px 0;
+		}
+		#footer .bottom .l {
+			float: left;
+		}
+		#footer .bottom .r {
+			float: right;
+		}
+	#footer .box h2 {
+		color: #A23D00;
+		font-size: 1.4em;
+		border-bottom: 1px dashed #9EC0DA;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+	}
+	#footer .box ul {
+		list-style-type: none;
+	}
+		#footer .box ul li {
+			line-height: 1.4em;
+			padding: 3px 0 3px 20px;
+			background: url(images/bullet.gif) no-repeat 0 3px;
+		}
+		#footer .box ul li a {
+			color: #333333;
+		}
+/** END footer **/
+
+/** BEGIN miscellaneous **/
+#postnav {
+	padding: 10px 20px 0;
+}
+/** END miscellaneous **/
+
+/** BEGIN miscellaneous **/
+.postnav {
+	clear: both;
+	padding: 20px 20px 0;
+}
+	.postnav a {
+		border: 1px solid #cccccc;
+		padding: 3px 8px;
+		color: #999999;
+	}
+	.postnav a:hover {
+		border: 1px solid #000000;
+		color: #000000;
+		text-decoration: none;
+	}
+#comments {
+	padding: 0 20px;
+}
+	#comments h2 {
+		margin: 20px 0 5px;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+	#comments p {
+		margin-bottom: 10px;
+		line-height: 1.5em;
+	}
+	#comments form {
+		padding: 15px 10px 0;
+	}
+	#comments form p {
+		margin-bottom: 5px;
+	}
+		#comments form input, textarea {
+			border: 1px solid #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			padding: 4px 4px 4px 20px;
+			background-position: 4px 4px;
+			background-repeat: no-repeat;
+		}
+		#comments form input {
+			width: 260px;
+			border: 1px solid #cccccc;
+		}
+		#comments form textarea {
+			width: 350px;
+			padding: 4px 4px !important;
+			border: 1px solid #cccccc;
+		}
+		#comments form button {
+			border: 1px solid #909090;
+			background-color: #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			width: 120px; height: 23px;
+		}
+	.commentdetails {
+		margin-top: 25px;
+	}
+	.commentauthor {
+		margin-bottom: 5px !important;
+		font-weight: bold;
+	}
+	.commentdate {
+		font-size: 0.8em;
+		margin-bottom: 5px;
+		color: #909090;
+	}
+	.required {
+		color: #ff0000;
+	}
+h2.title {
+	font-size: 1em !important;
+	text-transform: uppercase;
+	padding: 25px 25px 0;
+	color: #565656;
+	border: 0 !important;
+}
+.notfound {
+	padding: 40px;
+}
+	.notfound h2 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
+/** END miscellaneous **/
+
+/** BEGIN wordpress 2.7 comments **/
+#comments ol {
+	list-style-type: none;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+	#comments ol li {
+		padding: 10px;
+		border: 1px solid #e0e0e0;
+		margin-bottom: 10px;
+	}
+	#comments ol li .avatar {
+		float: right;
+	}
+	#comments ol li .comment-author {
+		
+	}
+		#comments ol li .comment-author .fn {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+	#comments ol li .comment-meta {
+		font-size: 0.9em;
+		color: #999999;
+		margin: 5px 0 10px;
+	}
+	#comments ol li .reply {
+		font-size: 0.9em;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+	#comments .children {
+		list-style-type: none;
+	}
+#comments .navigation {
+	padding: 10px 0 20px;
+	font-size: 0.9em;
+}
+	#comments .navigation a {
+		color: #999999;
+		padding: 3px 8px;
+		border: 1px solid #cccccc;
+	}
+	#comments .navigation a:hover {
+		color: #000000;
+		border-color: #000000;
+		text-decoration: none;
+	}
+/** END wordpress 2.7 comments **/

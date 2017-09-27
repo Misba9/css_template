@@ -1,0 +1,57 @@
+/* STANDARD TAG REDEFINITIONS */
+BODY{ color: #1D1D1D; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; background-color: #878787; margin: 27px 0 20px 0; padding: 0;  background-image: url(bg_body.gif);  background-attachment: fixed;      }
+TD {font-size: 10pt;  }
+p { font-size: 10pt;  margin-bottom: 7px; margin-top: 0; }
+a{ color: #339F25; text-decoration: none; }
+a:hover{ text-decoration: underline; color: #D20000; }
+h1, h2, h3, h4, h5{	font-family: "trebuchet ms",arial,tahoma,verdana,sans-serif; letter-spacing: .005em; margin:0 0 1em 0; padding:0;}
+form{	margin:0;}
+
+#TOPBORDER{ width:760px; margin-left: auto; margin-right: auto; background-image: url(header.gif); background-repeat: no-repeat; height: 11px; font-size: 1px; }
+
+#TOPNAV{ margin-left: auto; margin-right: auto; text-align: right; width: 740px; font-size: 10px; font-family: "MS Sans Serif", Geneva, sans-serif; padding: 0 10px 0 10px; margin-bottom: 0; margin-top: 0;  background-image: url(bg_margins.gif);  background-color: White;  background-repeat: repeat-y;  height: 30px;            }
+	#TOPNAV div{ width: 740px; height: 30px; line-height: 30px; background-image: url(bg_top_caption.gif); background-repeat: repeat-x;  float: right;  }
+	#TOPNAV p{ float: right; line-height: 29px;  font-size: 11px;  margin:0; padding:0;   }
+	#TOPNAV a{ height: 29px; line-height: 29px; margin: 0; color: #2B4C26; background-repeat: no-repeat;   padding: 0 9px 0 22px;  display: block;  float: left;    background-position: left;           }
+	#TOPNAV a.Home{ background-image: url(ico_home.gif);  }
+	#TOPNAV a.Contact{ background-image: url(ico_email.gif);  }
+	#TOPNAV a.Map{ background-image: url(ico_sitemap.gif);    }
+	#TOPNAV a:hover{ color: #CE0000; text-decoration: none; position:relative; top:-1px;}
+
+#HEADER{	width: 730px; padding: 32px 0 0 30px; height:86px; margin-left:auto; margin-right:auto; clear:both;  background-color: #275000;  background-image: url(bg_header.jpg);  background-repeat: no-repeat;    }
+	#header-h1{ position:relative;  margin:0; color: #1D411B; font-size: 18pt;  font-weight: normal;  font-family: Arial, Helvetica, sans-serif;   }
+	#header-h1 a{ position: absolute; top: -2px; left: -2px; color: White; }
+	#header-h1 a:hover{ position: absolute; top: -3px; left: -2px; text-decoration: none; }
+	#header-h2{ float: right; font-size: 10pt; padding: 27px 15px 0 0; margin: 0; color: White; font-weight: normal; font-style: italic; }
+
+#NAV{	width: 740px; margin-left:auto; margin-right:auto; clear:both;  background-image: url(bg_margins.gif);  background-repeat: repeat-y;  padding: 0 10px 0 10px;  background-color: White;     }
+	#NAV .Wrapper{  height: 30px;  background-image: url(bg_secondnav.gif);  background-repeat: repeat-x;  background-color: #F7F7F7;    }
+	#NAV ul{ margin: 0; padding-left: 0; height: 24px; line-height: 24px; display: block; list-style: none;   float: left;        }
+	#NAV li{ display: inline;  float: left;  }
+	#NAV li a{ height: 30px; line-height: 30px; display: block; padding-left: 25px; padding-right: 25px;   float: left;  font-size: 11px;  font-family: "MS Sans Serif", Geneva, sans-serif;  color: #153A0E;        }
+	#NAV li a.Active{ background-color: White; }
+	#NAV li a:hover{ background-color: #fafafa; text-decoration: none;  color: #CE0000;    }
+
+#CONTENT{ width: 760px; margin-left: auto; margin-right: auto; }
+	#CONTENT .Wrapper{ padding: 0 25px 15px 25px;float: left;  background-image: url(bg_margins.gif);  background-repeat: repeat-y;  background-color: White;   }
+
+#TEXT{ float: right; padding: 0px; margin: 0; width: 475px; }
+	#TEXT h2{ margin: 36px 0 15px 0; padding: 6px 0 0 25px; font-weight: bold; color: #999999; font-size: 9pt;  border-bottom: 1px solid #73CA00;  background-image: url(bg_text_h2.gif);  background-repeat: no-repeat;  height: 19px;  text-transform: uppercase;  line-height: 19px;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;  background-position: left;            }
+	#TEXT p{	margin-bottom: 1em; line-height:1.4em;}
+	#TEXT p.Aligned{ text-align: justify; }
+	#TEXT img.Left{ float: left; margin: 3px 15px 5px 0; padding:2px; border:1px solid #CCCCCC;}
+
+#SIDE{ float: left; width: 210px; padding: 0px 0 0 0; display: block;  padding-bottom: 3em;  }
+	#SIDE h2{ margin: 36px 0 15px 0; padding: 6px 0 0 25px; font-weight: bold; color: #999999; font-size: 9pt; border-bottom: 1px solid #73CA00; background-image: url(bg_text_h2.gif); background-repeat: no-repeat; height: 19px; text-transform: uppercase; line-height: 19px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; background-position: left; }
+	#SIDE p{ font-size: 10px;  font-family: "MS Sans Serif", Geneva, sans-serif;  line-height: 1.5em;  margin-bottom: 12px;       }
+	#SIDE p.Aligned{ text-align: justify; }
+
+#FOOTER{	clear:both; width: 710px; margin-left:auto; margin-right:auto;  padding: 0 25px 20px 25px;  background-color: White;  background-image: url(bg_margins.gif);  background-repeat: repeat-y;     }
+	#FOOTER .Line{ background-color: #FAFAFA; height: 1px;  margin-bottom: 7px;  }
+	#FOOTER .Line span{ background-color: #73CA00; height: 1px; line-height: 1px;  float: left;  display: block;  width: 235px;  margin: 0;  padding: 0;  font-size: 1px;       }
+	#FOOTER p{ font-size: 11px; line-height: 18px; margin: 0;  color: #8B8B8B;  font-family: "MS Sans Serif", Geneva, sans-serif;        }
+	#FOOTER a{ font-size: 11px; font-weight: normal; text-decoration: none; color: #8B8B8B; }
+	#FOOTER a:hover{ color: #B22222; text-decoration: underline; }
+	#FOOTER .Side{ float: right; }
+
+#BOTTOMBORDER{ width:760px; margin-left: auto; margin-right: auto; background-image: url(footer.gif); background-repeat: no-repeat; height: 11px; font-size: 1px; }	

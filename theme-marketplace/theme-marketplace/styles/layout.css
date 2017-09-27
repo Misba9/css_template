@@ -1,0 +1,95 @@
+/*
+Template Name: Theme Marketplace
+Coded By: Design Coder - http://www.design-coder.com/
+Design By: http://designm.ag/tutorials/theme-marketplace-layout/
+Licence: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+*/
+
+body{margin:0; padding:0; font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#DFD8D8; background-color:#3F6935;}
+
+img{margin:0; padding:0; border:none;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgl, .imgr{border:1px solid #272727; padding:5px;}
+.imgl{float:left; margin:0 10px 10px 0; clear:left;}
+.imgr{float:right; margin:0 0 10px 10px; clear:right;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0; padding:0; font-size:18px; font-weight:normal; line-height:normal;}
+
+.col1{border-bottom:1px solid #77993E;}
+.col1, .col1 a{color:#FFFFFF; background-color:#5D8B39;}
+.col2{color:#FFFFFF; background:url("../images/intro_bg.png") transparent; border-top:2px solid #303030; border-bottom:5px solid #3F6935;}
+.col3{color:#FFFFFF; background-color:#5D8B39; border-bottom:1px solid #77993E;}
+.col3 a{color:#081306; background-color:#5D8B39;}
+.col4, .col4 a{color:#FFFFFF; background-color:#3F6935;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, #intro, #container, #copyright{position:relative; margin:0 auto; display:block; width:960px;}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header{height:60px;}
+#header h1{margin:15px 0 0 0; padding:0; font-size:30px; line-height:normal;}
+#header ul{display:block; height:60px; margin:0; padding:0; list-style:none;}
+#header li{float:right;}
+#header li.last{border-left:1px solid #77993E;}
+#header li a{display:inline-block; height:40px; margin-left:20px; padding:20px 20px 0 0; border-right:1px solid #77993E;}
+
+/* ----------------------------------------------Intro-------------------------------------*/
+
+#intro{}
+
+#intro #crumb{display:block; width:100%; padding:30px 0; text-align:right;}
+#intro #crumb h2{font-size:30px;}
+
+#intro #homepage{display:block; width:100%; padding:30px 0 0 0; overflow:hidden; background:url("../images/homepage_bg.png") top left no-repeat;}
+#intro #homepage h2, #intro #homepage p{display:block; margin:0; padding:0; text-align:center; font-style:italic;}
+#intro #homepage h2{font-size:24px; margin-bottom:30px;}
+#intro #homepage p{position:absolute; top:85px; right:100px; width:350px; z-index:1;}
+#intro #homepage p strong{color:#091306; background-color:transparent; font-style:normal;}
+#intro #homepage ul{margin:0; padding:0; list-style:none;}
+#intro #homepage li{float:left; margin:0 0 -3px 0; padding:0;}
+#intro #homepage li.second{padding-top:80px;}
+#intro #homepage li.third{padding-top:160px;}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{padding:20px 0; line-height:1.4em;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin:0 0 15px 0; color:#081306; background-color:#5D8B39;}
+
+#container #content{display:block; float:left; width:600px;}
+#container #column{display:block; float:right; width:300px;}
+
+/* ----------------------------------------------Featured Blocks-------------------------------------*/
+
+#container .featured{display:block; width:100%; margin:0; padding:0;}
+#container .featured .box{display:block; float:left; width:280px; margin:0 60px 0 0; padding:0;}
+#container .featured .last{margin:0;}
+#container .featured h2{font-weight:bold;}
+#container .featured ul{margin:0; padding:0; list-style:none;}
+#container .featured li{margin:0 0 20px; padding:0;}
+#container .featured li a.readmore{font-style:italic;}
+#container .featured li div.imgholder{display:block; float:left; margin:0 10px 0 0; border:5px solid #77993E;}
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:20px 0; font-size:12px;}
+#copyright p{margin:0; padding:0;}

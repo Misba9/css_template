@@ -1,0 +1,184 @@
+body{margin:0px; font:10px/12px "Tahoma Arial", Helvetica, sans-serif; color:#363d25; background:#e4ddce}
+img{border:none}
+.clear{clear:both}
+p,ul,h1,h2,h3,h4,h5,h6{margin:0; padding:0}
+a{color:#666666;
+		text-decoration:underline;
+		}
+#layout{width:964px; margin:0 auto}
+.left_shadow{float:left; width:7px; height:590px; background:url(../images/left_shadow.gif) no-repeat 0 0}
+.right_shadow{float:left; width:7px; height:590px; background:url(../images/right_shadow.gif) no-repeat 0 0}
+#inner_layout{float:left; width:950px; background:#f2ede2}
+#header{float:left; width:950px; background:#f2ede2}
+#header .logo{float:left; width:158px; padding:24px 0 0 58px}
+
+#top_anchor{float:left; width:626px; height:17px; background:#3783a9 url(../images/menu_left_curve.gif) no-repeat 0 0; margin:45px 0 0 77px; display:inline}
+#top_anchor ul{float:left; width:604px; height:17px; background:url(../images/menu_right_curve.gif) no-repeat right 0; list-style:none; padding:0 0 0 22px}
+#top_anchor li{float:left; height:15px; width:auto; background:#3783a9 url(../images/menu_border.gif) no-repeat 0 0; font:bold 9px/11px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#feffff; padding:2px 12px 0 12px}
+#top_anchor li a{color:#feffff; text-decoration:none}
+#top_anchor li a:hover{color:#feffff; text-decoration:underline}
+#top_anchor li.first{ background:#3783a9; padding:2px 12px 0 0}
+
+
+.banner{float:left; width:950px; background:url(../images/bg.gif) no-repeat right bottom}
+.banner img{float:left; width:auto; padding:6px 0 39px 36px}
+
+#menu{float:left; width:150px; padding:88px 0 0 53px;}
+#menu ul{float:left; width:150px; list-style:none}
+#menu li{
+	float:left;
+	width:150px;
+	height:22px;
+	font:14px/16px "ZapfHumnst BT", Arial, Helvetica, sans-serif;
+	color:#888171;
+	background:url(../images/menu_border_1.gif) no-repeat 0 bottom;
+	padding-top: 3px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 15px;
+}
+
+input.button {
+background:#414141 none repeat scroll 0 0;
+border:1px solid #000000;
+color:#FFFFFF;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:normal;
+margin:0 5px 5px 0;
+padding:10px;
+text-decoration:none;
+}
+img.service-img{float:left;
+				margin-right:10px;
+				margin-bottom:10px;
+				}
+#menu li.last{background:none; padding:3px 0 0 0}
+#menu li a{
+	color:#888171;
+	text-decoration:none;
+	font-size: 13px;
+	font-weight: bold;
+}
+#menu li a:hover{color:#888171; text-decoration:underline}
+
+#body_container{float:left; width:900px; padding:0 0 0 50px}
+#left_container{float:left; width:170px; padding:0}
+#right_container{float:left; width:670px; padding:0 60px 0 0}
+
+
+.welcome_container{float:left; width:867px; background:#3783a9 url(../images/welcome_bg.gif) repeat-x 0 0; margin-bottom:23px}
+.welcome_container .welcome_containt{float:left; width:549px}
+.welcome_container .welcome_containt h1{float:left; width:509px; font:24px/26px "ZapfHumnst BT", Arial, Helvetica, sans-serif; color:#fff; padding:20px 0 12px 40px}
+
+.welcome_container .welcome_containt p{float:left; width:469px; color:#daf9ff; padding:0 40px 11px 40px}
+
+.welcome_container .form_container{float:left; width:301px; padding:20px 0 18px 17px}
+.welcome_container .form_container .top_curve{float:left; width:300px; height:21px; background:url(../images/form_top_curve.gif) no-repeat 0 0}
+.welcome_container .form_container .bottom_curve{float:left; width:300px; height:21px; background:url(../images/form_bottom_curve.gif) no-repeat 0 0}
+
+.form_container .search_row{float:left; width:300px; padding-bottom:8px}
+.form_container .search_row .search_column_1{float:left; width:85px; padding:0 0 0 15px}
+.form_container .search_row .search_column_2{float:left; width:200px}
+.form_container .search_row.last{float:left; width:300px; padding:0 0 0 0}
+
+.form_container form{float:left; width:300px; background:url(../images/form_bg.gif) repeat-y 0 0}
+.form_container fieldset{float:left; width:298px; border:none; margin:0; padding:0 0 0 0}
+.form_container label{float:left; width:auto; font-size:11px; line-height:13px; color:#feffff; font-weight:bold; padding:5px 5px 0 5px}
+.form_container label.i_am{padding:4px 17px 0 20px; margin:0}
+.form_container input{float:left; width:173px; font-size:11px; line-height:13px; color:#216588; margin:0; padding:0}
+.form_container input.checkbox{float:left; width:auto; border:none; height:15px; padding:0; margin:2px 0 0 0}
+.form_container input.search_btn{float:right; width:auto; padding:0; margin:0 24px 0 0; display:inline}
+.form_container select{float:left; width:60px; height:19px; font-size:9px}
+.form_container select.gender{float:left; width:67px; margin:0 10px 0 0}
+.form_container select.date{float:left; width:177px;}
+.form_container select.dob{float:left; width:57px; font-size:10px; margin:0 3px 0 0}
+
+.latest_profile{float:left; width:867px; height:18px; background:url(../images/profile_bg.gif) no-repeat 0 0}
+.latest_profile h5{float:left; width:auto; font:bold 9px/11px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; padding:3px 0 0 17px}
+.latest_profile h5.create{width:auto; padding:3px 0 0 520px}
+.latest_profile h5.view_more{width:auto; padding:3px 0 0 50px}
+.latest_profile h5 a{color:#fff; text-decoration:none}
+.latest_profile h5 a:hover{color:#fff; text-decoration:underline}
+.profile_container{float:left; width:867px; background:url(../images/profile_horizontal_border.gif) repeat-x 0 bottom; position:relative}
+.profile_container .profile_box{float:left; width:215px; background:url(../images/profile_vertical_border.gif) repeat-y right 0}
+.profile_container .profile_box.last{background:none}
+.profile_container .profile_box .photo{float:left; width:93px;}
+.profile_container .profile_box .photo img{float:left; width:auto; padding:0 0 1px 0}
+.profile_container .profile_box .profile_detail{float:left; width:122px; padding:14px 0 0 0}
+.profile_container .profile_box .profile_detail p{float:left; width:122px; line-height:14px; font-weight:bold; color:#216588; padding:0}
+.profile_container .profile_box .profile_detail p span{font-weight:normal; color:#363d36}
+.profile_container .profile_box img.more_1{float:left; width:auto; position:absolute; left:114px; top:90px}
+.profile_container .profile_box img.more_2{float:left; width:auto; position:absolute; left:328px; top:90px}
+
+.profile_container .profile_box img.more_3{float:left; width:auto; position:absolute; left:543px; top:90px}
+
+.profile_container .profile_box img.more_4{float:left; width:auto; position:absolute; left:760px; top:90px}
+
+.our_success{float:left; width:430px; padding:30px 0 0 0}
+.our_success h5{float:left; width:410px; height:15px; font:bold 9px/11px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; background:url(../images/our_success.gif) no-repeat 0 0; padding:3px 0 0 17px}
+.our_success .story_2009{float:left; width:373px; background:#dfd7c8 url(../images/success_bg.gif) no-repeat right 0; padding:3px 0 0 17px; border:4px solid #f9f5ed}
+.our_success .story_2009 p{float:left; width:180px; padding:15px 0 0 22px; color:#363d36; font-size:9px; line-height:11px;}
+.our_success .story_2009 h6{float:left; width:280px; color:#363d36; font-weight:bold; font-size:9px; line-height:11px; padding:0 0 0 22px}
+.our_success .story_2009 h6 a{color:#3783a9; text-decoration:none}
+.our_success .story_2009 img{float:left; width:auto; margin:10px 0 7px 18px; display:inline}
+
+.why_stay{float:left; width:470px; padding-top:30px}
+.why_stay h4{float:left; width:470px; color:#ae241b; font:24px/26px "ZapfHumnst BT", Arial, Helvetica, sans-serif; padding:0 0 8px 0}
+.why_stay h6{float:left; width:470px; color:#363d36; font-size:11px; line-height:13px; font-weight:bold; padding:0 0 2px 0}
+.why_stay h6 span{color:#3783a9}
+.why_stay p{float:left; width:430px; color:#363d36; padding:0 0 10px 0}
+
+#footer{float:left; width:900px; background:url(../images/footer_bg.gif) repeat-x 0 0; margin-top:20px}
+#footer .footer_link{float:left; width:900px; padding:27px 0 45px 0}
+#footer .footer_link ul{width:900px; text-align:center; list-style:none; margin:0; padding:0 0 3px 0}
+#footer .footer_link li{width:auto;font:bold 9px/11px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#3783a9; background:url(../images/footer_border.gif) no-repeat 0 2px; display:inline; padding:0 12px 0 12px}
+#footer .footer_link li.first{background:none; padding:0 12px 0 12px}
+#footer .footer_link li a{color:#3783a9; text-decoration:none}
+#footer .footer_link li a:hover{color:#3783a9; text-decoration:underline}
+#footer .footer_link li a.current{color:#3783a9; text-decoration:underline}
+
+
+
+
+
+
+
+/* inner pages css start */
+h1{font:24px/26px Georgia, "Times New Roman", Times, serif; color:#221E21; font-style:italic; margin:0px; padding:8px 0px 10px 0; text-decoration:none}
+h1.inner span{font:26px tahoma, Arial; color:#3b932f; font-weight:bold; margin:0px; padding:25px 0px 10px 0px; background:none}
+.aboutus-img{float:right; border:4px solid #dcdcda;	margin:0px 0px 10px 20px;}
+h5.inner{font:15px Myriad Pro, Arial, Helvetica, sans-serif; color:#000; font-weight:100; padding:0px 0px 5px 0px;	border-bottom:1px dotted #000;	margin:0px 0px 10px 0px; background:none }
+h6.inner{font:17px Myriad Pro, Arial, Helvetica, sans-serif; color:#000; font-weight:100; padding:0px 0px 5px 0px;	margin:0px 0px 0px 0px; background:none; border:none }
+.aboutcolumnzone{padding:20px 0px 16px 0px;}
+.aboutcolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.aboutcolumn2{width:48%; float:right; margin:0px 0px 10px 0px;}
+.abouticon{float:left; margin:0px 20px 0px 0px;}
+.insidereadmore{padding:10px 0px 10px 0px;}
+.insidereadmore a{color:#5D2D23; font-size:14px; text-decoration:none}
+.insidereadmore a:hover{text-decoration:underline}
+
+a.projects{color:#5D2D23; font-size:14px; text-decoration:underline}
+a:hover.projects{text-decoration:none}
+
+input.button{color:#ffffff;	background:#414141;	font:bold 11px Arial, Helvetica, sans-serif; text-decoration:none; padding:10px 10px; margin:0px 5px 5px 0;	border:1px solid #000;}
+input.button:hover{cursor:pointer; color:#cccccc;}
+.project-img{float:right; margin-left:20px;	border: 6px solid #dcdcda;}
+.whiteheading{font:30px Myriad Pro, Arial; color:#000; font-weight:100;	padding:0px; margin:25px 0px 20px 0px;}
+.ourprojectrow{margin-bottom:20px; border-bottom:1px dotted #000; padding-bottom:10px;}
+.servicecolumnzone{padding:20px 0px 16px 0px;}
+.servicecolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.servicecolumn2{width:48%; float:right;	margin:0px 0px 10px 0px;}
+.blog-posted-row{padding:3px; background:#dcdcda}
+
+.blog-posted-row a{color:#5D2D23; font-size:14px; text-decoration:underline; padding:0 0 0 8px}
+.blog-posted-row a:hover{text-decoration:none}
+/* inner pages css ends */
+
+
+

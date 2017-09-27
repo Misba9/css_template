@@ -1,0 +1,456 @@
+/* 
+** ------------------------------------------------------------------------------------------------------
+**       ---- trikea-- v1.0a stylesheet
+**       ---- (c)2007 kdm- 05-02-2007 
+**       ---- creative commons license 3.0
+**       ---- (http://www.1guywebdesign.com)
+**
+** ------------------------------------------------------------------------------------------------------
+*/
+
+* html>body .clearfix {		/*for IE6 -no need to crunch w3c with inline-block*/
+		display						: inline; 
+		width						: 100%;
+}
+* html .clearfix {
+		/* Hides from IE-mac \*/
+		height						: 1%;
+		width						: 100%;
+}
+/* SELECTIVE-- Div and Float clearing */
+.clR {clear:right; display:none;}
+.clB {clear:both; display:inline;}
+.clL {clear:left; display:none;}
+span.accesskey {				/* accessibility */
+     	text-decoration			: underline;
+     }
+     .accessibility {				/* moves titles offscreen but, legible to screen readers-se */
+     	position						: absolute;
+     	top							: -999em;
+     	left							: -999em;
+     	}
+	.accessible_image {		/* you can add a description to images which will appear to readers and search engines */
+		text-indent				: -999em;
+		}
+/* reset global and layout style defaults */
+* { margin: 0; padding: 0;}	
+html { background-color: #fcfaed; }
+
+body, html {
+	background					: #333 url(../images/trikea_bg.gif) repeat-y;
+	color								: #363636;
+	font-family					: trebuchet, tahoma, verdana, arial, sans-serif;
+	font-size						: 0.86em;
+	line-height					: 1.4em;
+	margin							: 0px;
+	padding							: 0px;
+	text-align						: center; /* ie hack to float center */
+	width							: 100%;
+	z-index							: 1;
+}
+a, 
+a:link, 
+a:visited {
+	color								: #222; 
+	text-decoration				: none;
+	}
+/*GLOBAL display container for top, middle, bottom containers */
+
+#viewport { 
+	display							: block; 
+	float								: left;
+	margin							: 0px auto; 
+	padding							: 0; 
+	position							: relative;
+	width							: 900px; 
+	z-index							: 2;
+	}
+/* logo (aka-trikea graphic) */
+	#viewport a img {border:0; float:left; left:0; top:0;}
+	#center {
+		background				: inherit;
+		display						: block;
+		float							: right;
+		height						: 100%;
+		margin						: 96px auto 12px auto;
+		padding						: 0px;
+		position						: relative;
+		text-align					: left;
+		width						: 586px;
+		}
+	#left, #right {
+		background-color		: transparent;
+		display						: block;
+		float							: left;
+		margin						: 12px 4px;
+		min-height				: 100%;
+		padding						: 0 12px;
+		text-align					: left;
+		width						: 268px;
+		}
+		#right { 
+			color						: red;
+			float						: left;
+			margin					: 96px auto 12px auto;  
+			padding					: 0 0 0 12px; 
+			width					: 120px;
+			}
+	#footer {						/* copyright and cca attribution */
+		bottom						: -21px;
+		clear							: both;
+		color							: #fafafa;
+		display						: block;
+		height						: 24px;
+		margin						: 12px auto 0 auto;
+		position						: fixed;
+		text-align					: center;
+		width						: 100%;
+		z-index						: 1000;
+	}
+	#footer:hover {			/* pop goes the weasel */
+		bottom						: 1px;
+		clear							: both;
+		color							: #fafafa;
+		display						: block;
+		height						: 24px;
+		margin						: 0 auto;
+		position						: fixed;
+		text-align					: center;
+		width						: 100%;
+		z-index						: 1000;
+	}
+
+/*-- layout blocks----------------------------------------------------------------------------- */
+#top {}							/* navigation jump to top */
+	#accessibility {}			/* for screen readers and keyboard nav */
+		.access {
+			display					: none;
+			text-indent			: -999em; /* off visible screen yet readable by 508 appliances */			
+			}
+			.acckey {				/* hilight keyboard shortcut keys for visual and 508 appliances */				color					: #536e72!important;				text-decoration	: none;				}
+
+	#topBlock {					/* outer container for top modules */
+		background-color		: transparent; 
+		display						: block;
+		float							: left;
+		margin						: 0 auto;
+		padding						: 0;
+		position						: relative;
+		width						: 100%;
+		}
+		.contentBlock {
+			border-bottom		: 1px solid #f0f0f0;
+			margin					: 0;
+			padding					: 0;
+			}
+			/* ALL paragraphs in white content area! */
+			.contentBlock p {
+				font-size			: 1.1em;
+				line-height		: 22px;
+				margin				: 6px 12px 12px 0;
+				padding				: 0 12px 12px 12px;
+				text-indent		: 0;
+				}
+				.contentBlock p a {
+					color				: #6a8c8d; 
+					text-decoration:none;
+					}
+				.contentBlock p.cutslot {
+					border-top		: 1px solid #ccc; 
+					margin			: -3px 24px 0 12px;
+					padding			: 14px 0;
+					text-indent	: 0;
+					}
+		#leftBlock {
+			background-color	: transparent;
+			display					: block;
+			float						: left;
+			margin					: 0 auto;
+			padding					: 12px 0;
+			}
+			#leftBlock p {
+				padding				: 8px 0;
+				}
+				#leftBlock p a {color:#46676c;}
+		#rightBlock {
+			background-color	: transparent;
+			display					: block;
+			float						: right;
+			margin					: 12px auto;
+			padding					: 1% 2% 1% 0%;
+			}
+
+#footerBlock {}
+	#footerBlock p {			/* footer and attribs block, copyright, etc... */
+		background				: #222 url(../images/trikea_footer.jpg) repeat-y;
+		color							: #fff;
+		font-size					: 11px;
+		margin						: 0 auto;
+		padding						: 6px 0;
+		text-align					: center;	
+		width						: 100%;
+		}
+		#footerBlock p span {color:#6a8c8d;}
+		#footerBlock a {
+			color						: #a1ac7b;
+			text-decoration		: none;
+		}
+
+/* pure unordered main menu for global page/section links  */
+.vmenuBlock {}
+#right .vmenuBlock ul.nav  li {color:#fff; text-decoration:none;}
+#right .vmenuBlock ul.nav  li {
+		border-bottom			: 1px solid #222; 
+		clear							: both; 
+		display						: block; 
+		height						: 24px; 
+		margin						: 3px auto;
+		padding						: 2px 0 3px 0; 
+		text-align					: left; 
+		width						: 180px;
+		}
+#right .vmenuBlock ul.nav  li a.mainlevel  { 
+		border-left					: 14px dotted #333;
+		color							: #6a8c8d;
+		float							: left;
+		font-size					: 1.3em;
+		font-weight				: normal;
+		list-style-type			: none; 
+		margin						: 3px 4px 3px 0;
+		padding						: 0 0 0 8px; 
+		text-decoration			: none;
+		}
+#right .vmenuBlock ul.nav  li a.mainlevel span,
+#right .vmenuBlock ul.nav  li a#active.mainlevel span {color:red;}
+#right .vmenuBlock ul.nav  li a:hover {border-left: 14px dotted #6a8c8d; color:#a1ac7b;}
+#right .vmenuBlock ul.nav  li a#active.mainlevel  {color:#a1ac7b; border-left:14px dotted #222;}
+
+
+/* TYPOGRAPHY and LINK STYLES */
+h1,h2,h3,h4,h5 {
+	color								: #969696; 
+	font-family					: arial, sans-serif; 
+	font-size						: 1.1em; 
+	font-weight					: lighter;
+	}
+em {
+	color								: #333; 
+	font-size						: 1.2em;
+	font-weight					: bold;
+	}
+	
+/*left center and right column headers*/
+h1 {color:#333; font-size: 3.0em; margin: 12px 0;}
+#left h2 {color:#333; font-size:1.7em;}
+#left h2 span {color:#d4db95; font-family: georgia, serif; font-size:1.13em; letter-spacing:-1px;}
+#left h3 {color:#333; margin: 4px 0; text-transform:capitalize;}
+#right h2 {color:#636363; font-size:1.7em; font-weight:lighter; margin: 9px 0 0 0;}
+#right h2 span {color:#d0d0d0; font-size:1.2em;}
+
+.contentBlock h3 {border-bottom: 1px solid #6a8c8d; color: #a1ac7b; font-size:1.7em; margin: 9px 24px 0 2px; padding: 0 0 4px 0;}
+.contentBlock h3 span {color:#333;}
+.contentBlock h3 span .sub {color:#a1ac7b; font-size:1.1em;}
+h4 {color:#555; font-size:1.5em; font-weight:lighter;}
+h4 span{color:#999; font-weight:lighter;}
+h4.padd {color:#a1ac7b; margin: 0 0 24px 12px;}
+
+/**** PAGE SPECIFIC BELOW *****.
+
+/* INDEX PAGE-HOME */
+#product1 {
+	background					: transparent url(../images/eaames_chair.jpg) top left;
+	background-repeat		: no-repeat;
+	display							: block;
+	float								: left;
+	height							: 180px;
+	margin							: 0 13px 3px 0;
+	width							: 187px;
+	}
+	#product1:hover {
+		background				: transparent url(../images/eaames_chair.jpg) -187px 0;
+		background-repeat	: no-repeat;
+	}
+#product2 {
+	background					: transparent url(../images/nogouchi_table.jpg) -187px 0;
+	background-repeat		: no-repeat;
+	display							: block;
+	float								: right;
+	height							: 150px;
+	margin							: 0 32px 3px 12px;
+	width							: 187px;
+	}
+	#product2:hover {
+		background				: transparent url(../images/nogouchi_table.jpg) top left;
+		background-repeat	: no-repeat;
+	}
+	
+/* CCA */
+.sitecomp {margin: 0 0 0 110px;}
+.licenseBlock {
+	display							: block;
+	margin							: 0 auto 12px auto;
+	padding							: 2px 8px;
+	position							: relative;
+	width							: 90%;
+	}
+	.licenseBlock ul {margin: 4px 0;}
+	.licenseBlock ul li.nobull {font-size:12px; list-style-type:none; margin: 0 0 0 -12px;}
+	.licenseBlock ul li {list-style-type:square;}
+	p.micro {font-size:10px; line-height: 15px; text-indent:0;}
+
+/*TYPO*/
+#typo #viewport #center.contentBlock p {line-height:16px!important;}
+p.dropcap:first-letter {	color								: #6a8c8d;
+	float								: left;	font-size						: 4.6em;
+	font-family					: georgia, serif;
+	font-weight					: bold;
+	margin							: -4px 0 0 0;
+	padding							: 0 6px 0 0;	}
+p.typo_help {
+	color								: #333;
+	font-size						: 1em; 
+	line-height					: 1.3em; 
+	margin							: 6px 12px 6px 0;
+	padding							: 0 12px 6px 12px;
+	text-indent					: 0;
+	}
+.RquoteBlock {
+	clear								: left;
+	color								: #ccc;
+	display							: block;
+	float								: right;
+	font-size						: 1.8em;
+	line-height					: 1.2em;
+	margin							: 0px 24px 0 12px;
+	padding							: 4px;
+	position							: relative;
+	text-align						: right;
+	width							: 40%;
+	}
+	.RquoteBlock span {color:#f0f0f0; font-size:32px;}
+	
+/* FAQ */
+.faq {border:1px solid #fff; border-right:0; padding: 12px 0 12px 12px;}
+.faq:hover {border:1px solid #a1ac7b; background-color:#92aca3; color:#fff;}
+/*the following were used ONLY for typography display on the sample pages */
+
+/* typo styles block in left column */
+#typoTitle {
+	color:#333;
+	font-size:2em;
+	font-weight:lighter;
+	margin:0 0 12px 0;
+	}
+.typo_block {
+	background-color:#a1ac7b; 
+	margin:36px 0 12px 0; 
+	padding: 6px 0 6px 24px; 
+	width:238px;
+	}
+.fittycent {
+	display:block;
+	float:left;
+	width:48%;
+	}
+/* ach =H, get it? */
+	.ach2,.ach3,.ach4,.ach5 {font-size:1em; margin: 0 0 0 12px;}
+	.ach2 {font-size:1.7em;}
+		.ach3 {font-size:1.6em;}
+			.ach4 {font-size:1.5em;}
+				.ach5 {font-size:1.1em;}
+/* LISTS, unordered and ordered */
+	ul {margin: 4px auto; width: 80%;}
+	ul li {line-height:24px; list-style-type:square;}
+	ul li a {color:#6a8c8d; text-decoration:none;}
+	ul li.nobull {font-size:11px; line-height: 24px; list-style-type:none; margin: 0 0 0 -12px;}
+	ul.foursquare_blue li{list-style-image:url(../images/4square-blue.png); margin: 0 0 0 4px;}
+	ul.foursquare_beige li{list-style-image:url(../images/4square-beige.png); margin: 0 0 0 4px;}
+	ul.kidney_blue li{list-style-image:url(../images/kidney-blue.png); margin: 0 0 0 4px;}
+	ul.kidney_beige li{list-style-image:url(../images/kidney-beige.png); margin: 0 0 0 4px;}
+ol {	margin: 6px 0 6px 24px;	padding: 0px 0px 0px 12px;	}	ol.beige {
+		margin: 6px 0 6px 24px;		padding: 0px 0px 0px 12px;		}			ol.beige li span {				color: #363636;
+				font-family:arial, tahoma, sans-serif;
+				font-size:12px;
+				font-weight:normal;
+				}
+				ol.beige li span a {
+					color:#666;
+					font-size:1.3em;
+					font-weight:lighter;
+					}		ol.beige li {			color: #bec6a1;
+			font-family: georgia, serif;
+			font-size:18px;			font-weight: bold;			}
+			ol.beige li:hover {				color: #6a8c8d;
+				font-family: georgia, serif;
+				font-size:18px;				font-weight: bold;				}
+				
+/* FORM STYLES */
+#contactForm,
+#searchForm {
+	display:block;
+	float:left;
+	margin:0 auto;
+	padding: 12px;
+	position:relative;	
+	width: 90%;
+	}
+form .dropDown{ border:1px solid #ccc; width:120px;}
+.searchInput {
+	background:#fafafa;
+	border:1px solid #ccc;
+	color:#666;
+	margin: 0 12px;
+	padding: 4px;
+	width:200px;
+	}
+	.searchButton {background:#97c465; border:1px groove #ccc; cursor:pointer; font-size:1em; padding:1px;}
+	.searchButton:hover {color:#fff;}
+.formrow {
+	border-bottom:1px groove #f0f0f0;
+	display:block; 
+	float:left;
+	margin: 6px 0;
+	padding: 6px 0; 
+	position:relative;
+	width:100%;
+	}
+	.formrow:hover span{color:#678a90;}
+	.formrow span {
+		color:#323232; 
+		display:inline;
+		float:left;
+		font-size:1.2em;
+		font-weight:lighter;
+		margin: 0 4px 0 0; 
+		text-align:right; 
+		width: 100px;
+		}
+.formInput,
+.formInput_req,
+.formTextarea {
+	background:#fffeec;
+	border:1px solid #f0f0f0;
+	color:#666;
+	margin: 0 12px;
+	padding: 4px;
+	width:350px;
+	}
+	.formInput:hover,
+	.formInput_req:hover,
+	.formTextarea:hover {background:#fff;}
+	.formInput_req:hover {border:1px solid #97c465; color:#97c465;}
+.formTextarea {
+	height:100px;
+	width: 500px;
+	}
+.formButton,
+.formButton:hover {
+	border:2px groove #ddd;
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:1em;
+	margin: 12px 0 12px 120px;
+	}
+	.formButton:hover {background:#97c465; color:#fff;}
+	.required {clear:both;  margin: 12px auto; padding: 12px; width:100%;}

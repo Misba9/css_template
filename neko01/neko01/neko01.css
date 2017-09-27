@@ -1,0 +1,282 @@
+/***** BEGIN LICENSE BLOCK *****
+# 
+# This document is part of NEKODESIGN.NET
+#  css template : neko01
+# author : robin / robin[at]biboo.net
+#
+# this design in distribued under a "Attribution-NonCommercial-ShareAlike 2.0 France" Creative Commons licence :
+# http://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
+#
+# You are free:
+# * to Share — to copy, distribute and transmit the work
+# * to Remix — to adapt the work
+# Under the following conditions:
+# * Attribution : You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+# * Noncommercial : You may not use this work for commercial purposes.
+# * Share Alike : If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+#
+# For any reuse or distribution, you must make clear to others the license terms of this work.
+# Any of the above conditions can be waived if you get permission from the copyright holder.
+# Apart from the remix rights granted under this license, nothing in this license impairs or restricts the author's moral rights.
+#
+# Your fair dealing and other rights are in no way affected by the above.
+# This is a human-readable summary of the Legal Code : http://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode
+# 
+#
+# ***** END LICENSE BLOCK *****/
+@import url(neko01-CSS-P.css);
+/* general style
+********************************************/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+	background: transparent;
+}
+
+a {
+	text-decoration: none;
+	color: #00696A;
+	background: transparent;
+}
+
+a:hover{
+	background: transparent;
+	text-decoration: underline;
+	color: #004142;
+}
+
+img {
+	border: none;
+	float: left;
+	margin: 7px;
+}
+
+/* clearing the float behaviour */
+.clear {
+	clear: both;
+}
+
+a img {
+	border: 0;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.83em;
+}
+
+h6 {
+	font-size: 0.67em;
+}
+
+pre {
+	border: 1px solid #818181;
+	line-height: 1.2em;
+	background: #EFEFEF;
+	color: #000000;
+	overflow: auto;
+	width: 90%;
+	font-family: "Courier New",monospace;
+	font-size: 1em;
+	padding: .3em;
+}
+
+/* Page
+********************************************/
+#page {
+	background: transparent url("img/bleusheet_page.png") repeat-y;
+}
+
+/*        sidebar
+*********************************************/
+#sidebar div {
+	color: #3C3C3C;
+	background: transparent;
+}
+
+#sidebar a {
+	color: #3C3C3C;
+	background: transparent;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	color: #3C3C3C;
+	background: #D2D2D2;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: .2em 0;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#sidebar ul li a {
+	display: block;
+}
+
+#sidebar h2{
+	margin: 0;
+}
+
+/*         content   
+********************************************/
+#content h2 {
+	padding-left: 18px;
+	margin: 0;
+	color: #00696A;
+	background: transparent url("img/h2.png") no-repeat 0 50%;
+	font-weight: normal;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+#content h2 a {
+	text-decoration: none;
+}
+
+#content h2 a:hover {
+	color: #004142;
+	background: transparent;
+}
+
+#content h3, #content h4, #content h5, #content h6{
+	color: #393939;
+	background: transparent;
+}
+
+/* Footer
+********************************************/
+#footer{
+	clear: both;
+	margin: 0;
+	height: 89px;
+	background: url("img/bleusheet_footer.png") #FFFFFF no-repeat;
+	text-align: center;
+	padding: 2em 0 0 0;
+}
+
+#footer a{
+	color: #7D7D7D;
+	background-color: transparent;
+	text-decoration: none;
+	margin: 0 1em 0 1em;
+}
+
+#footer a:hover {
+	color: #474747;
+	background-color: transparent;
+}
+
+/* Top
+********************************************/
+#top{
+	margin: 0;
+	padding: 0px 100px 0 0;
+	height: 139px;
+	background: url("img/bleusheet_header.png") #FFFFFF no-repeat;
+	text-align: right;
+}
+
+#top h1{
+	font-family: Georgia, Times, "Times New Roman", Serif;
+	font-style: italic;
+	font-size: 3.5em;
+	margin: 0; /* 	!!!!! IMPORTANT :pour netscape/gecko pour éviter le décalage du header avec le body !!!!!!*/
+}
+
+#top h1 a{
+	text-decoration: none;
+	color: #00696A;
+	background: transparent;
+}
+
+#top h1 a:hover {
+	color: #004142;
+	background: transparent;
+}
+
+/*  globalnav 
+*************************************************/
+#globalnav {
+	background-color: transparent;
+	float: left;
+	width: 100%;
+	color: #FFFFFF;
+}
+
+#globalnav ul {
+	font-family: tahoma, verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 0 4%;
+}
+
+#globalnav ul li {
+	display: inline;
+}
+
+#globalnav ul li a {
+	background-color: transparent;
+	border-right: 1px solid #C6C6C6;
+	color: #808080;
+	float: left;
+	padding: 0.2em 12px;
+	text-decoration: none;
+}
+
+#globalnav ul li a:hover {
+	background-color: transparent;
+	color: #808080;
+}
+
+/*  CC licence : respect it ! */
+div#CC-licence {
+	border: 4px solid #E0AD4B;
+	background: transparent url(CC-licence-bg.png) no-repeat 195px 30px;
+	width: 230px;
+	padding: 2px;
+}
+
+div#CC-licence p {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+}
+
+div#CC-licence a {
+	color: #D20000;
+	text-decoration: none;
+}
+
+div#CC-licence a:hover {
+	text-decoration: underline;
+	color: #7D0000;
+}
+
+img.CC-floatleft {
+	float: left;
+	margin: 4px 2px 0 0;
+}
+/* END  CC licence */

@@ -1,0 +1,252 @@
+/***************************************************************
+	Vivid v1.0 
+	By Ori Pearl
+	http://www.oripearl.com/
+	Instructions can be found in the attached Instructions.txt
+***************************************************************/
+
+/**********************************
+	Reset settings  
+**********************************/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+border:0;
+font-family:inherit;
+font-size:100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0;
+padding:0;
+text-align:left;
+vertical-align:baseline;
+}
+
+/**********************************
+	Basic elements 
+**********************************/
+body {
+background:url('../images/top-bg.jpg') repeat-x #fff;
+color:#383737;
+font-family:Verdana, Arial, sans-serif;
+font-size:13px;
+}
+
+h1 {
+color:#587f29;
+font-size:18px;
+font-weight:400;
+margin-bottom:8px;
+}
+
+h2 {
+color:#e65a05;
+font-size:16px;
+font-style:italic;
+font-weight:400;
+margin-bottom:8px;
+}
+
+a {
+color:#383737;
+}
+
+a:hover {
+color:#000;
+}
+
+a img {
+text-decoration:none;
+}
+
+p {
+margin-bottom:18px;
+text-align:left;
+}
+
+p img {
+margin:6px;
+}
+
+blockquote {
+color:#626262;
+font-style:italic;
+}
+
+/* Table */
+caption,th,td {
+font-weight:400;
+text-align:left;
+}
+
+table,td,th {
+vertical-align:middle;
+}
+
+table {
+margin-bottom:8px;
+width:100%;
+}
+
+th {
+background:#C3D9FF;
+font-weight:700;
+}
+
+th,td {
+padding:4px 10px 4px 5px;
+}
+
+tr td {
+background:#E5ECF9;
+text-align:center;
+}
+
+/* Lists */
+ul,ol {
+margin:0 16px 8px;
+}
+
+ul {
+list-style-type:square;
+}
+
+li {
+margin-left:14px;
+}
+
+.date {
+font-size:12px;
+font-style:italic;
+}
+
+/**********************************
+	Header settings  
+**********************************/
+#header {
+margin:140px auto 0;
+width:900px;
+}
+
+#header #header-message {
+color:#ef5400;
+float:right;
+font-size:16px;
+}
+
+#header #logo {
+float:left;
+}
+
+/**********************************
+	Menu settings  
+**********************************/
+#menu-strip {
+background:#be370e;
+float:left;
+height:40px;
+margin-top:50px;
+width:100%;
+}
+
+#top-menu {
+margin:8px auto;
+width:900px;
+}
+
+#top-menu li {
+display:inline;
+float:left;
+list-style-type:none;
+margin-left:0;
+margin-right:40px;
+}
+
+#top-menu a {
+color:#fff;
+font-size:17px;
+text-decoration:none;
+}
+
+#top-menu a:hover {
+color:#ffa46d;
+}
+
+/**********************************
+	Main content settings  
+**********************************/
+#wrapper {
+clear:both;
+margin:0 auto;
+padding-top:30px;
+width:900px;
+}
+
+#main-content {
+float:left;
+margin-right:40px;
+width:560px;
+}
+
+#main-content p {
+line-height:20px;
+}
+
+.block {
+margin-bottom:18px;
+}
+
+/**********************************
+	Sidebar settings  
+**********************************/
+#sidebar {
+float:left;
+width:300px;
+}
+
+#sidebar img {
+float:left;
+}
+
+/**********************************
+	Search form settings  
+**********************************/
+.search-form {
+margin-bottom:18px;
+}
+
+.search-form #searchterm {
+height:17px;
+width:146px;
+}
+
+.search-form #submitbutton {
+background-color:#fff;
+border:solid 1px #383737;
+color:#383737;
+font-size:13px;
+}
+
+/**********************************
+	Footer settings  
+**********************************/
+#footer {
+background:#be370e;
+float:left;
+height:24px;
+margin-top:50px;
+width:100%;
+}
+
+#footer-content {
+color:#fff;
+font-size:11px;
+margin:5px auto;
+width:900px;
+}
+
+#footer-content a {
+color:#fff;
+}
+
+#footer-content p {
+margin-bottom:0;
+}

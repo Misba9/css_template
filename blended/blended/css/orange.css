@@ -1,0 +1,64 @@
+/*************************************************
+  AUTHOR: Luke Symes (luke.wpDesign.org)
+  PURPOSE: Style page using an orange color scheme.
+*************************************************/
+
+a {
+color:#B15300;
+}
+
+a:hover {
+color:#FD9600;
+}
+
+h3 {
+color:#B15300;
+}
+
+h4 {
+color:#B16900;
+}
+
+img {
+border-color:#FFDDBF;
+}
+
+img:hover {
+border-color:#FD9600;
+}
+
+#header-{
+background:url(../img/orange/hdr-colour.png) top repeat-x;
+}
+
+#navbar, #navbar li a {
+background:#FFE5BF url(../img/orange/navbar.png) bottom repeat-x;
+}
+
+#navbar li a {
+color:#B18000;
+}
+
+#navbar li a:hover, #navbar li.current a {
+background:#FFCB80;
+color:#B16900;
+}
+
+.sideContent li a {
+background:#FFE5BF url(../img/orange/side-link.png) bottom repeat-x;
+border:1px solid #FFCB80;
+color:#B16900;
+}
+
+.sideContent li a:hover {
+background:#FFCB80;
+border-color:#FD9600;
+}
+
+#footer {
+background:url(../img/orange/ftr-colour.png) bottom repeat-x;
+}
+
+#header, #footer {
+background-color:#FD9600;
+}

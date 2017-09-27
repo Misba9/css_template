@@ -1,0 +1,306 @@
+
+ /* Styles the body. */
+body{
+	background: #777777;
+	margin: 0;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+ /* The box which centers and holds everything. */
+#holder{
+	position: relative;
+	left: 50%;
+	width: 594px;
+	margin-left: -300px;
+	background: #ffffff url(claws.gif) 335px 0 no-repeat;
+	border-left: 3px #555555 solid;
+	border-right: 3px #555555 solid;
+}
+
+
+
+
+
+
+
+
+
+
+ /* The box which holds the header _and_ the footer. */
+#header, #footer{
+	position: relative;
+	width: 594px;
+	left: 50%;
+	margin-left: -300px;
+	border-left: 3px #555555 solid;
+	border-right: 3px #555555 solid;
+}
+
+ /* Styles the h1 header tag. */
+#header h1{
+	font: bold 2em/300% Garamond, serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0 .7em 0;
+	background: #E6CC62 url(header.jpg) top left no-repeat;
+	border-bottom: 3px #555555 solid;
+	text-align: right;
+	border-top: 3px #555555 solid;
+}
+
+
+
+
+
+
+
+
+
+
+ /* Box which holds the content and aligns it to the left. */
+#content{
+	position: relative;
+	left: 0;
+	padding: 20px;
+	width: 350px;
+}
+
+ /* Styles the h3 header tag. */
+#content h3{
+	font: 1.4em/100% Verdana, Sans-Serif;
+	color: #AF2E31;
+	margin: 0;
+	padding: 10px 5px 0 0;
+
+}
+
+ /* Styles the p-tag (the paragraphs). */
+#content p{
+	font: .8em/150% Arial, Sans-Serif;
+	text-align: left; /* You can also use: justify, center and right. Try them! */
+	margin: 0;
+	padding: 10px 5px 1em 5px;
+}
+
+#content p img.floatleft{
+	float: left;
+	margin: 0 13px 5px 0;
+	border: 2px #555 solid;
+}
+
+ /* Styles quotes displayed as block-elements. */
+#content p.blockquote{
+	margin: 0 5px 0 20px;
+	padding: 6px;
+	font: .7em Arial, Sans-serif;
+	border-left: 1px #aaa dashed;
+	background: #FFFBEA;
+	text-align: justify;
+}
+
+#content p.blockquote:hover{
+	border-left: 1px #555 dashed;
+	background: #FFF3C6;
+}
+
+ /* Puts > Quote: " < in front of everything inside the quote, so you don't have to! */
+#content p.blockquote:before{
+	content: "Quote: " open-quote;
+	font-weight: bold;
+	font-style: italic;
+}
+
+ /* Puts a > " < after the quote. */
+#content p.blockquote:after{
+	content: close-quote;
+	font-weight: bold;
+	font-style: italic;
+}
+
+ /* Styles the links inside the content-box. */
+#content a{
+	color: #CCB040;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ /* Gives the links a hover-effect. */
+#content a:hover{
+	color: #7A7742;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* Box which holds and aligns the menu to the right. */
+#menu{
+	position: absolute;
+	right: 0; top: 15px;
+	width: 200px;
+}
+
+ /* Hides the h1 text in CSS-compliant browsers, but seen by text-based browser. */
+#menu h1{ font: 0em/0% arial, sans-serif; text-indent: -4321px; height: 0; margin: 0; padding: 0; }
+
+ /* The actual menu holder. */
+#menu dl{
+	margin: 0px 0 15px 0;
+	padding: 15px 0 30px 0;
+	border-left: 1px #EBE9B3 solid;
+}
+
+ /* Styles the link-descriptions above the links. */
+#menu dt{
+	margin: 15px 0 0 0;
+	padding: 0 5px 0 5px;
+	background: #E6CC62;
+	font: .8em/150% verdana, sans-serif;
+	color: #555555;
+}
+
+ /* Tags which holds each link in the menu. */
+#menu dd{
+	margin: 0;
+	padding: 0;
+}
+
+ /* Styles the links in the menu. */
+#menu dd a{
+	background: #ffffff url(menu-link-bg.gif) left top no-repeat;
+	display: block;
+	font: .8em/20px verdana, sans-serif;
+	color: #5D5B32;
+	padding: 0 5px 0 15px;
+	text-decoration: none;
+}
+
+ /* Makes a hover effect when the mouse is over a link. Also styles the selected link. */
+#menu dd a:hover, #menu dd a.selected{
+	color: #000000;
+	background: #F5F4D9 url(menu-link-bg-hover.gif) left top no-repeat;
+}
+
+ /* Makes the hover-effect disappear (but with the dark arrow intact) when the mouse is over the menu. */
+#menu dl:hover dd a.selected{
+	background: #ffffff url(menu-link-bg-hover.gif) left top no-repeat;
+	display: block;
+	font: .8em/20px verdana, sans-serif;
+	color: #5D5B32;
+	padding: 0 5px 0 15px;
+	text-decoration: none;
+}
+
+#menu dl:hover dt{
+	color: #000000;
+}
+
+ /* A form. */
+#menu form{
+ 	margin: 0;
+	padding: 4px;
+}
+
+ /* Styles the text-input. */
+#menu input.text{
+	width: 175px;
+	margin: 0 0 2px 8px;
+	padding: 0px;
+	background: #ffffff;
+	border: 1px #C5D2D9 solid;
+	font: .7em verdana, sans-serif;
+	color: #000000;
+}
+
+ /* Styles the button. */
+#menu input.button{
+	width: 175px;
+	margin: 0 0 2px 8px;
+	padding: 0px;
+	background: #EAF0F3;
+	border: 1px #C5D2D9 solid;
+	font: .7em verdana, sans-serif;
+	color: #000000;
+}
+
+ /* Changes the text and button background colour, when in focus (works only in some compliant browsers, such as Opera). */
+#menu input.text:focus, #menu input.button:focus{
+	background: #F5F5E7;
+}
+
+
+
+
+
+
+
+
+
+
+ /* The footer. */
+#footer h5{
+	font: bold .8em/300% Arial, Sans-Serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0 0 0 .5em;
+	background: #E6CC62;
+	text-align: center;
+	border-top: 3px #555555 solid;
+	border-bottom: 3px #555555 solid;
+}
+
+ /* Don't change this, please. It only works in Opera and Firefox. IE ignores it. */
+#footer h5:after{
+	content: " Design by Dripz. ";
+}
+
+ /* Styles the links in the footer box, if any. */
+#footer a{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ /* Gives the links a hover-effect. */
+#footer a:hover{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+ /* Gives the acronyms a dotted bottom-border, so IE knows that it is an acronym. */
+acronym{
+	border-bottom: 1px #000000 dotted;
+}
+
+ /* This inludes the acronym description, when printed. */
+@media print{
+ acronym:after{
+  content: " (" attr(title) ")";
+ }
+}
+ 

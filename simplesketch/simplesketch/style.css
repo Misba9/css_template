@@ -1,0 +1,388 @@
+@charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#fff url(images/main_bg.jpg) top center repeat-x;
+	color:#66625a;
+	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
+}
+html {
+	padding:0;
+	margin:0;
+}
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+.main {
+	margin:0 auto;
+	padding:0;
+}
+h2 {
+	font:normal 30px Arial, Helvetica, sans-serif;
+	color:#80a6ba;
+	padding:8px 0;
+	margin:8px 0;
+	border-bottom:2px dashed #a29f9a;
+}
+p {
+	margin:8px 0;
+	padding:0 0 8px 0;
+	font:normal 12px/1.7em Arial, Helvetica, sans-serif;
+}
+a {
+	color:#ea7d1b;
+	text-decoration:underline;
+}
+.header {
+}
+.header_resize {
+	margin:0 auto;
+	padding:0 16px 0 32px;
+	width:932px;
+}
+.menu {
+	margin:0;
+	padding:71px 0 8px 0;
+	width:auto;
+	float:left;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li {
+	float:left;
+	margin:0;
+	padding:0 24px 0 16px;
+	background:url(images/menu_bg.gif) no-repeat left center;
+}
+.menu ul li a {
+	float:left;
+	margin:0;
+	padding:0;
+	color:#5a554d;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.menu ul li a:hover, .menu ul li.active a {
+	color:#d2953a;
+}
+.search {
+	padding:71px 0 8px 0;
+	margin:0;
+	width:auto;
+	float:right;
+}
+.search form {
+	float:right;
+	padding:0;
+	margin:0;
+}
+.search form label {
+	float:left;
+	padding:0 8px 0 0;
+	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
+	color:#aaa08d;
+	text-transform:lowercase;
+}
+.search span {
+	display:block;
+	float:left;
+	background:url(images/search_bg.gif) left top no-repeat;
+	width:264px;
+	padding:0;
+	height:19px;
+}
+.search form .keywords {
+	width:256px;
+	line-height:16px;
+	height:16px;
+	float:left;
+	background:none;
+	border:none;
+	padding:2px 4px;
+	margin:0;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	color:#66625a;
+}
+.search form .button {
+	float:left;
+	margin:0;
+	padding:0;
+}
+.logo {
+	margin:0;
+	padding-top:22px;
+}
+h1 {
+	margin:0;
+	padding:24px 0 32px;
+	color:#fff;
+	font:bold 32px/1.2em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:-2px;
+}
+h1 a, h1 a:hover {
+	color:#fff;
+	text-decoration:none;
+}
+h1 small {
+	font:normal 16px/1.2em Arial, Helvetica, sans-serif;
+	text-transform:none;
+	letter-spacing:normal;
+}
+.content {
+	margin:0;
+	padding:0;
+}
+.content_resize {
+	margin:0 auto;
+	padding:0;
+	width:980px;
+	background:url(images/content_bg1.gif) repeat-y left;
+}
+.content .bodybix {
+	margin:0;
+	border:none;
+	float:left;
+}
+.content .star {
+	background:url(images/h2_img.gif) no-repeat right center;
+}
+.content p.big {
+	font:bold 14px/1.5em Arial, Helvetica, sans-serif;
+}
+.content p.posted {
+	color:#80a6ba;
+}
+.content img.ifr {
+	margin:0;
+	padding:16px 0 0 16px;
+	float:right;
+	background-color:#fff;
+}
+.content .left {
+	float:left;
+	width:632px;
+	margin:0;
+	padding:0 0 0 40px;
+}
+.content .right {
+	float:right;
+	width:216px;
+	margin:0;
+	padding:0 40px 0 0;
+}
+.content .right ul.sidebar {
+	list-style:none;
+	margin:0;
+	padding:8px 0;
+}
+.content .right ul.sidebar li {
+	margin:0;
+	padding:2px 0;
+	padding-bottom:6px;
+}
+.content .right ul.sidebar li a {
+	margin:0;
+	color:#80a6ba;
+	padding:0;
+	text-decoration:none;
+}
+.content .right ul.sidebar li a:hover {
+	text-decoration:underline;
+	color:#ea7d1b;
+}
+.content .right ul.li_img li a {
+	padding-left:15px;
+	background:url(images/ul_li.gif) left center no-repeat;
+	font-size:14px;
+}
+.content p.orn {
+	color:#ea7d1b;
+	line-height:2em;
+}
+.content .bgbottom {
+	padding:0;
+	height:36px;
+	background:url(images/content_bgbot.jpg) no-repeat bottom right;
+}
+.bgline {
+	margin-bottom:8px;
+	background:url(images/line_bg.gif) repeat-x bottom;
+}
+.FBG {
+	margin:0;
+	padding:0;
+}
+.FBG_resize {
+	margin:0 auto;
+	padding:0;
+	width:980px;
+}
+.FBG .col {
+	margin:0;
+	padding:20px 30px;
+	float:left;
+}
+.FBG .c1 {
+	width:240px;
+	padding-left:40px;
+}
+.FBG .c2 {
+	width:320px;
+}
+.FBG .c3 {
+	width:216px;
+	padding-right:40px;
+}
+.FBG h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-bottom:16px;
+}
+.FBG img.ad {
+	border:4px solid #dbdada;
+	margin:10px 10px 10px 0;
+}
+.FBG img.mail {
+	float:left;
+	margin:10px;
+	padding:0;
+	border:none;
+}
+.FBG p.qauthor {
+	text-align:right;
+}
+.FBG ul.check {
+	list-style:none;
+	padding:0;
+	margin:10px 0;
+}
+.FBG li {
+	padding:6px 0;
+	margin:0;
+}
+.FBG li a {
+	color:#66625a;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	padding-left:15px;
+	background:url(images/fbg_ul_Li.gif) no-repeat left center;
+}
+.FBG li a:hover {
+	color:#ea7d1b;
+	text-decoration:underline;
+}
+.FBG .blok {
+	width:280px;
+	float:left;
+	padding:0 10px;
+	margin:5px 10px 5px 0;
+}
+.footer {
+	padding:0;
+	margin:0 auto;
+	background:#f2e6c8 url(images/footer_bg.jpg) top center repeat-x;
+}
+.footer_resize {
+	margin:0 auto;
+	padding:32px 40px 0 40px;
+	width:900px;
+	height:56px;
+}
+.footer p {
+	margin:0;
+	padding:4px 0;
+	line-height:normal;
+}
+.footer a {
+	color:#66625a;
+	padding:inherit;
+	text-decoration:underline;
+}
+.footer a:hover {
+	text-decoration:none;
+}
+.footer .lf {
+	float:left;
+}
+.footer .rf {
+	float:right;
+}
+#contactform {
+	margin:0;
+	padding:5px 10px;
+}
+#contactform * {
+	color:#F00;
+}
+#contactform ol {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#contactform li {
+	margin:0;
+	padding:0;
+	background:none;
+	border:none;
+	display:block;
+	clear:both;
+}
+#contactform li.buttons {
+	margin:5px 0 5px 0;
+}
+#contactform label {
+	margin:0;
+	width:110px;
+	display:block;
+	padding:10px 0;
+	color:#666;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	text-transform:capitalize;
+	float:left;
+}
+#contactform label span {
+	color:#F00;
+}
+#contactform input.text {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:2px 0;
+	padding:5px 2px;
+	height:16px;
+	background:#fff;
+	float:left;
+}
+#contactform textarea {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:2px 0;
+	padding:2px;
+	background:#fff;
+	float:left;
+}
+#contactform li.buttons input {
+	border:1px solid #000;
+	background:#ea7d1b;
+	padding:10px;
+	margin:10px 0 0 110px;
+	color:#fff;
+	float:left;
+	font:normal 12px Arial, Helvetica, sans-serif;
+}
+p.response {
+	text-align:center;
+	color:#F00;
+	font:normal 11px Georgia, "Times New Roman", Times, serif;
+	line-height:1.8em;
+	width:auto;
+}

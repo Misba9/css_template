@@ -1,0 +1,144 @@
+
+body {
+margin : 0 auto;
+padding : 0;
+color : #000;
+background : #f7f7f7 url(images/bgd.jpg) repeat center;
+font : 75% "lucida sans", "Trebuchet MS", arial, verdana, sans-serif;
+text-align : center;
+line-height : 1.7em;
+}
+#container {
+width : 750px;
+margin : 0 auto;
+padding : 0;
+text-align : left;
+color : #666;
+background : #f7f7f7;
+border : 5px solid #aaa;
+}
+#top {
+margin : 0 auto;
+padding : 0;
+color : #000;
+background : #7a2e2e;
+}
+#top h1 {
+margin : 0 20px 0 0;
+padding : 10px 0 10px 0;
+font-size : 130%;
+text-align : right;
+text-transform : uppercase;
+color : #fff;
+background : inherit;
+}
+#banner {
+width : 750px;
+margin : 0 auto;
+padding : 0;
+height : 150px;
+color : #000;
+background : #7A2E2E url(images/banner.jpg) no-repeat;
+}
+.container {
+margin : 0;
+padding : 5px 0 0 0;
+width : 100%;
+color : #000;
+background : #f7f7f7 url(images/stripe_bg01.gif) repeat-x;
+}
+#navPyra {
+margin : 0;
+padding : 0 0 24px 0;
+border-bottom : 10px solid #7a2e2e;
+}
+#navPyra li {
+margin : 0;
+padding : 0;
+display : inline;
+list-style-type : none;
+}
+#navPyra a:link, #navPyra a:visited {
+float : left;
+padding : 0 12px 6px 12px;
+font-size : 130%;
+line-height : 1.2em;
+text-decoration : none;
+color : #742828;
+background : inherit;
+}
+#navPyra a:link.active, #navPyra a:visited.active, #navPyra a:hover {
+color : #000;
+background : transparent url(images/pyramid.gif) no-repeat bottom center;
+}
+#side {
+width : 180px;
+float : left;
+margin : 0 auto;
+padding : 0;
+}
+#side p {
+margin : 1em 0 1em 1em;
+color : #999;
+background : inherit;
+}
+#navcontainer ul {
+margin-top : 30px;
+list-style-type : none;
+background-color : inherit;
+color : #000;
+text-align : left;
+}
+#navcontainer ul li a {
+padding : 15px;
+color : #000;
+background : transparent url(images/list-off.gif) no-repeat left center;
+text-align : left;
+font : 100% "lucida sans", arial, sans-serif;
+text-decoration : none;
+}
+#navcontainer ul li a:hover {
+color : #c86000;
+background : transparent url(images/list-on.gif) no-repeat left center;
+}
+#navcontainer ul li a#current {
+background : transparent url(images/list-active.gif) no-repeat left center;
+color : #666;
+}
+#content {
+width : 535px;
+margin-left : 190px;
+padding-left : 10px;
+line-height : 1.8em;
+border-left : 1px solid #bbb;
+}
+#footer {
+margin-top : 60px;
+padding : 0.5em;
+clear : both;
+font-size : 0.9em;
+color : #333;
+background : #f7f7f7 url(images/stripe_bg01.gif) repeat;
+border-top : 5px solid #7a2e2e;
+}
+a:link, a:visited {
+text-decoration : underline;
+color : #7a2e2e;
+background : inherit;
+}
+a:hover {
+text-decoration : none;
+color : #cc6600;
+background : inherit;
+}
+h2 {
+margin : 1em 0 1em 0.5em;
+color : #b33c28;
+font : 160% "lucida sans", "Trebuchet MS", arial, verdana, sans-serif;
+background : inherit;
+}
+blockquote {
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}

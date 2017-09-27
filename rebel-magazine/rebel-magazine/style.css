@@ -1,0 +1,102 @@
+body{font:11px Verdana;color:#FFFFFF;margin:0px;padding:0;background:#747474;}
+img {margin: 0px; padding:0px;border:0px;}
+#bg {width:1002px;margin:0 auto;}
+#mainpage {float:left;width:961px;padding-left:20px;padding-right:21px;background:url(images/bg.gif) repeat-y;}
+h2 {font: 24px Tahoma;color:#000000;margin:0;padding:0;padding-left:10px;}
+h3 {font: 24px Tahoma;color:#000000;margin:0;padding:0;padding-left:10px;}
+h4 {font: 24px Tahoma;color:#000000;margin:0;padding:0;padding-left:10px;}
+.h2{font-family:Arial, Helvetica, sans-serif;line-height:18px;font-size:12px;color:#312E2E;font-weight:700;}
+a:link, a:visited, a:active{color:#333333;text-decoration:none;font-weight:bold;}
+a:hover{text-decoration:underline;}
+input {border:1px solid #303030;vertical-align: middle;}
+#header{float:left;height:90px;width:961px;padding:0;margin:0px;padding:0px;background:url(images/headerbg.gif) no-repeat;}
+#header .title {float:left;width:576px;}
+#header .title h1 {margin:0px;font:24px Verdana;color:#FFFFFF;font-weight:normal;padding-top:25px;padding-left:22px;}
+#header .title h1 a {font-weight:normal;color:#FFFFFF;}
+#header .title h1 a:hover {text-decoration:none;}
+#header .title h2 {margin:0px;padding:0px;font:12px Verdana;color:#FC3D32;font-weight:bold;padding-top:7px;padding-left:22px;}
+#header .toprss {float:left;width:81px;}
+#searchform {float:left;}
+#search {float:left;width:304px;padding-top:27px;}
+#search .input {border:0px;background:none;height:14px;width:252px;font:12px Verdana;color:#FFFFFF;font-weight:normal;}
+#main {float:left;width:930px;padding-left:17px;padding-right:13px;background:url(images/mainbg.gif) repeat-x;padding-top:27px;}
+#menu {height:30px;width:961px;float:left;background:url(images/menubg.gif) repeat-x;}
+ul.menu{height:30px;line-height:30px;list-style:none;margin:0px;padding:0;}
+ul.menu li{float:left;list-style-type:none;margin:0;}
+ul.menu li a {float:left;font:11px Verdana;color:#FFFFFF;font-weight:bold;text-transform:uppercase;padding-left:20px;padding-right:20px;line-height:30px;background:url(images/menuend.gif) no-repeat;background-position:100% 0%;}
+ul.menu li a:hover {text-decoration:underline;}
+ul.menu li a:visited {color:#FFFFFF;font-weight:bold;}
+#content{font: 12px Verdana;color:#333333;float:left;width:640px;margin:0px;padding:0;overflow:hidden;padding-bottom:14px;}
+.entry2{float:left;width:295px;margin:0px;padding:0px;padding-right:25px;}
+.post2 {float:left;width:295px;max-height:290px;overflow:hidden;}
+.postinfo2 {float:left;width:295px;}
+.postinfo2 h4 {float:left;margin:0px;padding:0px;font: 11px Verdana;color:#CC0000;font-weight:normal;text-transform:uppercase;padding-right:3px;}
+.postinfo2 h4 a {text-decoration:none;color:#CC0000;font-weight:normal;margin:0;}
+.postinfo2 h5 {margin:0px;padding:0px;font: 11px Verdana;color:#808080;font-weight:normal;}
+.postinfo2 h5 a {text-decoration:none;color:#808080;font-weight:normal;margin:0;}
+.entry2 h2 {font: 24px Verdana;color:#000000;margin:0px;padding:0px;font-weight:normal;}
+.entry2 h2 a {text-decoration:none;color:#000000;margin:0;font-weight:normal;}
+.entry2 h2 a:hover{text-decoration:none;}
+.entry2 h2 a:visited {color:#000000;font-weight:normal;}
+.entry2 h3 {font: 18px Verdana;color:#000000;margin:0px;padding:0px;font-weight:bold;}
+.postbot2 {float:left;width:295px;height:21px;background:#FFFFFF;padding-top:15px;padding-bottom:30px;}
+.postbot2 h4 {margin:0px;padding:0px;font: 12px Verdana;color:#336699;font-weight:normal;}
+.postbot2 h4 a {text-decoration:none;color:#336699;font-weight:normal;margin:0;}
+.entry {float:left;width:616px;margin:0px;padding:0px;padding-right:25px;padding-bottom:30px;}
+.postinfo {float:left;width:616px;}
+.postinfo h4 {float:left;margin:0px;padding:0px;font: 11px Verdana;color:#CC0000;font-weight:normal;text-transform:uppercase;padding-right:3px;}
+.postinfo h4 a {text-decoration:none;color:#CC0000;font-weight:normal;margin:0;}
+.postinfo h5 {margin:0px;padding:0px;font: 11px Verdana;color:#808080;font-weight:normal;}
+.postinfo h5 a {text-decoration:none;color:#808080;font-weight:normal;margin:0;}
+.entry h2 {font: 24px Verdana;color:#000000;margin:0px;padding:0px;font-weight:normal;}
+.entry h2 a {text-decoration:none;color:#000000;margin:0;font-weight:normal;}
+.entry h2 a:hover{text-decoration:none;}
+.entry h2 a:visited {color:#000000;font-weight:normal;}
+.entry h3 {font: 18px Verdana;color:#000000;margin:0px;padding:0px;font-weight:bold;}
+#sidebar{float:left;width:290px;margin:0px;padding:0px;font: 11px Verdana;}
+.rss {float:left;width:288px;height:37px;background:url(images/rssbg.gif) no-repeat;border:1px solid #CCCCCC;padding-top:8px;margin-bottom:14px;}
+.rss h1 {float:left;width:73px;margin:0px;font:11px Verdana;color:#000000;font-weight:bold;padding-left:50px;padding-right:15px;}
+.rss h1 a {color:#000000;font-weight:bold;}
+.rss a {color:#CC0000;font-weight:normal;}
+.ads {float:left;width:288px;border:1px solid #CCCCCC;padding-top:8px;margin-bottom:14px;}
+.ads img {float:left;margin-left:8px;margin-right:8px;margin-bottom:8px;border:1px solid #000000;}
+.rsidebar{font: 13px  Verdana;color:#303030;float:left;width:288px;}
+.rsidebar h2{margin:0px;font:11px Verdana;font-weight:bold;color:#000000;text-transform:uppercase;padding-top:12px;padding-bottom:4px;border-bottom:1px dotted #B6B6B6;}
+.rsidebar a {font-weight:normal;}
+.rsidebar ul{list-style-type:none;margin:0;padding:0;padding-top:0px;}
+.rsidebar ul li{float:left;width:272px;list-style-type:none;margin:0 0 0px;padding:0;padding-left:0px;border:1px solid #CCCCCC;margin-bottom:14px;padding-left:8px;padding-right:8px;}
+.rsidebar ul li ul{float:left;list-style-type:square;margin:0;padding:0 0px;padding-top:11px;padding-bottom:20px;}
+.rsidebar ul li ul li{float:left;width:124px;height:24px;list-style-type:none;border:0px none;margin:0;padding-left:4px;background:url(images/nav.gif) no-repeat;}
+.rsidebar ul li ul li a {padding-left:15px;font:11px Verdana;font-weight:normal;color:#000000;line-height:24px;}
+.rsidebar ul li ul li a:visited {color:#000000;font-weight:normal;}
+.rsidebar ul li ul li a:hover {text-decoration:none;color:#336699;}
+.rsidebar ul li ul li:hover {}
+.video {float:left;width:272px;border:1px solid #CCCCCC;margin-bottom:10px;padding:8px;padding-top:0px;margin-bottom:14px;}
+.video h2{margin:0px;font:11px Verdana;font-weight:bold;color:#000000;text-transform:uppercase;padding-top:12px;padding-bottom:4px;border-bottom:1px dotted #B6B6B6;margin-bottom:10px;}
+.video p {margin:0px;padding:0px;text-align:center;}
+.navigation{float:left;color:#303030;width:636px;margin:0px;padding:0px;margin-left:13px;margin-right:19px;padding-top:6px;}
+.navigation p {color:#303030;margin:0px;}
+.navigation a:hover {text-decoration:underline;}
+.alignright{float:right;margin-top:10px;}
+.alignleft{float:left;margin-top:10px;}
+.postmetadata{text-align:right;font: 12px  Verdana;color:#600320;margin:0;padding:0px;}
+.postmetadata a {color:#600320}
+.boxcomments{width:616px;}
+#commentform label{display:block;margin:0;padding-top:10px;}
+#commentform input{width:170px;margin:0 5px 0px 0;padding:1px;}
+#commentform textarea{width:400px;margin:0 0 0px;padding:0;}
+#commentform #submit{margin:0 0 0px;}
+#commentform p{margin:0px 0;}
+ol.commentlist{margin:0px;padding:0px;}
+ol.commentlist li{display:block;list-style:none;margin:0px;padding:0px;border:1px dotted #CCCCCC;background:#F7F7F7;margin-bottom:10px;padding-top:5px;padding-left:10px;padding-right:10px;}
+ol.commentlist li.commenthead{display:block;list-style:none;margin:0;padding:0px;background:#FFFFFF;border:0px;padding-bottom:10px;}
+ol.commentlist li.commenthead h2{margin:0;}
+ol.tblist{border-top:1px solid #fff;list-style:none;margin:0 0 1px;padding:15px;}
+ol.tblist li{display:block;padding-left:15px;list-style-type:none; margin-left:0; margin-right:0; margin-top:0; margin-bottom:5px;}
+#footer{color:#FFFFFF;clear:both;height:0px;margin:0;padding:0;}
+#footerbox{color:#FFFFFF;margin:0;padding:0;width:961px;margin: 0 auto;background:#2C2E30;}
+#footerbox p {margin:0px;font-size:12px;margin-top:0px;}
+.footer{text-align:center;width:961px;color:#F1DCE3;margin:0 auto;padding:0;}
+.footer a:hover{text-decoration:underline;border:none;}
+.footer a:link, .footer a:active, .footer a:visited {color:#FFFFFF;border:none;font-weight:normal;}
+.footer p {margin:0px;font:12px Verdana;color:#FFFFFF;line-height:41px;}

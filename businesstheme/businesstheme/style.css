@@ -1,0 +1,119 @@
+/* CSS Document */
+* { margin:0; padding: 0;}
+
+a{outline: none;}
+
+body { background: #d9e6ed url(images/mainBackground.jpg) no-repeat top center; font: 12px tahoma, Arial, Helvetica, sans-serif; color: #3c465b;}
+
+p{margin-bottom: 15px; margin-top: 15px; line-height: 18px;}
+
+h2{ font-family: Georgia, "Times New Roman", Times, serif; font-size: 22px; font-weight: normal; color: #677dab; padding-bottom: 6px; border-bottom: 1px solid #cddeea; margin-bottom: 17px;}
+
+h3{ font-family: Georgia, "Times New Roman", Times, serif; font-size: 19px; font-weight: normal; color: #677dab; padding-bottom: 10px; margin-bottom: 15px;}
+
+/*///////////////// LINKS ///////////////////////*/
+
+a:link, a:visited{ font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; color: #a27e21; text-decoration: none;}
+a:hover { text-decoration: underline;}
+a.readMore:link, a.readMore:visited{ background: url(images/readMore.jpg) top center no-repeat; padding: 6px 17px;}
+/*///////////////// END LINKS ///////////////////////*/
+
+/* Clearing floats without extra markup  */
+.wrapper { display: inline-block; }
+.wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .wrapper { height: 1%; }
+.wrapper { display: block; }
+/* End Clearing floats without extra markup  */
+
+
+
+/*///////////////// LOGO ///////////////////////*/
+
+h1#logo { position: absolute; top: 50px; left: 0;  width: 239px; height: 41px; text-indent:-9000px; background: transparent url(images/logo.gif) no-repeat 0 0;}
+h1 a { height:41px; display:block; text-decoration:none;}
+h1 a:hover { text-decoration:none; background:transparent;}
+
+/*///////////////// END LOGO ///////////////////////*/
+
+/*///////////////// SEARCH ///////////////////////*/
+
+#search{ position: absolute; top: 50px; right: 0;}
+#search input{ float: left; background-color: #b2cee5; border-top: 1px solid #9ab2c6; border-left: 1px solid #9ab2c6; border-bottom: 1px solid #d4e3ef; border-right: 1px solid #d4e3ef; padding: 3px; width: 221px;}
+#search .btn{ background: #a27e21; border: 0; margin: 0 0 0 7px; padding: 3px 5px; width: 70px; color: #c1bfa4; cursor: pointer;}
+
+/*///////////////// END SEARCH ///////////////////////*/
+
+/*///////////////// NAVIGATION ///////////////////////*/
+
+#navigation{ position: absolute; top:116px; right: 0;background: #3d475c; height: 34px;}
+#navigation ul{ list-style: none; padding-left: 12px; padding-right: 12px;}
+#navigation ul li{ display: inline;}
+#navigation ul li a:link, #navigation ul li a:visited{ float: left; display: block; padding: 0 12px; font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; font-weight: bold; color: #a27e21; text-decoration: none; line-height: 34px; background: url(images/divider.gif) no-repeat center right;}
+#navigation ul li a:hover, #navigation ul li a:active{ color: #a7b2c4;}
+#navigation ul li a.last:link, #navigation ul li a.last:visited{ background: transparent;}
+#navigation ul li a.current:link, #navigation ul li a.current:visited{ color: #a7b2c4;}
+
+/*///////////////// END NAVIGATION ///////////////////////*/
+
+/*///////////////// SLOGAN ///////////////////////*/
+
+#sloganOne{ position: absolute; top: 185px; left: 0; font-family: Georgia, "Times New Roman", Times, serif; font-size: 24px;
+color: #7c8695; line-height: 34px; margin: 0; }
+#sloganOne span{ display: inline-block; color: #81692e; border-bottom: 1px dashed #81692e;}
+#sloganTwo{ position: absolute; top: 225px; left: 0; font-family: Georgia, "Times New Roman", Times, serif; font-size: 24px;
+color: #7c8695; line-height: 34px; margin: 0;}
+#sloganTwo span{ display: inline-block; color: #81692e; border-bottom: 1px dashed #81692e;}
+
+/*///////////////// END SLOGAN ///////////////////////*/
+
+
+/*///////////////// LAYOUT ///////////////////////*/
+
+#wrap { width: 844px; margin: 0 auto;}
+#header { width: 844px; height: 324px; position: relative;}
+#content{width: 844px;}
+#contentLeft{ width: 508px; float: left; display: inline; margin-right: 39px;}
+#contentRight{ width: 262px; float: right; display: inline; background: #e4edf2; padding: 0 17px; border-bottom: 2px solid #bdcbd2;}
+#footer{ width: 844px; margin-top: 20px; border-top: 3px solid #bdcbd2; margin-bottom: 20px;}
+
+/*///////////////// END LAYOUT ///////////////////////*/
+
+/*///////////////// IMAGE CLASSES ///////////////////////*/
+
+.imageBorder{ padding: 5px; background: #fff; border: 1px solid #b2cfe9;}
+.imageLeft{ float: left;  margin: 10px; margin-top: 0; margin-left: 0;}
+.imageRight{ float: right;  margin: 10px; margin-top: 0; margin-right: 0;}
+
+/*///////////////// END IMAGE CLASSES ///////////////////////*/
+
+/*///////////////// SERVICES HOMEPAGE ///////////////////////*/
+
+.serviceHomeOne{float: left; width: 227px; margin-right: 50px; display: inline;}
+.serviceHomeTwo{float: left; width: 227px;}
+.serviceHomeOne h3{ padding-left: 25px; padding-bottom: 0; background: url(images/arrowIcon.jpg) no-repeat 0 50%;}
+.serviceHomeTwo h3{ padding-left: 25px; padding-bottom: 0; background: url(images/arrowIcon.jpg) no-repeat 0 50%;}
+
+/*///////////////// END SERVICES HOMEPAGE ///////////////////////*/
+
+/*///////////////// LATEST NEWS ///////////////////////*/
+
+.latestNews{ margin-bottom: 35px;}
+.latestNews h4{ font-family: tahoma, Arial, Helvetica, sans-serif; color: #a27e21; font-size: 12px; font-weight: bold; padding-left: 20px; background:url(images/newsIcon.jpg) top left no-repeat;}
+.teaser{margin-left: 20px; padding-left: 5px; border-left: 1px solid #a7c9e1;}
+.latestNews a.readMoreNews:link, a.readMoreNews:visited{ background: url(images/readMoreNews.jpg) top center no-repeat; padding: 7px 17px; margin-left: 25px;}
+
+/*///////////////// END LATEST NEWS ///////////////////////*/
+
+/*///////////////// TESTIMONIALS ///////////////////////*/
+
+blockquote{margin-bottom: 25px;}
+blockquote p.text{ font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 22px; color:#6b7589; width: 99%; background: url(images/quotes.gif) top left no-repeat; padding-top: 10px; text-indent: 15px;}
+blockquote p.text:first-letter{ font-size: 19px; font-weight: bold; padding-right: 1px; font-style: italic;}
+blockquote p.name{text-align: right; font-weight: bold; color:#6b7589;}
+
+/*///////////////// END TESTIMONIALS ///////////////////////*/
+
+.copyright{ float: left; margin-top: 10px; color: #677dab;}
+.footerMenu{ float: right; margin-top: 10px; color: #a27e21;}
+
+

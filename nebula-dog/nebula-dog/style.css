@@ -1,0 +1,189 @@
+/* ------------
+Design: Nebula Dog 1.0
+Date: 2007-05-19
+Author: Lukasz Sobek
+URL: http://lukasz.sobek.pl
+------------ */
+
+
+
+/* ------------
+global things
+------------ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #333 url(img/bg.gif) repeat-x fixed left bottom;
+	color: #666;
+	margin: 25px 0px;
+	text-align: center;
+	font: normal 1em sans-serif,Arial;
+}
+
+/* ------------
+main wrapping container
+------------ */
+
+#container {
+	border: 1px solid #111;
+	margin: 20px auto 4px auto; 
+	text-align: left;
+	width: 700px;
+	background-color: #000;
+}
+
+/* ------------
+header-graphics part
+------------ */
+
+.header-{
+	background: #000 url(img/darkside.jpg) no-repeat;
+	height: 266px;
+}
+
+.header-h1 {
+	color: #ccc;
+	font: normal 2em Tahoma,sans-serif;
+	padding: 0px 25px;
+}
+
+
+/* ------------
+content part
+------------ */
+
+.entry {
+	background: #fff url(img/bg_item.gif) repeat-x;
+	padding: 8px 10px;
+	border-left: 5px solid #900;
+}
+
+.entry p {
+	margin: 0px 10px 10px 10px;
+	text-align: justify;
+	line-height: 150%;
+	padding-right: 10px;
+}
+
+.entry h1 {
+	margin: 30px 10px 10px;
+	font: bold 1.1em sans-serif,Arial;
+	color: #666;
+}
+
+.entry h2 {
+	margin: 20px 10px 10px;
+	font: bold 1.1em sans-serif,Arial;
+	color: #c00;
+}
+
+.entry a {
+	color: #444;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.entry a:hover {
+	color: #c00;
+	text-decoration: none;
+	border-bottom: 1px solid #666;
+}
+
+/* ------------
+right menu part
+------------ */
+
+#menu {
+	float: right;
+	padding:0px;
+	margin-left: 20px;
+	width: 200px;
+	background-color: #999;
+	color: #000;
+}
+
+* html #menu {
+	margin-left: 10px;
+}
+
+
+#menu p {
+	margin: 5px 10px 10px 10px;
+	line-height: 150%;
+	font: normal 0.7em "Lucida Sans Unicode",serif;
+	text-align: justify;
+}
+
+/* ------------
+right menu part links
+------------ */
+
+.menu_list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+* html #menu li{
+	margin-bottom:-3px;
+}
+
+#menu li {
+	margin:0px;
+	border-bottom:1px solid #000;
+	font-size: 1em;
+	text-decoration: none;
+	padding:0px;
+	width:200px;
+}
+
+#menu li a {
+	display: block;
+	color: #ccc;
+	font-size: 1em;
+	text-decoration: none;
+	border-left:5px solid #900;
+	border-bottom: none;
+	padding:5px;
+	background: #000 url(img/bg_menu_grey.gif) bottom center repeat-x;
+}
+
+#menu li a:hover {
+	text-decoration: none;
+	border-left:5px solid #666;
+	color: #fff;
+	border-bottom: none;
+	background: #000 url(img/bg_menu.gif) bottom center repeat-x;
+}
+
+/* ------------
+footer information part
+------------ */
+
+#footer {
+	padding: 5px;
+	text-align: right;
+	color: #666;
+	font-size: 0.8em;
+	background: #000 url(img/bg_menu_grey.gif) bottom center repeat-x;
+} 
+
+/* ------------
+other
+------------ */
+
+#menu a,#footer a {
+	color: #666;
+	text-decoration: none;
+	border-bottom: 1px solid #900;
+}
+
+#menu a:hover,#footer a:hover {
+	color: #eee;
+	text-decoration: none;
+	border-bottom: 1px solid #f00;
+}

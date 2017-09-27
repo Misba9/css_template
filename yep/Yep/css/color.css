@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+}
+
+.header, .footer {
+    background-color: #1f9bc9;
+}
+
+.spinner > div,.cta2  {
+    background-color: #a7cb00;
+}
+
+.cta1 {
+    background-color:#1c8bb5;
+}
+
+.gray
+{
+    color:#4c4a4a;
+}
+.black
+{
+    background:#000;
+}
+.lightblack
+{
+    background:#242424;
+}
+.grey
+{
+    color:#969696;
+}
+.grayback
+{
+    background:#9c9c9c;
+}
+
+.blue
+{
+    background:#1f9bc9;
+}
+.white
+{
+    background:#fff;
+}
+#social_icons li a
+{
+    color:#4b4c4c;
+}
+#social_icons li a:hover
+{
+    color:#1f9bc9;
+}
+.whitecolor
+{
+    color:#fff;
+}

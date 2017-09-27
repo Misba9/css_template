@@ -1,0 +1,596 @@
+/*
+Theme Name: Financia Theme
+Theme URI: http://ophelianicholson.com
+Description:Financia wordpress theme
+Version: 1.0
+Author: Ophelia Nicholson
+Author URI: http://ophelianicholson.com
+*/
+
+
+ 
+/* General */
+
+body {
+	margin: 0;
+	background: #336600;
+ }
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+
+/* Page */
+
+#page {
+	margin: 0 auto;
+	width: 1000px;
+	background: url("images/page.gif") repeat-y;
+}
+
+#page-in {
+	width: 1000px;
+	min-height: 625px;
+	background: url("images/page_in.jpg") no-repeat;
+}
+
+
+/* Header */
+
+#header {
+	width: 1000px;
+	height: 377px;
+	position: relative;
+}
+
+	/* Header - Info */
+	
+	#header #header-info {
+		position: absolute;
+		top: 105px;
+		left: 40px;
+	}
+	
+	#header #header-info h1 {
+		color: #ffffff;
+		font: normal 47px "Century Gothic", Verdana;
+		padding-bottom: 1px;
+	}
+	
+	#header #header-info h1 a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	#header #header-info .description {
+		color: #ffffff;
+		font: normal 21px "Trebuchet MS", Verdana;
+	}
+	
+	/* Header - Menu */
+	
+	#header #header-menu {
+		position: absolute;
+		top: 0;
+		left: 20px;
+		width: 760px;
+		height: 45px;
+	}
+	
+	#header #header-menu ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		width: 760px;
+		height: 45px;
+	}
+	
+	#header #header-menu ul li {
+		font: normal 12px/45px Verdana;
+		color: #000000;
+		float: left;
+		margin-right: 20px;
+                display: block;
+	}
+	
+	#header #header-menu ul li a {
+		color: #000000;
+		text-decoration: none;
+            padding: 0 30px;
+		height: 45px;
+		display: block;
+	}
+	
+	#header #header-menu ul li a:hover {
+		background: #336600;
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	#header #header-menu ul li ul {
+		display: none;
+	}
+	
+	#header #header-menu ul li.current_page_item {
+		font-weight: bold;
+	}
+
+	
+	/* Header - Search */
+	
+	#header #header-search {
+		position: absolute;
+		top: 312px;
+		left: 15px;
+		width: 210px;
+		height: 28px;
+	}
+	
+	#header #header-search #searchform {
+		margin: 0;
+		padding: 0;
+		width: 210px;
+		height: 28px;
+	}
+	
+	#header #header-search #s {
+		width: 174px;
+		height: 18px;
+		border: 0;
+		padding: 5px 0 5px 5px;
+		font: normal 13px "Trebuchet MS", Verdana;
+		color: #000000;
+		background: transparent;
+		float: left;
+	}
+	
+	#header #header-search #searchsubmit {
+		background: transparent;
+		border: none;
+		width: 28px;
+		height: 28px;
+		padding: 0;
+		float: right;
+	}
+	
+	/* Header - Feed */
+	
+	#header #header-feed {
+		position: absolute;
+		top: 282px;
+		left: 798px;
+		width: 160px;
+		height: 110px;
+	}
+
+
+/* Main */
+
+#main {
+	width: 986px;
+	padding-left: 14px;
+}
+
+	/* Main - Sidebar */
+	
+	.sidebar {
+		float: left;
+		width: 208px;
+		font: normal 13px/18px "Trebuchet MS", Verdana;
+		color: #ffffff;
+	}
+	
+		.sidebar-right {
+			margin-top: 40px;
+		}
+	
+	.sidebar a {
+		color: #c5e402;
+		text-decoration: none;
+	}
+	
+	.sidebar a:hover {
+		text-decoration: underline;
+	}
+	
+	/* Sidebar - Boxes */
+	
+	.sidebar .sidebar-box {
+		width: 208px;
+		margin-bottom: 20px;
+	}
+	
+	.sidebar .sidebar-box-in {
+		width: 208px;
+		height: 15px;
+		background: url("images/sidebar_box_in.png") no-repeat;
+	}
+	
+	.sidebar .sidebar-box-ads {
+		width: 208px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	
+		/* Sidebar - Titles */
+		
+		.sidebar h3 {
+			width: 190px;
+			height: 39px;
+			background: url("images/sidebar_title.png") no-repeat;
+			padding-left: 18px;
+			font: bold 15px/39px "Trebuchet MS", Verdana;
+			color: #c5e402;
+		}
+		
+		/* Sidebar - Menus */
+		
+		.sidebar ul {
+			margin: 0;
+			padding: 6px 6px 2px 6px;
+			list-style-type: none;
+			background: url("images/sidebar_box.gif") repeat-y;
+		}
+		
+		.sidebar ul li {
+			color: #ffffff;
+			font: normal 13px/30px "Trebuchet MS", Verdana;
+		}
+		
+		.sidebar ul li a {
+			color: #ffffff;
+			text-decoration: none;
+			display: block;
+			border-bottom: 1px solid #89ad49;
+			padding-left: 12px;
+		}
+		
+		.sidebar ul li a:hover {
+			text-decoration: none;
+			background: #ffffff;
+			color: #336600;
+		}
+		
+			/* Sidebar - Menus - Submenus */
+			
+			.sidebar ul li ul {
+				padding: 0;
+				background: none;
+			}
+			
+			.sidebar ul li ul li a {
+				padding-left: 32px;
+			}
+		
+		/* Sidebar - Forms */
+		
+		.sidebar #searchform {
+			margin: 0;
+			padding-top: 15px;
+			width: 208px;
+			text-align: center;
+			background: url("images/sidebar_form.png") no-repeat;
+		}
+		
+		.sidebar #searchform div {
+			background: url("images/sidebar_box.gif") repeat-y;
+		}
+		
+		.sidebar #searchform #s {
+			width: 158px;
+		}
+		
+		/* Sidebar - Tables */
+		
+		.sidebar #calendar_wrap {
+			width: 208px;
+			background: url("images/sidebar_box.gif") repeat-y;
+			padding-top: 10px;
+		}
+		
+		.sidebar #calendar_wrap table {
+			margin: 0 auto;
+		}
+		
+		.sidebar #calendar_wrap caption {
+			font-weight: bold;
+			margin: 0 auto;
+		}
+		
+		.sidebar #calendar_wrap tbody {
+			text-align: right;
+		}
+		
+		.sidebar #calendar_wrap tfoot #next {
+			text-align: right;
+		}
+		
+		.sidebar #calendar_wrap #today {
+			font-weight: bold;
+		}
+		
+		/* Sidebar - Texts */
+		
+		.sidebar .textwidget {
+			padding: 3px 5px 0 5px;
+			width: 198px;
+			background: url("images/sidebar_box.gif") repeat-y;
+		}
+	
+	/* Main - Content */
+	
+	#content {
+		float: left;
+		width: 508px;
+		padding: 50px 22px 0 24px;
+	}
+	
+	/* Main - Content - Post */
+	
+	#content .post {
+		margin-bottom: 30px;
+		width: 508px;
+	}
+	
+		/* Post - Title */
+		
+		#content .post .post-title {
+			width: 508px;
+			color: #000000;
+			font: normal 12px "Trebuchet MS", Verdana;
+		}
+		
+		#content .post .post-title a {
+			color: #336600;
+			text-decoration: underline;
+		}
+		
+		#content .post .post-title .post-title-info {
+			float: left;
+			line-height: 24px;
+			padding: 0 0 5px 15px;
+		}
+		
+			#content .post .post-title .post-title-info .pti-category {
+				background: url("images/icon_category.gif") no-repeat left center;
+				padding-left: 16px;
+			}
+			
+			#content .post .post-title .post-title-info .pti-author {
+				background: url("images/icon_author.gif") no-repeat left center;
+				padding-left: 18px;
+			}
+		
+		#content .post .post-title h2 {
+			float: left;
+			width: 435px;
+			padding-left: 15px;
+			color: #ff6b00;
+			font: normal 27px/35px "Trebuchet MS", Verdana;
+		}
+		
+		#content .post .post-title h2 a {
+			color: #ff6b00;
+			text-decoration: none;
+		}
+		
+		#content .post .post-title h2 a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-title .post-date {
+			float: right;
+			background: url("images/post_date.gif") no-repeat;
+			width: 42px;
+			height: 45px;
+			margin-right: 15px;
+			color: #000000;
+			text-align: center;
+			font: bold 25px/30px "Trebuchet MS", Verdana;
+		}
+		
+		#content .post .post-title .post-date span {
+			display: block;
+			font-size: 10px;
+			color: #ffffff;
+			line-height: 15px;
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+		
+		/* Post - Entry */
+		
+		#content .post .post-entry {
+			font: normal 12px/18px "Trebuchet MS", Verdana;
+			color: #333333;
+			width: 498px;
+			padding: 0 5px;
+		}
+		
+		#content .post .post-entry a {
+			color: #ff6b00;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry a.more-link {
+			font-weight: bold;
+		}
+		
+		#content .post .post-entry blockquote {
+			border-left: 6px solid #aecf72;
+			margin: 0px 30px;
+			padding-left: 15px;
+			color: #336600;
+		}
+		
+		/* Post - Info */
+		
+		#content .post .post-info {
+			width: 468px;
+			height: 30px;
+			padding: 0 20px;
+			background: #eff5e5;
+			font: normal 11px/30px "Trebuchet MS", Verdana;
+			color: #000000;
+		}
+		
+		#content .post .post-info a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-info a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-info span {
+			float: right;
+			padding-left: 20px;
+			background: url("images/icon_comments.gif") no-repeat left center;
+		}
+		
+		/* Post - Subtitle */
+		
+		#content .post h3 {
+			margin: 20px 0 10px 0;
+			color: #ff6b00;
+			font: normal 20px "Trebuchet MS", Verdana;
+		}
+		
+		/* Post - Comments */
+		
+		#content .post .comments {
+			font: normal 12px/18px "Trebuchet MS", Verdana;
+			color: #333333;
+			width: 498px;
+		}
+		
+		#content .post .comments a {
+			color: #ff6b00;
+			text-decoration: none;
+		}
+		
+		#content .post .comments a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .comments ol {
+			margin: 10px 0 10px 0;
+			padding-left: 25px;
+		}
+		
+		#content .post .comments ol li {
+			padding: 5px;
+		}
+		
+		#content .post .comments ol li.alt {
+			background: #eff5e5;
+		}
+		
+		#content .post .comments ol li cite {
+			color: #333333;
+			font-style: normal;
+			font-weight: bold;
+		}
+		
+		#content .post .comments ol li cite a {
+			color: #333333;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li cite a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .comments ol li .commentmetadata a {
+			color: #ff6b00;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li .commentmetadata a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Comment Form */
+		
+		#content .post #commentform {
+			margin: 0;
+			padding-left: 25px;
+			font: normal 12px/18px "Trebuchet MS", Verdana;
+			color: #333333;
+			width: 473px;
+		}
+		
+		#content .post #commentform a {
+			color: #ff6b00;
+			text-decoration: none;
+		}
+		
+		#content .post #commentform a:hover {
+			text-decoration: underline;
+		}
+	
+	/* Main - Content - Navigation */
+	
+	#content .navigation {
+		color: #ff6b00;
+		float: left;
+		width: 498px;
+		padding: 0 5px;
+	}
+	
+	#content .navigation a {
+		font: bold 12px "Trebuchet MS", Verdana;
+		color: #ff6b00;
+		text-decoration: none;
+		margin-bottom: 30px;
+	}
+	
+	#content .navigation a:hover {
+		text-decoration: underline;
+	}
+	
+		#content .navigation .navigation-previous {
+			float: left;
+		}
+		
+		#content .navigation .navigation-next {
+			float: right;
+		}
+
+
+/* Footer */
+
+#footer {
+	width: 1000px;
+	height: 90px;
+	padding-bottom: 10px;
+	background: #aecf72;
+	color: #ffffff;
+	font: normal 11px/90px "Trebuchet MS", Verdana;
+	text-align: center;
+}
+
+#footer a {
+	color: #336600;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}

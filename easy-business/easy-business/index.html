@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Easy Business</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" title="style1" />
+<link rel="alternate stylesheet" type="text/css" href="css/style2.css" title="style2" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="css/style3.css" title="style3" media="screen" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function () {
+    $('#slideshow').cycle({
+        timeout: 5000, // milliseconds between slide transitions (0 to disable auto advance)
+        fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...            
+        pager: '#pager', // selector for element to use as pager container
+        pause: 0, // true to enable "pause on hover"
+        pauseOnPagerHover: 0 // true to pause when hovering over pager link
+    });
+    $('#featured').cycle({
+        timeout: 12000, // milliseconds between slide transitions (0 to disable auto advance)
+        fx: 'scrollUp', // choose your transition type, ex: fade, scrollUp, shuffle, etc...                        
+        pause: 0, // true to enable "pause on hover"
+        pauseOnPagerHover: 0 // true to pause when hovering over pager link
+    });
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <div id="logo"><a href="index.html"><img src="images/logo.png" width="392" height="94" alt="" /></a></div>
+  </div>
+  <!-- close header -->
+  <div id="h_navcontainer">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page.html">Page</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <!-- close h_navcontainer -->
+  <div id="screen">
+    <!-- BEGIN SLIDER -->
+    <div id="slideshow">
+      <div class="slide-text"> <img src="images/slide1.jpg" alt="" class="slidehalf"  />
+        <h1>Global Business</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo, nemo enim ipsam voluptatem quia voluptas sit asperna.</p>
+        <a class="read_more" href="#">Learn more &raquo;</a> </div>
+      <!-- end of slide1 -->
+      <div class="slide-text"> <img src="images/slide2.jpg" alt="" class="slidehalf"  />
+        <h1>Statistics</h1>
+        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.</p>
+        <a class="read_more" href="#">Learn more &raquo;</a> </div>
+      <!-- end of slide2 -->
+      <div class="slide-text"> <img src="images/slide3.jpg" alt="" class="slidehalf"  />
+        <h1>Internet Business</h1>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+        <a class="read_more" href="#">Learn more &raquo;</a> </div>
+      <!-- end of slide3 -->
+      <div class="slide-text"> <img src="images/slide4.jpg" alt="" class="slidehalf"  />
+        <h1>Meet The Team</h1>
+        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus, temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.</p>
+        <a class="read_more" href="#">Learn more &raquo;</a> </div>
+      <!-- end of slide4 -->
+    </div>
+    <div id="box-nav-slider">
+      <div id="slideshow-navigation">
+        <div id="pager"></div>
+      </div>
+    </div>
+    <!-- END OF SLIDER -->
+  </div>
+  <!-- close screen -->
+  <div id="left">
+    <h3 class="frontpage_heading">Services</h3>
+    <p class="frontpage_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet nisl et nunc consectetur hendrerit non et nisi. Phasellus molestie tortor eget sapien faucibus in facilisis purus sodales. Integer rutrum vulputate tincidunt. Pellentesque at enim nulla. Duis blandit consectetur velit in euismod. Ut nibh tortor, euismod at dictum et, fringilla ac nulla.</p>
+    <a class="read_more" href="#">Learn more &raquo;</a> </div>
+  <!-- close left -->
+  <div id="right">
+    <h3 class="frontpage_heading">Blog</h3>
+    <ul class="pane-list">
+      <li><img src="images/thumb1.jpg" width="46" height="46" alt="" />
+        <h2 class="list_heading"><a href="#">Macbook Mini</a></h2>
+        <p class="list_text">Praesent commodo tempus leo, sed aliquet velit tincidunt et. In hac habitasse platea dictumst.</p>
+      </li>
+      <li><img src="images/thumb1.jpg" width="46" height="46" alt="" />
+        <h2 class="list_heading"><a href="#">Macbook Pro</a></h2>
+        <p class="list_text">Proin sollicitudin porta hendrerit. Vivamus fermentum leo eget tellus luctus</p>
+      </li>
+      <li><img src="images/thumb1.jpg" width="46" height="46" alt="" />
+        <h2 class="list_heading"><a href="#">Iphone Black</a></h2>
+        <p class="list_text">Mauris pulvinar porta tincidunt. Morbi luctus, lacus nec commodo condimentum</p>
+      </li>
+    </ul>
+  </div>
+  <!-- close right -->
+  <div id="middle">
+    <h3 class="frontpage_heading">Portfolio</h3>
+    <img src="images/footer_thumb1.jpg" class="float_left" width="75" height="75" alt="" /> <img src="images/footer_thumb2.jpg" class="float_left" width="75" height="75" alt="" /> <img src="images/footer_thumb3.jpg" class="float_left" width="75" height="75" alt="" style="margin-right:0" /> <img src="images/footer_thumb3.jpg" class="float_left" width="75" height="75" alt="" /> <img src="images/footer_thumb2.jpg" class="float_left" width="75" height="75" alt="" /> <img src="images/footer_thumb1.jpg" class="float_left" width="75" height="75" alt="" style="margin-right:0" /> </div>
+  <!-- close middle -->
+</div>
+<!-- close container -->
+<div id="footer">
+  <div id="footer_left">
+    <ul>
+      <li>
+        <h4>General</h4>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page.html">Page</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <ul>
+      <li>
+        <h4>Services</h4>
+      </li>
+      <li><a href="#">Photography</a></li>
+      <li><a href="#">Print</a></li>
+      <li><a href="#">Design</a></li>
+      <li><a href="#">Retouch</a></li>
+    </ul>
+    <ul>
+      <li>
+        <h4>Upcoming</h4>
+      </li>
+      <li><a href="#">New Offers</a></li>
+      <li><a href="#">Free Stock Photos</a></li>
+      <li><a href="#">Studio Lightning</a></li>
+      <li class="last"><a href="#">New from Canon</a></li>
+    </ul>
+  </div>
+  <div id="footer_right">
+    <h4 class="fo">Business Info</h4>
+    <h2>Easy Business</h2>
+    <p>Company address &bull; Tel. 99 99 99 99 &bull; mail@company.com</p>
+  </div>
+</div>
+<!-- close footer-->
+<p style="text-align:center; font-size: .8em">Template by: <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a></p>
+</body>
+</html>

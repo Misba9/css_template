@@ -1,0 +1,112 @@
+/* CSS Document */
+
+body{padding:0; margin:0; background:url(../images/body_tile.jpg) #8D2205 repeat-x; border-bottom:1px solid #8D2205; font:11px Georgia, Times New Roman, Times, serif;}
+
+img{float:left; border:0;}
+
+.main_block{width:1000px; text-align:left;}
+
+input{margin:0; padding:0;}
+
+/*header*/
+
+.header1{float:left; width:1000px;}
+
+.hd_logo{float:left; display:inline; width:259px; border:5px solid #F3F3F3; background-color:#DDD3CE; padding-bottom:68px; margin:164px 0 0 41px;}
+
+.logo{float:left; margin:55px 0 0 34px;}
+
+.header2{float:left; display:inline; background:url(../images/header1.jpg) no-repeat; width:643px; height:267px; margin-top:1px;}
+
+.tbox1{float:left; width:169px; height:13px; margin:228px 0 0 439px; border:1px solid #DDAF0F; font:12px Georgia; color:#DC6429;}
+
+.hd_go{float:left; font:bold 11px tahoma Arial, Helvetica, sans-serif; color:#FEFA92; margin:230px 0 0 10px; text-decoration:none;}
+
+.menu{float:left; width:638px; background:url(../images/menu_tile.gif) #4C1913 repeat-x; border-top:4px solid #F3F3F3; border-bottom:4px solid #F3F3F3; border-right:4px solid #F3F3F3; padding-bottom:19px;}
+
+.menu a{float:left; font:bold 13px Georgia, Times New Roman, Times, serif; font-style:italic; margin:23px 0 0 40px; color:#F7EADE; text-decoration:none;}
+
+.menu a:hover{text-decoration:underline;}
+
+.center{float:left; width:1000px; padding-bottom:15px;}
+
+/*left*/
+
+.left{float:left; width:308px; background:url(../images/left_img.jpg) no-repeat bottom; padding-bottom:265px;}
+
+.lp_head{float:left; font:bold 18px Georgia; color:#FFF; margin:20px 0px 0px 55px; font-style:italic;}
+
+.lp_head1{float:left; font:bold 18px Georgia; color:#FFF; margin:10px 0px 0px 19px; font-style:italic;}
+
+.lp_user1{float:left; width:226px; padding-top:5px;}
+
+.lp_user{float:left; color:#FFF; margin:9px 0 0 70px;}
+
+.lp_usera{float:left; color:#FFF; margin:9px -3px 0 70px; position:relative;}
+
+.inp1{float:left; width:159px; height:15px; margin:11px 0 0 67px; border:0;}
+
+.inp2{float:left; width:159px; height:15px; margin:11px -3px 0 67px; border:0; position:relative;}
+
+.check{float:left; margin:12px 0 0 72px; position:relative;}
+
+.lp_me{float:left; margin:14px 0 0 8px; color:#FFF;}
+
+.no_account{float:left; margin:14px 0 0 70px; width:212px; color:#FFF;}
+
+.regis{color:#F8C196;}
+
+.cp_submit{float:left; margin:14px 0 0 70px;}
+
+.lp_blk{float:left; display:inline; border-top:1px solid #C79B0F; border-left:1px solid #C3920E; border-right:1px solid #C3920E; width:265px; border-bottom:1px solid #A34909; 
+			background:url(../images/left_tile1.jpg) #6B0000 repeat-x; margin:25px 0 0 41px; padding-bottom:26px;}
+			
+.lp_list1{float:left; width:221px; padding:10px 0 0 0;}
+
+.lp_list1 img{margin:12px 0 0 42px;}
+
+.lp_list1 a{float:left; color:#F7EBA7; width:160px; margin:9px -3px 0 14px; position:relative;}
+
+.lp_list1 a:hover{text-decoration:none;}
+
+/*right*/
+
+.right_main{float:left; width:644px;}
+
+.right{float:left; width:634px; border-left:5px solid #FFF; border-bottom:6px solid #FFF; border-right:5px solid #FFF; background:url(../images/cp_tile1.jpg) #DCDCDC repeat-x; padding-bottom:16px;}
+
+.cp_head1{float:left; font:bold 22px Georgia, Times New Roman, Times, serif; color:#A80505; font-style:italic; margin:20px 0 0 38px;}
+
+.cp_head2{float:left; font:bold 22px Georgia, Times New Roman, Times, serif; color:#A80505; font-style:italic; margin:15px 0 0 38px; padding-top:24px; border-top:1px solid #D6C0AB;width:576px;}
+
+.cp_text1{float:left; width:580px; color:#835138; font:12px/16px Georgia, Times New Roman, Times, serif; margin:15px 0 0 36px;}
+
+.cp_text1 a{color:#835138;}
+
+.cp_text1 a:hover{text-decoration:none;}
+
+.cp_link1{float:left; color:#A80505; margin-top:7px;}
+
+.cp_img1{margin:25px 0 0 43px;}
+
+.cp_img2{margin:22px 0 0 19px;}
+
+.cp_img3{margin:25px 0 0 43px;}
+
+.cp_img4{margin:23px 0 0 19px;}
+
+/*footer*/
+
+
+.fp_p1{float:left; padding:0 0 0 50px;}
+
+.fp_p1 a{float:left; color:#ECD7C9; text-decoration:none; margin:15px 0 0 20px;}
+
+.fp_p1 img{margin:22px 0 0 21px;}
+
+.fp_copy{float:left; font:10px Georgia, Times New Roman, Times, serif; margin:10px 0 0 155px; color:#D0A79B; width:475px;}
+
+.fp_copy a{color:#D0A79B;}
+
+.fp_copy a:hover{text-decoration:none;}
+

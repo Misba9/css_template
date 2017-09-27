@@ -1,0 +1,66 @@
+@import url(typography.css);
+@import url(grid.css);
+
+html {margin:0 0 0.1em 0; padding:0; height:101%;}
+
+body {background:#60849a; color:#ededed;}
+
+h1,h2,h3,h4,h5,h6 {color:#fff;}
+
+a {color:#990000; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.red {color:#990000;}
+
+.clear {clear:both;}
+
+.center {text-align:center;}
+
+.bordertop {border-top:0.08333em solid #000;}
+.borderleft {border-left:0.08333em solid #000;}
+.borderright {border-right:0.08333em solid #000;}
+.borderbottom {border-bottom:0.08333em solid #000;}
+
+h1.head {font-weight:100; margin:auto;}
+h1.head a {padding:0; color:#fff; text-decoration:none;}
+h1.head a:hover {padding:0; color:#ededed; text-decoration:none;}
+
+h2.subhead {color:#333;}
+
+h3.more a {padding:18px 10px; background:#ededed; text-align:center; display:block;}
+h3.more a:hover {background:#fff; text-decoration:none;}
+
+div#mission {clear:both; background:#fff; color:#000; width:900px; padding:9px 20px; margin:36px 0 18px 0;}
+
+div#testimonials {}
+blockquote.testimonial {/*border-bottom:0.08333em solid #fff; margin-bottom:2.25em; padding-bottom:0.667em;*/ background:#ededed; color:#000; padding:1.5em 20px; position: relative;}
+blockquote.testimonial p {margin:0;}
+blockquote.testimonial .arrow {width:0; height:0; margin:0; line-height:0; border-top:30px solid #ededed; border-left:60px solid #60849a; border-right:10px solid #60849a; position:absolute; bottom:-30px; right:30px;}
+
+blockquote:hover.testimonial {background:#fff;}
+blockquote:hover.testimonial .arrow {border-top:30px solid #fff; border-left:60px solid #60849a; border-right:10px solid #60849a;}
+
+div#social {}
+div#blog {}
+div#twitter_div ul#twitter_update_list {list-style:none;}
+div#twitter_div ul#twitter_update_list li {margin-bottom:1.5em; padding:1.5em 20px; background:#ededed; color:#000;}
+div#twitter_div ul#twitter_update_list li:hover {background:#fff;}
+div#twitter_div ul#twitter_update_list li a {display:block; text-align:right;}
+div#twitter_div ul#twitter_update_list li span a {display:inline;}
+
+p.credit {text-align:right; padding-top:1.5em;}
+
+div#footer {clear:both; border-top:0.08333em solid #fff; margin-top:2.25em; padding-top:0.667em; margin-left:0;}
+
+div#footer p#copyright {text-align:right; display:block; clear:both;}
+
+ul.navlist {list-style:none;}
+
+ul.navmain {list-style:none;}
+ul.navmain li {display:inline; margin-right:10px;}
+ul.navmain li a {color:#ededed;}
+ul.navmain li a:hover {color:#990000; text-decoration:none;}
+
+input[type=text],input[type=password] {margin:0; padding:0; background:#fff; border:none;}
+input[type=submit] {margin:0; padding:0 3px; background:#990000; border:none; color:#ededed;}
+input:active[type=submit] {background:#cc0000; color:#fff;}

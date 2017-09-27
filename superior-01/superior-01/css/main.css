@@ -1,0 +1,46 @@
+body {padding:40px 0; background:url("../design/bg.gif"); font:0.95em/1.5 "calibri","arial", sans-serif;}
+h1, h2, h3, h4, h5, h6, address, blockquote, dl, fieldset, ol, p, table, ul {margin:15px 0;}
+#center {width:900px; margin:0 auto;}
+#main-top {width:900px; height:15px; background:url("../design/main-top.gif") 0 0 no-repeat; font-size:0; line-height:0;}
+#main-bottom {width:900px; height:15px; background:url("../design/main-bottom.gif") 0 0 no-repeat; font-size:0; line-height:0;}
+#main {padding:15px 0 0 0; background:url("../design/main.gif") 0 0 repeat-y;}
+#main #header {position:relative; height:110px;}
+#main #header h1 {position:absolute; top:0; left:-25px; margin:0;}
+#main #header h1 span {display:block; padding:15px 20px 40px 50px; background:url("../design/title-left.gif") 0 100% no-repeat; font-size:300%; letter-spacing:-1px;}
+#main #header #search {position:absolute; top:0; right:30px; width:250px;}
+#main #header #search p {margin:0;}
+#main #header #search .input {width:195px; margin-right:5px;}
+#main #header #search .submit {width:35px;}
+#content {float:left; width:555px; padding:0 0 0 30px;}
+#content h2 {margin:0; padding-bottom:4px; background:url("../design/dot.gif") 0 100% repeat-x; font-size:200%; font-weight:bold; letter-spacing:-1px;}
+#content h2 a {text-decoration:none;}
+#content table {margin:15px 0; border-collapse:collapse;}
+#content table th, #content table td {padding:5px 10px;}
+#content table th {font-weight:bold;}
+#content ul {margin:15px 0; list-style:none;}
+#content ul li {padding-left:20px; background:url("../design/arrow.gif") 0 7px no-repeat;}
+#content ul li ul {margin:0;}
+#content ul li ul li {background:url("../design/arrow-02.gif") 0 7px no-repeat;}
+#content .info {padding:5px 10px; background:url("../design/gradient.gif") 0 0 repeat-x; font-size:80%; text-transform:uppercase; text-align:center;}
+#content .img.f-left {padding-top:15px; padding-right:15px;}
+#content .img.f-right {padding-top:15px; padding-left:15px;}
+#content .img img {display:block; padding:4px;}
+#content p {text-align:justify;}
+#aside {float:right; width:250px; padding-right:30px; background:url("../design/aside.gif") 0 0 no-repeat;}
+#aside ul {margin:0 0 15px 15px;}
+#aside ul li {display:inline;}
+#aside ul li a {display:block; padding:2px 0 2px 25px; background:url("../design/arrow.gif") 0 9px no-repeat; text-decoration:none;}
+#aside ul li.last a {border:0;}
+#aside ul.ul-02 li a {background:url("../design/arrow-02.gif") 0 7px no-repeat; font-size:85%;}
+#aside .title {width:250px; margin:0 0 -10px 0; padding:10px 40px 35px 15px; background:url("../design/title-right.gif") 100% 100% no-repeat; font-size:120%; font-weight:bold;}
+#footer {clear:both; padding:30px; background:url("../design/footer.gif") 0 0 repeat-x;}
+#footer h3 {margin:0; font-size:120%; font-weight:bold;}
+#footer ul {display:block; margin-bottom:0; float:left; width:280px;}
+#footer ul li {display:inline;}
+#footer ul li a {display:block; padding:2px 0 2px 25px; background:url("../design/arrow-03.gif") 0 9px no-repeat; text-decoration:none;}
+#footer ul li.last a {border:0;}
+#links {padding:10px 0;}
+#links p {margin:0;}
+.input {padding:5px; background:url("../design/input.gif") 0 0 no-repeat;}
+.submit {padding:5px; background:url("../design/submit.gif") 0 0 repeat-x;}
+.input, .submit {font:100%/1 "arial",sans-serif;}

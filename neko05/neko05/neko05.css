@@ -1,0 +1,366 @@
+/***** BEGIN LICENSE BLOCK *****
+# 
+# This document is part of NEKODESIGN.NET
+#  css template : neko05
+# author : robin / robin[at]biboo.net
+#
+# this design in distribued under a "Attribution-NonCommercial-ShareAlike 2.0 France" Creative Commons licence :
+# http://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
+#
+# You are free:
+# * to Share — to copy, distribute and transmit the work
+# * to Remix — to adapt the work
+# Under the following conditions:
+# * Attribution : You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+# * Noncommercial : You may not use this work for commercial purposes.
+# * Share Alike : If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+#
+# For any reuse or distribution, you must make clear to others the license terms of this work.
+# Any of the above conditions can be waived if you get permission from the copyright holder.
+# Apart from the remix rights granted under this license, nothing in this license impairs or restricts the author's moral rights.
+#
+# Your fair dealing and other rights are in no way affected by the above.
+# This is a human-readable summary of the Legal Code : http://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode
+# 
+#
+# ***** END LICENSE BLOCK *****/
+@import url(neko05-CSS-P.css);
+/* general style
+********************************************/
+* {
+	/* zero out everything !! */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #E3E3E3;
+	color: #000000;
+	padding-top: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #CC3333;
+	background: transparent;
+}
+
+a:hover{
+	background: transparent;
+	text-decoration: underline;
+	color: #478420;
+}
+
+a img, img {
+	border: none;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.83em;
+}
+
+h6 {
+	font-size: 0.67em;
+}
+
+pre {
+	border: 1px solid #9A9A9A;
+	line-height: 1.2em;
+	background-color: #F1F1F1;
+	color: #000000;
+	overflow: auto;
+	font-family: "Courier New",monospace;
+	font-size: 1em;
+	padding: .3em;
+}
+
+/* Page
+********************************************/
+#page {
+	background: transparent url(img/page-bg.gif) center top repeat-y;
+}
+
+/*                header
+********************************************
+************************************************/
+#header {
+	background: transparent url(img/header-bg.gif) no-repeat center top;
+	position: relative;
+}
+
+#header h1 {
+	background: transparent url(img/h1-header-bg.jpg) left top no-repeat;
+	width: 340px;
+	height: 160px;
+	font-size: 3.5em;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#header h1 a {
+	text-decoration: none;
+	color: #000000;
+	background-color: transparent;
+}
+
+#header h1 a:hover {
+	color: #9D0027;
+	background-color: transparent;
+}
+
+/*              description  / header-nav
+**************************************************/
+#description, #header-nav {
+	position: absolute;
+}
+
+#header-nav {
+	right: 50px;
+	top: 14px;
+	font-size: 120%;
+	width: 200px;
+}
+
+#header-nav ul {
+	list-style: none;
+}
+
+#header-nav ul li {
+	border-bottom: 1px solid #68C525;
+	padding-left: 5px;
+}
+
+#header-nav ul li a {
+	display: block;
+	color: #000000;
+	background: transparent;
+	text-decoration: none;
+}
+
+#header-nav ul li a:hover {
+	color: #000000;
+	background: #73D333;
+}
+
+/****************************************/
+#description {
+	right: 260px;
+	top: 16px;
+	font-size: 110%;
+	width: 320px;
+	background-color: #EFEFEF;
+	text-align: justify;
+	border: 1px dashed #949494;
+	color: #000000;
+}
+
+#description p {
+	margin: 5px;
+}
+
+#description h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+/*            globalnav 
+*************************************************/
+#globalnav {
+	background-color: #000000;
+	float: left;
+	width: 890px;
+	color: #FFFFFF;
+}
+
+#globalnav ul {
+	font-family: tahoma, verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 0 0 4%;
+}
+
+#globalnav ul li {
+	display: inline;
+}
+
+#globalnav ul li a {
+	background-color: transparent;
+	border-right: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	float: left;
+	padding: 0.2em 12px;
+	text-decoration: none;
+}
+
+#globalnav ul li a:hover {
+	background-color: transparent;
+	color: #67D41F;
+}
+
+/*            content   
+********************************************
+**********************************************/
+#content {
+	margin: 0 15px 0 23px;
+}
+
+#content ul, #content ol {
+	margin-left: 33px;
+}
+
+#content p {
+	margin: 7px;
+}
+
+#content h2 {
+	padding-left: 25px;
+	margin: 14px 8px 8px 15px;
+	background: transparent url("img/h2.png") left bottom no-repeat;
+	font-weight: normal;
+	font-family: Verdana, Arial, sans-serif;
+	border-bottom: 1px solid #369311;
+}
+
+#content h2 a {
+	text-decoration: none;
+}
+
+#content h2 a:hover {
+	color: #000000;
+	background: transparent;
+}
+
+#content h3, #content h4, #content h5, #content h6{
+	color: #393939;
+	background: transparent;
+}
+
+/*        sidebar
+*********************************************/
+#sidebar div {
+	color: #3C3C3C;
+	background: transparent;
+	margin: 9px 50px 0 0;
+}
+
+#sidebar a {
+	color: #3C3C3C;
+	background: transparent;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	color: #3C3C3C;
+	background: #D2D2D2;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: .2em 0;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+#sidebar ul li a {
+	display: block;
+}
+
+/* Footer
+********************************************/
+#footer {
+	clear: both;
+	height: 231px;
+	background: transparent url(img/footer-bg.jpg) center bottom no-repeat;
+	position: relative;
+}
+
+.footer-info {
+	font-size: 80%;
+	position: absolute;
+	bottom: 35px;
+	left: 14px;
+}
+
+.footer-info a {
+	color: #CC3300;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.footer-info a:hover {
+	color: #474747;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/*         fom : find out more block
+*************************************************************/
+.fom {
+	width: 600px;
+	margin: 8px 0 0 35px;
+	border: 1px dashed #616161;
+	background-color: #E2F2C6;
+	padding: 7px;
+	color: #000000;
+}
+
+.fom ol {
+	margin-left: 30px;
+}
+
+/*  CC licence : respect it ! */
+div#CC-licence {
+	border: 4px solid #E0AD4B;
+	background: transparent url(img/CC-licence-bg.png) no-repeat 195px 30px;
+	width: 230px;
+	padding: 2px;
+	margin: 8px;
+}
+
+div#CC-licence p {
+	margin: 0px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .7em;
+}
+
+div#CC-licence a {
+	color: #D20000;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+div#CC-licence a:hover {
+	text-decoration: underline;
+	color: #7D0000;
+	background-color: transparent;
+}
+
+img.CC-floatleft {
+	float: left;
+	margin: 4px 2px 0 0;
+}
+
+/* END  CC licence */

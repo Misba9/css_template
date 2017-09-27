@@ -1,0 +1,119 @@
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ color: #666666;
+ font-size: 12px;
+ padding: 0; margin: 0;
+ background: #eef1ed;
+}
+#wrapper {
+ width: 770px;
+ margin: 0 auto;
+ border: 1px solid #eef1ed;
+ background: url(images/forest.jpg) repeat-x bottom;
+}
+/* Begin Parent Left Column --------------------------------------------------------------------- */
+#leftcolumn { 
+ padding: 10px;
+ display: inline; /* IE Fix */
+ float: left;
+ border-left: 1px dashed #ccc;
+ border-right: 1px dashed #ccc;
+ border-bottom: 1px dashed #ccc;
+ border-right: 1px dashed #ccc;
+ background-color: #fff;
+}
+#leftcolumn .logo {
+ margin: 0px 0px 10px 0px;
+ width: 180px;
+ border: 1px dashed #ccc;
+ background-color: #EEF1ED;
+}
+#leftcolumn .logo img { display: block; }
+#leftcolumn .leftbox2 { /* Generic Box */
+ margin: 0px 0px 10px 0px;
+ border-top: 1px dashed #ccc;
+}
+/* Begin Left Navigation */
+#leftcolumn ul.mainnav { 
+ margin: 0px;
+ padding: 0;
+ list-style: none;
+}
+#leftcolumn ul.mainnav .heading {
+ background-color: #9FAF9A;
+ padding: 5px;
+ color: #fff;
+ font-size: 16px;
+}
+#leftcolumn ul.mainnav li { 
+ border-bottom: 1px dashed #ccc;
+ border-right: 1px dashed #ccc;
+ border-left: 1px dashed #ccc;
+}
+#leftcolumn ul.mainnav li a:link, #leftcolumn ul.mainnav li a:visited{ 
+ color: #333;
+ background-color: #F9F9F9;
+ text-decoration: none;
+ padding: 5px;
+ display: block;
+}
+#leftcolumn ul.mainnav li a:hover{ 
+ display: block;
+ background-color: #EEF1ED;
+ text-decoration: none;
+ padding: 5px;
+}
+/* End Left Navigation */
+/* End Parent Left Column ----------------------------------------------------------------------- */
+
+
+/* Begin Parent Right Column ----------------------------------------------------------------------- */
+#rightcolumn {
+ border-left: 1px dashed #ccc;
+ border-right: 1px dashed #ccc;
+ margin: 0 0 0 10px;
+ display: inline; /* IE Fix */
+ width: 514px;
+ float: left;
+ background-color: #fff;
+}
+#rightcolumn p.content {
+border: 1px solid #fff;
+ margin: 10px;
+}
+#rightcolumn p.content img {
+ float: left;
+ margin: 0px 10px 10px 0px;
+}
+#rightcolumn h1 {
+ margin: 10px;
+ padding: 3px 10px;
+ border: 1px dashed #ccc;
+ font-size: 24px;
+ background: #EEF1ED;
+}
+#rightcolumn .banner {
+ margin: 10px;
+ border: 1px dashed #ccc;
+ background-color: #EEF1ED;
+}
+#rightcolumn .banner img { display: block; }
+/* End Parent Right Column ----------------------------------------------------------------------- */
+.clear {
+ clear: left;
+}
+#footer {
+ background: #fff;
+ border: 1px dashed #ccc;
+
+}
+#footer .text {
+padding: 10px;
+ margin: 0 auto;
+ width: 710px;
+ border: 1px solid #fff;
+}
+#footer .text a:link, #footer .text a:visited { color: #333; text-decoration: none; }
+#footer .text a:hover {  color: #333; text-decoration: underline; }
+#footer .text img { border: none ; }

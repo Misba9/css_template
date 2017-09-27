@@ -1,0 +1,96 @@
+/*
+Template Name: PremiumTemplateShop
+Coded By: Design Coder - http://www.design-coder.com/
+Design By: http://designm.ag/tutorials/template-shop-layout-psd/
+Licence: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+*/
+
+body{margin:0; padding:0; font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#DFD8D8; background-color:#424141;}
+
+img{margin:0; padding:0; border:none;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgl, .imgr{border:1px solid #272727; padding:5px;}
+.imgl{float:left; margin:0 10px 10px 0; clear:left;}
+.imgr{float:right; margin:0 0 10px 10px; clear:right;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0; padding:0; font-size:18px; font-weight:normal; line-height:normal;}
+
+.col1{border-bottom:1px solid #9C2F23;}
+.col1, .col1 a{color:#DFD8D8; background-color:#5F120A;}
+.col2{color:#DFD8D8; background:url("../images/intro_bg.png") top left repeat-x transparent;}
+.col3{color:#DFD8D8; background-color:#5F120A; border-top:1px solid #9C2F23; border-bottom:1px solid #7C7B7B;}
+.col4{color:#DFD8D8; background-color:#545454;}
+.col4 a{color:#230A0B; background-color:#545454;}
+.col5{border-top:1px solid #7C7B7B;}
+.col5, .col5 a{color:#DFD8D8; background-color:#424141;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, #intro, #shout, #container, #copyright{position:relative; margin:0 auto; display:block; width:960px;}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+#header h1{margin:0; padding:0; font-size:30px; line-height:normal;}
+#header ul{margin:7px 0 0 0; padding:0; list-style:none;}
+#header li{display:inline; margin-left:20px;}
+#header li.first{margin-left:0;}
+
+/* ----------------------------------------------Intro-------------------------------------*/
+
+#intro{}
+#intro #homepage{display:block; width:960px; height:350px; padding:50px 0 0 0; overflow:hidden; background:url("../images/homepage_bg.jpg") top left no-repeat;}
+
+#intro #homepage .fl_left{display:block; width:325px; margin:0; padding:25px 0 0 0; text-align:center;}
+#intro #homepage .fl_left p{margin:0 0 75px 0; padding:0; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size:18px;}
+#intro #homepage .fl_left ul{display:block; margin:0; padding:0; list-style:none;}
+#intro #homepage .fl_left li{display:inline-block; width:292px; height:52px; margin:0 0 30px 0; padding:10px 0 0 0; background:url("../images/button_bg.gif") top left no-repeat; font-weight:bold;}
+#intro #homepage .fl_left li a{font-size:18px; color:#230A0B; background-color:transparent;}
+#intro #homepage .fl_left li.last{margin-bottom:0;}
+
+#intro #homepage .fl_right{display:block; width:580px; height:350px;}
+
+/* ----------------------------------------------Shout-------------------------------------*/
+
+#shout{padding:20px 0; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; font-size:18px; text-align:center;}
+#shout strong, #shout a{color:#E57B70; background-color:#5F120A;}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{padding:40px 0; line-height:1.4em;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin:0 0 15px 0; color:#5F120A; background-color:#545454;}
+
+#container .content{display:block; float:left; width:600px;}
+#container .column{display:block; float:right; width:300px;}
+
+/* ----------------------------------------------Featured Blocks-------------------------------------*/
+
+#container .content .featured{display:block; width:100%; margin:0; padding:0;}
+#container .content .featured ul{margin:0; padding:0; list-style:none; clear:both;}
+#container .content .featured li{display:block; float:left; width:280px; margin:0 40px 35px 0; padding:0;}
+#container .content .featured li.even{margin-right:0;}
+#container .content .featured li img{float:left; margin:0 10px 0 0; padding:0;}
+#container .content .featured li div{padding:4px 0 0 0;}
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:15px 0; font-size:12px;}
+#copyright p{margin:0; padding:0;}

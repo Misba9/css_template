@@ -1,0 +1,251 @@
+/*  
+Description: A cute, fresh and cool theme by 7graus.com
+*/
+@import "css/reset.css";
+html{background:#eef4fb url(img/bg-footer.jpg) no-repeat center bottom;}
+body{
+	background:url(img/bg.jpg) no-repeat center top;
+	font:10px "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+}
+#doc, #header-content, #footer p{
+	margin:0 auto;
+	width:755px;
+}
+#header{background:url(img/barra.gif) repeat-x;}
+#header-content{
+	background:url(img/bg-header.gif) no-repeat left bottom;
+	height:11em;
+}
+#globalnav{
+	float:left;
+	margin-bottom:.9em;
+	width:755px;
+}
+#globalnav li{
+	float:left;
+	margin-right:3em;
+}
+#globalnav li a{
+	color:#72a52b;
+	display:block;
+	font-size:1.1em;
+	font-weight:bold;
+	padding:.4em 0 .5em;
+	text-decoration:none;
+}
+#globalnav li a:hover{text-decoration:underline;}
+#header h1{
+	clear:both;
+	float:left;
+	font-size:1em;
+	width:68%;
+}
+#header h1 a{
+	color:#8dc63f;
+	font-size:3.4em;
+	font-weight:normal;
+	text-decoration:none;
+}
+#header h1 a:hover{color:#2e5282;}
+
+#header h2{
+	color:#72a52b;
+	float: right;
+	font-size:1.4em;
+	margin-top:20px;
+	text-align:right;
+	width:230px;
+}
+#maincontent{
+	background:url(img/content-footer.gif) no-repeat left bottom;
+	float:left;
+	font-size:1em;
+	line-height:220%;
+	padding-bottom:9px;
+	width:518px;
+}
+#subcontent{
+	float:right;
+	font:1.1em Verdana, Arial, Helvetica, sans-serif;
+	line-height:160%;
+	padding-bottom:20px;
+	width:203px;
+}
+#content{
+	background-color:#DDEAF7;
+	border:5px solid #D7EDBB;
+	border-width:0 5px 0 5px;
+	padding:2em 1.6em;
+}
+.post{
+	background:url(img/hr.gif) repeat-x bottom;
+	padding-bottom:.2em;
+	margin-bottom:3em;
+}
+#maincontent a{color:#000;}
+#maincontent a:hover{
+	color:#000;
+	text-decoration:none;
+}
+#maincontent .post h2{
+	color:#72a52b;
+	font:2.4em Tahoma, "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+}
+#maincontent .post h2 a{
+	color:#72a52b;
+	text-decoration:none;
+	font:.8em Tahoma, "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+}
+#maincontent .post h2 a:hover{
+	color:#72a52b;
+	text-decoration:underline;
+}
+#maincontent p{
+	color:#2e5282;
+	font-size:1.2em;
+	margin-bottom:2em;
+	word-spacing:2px;
+}
+.post-meta{
+	float:left;
+	font-size:1.1em;
+	font-family:Tahoma, "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+	margin:.8em 0;
+}
+.post-meta li{
+	color:#000;
+	float:left;
+	margin-right:1em;
+	padding-left:18px;
+}
+.post-meta .date{background:url(img/ico-calendar.gif) no-repeat left;}
+.post-meta .cats{background:url(img/ico-cat-post.gif) no-repeat left;}
+.post-meta .comments-number{background:url(img/ico-comment.gif) no-repeat left;}
+.entry{clear:both;}
+#subcontent .box{
+	margin-bottom:3em;
+}
+#subcontent h3, #searchform label{
+	font:normal 1.4em "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+	margin-bottom:.3em;
+	padding-left:20px;
+}
+#searchform label{background:url(img/ico-search.gif) no-repeat left;}
+#about h3{background:url(img/ico-info.gif) no-repeat left;}
+#recent h3{background:url(img/ico-recent.gif) no-repeat left;}
+#cats h3{background:url(img/ico-cats.gif) no-repeat left;}
+#feeds h3{background:url(img/ico-feed.gif) no-repeat left;}
+#blogroll h3{background:url(img/ico-blogs.gif) no-repeat left;}
+#cats .link-list li a{
+	background:url(img/ico-cats-li.gif) no-repeat left;
+	padding-left:20px;
+}
+.submit{
+	color:#72a52b;
+	cursor:pointer;
+	font:normal 1.1em "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+	padding:0;
+	text-transform:lowercase;
+	vertical-align:middle;
+}
+.input-txt{
+	border:1px solid #cbe4aa;
+	color:000;
+	font:normal 1.1em "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+	padding:.2em .3em;
+	vertical-align:middle;
+	width:138px;
+}
+.link-list li a{
+	border-bottom:1px solid #cbe4aa;
+	color:#79ab34;
+	display:block;
+	padding:.5em .1em;
+	text-decoration:none;
+}
+.link-list li a:hover{
+	border-bottom:1px solid #79ab34;
+	color:#000;
+}
+#searchform label, #commentform label{display:block;}
+.navigation{
+	font-size:1.1em;
+	width:100%;
+	height:2em;
+	position:relative;
+}
+.navigation .prev{
+	width:49%;
+}
+.navigation .next{
+	position:absolute;
+	top:0;
+	right:0;
+	width:49%;
+	text-align:right;
+}
+#comments h3, #respond{
+	color:#8AA52A;
+	font-size:1.4em;
+}
+#maincontent #comments .commentmetadata{
+	font:.8em Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom:.5em;
+}
+#maincontent #comments .commentmetadata a{text-decoration:none;}
+
+#comments{
+	border-bottom:1px solid #EBF2FA;
+	margin-bottom:2em;
+}
+#comments li{
+	font:1.1em Verdana, Arial, Helvetica, sans-serif;
+	padding:1em .6em;
+	margin-bottom:1em;
+}
+#comments li cite{
+	font-weight:bold;
+}
+#comments li cite a{
+	color:#6888A7;
+}
+#comments li p{
+	color:#6888A7;
+	font-size:1em;
+	line-height:120%;
+	margin-bottom:.5em;
+}
+#comments li.alt{
+	background-color:#ebf2fa;
+	padding:1em .6em;
+}
+#commentform label{
+	color:#72A52B;
+	font-size:1.2em;
+	font-weight:bold;
+}
+#commentform .input-txt{
+	display:block;
+	margin-bottom:1em;
+	padding:.5em;
+	width:42em;
+}
+#commentform textarea{
+	padding:1em;
+}
+
+
+#footer{
+	background:url(img/barra.gif) repeat-x;
+	clear:both;
+	float:left;
+	margin-top:5em;
+	width:100%;
+}
+#footer p{
+	color:#83b63b;
+	font-size:1.2em;
+	padding:.4em 0;
+}
+#footer p a{color:#83b63b;}
+#footer p a:hover{text-decoration:none;}

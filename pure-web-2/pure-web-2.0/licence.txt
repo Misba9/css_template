@@ -1,0 +1,4 @@
+This template is under GNU/GPL licence.
+Please read bellow.
+
+http://www.gnu.org/copyleft/gpl.html

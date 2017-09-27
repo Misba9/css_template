@@ -1,0 +1,322 @@
+/* CSS Document */
+
+body {
+	font:10px Tahoma, Arial, Helvetica, sans-serif;
+	color:#2F2F2F;
+	margin:0px;
+	padding:0px;
+	background-color: #4d728d;
+	background-image: url(../images/back-img.gif);
+	background-repeat: repeat-x;
+}
+
+#container {
+	width:780px;
+	margin:0px auto;
+	background-color:#E6E6E6;
+}
+
+.header {
+	height:80px;
+	background:#FFFFFF;
+}
+
+.logozone {
+	float:left;
+	margin:16px 0px 0px 33px;
+}
+
+.menuzone {
+	float:right;
+	padding:42px 38px 0px 0px;
+}
+
+.workzone {
+	text-align:justify;
+	background-color:#E6E6E6;
+	
+}
+
+.workzone-left {
+	width:444px;
+	float:left;
+}
+
+.workzone-center {
+	width:335px;
+	float:left;
+	background:#4D728D;
+	margin-left:1px;
+}
+
+.workzone-center-col1 {
+	width:315px;
+	float:left;
+	background:#E6E6E6;
+}
+
+.workzone-center-col2 {
+	width:20px;
+	float:left;
+}
+
+.toprow1 {
+	background:#2B425B;
+	height:8px;
+}
+
+.toprow2 {
+	background:#B8B8B8;
+	height:8px;
+}
+
+.toprow3 {
+	background:#2B425B;
+	height:8px;
+}
+
+.banner {
+	width:444px;
+	height:763px;
+	background:url(../images/banner.jpg) left top no-repeat;
+	margin-top:1px;
+}
+
+.welcomezone {
+	width:285px;
+	margin:0px auto;
+	padding:23px 0px 0px 0px;
+}
+
+.welcome-img {
+	padding:0px 0px 20px 0px;
+}
+
+.tabbedzone {
+	width:285px;
+	margin:0px auto;
+	padding:23px 0px 0px 0px;
+}
+
+.column1 {
+	width:140px;
+	float:left;
+	padding:16px 0px 0px 0px;
+}
+
+.column2 {
+	width:139px;
+	float:left;
+	margin-left:5px;
+	padding:16px 0px 0px 0px;
+}
+
+.roundarea {
+	background:url(../images/roundbg.jpg) left top repeat-y;
+	height:100px;
+}
+
+.roundtop {
+	background:url(../images/roundtop.jpg) left top no-repeat;
+}
+
+.roundbottom {
+	background:url(../images/roundbottom.jpg) left bottom no-repeat;
+	padding:4px;
+	text-align:center;
+}
+
+.submenucontentarea {
+	padding:10px;
+}
+
+.clear {
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+
+/* Text Styles Start Here */
+
+h1 {
+	font:24px Gill Sans MT Condensed, Arial;
+	color:#2B425B;
+	padding:0px;
+	margin:0px 0px 12px 14px;
+}
+
+h2 {
+	font:bold 16px Gill Sans MT Condensed, Arial;
+	color:#2B425B;
+	padding:0px;
+	margin:0px 0px 4px 0px;
+}
+
+/* Text Styles End Here */
+
+
+/* Menu Styles Start Here */
+
+a {
+	color:#2B425B;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.mainmenu {
+}
+
+.mainmenu ul{
+	margin:0px;
+	padding:0px;
+}
+
+.mainmenu li {
+	display:inline;
+	border-right:1px solid #707070;
+	padding:0px 4px 0px 4px;
+}
+
+.mainmenu li a{
+	font:10px Tahoma, Arial, Helvetica, sans-serif;
+	color:#707070;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+.mainmenu li a:hover {
+	color:#000000;
+}
+
+.tabbedmenu-block {
+	height:27px;
+}
+
+.tabbedmenu {
+	float:left;
+}
+
+.more {
+	text-align:right;
+	padding:5px 0px 0px 0px;
+	border-bottom:1px solid #C4C4C4;
+	margin:0px 0px 2px 0px;
+}
+
+.more a{
+	font:10px Tahoma, Arial, Helvetica, sans-serif;
+	color:#707070;
+	text-transform:uppercase;
+	text-decoration:none;
+	background:url(../images/disc.jpg) 0px 3px no-repeat;
+	padding:0px 0px 0px 13px;
+}
+
+.more a:hover {
+	color:#000000;
+}
+
+/* Menu Styles end Here */
+
+
+/* CSS FOR INSIDE PAGES START HERE */
+
+
+.insidebanner {
+	width:444px;
+	height:763px;
+	background:url(../images/insidebanner.jpg) left top no-repeat;
+	margin-top:1px;
+}
+
+
+.insidetabbedzone {
+	width:285px;
+	margin:0px auto;
+	padding:5px 0px 0px 0px;
+}
+
+.row2 {
+	padding:10px 0px 10px 0px;
+}
+
+.box1 {
+	width:45%;
+	float:left;
+	padding:5px;
+}
+
+.box2 {
+	width:45%;
+	float:right;
+	padding:5px;
+}
+
+h3 {
+	font:bold 15px Gill Sans MT Condensed, Arial;
+	color:#2B425B;
+	padding:0px 0px 5px 0px;
+	border-bottom:1px dotted #2B425B;
+	margin:0px 0px 10px 0px;
+}
+
+h4 {
+	font:bold 13px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	padding:0px 0px 5px 0px;
+	margin:0px;
+}
+
+.blog-posted-row {
+	background:#ffffff;
+	padding:3px;
+}
+
+.ourprojectrow {
+	margin-bottom:20px; 
+	border-bottom:1px dotted #000000; 
+	padding-bottom:10px;
+}
+
+.project-img {
+	float:right;
+	margin-left:20px;
+	border: 6px solid #b0a48b;
+}
+
+.support-img {
+	float:right;
+	margin-left:20px;
+}
+
+/*
+.about-img {
+	float:left;
+	margin-right:10px;
+}
+*/
+
+.service-img {
+	float:left;
+	margin-right:5px;
+}
+
+input.button {
+	color:#ffffff;
+	background:#4d728d;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding:10px 10px;
+	margin:0px 5px 5px 0;
+	border:1px solid #000000;
+}
+input.button:hover {
+	cursor:pointer;
+	color:#cccccc;
+}
+
+/* CSS FOR INSIDE PAGES END HERE */

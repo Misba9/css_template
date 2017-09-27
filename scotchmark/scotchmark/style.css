@@ -1,0 +1,258 @@
+/*****************************************************************               
+############################################
+
+TITLE:                Master Stylesheet for Scotchmark
+AUTHOR:           Kevin Cannon (kmcannon at telus.net)
+UPDATED:         April 7, 2006
+
+############################################
+*****************************************************************/
+
+body {
+	margin:0;
+	padding:0;
+	color:#333;
+	font-size:small;
+	font-family:"Lucida Grande", Verdana, Arial, Sans-serif;
+	background:#fff url(images/top-gradient.gif) repeat-x top left;
+}
+
+
+/**************                                            COMMON ELEMENTS                         
+###########################################*/	
+
+a {
+	color:#4A795F;
+}
+
+a:hover {
+	text-decoration:none;
+}	
+
+
+p {
+	line-height:1.5em;
+	text-indent:13px;
+	font-size:90%;
+}	
+	
+/***************                                         SITE WIDE DIVISIONS                            
+###########################################*/
+
+#content-wrap {
+	margin:50px auto 0 auto;
+	width:810px;
+}	
+
+.top-content1, .top-content2, .top-content3 {
+	width:800px;
+	height:40px;
+	float:left;
+	border-top:1px solid #ccc;
+	border-bottom:1px dashed #999;
+	text-align:center;
+}
+
+.top-content2, .top-content3 {
+	margin-left:15px;
+}	
+
+.top-content2 {
+	width:380px;
+}
+
+
+.top-content3 {
+	width:250px;
+
+}	
+
+#leftcol {
+	float:left;
+	width:540px;
+	padding:0 0 15px 10px;
+	border-right:1px solid #ccc;
+	margin-top:15px;
+}
+
+#rightcol {
+	float:left;
+	width:230px;
+	margin:15px 0 0 15px;
+}
+
+#footer {
+	clear:both;
+	text-align:center;
+	width:800px;
+	border-top:1px solid #ccc;
+}	
+
+/**************                                            NAVIGATION                                    
+###########################################*/
+
+ul#navigation {
+	margin:0 0 20px 0;
+	padding:0;
+	float:left;
+	list-style:none;
+	width:525px;
+}
+
+ul#navigation li {
+	float:left;
+	border:1px solid #e5e5e5;
+	border-top:0;
+	font-size:95%;
+}
+
+ul#navigation li a {
+	color:#333;
+	text-decoration:none;
+	display:block;
+	padding:6px 16px;
+	border-top:2px solid #aaa;
+}
+
+ul#navigation li a:hover {
+	background:#fff url(images/nav-li.gif) no-repeat top left;
+	border-top:2px solid #6A9C87;
+}	
+
+/****************                                        HEADING ELEMENTS         
+###########################################*/
+
+h1 , h2{
+	margin:0;
+	font-weight:normal;
+}	
+
+h1 {
+	font-family:Verdana, sans-serif;
+	color:#555;
+	margin-top:5px;
+}	
+
+h2 {
+	font-family:Times, serif;
+	font-weight:normal;
+	font-size:24px;
+	color:#fff;
+	position:absolute;
+	top:65px;
+	left:25px;
+}	
+
+h3 {
+	font-weight:normal;
+	font-family:times, serif;
+	font-size:140%;
+	padding-left:10px;
+	margin-bottom:0;
+	color:#333;
+	border-bottom:1px dashed #aaa;
+	width:525px;
+	clear:left; /* CLEARS NAVIGATION */
+}	
+
+h4 {
+	color:#333;
+	font-family:arial, sans-serif;
+	text-transform:uppercase;
+	font-size:13px;
+	color:#666;
+	border-bottom:1px dashed #aaa;
+	border-top:1px solid #ccc;
+	padding:2px 0;
+	margin-top:0;
+}	
+
+h5 {
+	color:#333;
+	font-family:"Lucida Grande", Verdana, sans-serif;
+	font-size:120%;
+	margin-top:5px;
+}	
+
+/*************                                               PARAGRAPH & LINK ELEMENTS              
+###########################################*/
+
+#leftcol p {
+	margin-right:15px;
+}	
+
+
+/************                                                 IMAGE ELEMENTS                    
+###########################################*/
+
+img#divider {
+	margin-top:10px;
+}	
+
+.top-content1 img, .top-content2 img, .top-content3 img {
+	display:inline;
+	border:1px solid #ccc;
+	padding:2px;
+	margin:2px 0 0 10px;
+}	
+
+img.border {
+	display:block;
+	margin:0 auto 20px auto;
+	border:1px solid #ccc;
+	padding:3px;
+}	
+
+/*************                                               FORM STYLES
+###########################################*/
+
+form {
+	margin-top:11px;
+}
+
+input {
+	border:1px solid #ccc;
+}	
+
+input.button {
+	width:80px;
+	margin-left:80px;
+	border:1px solid #ccc;
+	background:#fff;
+	color:#333;
+}
+
+dl {
+	margin:0 0 20px 40px;
+}	
+
+dt {
+	margin:15px 0 0 -10px;
+}	
+
+dd {
+	margin:0;
+}	
+
+/*************                                               OTHER STYLES
+###########################################*/	
+
+blockquote {
+	margin:10px 20px 10px 10px;
+	padding-top:5px;
+	background:#f5f5f5;
+	border:1px solid #ccc;
+	border-bottom:2px solid #4A795F;
+}	
+
+p cite {
+	text-align:left;
+}	
+
+ul {
+	font-size:95%;
+}
+
+ul ul {
+	padding-bottom:10px;
+}	

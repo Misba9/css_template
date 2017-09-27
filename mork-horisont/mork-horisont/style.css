@@ -1,0 +1,627 @@
+/*
+Theme Name: MorkHorisont
+Theme URI: http://www.toptut.com/
+Description: 2-column Mork Horisont (dark horizon) WordPress theme. Download this theme for only $10 at www.toptut.com. Based on small potato.
+Version: 1.00
+Author: Lorelei
+Author: http://www.loreleiwebdesign.com/
+*/
+
+#container {
+float:left;
+width:920px;
+background:#293641;
+display:inline;
+margin:0 20px;
+}
+
+#content {
+float:left;
+width:620px;
+display:inline;
+margin:0 20px;
+}
+
+.post {
+width:620px;
+overflow:hidden;
+font-family:"Lucida Sans", Tahoma;
+font-size:12px;
+}
+
+.post h2 {
+font:25px georgia, serif;
+background:url(images/bg-post-title.gif) no-repeat 5px 18px;
+padding:20px 20px 11px;
+}
+
+.entry-meta {
+font-size:12px;
+border-top:1px solid #181818;
+background:#0f0f0f;
+color:#666;
+padding:17px 20px;
+}
+
+.entry-meta a {
+color:#142634;
+}
+
+
+.entry-content {
+border:1px solid #364351;
+line-height:22px;
+background:#19232e url(images/bg-entry.gif) repeat-x;
+padding:3px 20px;
+}
+
+.entry-content h2 {
+font-size:24px;
+font-weight:700;
+line-height:28px;
+font-family:arial, helvetica, sans-serif;
+background-image:none;
+padding:0;
+}
+
+.entry-content h3 {
+font-size:18px;
+font-weight:700;
+line-height:24px;
+}
+
+.entry-content h4 {
+font-size:14px;
+font-weight:700;
+line-height:20px;
+}
+
+.entry-content h5 {
+font-size:11px;
+line-height:16px;
+}
+
+.entry-content h6 {
+font-size:10px;
+line-height:14px;
+}
+
+.ads-468x60 img {
+margin:0 0 0 20px;
+}
+
+.navigation {
+float:left;
+width:620px;
+line-height:24px;
+margin:13px 0 0;
+}
+
+.navigation span.nav-previous {
+background:url(images/bg-older-posts.gif) no-repeat 0 5px;
+margin:0 0 0 20px;
+padding:0 0 0 24px;
+}
+
+.navigation span.nav-next {
+background:url(images/bg-newer-posts.gif) no-repeat right 5px;
+margin:0 20px;
+padding:0 24px;
+}
+
+#header-img {
+float:left;
+width:920px;
+background:#222c36 url(images/bg-1.gif) no-repeat;
+display:inline;
+margin:0;
+}
+
+#header-img .gallery {
+float:left;
+width:880px;
+border-bottom:1px solid #181818;
+display:inline;
+margin:0 20px;
+padding:0 0 20px;
+}
+
+.headimg {
+float:left;
+width:840px;
+height:205px;
+display:inline;
+position:relative;
+margin:10px 0 0 20px;
+}
+
+.band .ads {
+position:absolute;
+top:156px;
+left:20px;
+font-size:12px;
+font-weight:700;
+text-transform:uppercase;
+background:#000;
+padding:7px 10px;
+}
+
+.band .ads a {
+color:#ccc;
+}
+
+#footer {
+float:left;
+width:880px;
+color:#bccd10;
+border-top:1px solid #181818;
+font-size:11px;
+font-weight:700;
+line-height:24px;
+display:inline;
+margin:12px 20px 0;
+}
+
+#footer p {
+padding:13px 20px;
+}
+
+/* links at the post */
+.links {
+font-family:Verdana, sans-serif, Arial;
+display:block;
+width:100%;
+height:45px;
+line-height:160%;
+background:#b4bcc7;
+border-top:#fff 1px solid;
+border-left:#fff 1px solid;
+border-bottom:#7e8da2 1px solid;
+border-right:#7e8da2 1px solid;
+color:#000;
+font-size:11px;
+padding:5px 10px;
+}
+
+.links a {
+text-decoration:none;
+color:#666;
+}
+
+.links a:hover {
+color:#666;
+text-decoration:none;
+}
+
+.links .comment {
+display:block;
+float:left;
+background:url(images/comment.gif) no-repeat left center;
+padding-left:20px;
+margin-right:35px;
+}
+
+.links .feed {
+display:block;
+float:left;
+background:url(images/feed.gif) no-repeat left center;
+padding-left:20px;
+margin-right:35px;
+}
+
+.links .cat {
+display:block;
+float:left;
+background:url(images/categories.gif) no-repeat left center;
+padding-left:20px;
+margin-right:35px;
+}
+
+.links .clock {
+display:block;
+float:left;
+background:url(images/clock.png) no-repeat left center;
+padding-left:20px;
+margin-right:35px;
+}
+
+/*** basics and body styles ***/
+blockquote,body,caption,dd,dl,form,h1,h2,h3,h4,h5,h6,input,p,pre,textarea,table,td,th {
+margin:0;
+padding:0;
+}
+
+body,form,h1,h2,h3,h4,h5,h6,input,textarea,table {
+font:14px "Lucida Sans", Tahoma;
+color:#aaa;
+}
+
+body {
+text-align:center;
+background:#0f1e27 url(images/bg-body.gif) repeat-x;
+}
+
+input,textarea {
+color:#000;
+}
+
+a {
+text-decoration:none;
+color:#fff;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+a img {
+border:0;
+}
+
+blockquote {
+background:#111;
+margin:10px 0 0;
+}
+
+blockquote p {
+padding:20px;
+}
+
+blockquote blockquote {
+background:#000;
+margin:0 20px;
+}
+
+img.alignleft {
+margin:5px 10px 2px 0;
+}
+
+img.alignright {
+margin:5px 0 2px 10px;
+}
+
+img.alignleft,img.alignright {
+border:1px solid #222;
+display:inline;
+padding:4px;
+}
+
+img.centered {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+p img {
+max-width:100%;
+}
+
+small {
+font-size:12px;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+.clear {
+clear:both;
+margin:0;
+padding:0;
+}
+
+#wrapper {
+width:960px;
+text-align:left;
+margin:0 auto;
+}
+
+/*** Header, menu, search styles ***/
+#header {
+float:left;
+width:960px;
+height:183px;
+background:#fff url(images/bg-header.jpg) no-repeat;
+margin:10px 0 0;
+}
+
+h1#headimg {
+float:left;
+width:250px;
+height:67px;
+display:inline;
+overflow:hidden;
+background:url(images/logo.gif) no-repeat;
+margin:23px 0 0 57px;
+}
+
+h1#headimg a {
+display:block;
+width:250px;
+height:67px;
+overflow:hidden;
+text-indent:-10000px;
+}
+
+.feed {
+float:left;
+width:617px;
+font-weight:700;
+text-transform:uppercase;
+display:inline;
+margin:36px 0 0 15px;
+}
+
+.feed a {
+background:url(images/feed.gif) no-repeat 5px 2px;
+padding:0 0 0 22px;
+}
+
+.kit {
+float:left;
+width:617px;
+font-weight:700;
+text-transform:uppercase;
+display:inline;
+margin:36px 0 0 1px;
+}
+
+.kit a {
+text-decoration:none;
+padding:0 0 0 22px;
+}
+
+#search {
+float:left;
+width:617px;
+height:24px;
+background:url(images/bg-search.gif) no-repeat;
+display:inline;
+margin:8px 0 0 15px;
+}
+
+#search form#searchform {
+margin:5px 0 0 23px;
+}
+
+#search form#searchform input {
+border:0;
+font-size:11px;
+background:transparent;
+color:#fff;
+}
+
+#menu {
+float:left;
+width:880px;
+height:58px;
+background:url(images/bg-menu.gif) no-repeat;
+display:inline;
+margin:15px 0 0 40px;
+}
+
+#menu ul {
+list-style-type:none;
+margin:0;
+padding:0 10px;
+}
+
+#menu ul li {
+float:left;
+font:bold 15px "Lucida Sans", Tahoma;
+display:inline;
+margin:20px 10px 0;
+}
+
+/*** sidebar styles ***/
+.sidebar {
+float:left;
+width:240px;
+
+}
+
+.sidebar ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.sidebar ul li {
+margin:20px 0 0;
+}
+
+.sidebar ul li h3 {
+font:bold 18px georgia, serif;
+text-transform:uppercase;
+background:url(images/bg-sidebar-title.gif) no-repeat 9px -1px;
+color:#ccc;
+padding:6px 20px 16px;
+}
+
+.sidebar ul ul {
+line-height:10px;
+background:#222c36;
+border:1px solid #1b2631;
+padding:0 20px 16px;
+}
+
+.sidebar ul ul li {
+background:url(images/bg-sidebar-item.gif) no-repeat 0 18px;
+margin:0;
+padding:19px 10px 10px 18px;
+font-size:12px;
+}
+.sidebar ul ul li:hover{
+background:url(images/bg-sidebar-item.gif) no-repeat 0 18px;
+margin:0;
+padding:19px 10px 10px 22px;
+font-size:12px;
+
+
+}
+
+.sidebar ul ul ul {
+padding:0;
+}
+
+.sidebar ul ul ul li {
+border:0;
+background-image:none;
+padding:0 0 0 10px;
+}
+
+/*** comments ***/
+#comments,#respond {
+margin:17px 0 0;
+}
+
+#comments h3 {
+border-bottom:1px solid #181818;
+font:18px georgia, "trebuchet ms", serif;
+text-transform:uppercase;
+color:#d0dc14;
+padding:13px 10px 17px;
+}
+
+#comments ol.commentlist {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#comments ol.commentlist li {
+border-bottom:1px solid #181818;
+line-height:22px;
+padding:4px 10px 3px;
+}
+
+#comments ol.commentlist li.highlighted {
+background:#111;
+}
+
+#comments .required {
+color:#a00;
+}
+
+#comments input {
+border:1px solid #181818;
+background:#111;
+color:#fff;
+padding:3px;
+}
+
+#comments textarea {
+border:1px solid #181818;
+width:75%;
+background:#111;
+color:#fff;
+padding:3px;
+}
+
+#respond p {
+padding:20px 0 0;
+}
+
+#comments p.nocomments,#respond form {
+padding:0 10px;
+}
+
+#comments p#login-req {
+padding:20px 10px 10px;
+}
+
+p.comment_license {
+line-height:22px;
+}
+
+/*** paragraphs ***/
+p.alert,p.download,p.info,p.note {
+margin:10px 0 0;
+padding:10px 10px 10px 36px;
+}
+
+p.alert {
+border-top:2px solid #440b02;
+border-bottom:2px solid #440b02;
+background:#260601 url(images/alert.png) no-repeat 12px 16px;
+padding:10px 10px 10px 36px;
+}
+
+p.download {
+border-top:2px solid #234a01;
+border-bottom:2px solid #234a01;
+background:#142b00 url(images/download.png) no-repeat 10px 16px;
+}
+
+p.info {
+border-top:2px solid #01254b;
+border-bottom:2px solid #01254b;
+background:#01162d url(images/info.png) no-repeat 12px 16px;
+}
+
+p.note {
+border-top:2px solid #7a4706;
+border-bottom:2px solid #7a4706;
+background:#5b3403 url(images/note.png) no-repeat 14px 16px;
+}
+
+/*** widgets ***/
+.sidebar ul li#search {
+float:none;
+width:auto;
+background-image:none;
+margin:12px 0 0;
+padding:0;
+}
+
+.sidebar ul li#search form#searchform input {
+border:1px solid #181818;
+background:#181818;
+margin:8px 0 0;
+padding:3px;
+}
+
+.sidebar ul li.widget_rss h3 img {
+width:9px;
+height:9px;
+}
+
+.sidebar ul li.widget_tag_cloud h3 {
+margin:0 0 10px;
+}
+
+.sidebar ul li.widget_tag_cloud a {
+padding:0 0 0 10px;
+}
+
+#wp-calendar {
+width:100%;
+border-bottom:1px solid #181818;
+padding:0 0 20px;
+}
+
+#wp-calendar caption {
+padding:20px 20px 10px;
+}
+
+#wp-calendar th,#wp-calendar td {
+text-align:center;
+background:#181818;
+padding:5px;
+}
+
+#wp-calendar td,table#wp-calendar th {
+padding:3px 0;
+}
+
+.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6,p {
+padding:10px 0;
+}
+
+.sidebar ul li#search form#searchform input#s,#wp-calendar td {
+background:transparent;
+}

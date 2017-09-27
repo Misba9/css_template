@@ -1,0 +1,53 @@
+/* 
+This is an open source template made bij www.soyrosa.nl, 
+and is released under a Creative Commons Attribution 3.0 License.  
+(http://creativecommons.org/licenses/by/3.0/) 
+This template has been created for personal use only, which means 
+you can't use it for money-making websites. Though, you can use 
+this template for schools or charity websites. As the template 
+provided is free of charge I do ask that the link at the bottom of 
+the page is kept on there. Because it's created free of charge by 
+soyrosa, you can't sell on this template. Want another template? 
+Feel free to contact me at mail@soyrosa.nl, I'm currently freelancing. 
+Enjoy!
+------------------------------------------------------------------*/
+
+
+html, body {margin : 0; padding : 0; background : url(streep.png);}
+body {font : 100% verdana, sans-serif;text-align : center;}
+p {margin : 10px 10px 10px;line-height : 18px;}
+
+div#header {height : 10px;margin : 0;padding : 0;background : #000000;color : #99cc00;}
+
+div#container {text-align : left;width : 850px;margin : 0 auto;}
+
+div#contenttop {float : left;width : 500px;height : 233px;font-size : 12px;background : url(content.jpg);color : #99cc33;}
+div#contenttop a {display : inline;color : #fff;text-decoration : none;font-weight : bold;padding : 0;border-bottom : 1px dotted #99cc33;}
+div#contenttop a:hover {display : inline;color : #99cc00;background : #fff;text-decoration : none;font-weight : bold;padding : 0;border-bottom : 1px solid #99cc33;}
+
+div#contentbottom {background : url(content.jpg);float : left;width : 500px;font-size : 12px;color : #ffffff;}
+div#contentbottom h2 {font-size : 20px;border-bottom : 1px solid #003366;color : #ffffff;padding-left : 10px;letter-spacing : -2px;margin : 0 0 0;}
+div#contentbottom .meta {font-size : 9px;color : #99cc33;padding-left : 10px;line-height : 0;margin-top : 5px;margin-bottom : 15px;}
+div#contentbottom p {margin : 10px 10px 10px;line-height : 16px;font-size : 11px;}
+div#contentbottom a {color : #fff;border-bottom : 1px dotted #99cc33;text-decoration : none;}
+div#contentbottom a:hover {color : #003366;background : #fff;border-bottom : 1px solid #99cc33;text-decoration : none;}
+
+div#columns {background : #000000;float : right;width : 350px;}
+.menu {float : left;width : 170px;background : url();}
+.menu a {display : block;color : #99cc00;text-decoration : none;font-weight : bold;text-transform : uppercase;font-size : 10px;height : 30px;padding : 0;padding-left : 10px;padding-top : 10px;}
+.menu a:hover {display : block;background : url(bgmenu2.jpg);color : #ffffff;text-decoration : none;font-weight : bold;text-transform : uppercase;font-size : 10px;height : 30px;padding : 0;padding-left : 10px;padding-top : 10px;}
+
+.about {float : right;width : 170px;color : #fff;font-size : 10px;}
+.about a {color : #003366;text-decoration : none;font-weight : bold;padding : 0;}
+.about a:hover {color : #99cc33;text-decoration : none;font-weight : bold;padding : 0;}
+
+div#columntop {float : right;width : 350px;height : 233px;background : url(blauwgroen.jpg);text-align : right;}
+.title a {font-size : 40px;color : #ffffff;padding : 10px;text-decoration : none;}
+.title a:hover {font-size : 40px;color : #ffffff;padding : 10px;font-style : italic;text-decoration : none;}
+.tagline {font-size : 10px;color : #ffffff;padding : 10px;text-align : right;text-transform : uppercase;}
+
+div#footer {background : #000000;color : #fff;}
+div#footer p {margin : 0;padding : 5px 10px;font-size : 10px;}
+div#footer a {display : inline;color : #003366;text-decoration : none;font-weight : bold;padding : 0;}
+div#footer a:hover {display : inline;color : #99cc00;text-decoration : none;font-weight : bold;padding : 0;}
+div#footer {clear : both;width : 100%;}

@@ -1,0 +1,133 @@
+body {
+	background: #e4e6d3 url(../images/background.gif) left top repeat-x;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 867px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin: 18px 0 0 -598px;
+	padding: 360px 164px 100px 165px;
+	background: url(../images/container_bkgd.jpg) left top no-repeat;
+}
+
+#header {
+	width: 743px;
+	height: 347px;
+	position: absolute;
+	left: 226px;
+	top: 3px;
+	margin: 0;
+	padding: 0;
+	background: url(../images/header.jpg) left top no-repeat;
+}
+
+#columnContainer {
+	width: 867px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: url(../images/bkgd_shadow.gif) left top repeat-y;
+}
+
+#columnContainerTop {
+	width: 867px;
+	height: auto;
+	margin: 0;
+	padding: 10px 0 0px 0;
+	background: url(../images/columnContainer.jpg) left top no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container a:link, #container a:visited {
+	color: #b4880e;
+	text-decoration: underline;
+}
+
+#container a:hover, #container a:active {
+	color: #d4a010;
+	text-decoration: none;
+}
+
+#content {
+	width: 480px;
+	height: auto;
+	float: left;
+	margin: 0;
+	padding: 10px 20px 0 85px;
+	font-size: 12px;
+}
+
+#content h1 {
+	font-size: 18px;
+	color: #5c2c00;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#content h2 {
+	font-size: 14px;
+	color: #5c2c00;
+}
+
+#content h3, #content h4 {
+	font-size: 14px;
+	color: #7a7000;
+}
+
+#content h5 {
+	font-size: 12px;
+	color: #7a7000;
+}
+
+#sideNav {
+	width: 180px;
+	height: auto;
+	float: right;
+	margin: 0;
+	padding: 15px 85px 0 17px;
+	font-size: 14px;
+	font-weight:bold;
+	color: #666666;
+}
+
+#sideNav h2 {
+	font-size: 16px;
+}
+
+#sideNav ul {
+	list-style: none;
+}
+
+#sideNav ul li {
+	
+}
+
+hr {
+	border-bottom: 1px solid #d4a010;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+#footer {
+	width: 697px;
+	height: auto;
+	margin: 0;
+	padding: 50px 85px 100px 85px;
+	background: url(../images/bottom_bkgd.jpg) bottom left no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+/* Clearfix http://www.positioniseverything.net/easyclearing.html */
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-table;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.brclear {clear:both;height:0;margin:0;font-size: 1px;line-height: 0;}

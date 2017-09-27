@@ -1,0 +1,119 @@
+/* .............................. */
+/* Basic layout */
+/* .............................. */
+
+body {
+  color: black;
+  background-color: white;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.doNotPrint {
+  display: none !important;
+}
+
+/* .............................. */
+/* Wrapper elements */
+/* .............................. */
+
+#logo		{
+		width: 770px;
+		float: left;
+		clear: both;
+		}
+
+#menu		{
+        display: none;
+		}
+
+#sidebar 	{
+        display: none;
+		}
+
+#footer 	{
+		width: 770px;
+		float: left;
+		clear: both;
+		}
+/* .............................. */
+/* Logo */
+
+#logo h1	{
+		margin: 0;
+		padding: 0;
+		padding-left: 20px;
+		font-size: 3em;
+		color: #555;
+		}
+
+#logo h2	{
+		display: none;
+		}
+/* .............................. */
+/* Main Content */
+
+#content h1	{
+		font-size: 15pt;
+		padding:0;
+		margin:0;
+		padding-bottom: 5px;
+		margin-top: 15px;
+		color: #000;
+		}
+
+#content h2	{
+		font-size: 0.9em;
+		padding:0;
+		margin:0;
+		padding-bottom: 5px;
+		color: #222;
+		}
+
+#content	{
+		padding:0;
+		margin:0;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #000;
+		line-height: 1.5em;
+		font-size: 0.8em;
+		}
+		
+#content .entry	{
+		border-bottom: 1px solid #CCC;
+		border-top: 1px #FFF;
+		border-left: 1px #FFF;
+		border-right: 1px #FFF;
+		padding:10px;
+		margin:0;
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+        }
+				
+#content .blog	{
+		border: 1px dashed #FFF;
+		padding:10px;
+		margin:0;
+		margin-bottom: 10px;
+        }
+		
+
+#content img    {
+		border: 4px solid black;
+		}
+
+
+
+/* .............................. */
+/* Footer */
+
+#footer		{		
+		text-align: center;
+		line-height: 1.5em;
+		font-size: 0.8em;
+		color: #CCC;
+		border-top: 1px dashed black;
+		}
+

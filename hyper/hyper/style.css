@@ -1,0 +1,149 @@
+/*
+Author:		Donny Burnside
+Website:	http://www.ginger-ninja.net/
+*/
+
+/* Misc. */
+
+* {
+	margin:0;
+	padding:0;
+	}
+body {
+	font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#111111;
+	color:#f1f1f1;
+	}
+a {
+	color:#f1f1f1;
+	text-decoration:none;
+	font-weight:bold;
+	}
+a:hover {
+	color:#D8E673;
+	}
+img {
+	border:0;
+	}
+p {
+	margin-bottom:20px;
+	line-height:20px;
+	}
+
+/* Structure */
+
+#wrapper {
+	width:780px;
+	margin:0 auto;
+	background-color:#222222;
+	}
+#header {
+	height:80px;
+	background-image:url(images/bg-header.gif);
+	background-repeat:repeat-x;
+	background-color:#D0E254;
+	border-bottom:2px solid #D5E461;
+	}
+#sidebar {
+	float:right;
+	width:160px;
+	padding:10px;
+	}
+#body {
+	padding:10px;
+	margin-right:180px;
+	min-height:400px;
+	}
+#footer {
+	padding:10px;
+	text-align:center;
+	}
+
+
+/* Menu */
+#menu {
+	float:right;
+	}
+#menu ul {
+	list-style-type:none;
+	padding-right:10px;
+	}
+#menu li {
+	float:left;
+	text-align:center;
+	margin-left:3px;
+	}
+#menu li a {
+	height:26px;
+	line-height:26px;
+	width:80px;
+	display:block;
+	background-image:url(images/menu.gif);
+	background-repeat:no-repeat;
+	color:#ffffff;
+	font-size:11px;
+	margin-top:54px;
+	}
+#menu li a:hover {
+	height:30px;
+	line-height:30px;
+	margin-top:50px;
+	background-image:url(images/menu-hover.gif);
+	background-repeat:no-repeat;
+	color:#ffffff;
+	}
+#menu li .active {
+	height:30px;
+	line-height:30px;
+	margin-top:50px;
+	background-image:url(images/menu-hover.gif);
+	background-repeat:no-repeat;
+	color:#ffffff;
+	}
+
+/* Headings */
+
+h1 a {
+	color:#C2D926;
+	}
+h2 {
+	font-size:14px;
+	color:#f1f1f1;
+	font-weight:bold;
+	letter-spacing:-1px;
+	}
+
+/* Sidebar */
+
+#sidebar ul {
+	list-style-type:none;
+	}
+#sidebar li {
+	padding-left:10px;
+	}
+#sidebar li a {
+	font-weight:normal;
+	}	
+
+/* Title */
+
+#title {
+	line-height:80px;
+	padding-left:10px;
+	}
+#subtitle {
+	padding-left:30px;
+	margin-top:-26px;
+	color:#fdfdfd;
+	cursor:default;
+	}
+.title1 {
+	font-size:30px;
+	color:#ffffff;
+	}
+.title2 {
+	font-size:30px;
+	color:#000000;
+	font-style:italic;
+	}

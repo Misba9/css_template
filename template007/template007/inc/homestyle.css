@@ -1,0 +1,123 @@
+/*--------------
+collingrasley (modetwentythree.com) collingrasley@gmail.com --- public domain template, because sharing is good----
+---no link back required, but it would be nice :)  .---
+-----------------*/
+
+/* -----------------  page  -------------------------------------------------------*/
+
+body { padding:0; margin:0; font:11px Tahoma, Arial, sans-serif; line-height: 17px; background: url(../images/pagebg.jpg) repeat; color: #444; }
+#outerwrapper { margin:0 auto; width:810px; background:#fff;}
+#wrapper { margin:0 auto; width:800px;  padding:0; background:#fff;  }
+
+/* -----------------  general styles  -------------------------------------------------------*/
+
+a { color:#202b31;text-decoration:underline; }
+a:hover { color: #496b7d;background: #eee;text-decoration:underline; }
+p { margin: 0; }
+h2 { font-weight:bold; font-size:14px;padding: 2px 0 2px 8px; margin: 0; color:#202b31; background:#e8ecf1; }
+h1 {font: bold 14px Arial, Sans-Serif;padding: 4px 0 0 0; margin: 0; color:#202b31; }
+ul { margin: 0; padding : 0; list-style : none; }
+img { border: 0; }
+.clear {width:100%;margin-bottom:5px;}
+.title{padding:6px 0 6px 28px;background: url(../images/title.gif) no-repeat center left;font-size:12px;
+line-height:17px;font-weight:bold; color:#fff;}
+.searchquote{padding:0px 0 2px 34px; font-size:12px;font-weight:bold;color:#fff;}
+.logo{padding:0px 0 2px 34px; font-size:13px;font-weight:bold; color:#202b31;}
+
+/* -----------------  top info  -------------------------------------------------------*/
+
+#loginbox { width:800px; height:60px; margin:0; padding:10px 0 10px 0; background: #202b31;}
+#loginbox p { padding-top:4px; font-size:11px; }
+#loginboxleft { width: 490px; padding:0px 0 0 30px; float: left; color:#eee; }
+#loginboxright { float: right; width: 250px; padding:0px 10px 0 0; color:#fff; }
+#loginbox a {  color: #eee; background:none;text-decoration:underline; font-weight:bold; }
+#loginbox a:hover { color: #222; background:#eee; text-decoration:none;}
+form { margin:5px 0 5px 0; padding: 0px;}
+input.login { width: 100px; border: none; font: bold 11px Arial, Helvetica, sans-serif;color:#202b31; 
+background:#eee; padding:1px 3px 1px 3px; }
+input.searchsubmit { margin-top:2px;}
+#header { clear:both; width:800px; height:76px; background: url(../images/header.jpg) no-repeat; 
+margin:0 0 5px 0; }
+#headerloginbutton {width:179px; height:27px; float:right; background: url(../images/logup.jpg) 0 0 no-repeat; margin:0 10px 0 0;}
+#headerloginbutton a{background:none;text-decoration:none; color:#d4d9df; padding:8px; font-weight:bold; }
+#headerloginbutton a:hover{text-decoration:none; color:#fff; background:none;}
+#menu { clear: both; margin:0; padding:0 0px 0 0; text-align:right;}
+#menu li { display: inline; }
+#menu li a { font-weight:bold;float:right;color:#233238;text-decoration:none;padding:2px 10px 2px 30px;
+height:19px;background:url(../images/left_up.gif)no-repeat center left;}
+#menu li a:hover { background: url(../images/left_over.gif) no-repeat center left;color: #48616e;} 
+#logo {float:left; width: 280px; margin:30px 0 0 0;}
+
+/* -----------------  Main Search box begins  -------------------------------------------------------*/
+
+#searchbox {clear:both;width:800px;height:200px ;background: url(../images/searchbg.jpg) no-repeat; padding:0; margin:0 0 5px 0; }
+fieldset {border:none;}
+#searchboxinside {float:right;width:389px;height:140px;padding:0px 0 0 0px;
+margin:25px 10px 0 0;background:none;}
+#searchboxinside .provincesearch {display:inline; width:160px; background:#f2f2f2; padding:2px 3px 2px 3px; 
+border:0; margin:10px 5px 0px 25px;font: bold 11px Arial, Helvetica, sans-serif;color:#202b31;}
+#searchboxinside .postalsearch {display:inline; width:154px; background:#f2f2f2; padding:2px 3px 2px 3px; 
+border:0; margin:10px 0px 0px 6px;font: bold 11px Arial, Helvetica, sans-serif;color:#202b31;}
+#searchboxinside .citysearch {
+display:inline; width:329px; background:#f2f2f2; padding:2px 3px 2px 3px; border:0; margin:10px 5px 0px 25px;
+font: bold 11px Arial, Helvetica, sans-serif;color:#202b31;}
+#searchboxinside .searchbutton {float: right;margin: 5px 10px 0 0;
+background:none;}
+#messagebox {position:absolute;float:left;width:300px;padding:36px 34px 30px 60px;margin:0;background:none;
+color:#fff;}
+#messagebox h1 {margin:0;padding: 0px;color: #3a3a3a;background: inherit;font-size:14px;}
+
+/* -----------------  3 numbered boxes   -------------------------------------------------------*/
+
+#intro { clear:both;background: #fff; color: #808080;border-top:2px solid #d4d9df; padding:0; margin:0; 
+width:800px; height:138px;  background:url(../images/intro.jpg) no-repeat;}
+.introbox {display:inline;float: left;width: 27%;margin: 30px 5px 0 30px;background:none;
+color: #303030;padding:3px;}
+.introbox h1 {margin: 1px 1px 1px 1px;padding: 1px;color: #3a3a3a;background: inherit;font-size: 1.6em;}
+.digit {width:25px;height:25px;background: url(../images/numberbg.gif) no-repeat center;margin:0 4px 0 0 ;
+font-size: 1.0em;padding:5px 8px 5px 8px;color: #fff;}
+
+/* ----------------- Bottom content -------------------------------------------------------*/
+
+#right {float:right; width:480px; margin:0 0 5px 0;}
+.contentboxone {clear:both;margin: 0px 0 5px 0;background: none;padding:0 10px 10px 10px;border:none;}
+.contentboxtwo {clear:both; margin:0 0 5px 0; padding:5px 10px 10px 10px; background:none; 
+border:1px solid #D4D9DF;}
+.pic {float: left;border:1px solid #D4D9DF;background: #eee;width:200px;height:200px;margin: 5px 25px 10px 0;}
+.contentboxsmall {float: left;width: 220px;border:1px solid #D4D9DF;margin:0 5px 0px 0;padding: 5px 5px 0px 10px;background: inherit;}
+.contentboxsmall2 {float: left;width: 220px;border:1px solid #D4D9DF;padding: 5px 5px 5px 10px;
+background: inherit;margin:0;}
+
+#leftside {margin:0 0 5px 0;float: left;width: 315px;background :#fff;}
+#leftside p {padding:5px;}
+#leftside ul {padding: 3px 0 12px 0px;}
+#leftside li {list-style:none;margin: 0;}
+#leftside  li a {color: #202b31;height:18px;display: block;padding: 0 0 0 30px;border-top: 1px dotted #999;
+margin:0 0 0 2px;text-decoration: none;background:url(../images/left_up.gif)no-repeat center left;}
+#leftside li a:hover {color: #888;border-top: 1px dotted #888;background:url(../images/left_over.gif) no-repeat center left;}	
+#leftside h3 {color : #eee;font : bold 12px Arial, Sans-Serif;background :#d4d9df;height : 20px;
+text-indent :10px; padding:4px;}
+.imagelink {background: #e8ecf1;color: #333;padding:4px;margin: 0 0 5px 0;}
+.imagelink:hover {background: #d4d9df;}
+.imagelinkpic {float: left;margin: 4px 10px 4px 0;}
+#other { clear:both;background: #e8ecf1; color: #202b31; font-weight:bold; padding: 5px; margin:0; 
+text-align:center;}
+.links {float: left;width: 112px;padding: 5px 5px 5px 15px;background: inherit;}
+#linkbox { clear:both;width:100%;background: #fff;margin:0 0 5px 0; padding:5px 0;}
+#linkbox li a { background:  url(../images/bullet.gif) no-repeat center left;  padding: 0 0 0 12px; text-decoration:none;}
+#linkbox li a hover{ background: #eee url(../images/bullet.gif) no-repeat center left;text-decoration:none;}
+
+#footer {clear: both;height:110px; padding: 5px; color: #202b31; background: #d4d9df; }
+#footer li {list-style: none;height:18px;}
+#footer li a{display: block;text-decoration: none;margin: 0 0 1px 0;color: #202b31;
+background:url(../images/left_up.gif) no-repeat center left;padding: 2px 0 2px 30px;}
+#footer li a:hover{color: #222;background: url(../images/left_over.gif) no-repeat center left;}
+#footer a { color: #202b31; background: none; }
+#footer a:hover{ color: #222; background:none; text-decoration:underline; }
+
+#col1 { float: left; width:200px; padding: 0 20px 0 20px; margin:0; }
+#col2 { float: left; width: 200px; border-left: 1px solid #202b31; padding:0 10px 0 20px; }
+#col3 { float: right; width: 240px; border-left: 1px solid #202b31; padding: 30px 0 0 30px; }
+
+.thumbs img{display:inline;padding:1px;margin:2px 3px 2px 3px;border:2px solid #d4d9df;background:none;}
+.thumbs img:hover{border:2px solid #202b31;}

@@ -1,0 +1,24 @@
+#navigation .l {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/nav-l.png', sizingMethod='image');
+}
+#navigation .r {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/nav-r.png', sizingMethod='image');
+}
+#navigation ul li a.active .active-l {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/nav-a-l.png', sizingMethod='image');
+}
+#navigation ul li a.active .active-r {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/nav-a-r.png', sizingMethod='image');
+}
+.slider-bg {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slider-bg.png', sizingMethod='image');
+}
+.box-widget .more {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/widget-more.png', sizingMethod='image');
+}

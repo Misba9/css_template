@@ -1,0 +1,739 @@
+
+
+body {
+font:80%/150% "Trebuchet MS", Tahoma, Arial;
+color:#d4dac2;
+background:#000;
+background-image:url("images/background.jpg");
+background-repeat:repeat-x;
+margin:0;
+padding:0;
+}
+
+.MainSyn {
+float:right;
+margin:-190px 15px 0 0;
+}
+
+.MainSyn li {
+list-style-type:none;
+display:inline;
+float:left;
+margin:0 0 0 10px;
+padding:0;
+}
+
+.MainSyn a {
+background:url(./images/PostComLeft.png) no-repeat left top;
+float:left;
+text-decoration:none;
+color:#fff;
+font-size:0.92em;
+font-family:tahoma,arial,verdana,sans-serif;
+text-transform:none;
+font-weight:700;
+padding:0 0 0 19px;
+}
+
+.MainSyn a span {
+display:block;
+background:url(./images/PostComRight.png) no-repeat right top;
+float:none;
+padding:4px 4px 5px 6px;
+}
+
+.MainSyn a:hover {
+background-position:0 -27px;
+text-decoration:none;
+color:#89B0D1;
+}
+
+.MainSyn a:hover span {
+background-position:100% -27px;
+color:#8CB1D1;
+}
+
+.toggler {
+color:#222;
+background:#eee;
+border-bottom:1px solid #ddd;
+border-right:1px solid #ddd;
+border-top:1px solid #f5f5f5;
+border-left:1px solid #f5f5f5;
+font-size:11px;
+font-weight:400;
+font-family:'Andale Mono', sans-serif;
+margin:0;
+padding:2px 5px;
+}
+
+.element p {
+margin:0;
+padding:4px;
+}
+
+.float-right {
+float:right;
+padding:10px 20px;
+}
+
+a {
+color:#7a9396;
+text-decoration:none;
+}
+
+a:visited {
+color:#797900;
+text-decoration:none;
+}
+
+a:hover {
+color:#736539;
+}
+
+p {
+margin:0;
+padding:0 0 15px;
+}
+
+h1 {
+height:60px;
+font:lighter 2.4em/1.2em Georgia,"Times New Roman",Times,serif;
+color:#FFF;
+margin:0;
+}
+
+.title a {
+font:lighter 2.5em/1.3em verdana;
+color:#FFF;
+margin:1px;
+}
+
+.title a:hover {
+font:lighter 2.5em/1.3em verdana;
+color:#c5f8f9;
+background:none;
+margin:1px;
+}
+
+.slogan {
+color:#FFF;
+font-size:12px;
+}
+
+h1 a,h1 a:visited {
+color:#FFF;
+text-decoration:none;
+}
+
+h1 a:hover {
+color:#FFF;
+text-decoration:none;
+border:none;
+background:none;
+}
+
+h2 {
+color:#4395bc;
+border-bottom:1px dotted #4395BC;
+width:100%;
+font:lighter 1.7em Georgia,"Times New Roman",Times,serif;
+padding-bottom:3px;
+margin:0 0 2px;
+}
+
+h2 a,h2 a:visited {
+color:#ffbd33;
+text-decoration:none;
+}
+
+h2 a:hover {
+color:#778b10;
+text-decoration:none;
+}
+
+h4 {
+font:normal 130%/100% "Trebuchet MS", Tahoma, Arial;
+color:#f79043;
+margin:10px 0 5px;
+}
+
+#wrapper {
+margin-top:0;
+margin-left:auto;
+margin-right:auto;
+width:962px;
+}
+
+#page {
+width:961px;
+background:#252f30;
+margin:0 auto;
+}
+
+#header {
+background-image:url(images/header-lw.jpg);
+position:relative;
+margin-top:0;
+color:#6d8302;
+width:821px;
+height:286px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#headerimg {
+position:relative;
+margin-top:0;
+height:60px;
+width:760px;
+padding:140px 0 0 10px;
+}
+
+#headerimg .description {
+color:#F6F5EE;
+padding-left:5px;
+font-size:14px;
+float:right;
+}
+
+#navi {
+position:relative;
+height:30px;
+width:760px;
+margin-top:1px;
+margin-left:1px;
+text-align:center;
+line-height:normal;
+padding:42px 0 0 10px;
+}
+
+#nav {
+list-style:none;
+float:left;
+margin:0 3px;
+padding:0;
+}
+
+#nav li {
+float:left;
+height:30px;
+white-space:nowrap;
+margin:0 3px;
+}
+
+#nav .page_item a {
+color:#c5f8f9;
+display:block;
+text-decoration:none;
+text-transform:uppercase;
+font:bold 1.1em Arial, Helvetica, sans-serif;
+line-height:30px;
+padding:0 12px;
+}
+
+#nav li:hover {
+border:1px solid #dbfcfd;
+background:url(images/hov_nav_loreleiweb.jpg) top repeat-x;
+
+}
+
+#nav .page_item a:hover {
+background-position:0 -36px;
+border:none;
+}
+
+#nav li.current_page_item {
+color:#c5f8f9;
+text-decoration:none;
+text-transform:uppercase;
+border-bottom:1px solid #E3F7FF;
+}
+
+#nav .current_page_item a,#nav .current_page_item a:visited {
+color:#c5f8f9;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+#content {
+float:left;
+width:700px;
+overflow:hidden;
+margin-left:10px;
+padding:0 0 30px 13px;
+}
+
+#content img {
+border:1px solid #ccc2a2;
+padding:5px;
+}
+
+.post {
+clear:both;
+padding-top:15px;
+}
+
+.post-date {
+width:45px;
+height:49px;
+text-align:center;
+background:url(images/date-bg.gif) no-repeat;
+}
+
+.post-month {
+font-size:11px;
+text-transform:uppercase;
+color:#FFF;
+text-align:center;
+display:block;
+line-height:11px;
+padding-top:2px;
+margin-left:-3px;
+}
+
+.post-day {
+font-size:18px;
+text-transform:uppercase;
+color:#999;
+text-align:center;
+display:block;
+line-height:18px;
+padding-top:7px;
+margin-left:-3px;
+}
+
+.post-cat {
+padding-left:0;
+float:left;
+}
+
+.post-dates {
+padding-left:10px;
+margin-left:70px;
+float:left;
+font-size:95%;
+color:#BEB187;
+}
+
+.post-comments {
+padding-left:20px;
+float:right;
+}
+
+.post-calendar {
+padding-left:0;
+float:right;
+font-size:95%;
+color:#999;
+}
+
+.post-content {
+clear:both;
+padding-top:10px;
+}
+
+.post-info {
+height:15px;
+color:#6d8302;
+font:bold 12px "Trebuchet MS", "Tahoma", sans-serif;
+border-top:1px dotted #4395bc;
+padding:10px;
+}
+
+.post-info a {
+color:#4395bc;
+text-decoration:underline;
+}
+
+.post-info a:hover {
+color:#ffbd33;
+text-decoration:none;
+}
+
+.post-content blockquote {
+background:#095758;
+border-right:2px solid #29b8bc;
+color:#fff;
+padding:8px;
+}
+
+.navigation {
+clear:both;
+padding:10px 0;
+}
+
+.navigation a,.navigation a:visited {
+color:#59770e;
+}
+
+.previous-entries a {
+float:left;
+padding-left:18px;
+background:url(images/mini-nav-left.gif) no-repeat left center;
+}
+
+.next-entries a {
+float:right;
+padding-right:18px;
+background:url(images/mini-nav-right.gif) no-repeat right center;
+}
+
+#comments,#respond {
+border-bottom:1px dotted #4395BC;
+clear:both;
+padding:10px 0 5px;
+}
+
+.commentlist {
+padding-left:20px;
+line-height:130%;
+margin:10px 0;
+}
+
+.commentlist li {
+padding:10px 10px 0;
+}
+
+.commentlist .alt {
+background:#e9ebd4;
+border:1px dotted #eaecda;
+}
+
+.commentlist cite,.commentlist cite a,.commentlist cite a:visited {
+font-weight:700;
+font-style:normal;
+font-size:120%;
+}
+
+.commentlist small {
+margin-bottom:5px;
+display:block;
+font-size:87%;
+}
+
+#commentform {
+margin-top:10px;
+font:110% Arial, Helvetica, sans-serif;
+}
+
+#commentform p {
+margin:0;
+padding:6px 0;
+}
+
+#commentform label {
+color:#787878;
+font-size:87%;
+}
+
+#commentform input {
+width:200px;
+background:#D8DAAF;
+border:1px dotted #eaecda;
+margin-top:3px;
+padding:3px;
+}
+
+#commentform textarea {
+width:485px;
+height:115px;
+background:#e9ebd4;
+border:1px solid #eaecda;
+margin-top:3px;
+overflow:hidden;
+padding:2px;
+}
+
+#commentform textarea:focus,#commentform input[type="text"]:focus {
+background:#fff;
+}
+
+#commentform #submit {
+background:url(images/btn-bg.gif) no-repeat;
+border:1px solid #111;
+font:bold 12px Arial, Helvetica, sans-serif;
+color:#fff;
+float:right;
+width:144px;
+height:28px;
+cursor:pointer;
+}
+
+#sidebar {
+float:right;
+width:190px;
+color:#31e1e6;
+overflow:hidden;
+padding:14px 10px 20px 0;
+}
+
+#sidebar h2,#sidebar .sidebartitle {
+font:1em Arial,Helvetica,FreeSans,clean,sans-serif;
+color:#ffbd33;
+font-weight:700;
+margin-bottom:5px;
+font-size:14px;
+}
+
+#sidebar a,#sidebar a:visited {
+color:#31e1e6;
+text-decoration:none;
+}
+
+#sidebar li a:hover {
+color:#ffbd33;
+text-decoration:none;
+}
+
+.widget {
+margin-bottom:10px;
+border-top:1px solid #1c9598;
+border-left:1px solid #1c9598;
+border-bottom:1px solid #04686a;
+border-right:1px solid #04686a;
+background:#095759;
+padding:5px 10px 10px;
+}
+
+#sidebar ul li {
+list-style:none;
+border:none;
+margin:0;
+padding:0;
+}
+
+#sidebar ul li ul li {
+border-bottom:1px solid #31e1e6;
+padding:2px 0;
+}
+
+#sidebar ul li ul li ul li {
+border:none;
+padding:1px 0 1px 10px;
+}
+
+ul.list-archives div,li.widget_archives li {
+background:url(images/mini-monthly-archive.gif) no-repeat !important;
+padding-left:0 !important;
+}
+
+ul.list-page li,div.widget_pages li,li.widget_recent_entries li {
+background:url(images/mini-page.gif) no-repeat left center !important;
+padding-left:0 !important;
+}
+
+ul.list-page li ul div,li.widget_pages li ul li {
+background:url(images/mini-page-arrow.gif) no-repeat !important;
+padding-left:10px !important;
+}
+
+div.widget_recent_comments li {
+background:url(images/mini-recent-comments.gif) no-repeat !important;
+padding-left:20px !important;
+}
+
+div.widget_calendar td {
+padding:1px 5px;
+}
+
+.textwidget {
+padding-top:5px;
+}
+
+#search {
+float:left;
+width:185px;
+height:25px;
+text-align:center;
+padding-top:1px;
+padding-left:40px;
+margin:-197px 15px 0 0;
+}
+
+#searchform {
+margin:3px 0 0;
+}
+
+#searchform br {
+display:none;
+}
+
+#searchform #s {
+width:130px;
+height:17px;
+border:1px solid #a29b85;
+background:#fff;
+margin-right:2px;
+color:#000;
+font-weight:400;
+padding:3px 5px 0;
+}
+
+#searchform input {
+background:none;
+border:none;
+height:16px;
+font:bold 12px Arial, Helvetica, sans-serif;
+color:#FFF;
+vertical-align:middle;
+}
+
+#footerbg {
+background:#252f30;
+clear:both;
+padding-bottom:10px;
+height:50px;
+width:962px;
+margin-bottom:0;
+margin-left:auto;
+margin-right:auto;
+}
+
+#footer {
+width:962px;
+font-size:75%;
+color:#6d8302;
+line-height:130%;
+margin:0 auto;
+}
+
+#footer a,#footer a:visited {
+color:#0C72A2;
+}
+
+#footer h4 {
+font:normal 146%/100% "Trebuchet MS", Tahoma, Arial;
+color:#6d8302;
+margin:10px 0 5px;
+}
+
+.footer-recent-comments ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.footer-meta {
+background:#e8dfc3;
+width:100%;
+float:left;
+margin-left:20px;
+}
+
+.footer-meta ul li {
+background:url(images/mini-footer-icon.gif) no-repeat 5px 4px;
+font-size:107%;
+line-height:135%;
+font-weight:700;
+display:inline;
+padding:0 0 10px 20px;
+}
+
+#credits {
+color:#69a599;
+font-size:1.0em;
+margin:0 auto 0 50px;
+}
+
+#credits a,#credit a:visited {
+color:#69a599;
+}
+
+#credits a:hover {
+color:#6B8E23;
+}
+
+.footer-meta ul li.rss {
+background:url(images/mini-rss.gif) no-repeat left 2px;
+padding:0 0 10px 20px;
+}
+
+.loginout {
+background:url(images/mini-loginout.gif) no-repeat left center;
+padding-left:18px;
+padding-bottom:2px;
+margin-left:8px;
+}
+
+.center {
+text-align:center;
+}
+
+img.center,img[align="center"] {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.alignleft {
+float:left;
+}
+
+img.alignleft,img[align="left"] {
+float:left;
+margin:2px 10px 5px 0;
+}
+
+.alignright {
+float:right;
+}
+
+img.alignright,img[align="right"] {
+float:right;
+margin:2px 0 5px 10px;
+}
+
+.clear {
+clear:both;
+}
+
+hr.clear {
+clear:both;
+visibility:hidden;
+margin:0;
+padding:0;
+}
+
+.MainSyn ul,#sidebar ul li ul {
+margin:0;
+padding:0;
+}
+
+img,#sidebar a:hover {
+border:none;
+}
+
+form,#sidebar ul {
+margin:0;
+padding:0;
+}
+
+ul.linkcat li,div.linkcat li,ul.list-cat li,div.widget_categories li {
+padding-left:0 !important;
+}
+
+.footer-recent-comments,.footer-recent-posts {
+width:240px;
+float:left;
+margin-left:10px;
+}
+
+.footer-recent-comments ul li,.footer-recent-posts ul li {
+background:url(images/mini-footer-icon.gif) no-repeat 5px 4px;
+padding:0 0 10px 20px;
+}
+
+.footer-recent-posts strong,.footer-meta strong {
+font-size:107%;
+line-height:135%;
+font-weight:700;
+}
+
+.footer-recent-posts ul,.footer-meta ul {
+list-style:none;
+font-size:92%;
+line-height:110%;
+margin:0;
+padding:0;
+}

@@ -1,0 +1,84 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#383838 url(../images/b_body.gif) 0 0 repeat-x; color:#848484; font:11px/14px Arial, Helvetica, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:11px/14px Arial, Helvetica, sans-serif; color:#6c8ea7; text-decoration:none;}
+p a:hover{ color:#000; text-decoration:none;}
+
+.headline{font:12px/14px Arial, Helvetica, sans-serif; color:#6c8ea7; font-weight:bold}
+
+#container{width:656px; position:relative; margin:0 auto; padding-left:10px; padding-right:10px; background:#FFF}
+
+/* TOP */
+
+#topPan{width:656px; height:61px; position:relative;}
+#topPan img#logo{position:absolute; top:17px; left:6px}
+
+#topPan ul.menu{position:absolute; top:17px; left:289px; width:360px}
+#topPan ul.menu li{height:27px; margin-right:24px; float:left}
+#topPan ul.menu li a{height:27px; display:block; text-indent:-20000px; }
+#topPan ul.menu li a:hover{height:27px;}
+
+#topPan ul.menu li.btn_1 a{width: 57px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_1 a:hover{width: 57px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_2 a{width: 52px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_2 a:hover{width: 52px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_3 a{width: 47px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_3 a:hover{width: 47px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_4 a{width: 46px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_4 a:hover{width: 46px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#topPan ul.menu li.btn_5{margin-right:0}
+#topPan ul.menu li.btn_5 a{width: 52px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#topPan ul.menu li.btn_5 a:hover{width: 52px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+/* HEADER */
+
+#header{width:656px; height:288px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#slogan{position:absolute; top:66px; left:30px}
+
+/* CONTENT */
+
+#content{width:656px; position:relative; clear:both; margin: 0 auto}
+
+#c01{width:190px; float:left; margin:18px 25px 0 7px; display:inline}
+#c02{width:195px; float:left; margin:18px 30px 0 0;}
+#c03{width:195px; float:left; margin:18px 0 0 0;}
+
+#content ul li{font:11px/14px Arial, Helvetica, sans-serif; background:url(../images/arrow.gif) 0 5px no-repeat; padding-left:16px; height:24px;}
+#content ul li a{color:#205757; text-decoration:none;}
+#content ul li a:hover{color:#205757; text-decoration:underline;}
+
+
+#welcome h2{height:19px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:16px}
+#welcome p {margin-bottom:15px; margin-left:3px}
+#welcome ul{margin-left:7px}
+
+#services h2{height:19px; position:relative; background:url(../images/h_services.gif) 0 0 no-repeat; margin-bottom:19px}
+#services img{float:left; margin-right:7px}
+#services p{margin-left:7px}
+#services p.headline{float:left; width:108px; padding-top:5px; margin-left:0}
+#services .clear {height:15px}
+
+#stories h2{height:19px; position:relative; background:url(../images/h_services.gif) 0 0 no-repeat; margin-bottom:19px}
+#stories img{float:left; margin-right:7px}
+#stories p{margin-left:7px; margin-bottom:10px}
+#stories p.headline{float:left; width:108px; padding-top:5px; margin-left:0; margin-bottom:0}
+#stories .clear {height:15px}
+#stories ul{margin-left:7px}
+
+.clear#end{height:15px}
+
+
+/* FOOTER */
+
+#footer{width:656px; height:56px; clear:both; background:#646874 }
+#footer p{padding: 12px 0 0 0; font:11px/16px Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p a{font:11px/16px Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#fff}

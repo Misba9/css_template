@@ -1,0 +1,106 @@
+* { margin: 0; padding: 0; }
+
+html
+{
+	color: #333333;
+	background-color: #ffffff;
+	font: normal 76%/1.6 "Lucida Grande", "Trebuchet MS", Verdana, Sans-Serif;
+}
+
+/* Links */
+
+a { text-decoration: none; font-weight: bold; border-bottom: 1px dotted #aaaaaa; }
+
+a:link { color: #2255aa; }
+
+a:visited { color: #6699ee; }
+
+a:hover, a:active { color: #aa3322; border-bottom-style: solid; }
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 { color: #551111; padding: 10px 0 5px; }
+
+h1 { font-size: 2.0em; }
+
+h2 { font-size: 1.8em; }
+
+h3 { font-size: 1.6em; }
+
+h4, h5 { font-size: 1.4em; }
+
+h6 { font-size: 1.0em; font-weight: bold; text-transform: uppercase; }
+
+/* Lists */
+
+ul
+{
+	margin: 10px 35px; 
+	line-height: 2.0em;
+	list-style-type: square;
+}
+
+ol
+{
+	margin: 10px 40px;
+	line-height: 2.0em;
+}
+
+dl
+{
+	margin: 10px 35px; 
+	line-height: 1.7em;
+}
+
+dt, dd { padding: 5px 0; }
+
+/* Other Html Elements */
+
+p
+{
+	margin: 15px 0; 
+	line-height: 1.6em;
+}
+
+abbr, acronym, cite, kbd
+{
+	cursor: help; 
+	font-style: normal;
+	border-bottom: 1px dotted #888888; 
+}
+
+pre { overflow: auto; }
+
+blockquote, pre
+{
+	margin: 20px 35px; 
+	padding: 5px 10px; 
+	background-color: #ffffff;
+	border: 1px solid #cfcfcf; 
+}
+
+code { font-family: Consolas, Monaco; }
+
+hr
+{
+	height: 1px;
+	clear: both;
+	visibility: hidden;
+}
+
+body
+{
+	padding: 0 10px; 
+}
+
+/* Who cares about navigation, sidebar, and footer in print? Nobody. */
+
+#navigation { display: none; }
+
+#sidebar { display: none; }
+
+#extras { display: none; }
+
+/* The header is more contentious, but we're showing the copyright block, so... */
+
+#header { display: none; }

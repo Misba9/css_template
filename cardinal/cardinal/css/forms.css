@@ -1,0 +1,20 @@
+/*
+$Id: forms.css 62 2007-03-26 22:08:53Z Massimo $
+*/
+
+form#access {
+	font-size: 76%;
+}
+
+form#access p {
+	margin: 0;
+	padding: 0;
+}
+
+form#access input {
+	font-family:  Verdana, Sans-Serif;
+	border: 1px solid #ccc;
+	background-color: #E5E5E5;
+	color: #000;
+	margin: 0 0.5em 0 0; padding: 0;
+}

@@ -1,0 +1,5 @@
+All pictures are from stock.xchng
+
+Logo.png, bg.png, wrapper_bg.png, footer_bg.png, next.gif, prev.gif -> me
+
+add.gif, delete.gif -> FamFam Mini Icons

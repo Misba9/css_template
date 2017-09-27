@@ -1,0 +1,13 @@
+Demo URL: http://www.realitysoftware.ca/demo/open_source_design/blacker/ 
+Download URL: http://www.realitysoftware.ca/demo/open_source_design/blacker/blacker.zip 
+Template Name: Blacker 
+Designers Name: Reality Software 
+Designers URL: http://www.realitysoftware.ca/ 
+Doctype Used: XHTML 1.0 Transitional 
+Layout Type: Fluid 
+Amount of Columns: 2 Columns 
+Colour Contrast: Dark on Light 
+Main Colours Used: orange, black, silver, gray, grey, white 
+Tag Category 1: Business 
+Tag Category 2: Corporate 
+I accept the template submission terms: I agree 

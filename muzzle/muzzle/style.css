@@ -1,0 +1,256 @@
+/* Joseph Spurling 2004 */
+
+/* .............................. */
+/* Basic layout */
+/* .............................. */
+
+body 		{
+        cursor: crosshair;
+		text-align: left;
+		width: 750px;
+		margin: auto;
+		margin-top: 10px;
+		font-family: Verdana,Arial,sans-serif;
+		font-size: 11px;
+		background-color: #737373;
+		}
+
+html, body {min-height:100.1%}
+
+
+#wrapper	{
+		float: left;	
+		width: 750px;	
+		background-color: #666666;
+		border: 1px solid black;
+		margin-bottom: 50px;
+		}
+
+/* .............................. */
+/* Link stylings */
+
+a		{
+		text-decoration: none;
+		color: #000;
+		}
+
+a:hover		{
+		text-decoration: underline;
+		border: none;
+		padding: 0px;
+		}
+
+/* .............................. */
+/* Wrapper elements */
+/* .............................. */
+
+#logo		{
+		width: 750px;
+		float: left;
+		clear: both;
+		}
+
+#menu		{
+		width: 750px;
+		float: left;
+		clear: both;
+		}
+
+#content 	{
+  		width: 505px;
+		float: left;
+		}
+
+#sidebar 	{
+		width: 220px;
+		float: right;
+		clear: right;
+		}
+
+
+#footer 	{
+		width: 750px;
+		float: left;
+		clear: both;
+		}
+/* .............................. */
+/* Logo */
+
+#logo     {
+        height: 100px;
+		background-color: #333333;
+		}
+
+#logo h1	{
+		margin: 0;
+		padding: 0;
+		padding-left: 20px;
+		font-size: 5em;
+		color: #BBBBBB;
+		}
+
+/* .............................. */
+/* Horizontal Menu */
+
+#menu		{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		margin-bottom: 10px;
+		width: 740px;
+        text-align: left;
+		background-color: #660000;
+		padding: 5px;
+		font-size: 13px;
+		}
+
+#menu a     {
+       color: #FFCC00;
+	   background-color: #660000;
+	   text-decoration: none;
+	   }
+
+#menu a:hover     {
+       color: #BBBBBB;
+	   }
+
+         
+
+/* .............................. */
+/* Main Content */
+
+
+#content a		{
+		text-decoration: underline;
+		color: #EEE;
+		}
+
+#content a:hover		{
+		text-decoration: none;
+		}
+		
+#content h1	{
+		font-size: 12px;
+		padding:0;
+		margin:0;
+		padding-bottom: 5px;
+		color: #FFFFCC;
+		}
+
+#content h2	{
+		font-size: 12px;
+		padding:0;
+		margin:0;
+		padding-bottom: 5px;
+		color: #aaa;
+		}
+
+#content	{
+		padding:0;
+		margin:0;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #EEE;
+		}
+		
+#content .header	{
+		border: 1px solid #000;
+		padding:2px;
+		width: 505px;
+		margin:0;
+		margin-bottom: 10px;
+		float: right;
+		background-color: #333333;
+		color: #BBBBBB;
+		font-size: 12px;
+        }
+		
+#content .entry	{
+		border-bottom: 1px solid #CCC;
+		border-top: 1px #FFF;
+		border-left: 1px #FFF;
+		border-right: 1px #FFF;
+		padding:10px;
+		margin:0;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+        }		
+
+#content img    {
+		border: 0px solid black;
+		margin-left: 5px;
+		}
+
+#content .icon  {
+        width: 50px;
+		height: 50px;
+		background-color: #333333;
+		float: left;
+		margin-right: 10px;
+		} 
+
+
+/* .............................. */
+/* Sidebar */
+
+#sidebar 
+         {
+		 font-size: 11px;
+		 }
+
+#sidebar h1
+        {
+		font-size: 11px;
+		padding:0;
+		margin:0;
+		color: #BBBBBB;
+		}
+
+#sidebar .sidebarbox	
+		{
+		float: right;
+		width: 180px;
+		border: 1px solid black;
+		padding: 5px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		background-color: #CCCCCC;
+		}
+
+#sidebar .header	
+		{
+		float: right;
+		width: 184px;
+		border: 1px solid black;
+		border-bottom: none;
+		padding: 3px;
+		background-color: #333333;
+		margin-right: 10px;
+		}
+		
+
+
+/* .............................. */
+/* Footer */
+
+#footer		{
+        width: 740px;		
+		text-align: center;
+		padding: 5px;
+		line-height: 1.5em;
+		font-size: 0.8em;
+		color: #BBBBBB;
+		background-color: #333333;
+		border-top: 1px solid #000;
+		margin-bottom: 0px;
+		}
+		
+#footer a		{
+		text-decoration: none;
+		color: #BBBBBB;
+		}
+
+#footer a:hover		{
+		text-decoration: underline;
+		border: none;
+		padding: 0px;
+		}

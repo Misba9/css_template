@@ -1,0 +1,24 @@
+.slider-carousel .info-bg1 {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slide1-info-bg.png', sizingMethod='scale');
+}
+.slider-carousel .info-bg2 {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slide2-info-bg.png', sizingMethod='scale');
+}
+.slider-carousel .info-bg3 {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slide3-info-bg.png', sizingMethod='scale');
+}
+.slider-carousel .info-bg4 {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slide4-info-bg.png', sizingMethod='scale');
+}
+.slider-carousel p.button-big a {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/button-big.png', sizingMethod='scale');
+}
+.ico-twitter {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/ico-twitter.png', sizingMethod='image');
+}

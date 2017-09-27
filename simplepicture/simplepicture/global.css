@@ -1,0 +1,274 @@
+/* SimplePicture - an open source xhtml/css website layout by Ben Goldman 
+(aka Robobuilder) - http://realalibi.com . You are free to use this template
+for any purpose as long as the proper credits are given for the original design work. 
+
+Version: 1.0, Spring 2007 
+
+Main Syle Colors
+colors {
+	#333333(dark gray), #3399CC(blue), #FFFFFF(white), 
+   #DFDFDF(light gray), #656565(gray)
+}
+*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font:13px "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#333;
+	background-color:#fff;	
+}
+.clearboth{
+	clear:both;
+}
+
+/*Layout Styles*/
+/*Header*/
+#header{
+	background-color:#333;
+	height:75px;
+	border-bottom:10px #dfdfdf solid;	
+}
+#header h1{
+	font:29px "Georgia", Times New Roman, Times, serif;
+	color:#fff;
+	padding:20px 0 0 50px;
+	letter-spacing:0.1em;
+}
+#header span{
+	color:#3399CC;
+}
+/*Content*/
+#container{
+  margin:0px 50px 0px 50px;
+  text-align:center;
+}
+#inner{
+  width: 100%;
+  padding: 0px;
+  text-align: left;
+  background-color: #fff;	
+  overflow: auto;
+}
+/*Blurb*/
+#blurb{
+	padding:10px;
+	border-bottom:10px #dfdfdf solid;
+	font-size:14.5px;
+	letter-spacing:.05em;	
+}
+.date{
+	background-color:#333;
+	padding:5px 8px;
+	float:left;
+	color:#fff;
+	font-variant:small-caps;
+	text-align:center;
+	margin:0 10px 5px 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.date span{
+	color:#3399cc;
+	display:block;
+	font-size:25px;
+	padding-top:2px;
+	font-variant:normal;
+}
+.date sup{
+	font-size:12px;
+}
+.blurb{
+	color:#656565;
+}
+/*Navigation*/
+#nav{
+	margin:10px 10px 10px 0;
+	width:200px;
+	float:left;
+}
+#nav h1{
+	color:#3399CC;
+	text-align:right;
+}
+#nav ul{
+	list-style-type:none;
+	font-size:17px;
+	margin:0 0 0 5px;
+}
+#nav ul li{
+	padding:1px;
+}
+#nav ul li a{
+	border-left:5px #dfdfdf solid;
+	padding:2px 3px;
+	color:#656565;
+	text-decoration:none;
+}
+#nav ul li a:hover{
+	color:#333;
+	text-decoration:none;
+}
+#nav ul li a.current{
+	border-left:5px #3399cc solid;
+	color:#333;
+	font-weight:bold;
+	text-decoration:none;
+}
+/*Contennt*/
+#content{
+	margin:18px 0px 10px 210px;
+	border-left:1px #dfdfdf solid;
+	padding:0 0 0 10px;
+	line-height:22px;
+}
+/*Footer*/
+#footer{
+	background-color:#333;	
+	border-top:10px #dfdfdf solid;
+	padding:5px 50px;
+	color:#fff;
+}
+/*Element Styles*/
+h1, h2, h3, h4, h5, h6{
+	color:#333;
+	padding:8px 0;
+}
+h1{
+	font-size:26px;
+}
+h2{
+	font-size:23px;
+}
+h3{
+	font-size:21px;
+}
+h4{
+	font-size:19px;
+}
+h5{
+	font-size:17px;
+}
+h6{
+	font-size:15px;
+	font-weight:bold;
+}
+p{
+	margin:4px 0 10px 0;
+}
+#container a{
+	color:#3399cc;
+	text-decoration:underline;
+}
+#container a:hover, #footer a:hover{
+	text-decoration:none;
+}
+#footer a{
+	color:#fff;
+}
+a img{
+	border:none;
+}
+code{
+	background-color:#dfdfdf;
+	display:block;
+	padding:5px;
+	border-left:3px #3399cc solid;
+}
+#content ol, #content ul{
+	padding:5px 0;
+}
+#content ol li,#content ul li{
+	margin-left:20px;
+}
+dt{
+	color:#3399cc;
+	font-weight:bold;
+	font-size:14px;
+	padding:2px 0;
+}
+dd{
+	padding-left:25px;
+}
+blockquote{
+	background:#dfdfdf;
+	padding:10px;
+	margin:12px 0;
+	font-weight:bold;
+}
+blockquote.red{
+	background:#cc0044 url("img/site/warning.gif") center left no-repeat;
+	color:#fff;
+	border:1px #AF003C solid;
+	padding-left:44px;
+}
+blockquote.blue{
+	background:#3399cc url("img/site/message.gif") center left no-repeat;
+	color:#fff;
+	border:1px #333 solid;
+	padding-left:44px;
+}
+blockquote.yellow{
+	background:#ffcc00 url("img/site/notice.gif") center left no-repeat;
+	color:#333;
+	border:1px #ffff66 solid;
+	padding-left:44px;
+}
+blockquote.green{
+	background:#66cc66 url("img/site/go.gif") center left no-repeat;
+	color:#333;
+	border:1px #66ff66 solid;
+	padding-left:44px;
+}
+/* Class Styles */
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+img.left , img.right {
+	margin:5px 8px;
+}
+.w50{
+	width:49%;
+}
+.blue{
+	color:#3399cc;
+}
+.indent{
+	border-left:3px #3399cc solid;
+	padding-left:5px;
+}
+.highlight{
+	color:#3399cc;
+	font-weight:bold;
+}
+/* Form Styles */
+form label{
+	display:block;
+}
+form input.text, form textarea{
+	width:375px;
+	border:2px #dfdfdf solid;
+	color:#656565;
+	padding:4px 5px;
+	font:12px Verdana,Arial,san-serif;
+}
+form input.text:hover, form textarea:hover{
+	border:2px #656565 solid;
+}
+form input.text:focus, form textarea:focus{
+	border:2px #3399cc solid;
+	color:#333;
+}
+form input.button{
+	margin-right:8px;
+	padding:3px 5px;
+	font:12px Verdana,Arial,san-serif;
+}
+* html form input.text,
+* html form textarea{
+	border-color:#656565;
+	color:#333;
+}

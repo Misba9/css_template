@@ -1,0 +1,105 @@
+/*
+Template Name: John Smith
+Coded By: Design Coder - http://www.design-coder.com/
+Design By: http://designm.ag/tutorials/one-page-portfolio-psd/
+Licence: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+*/
+
+body{margin:0; padding:0; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; color:#DDDBD9; background:url("../images/body_bg.jpg") top center no-repeat #161514;}
+
+img{margin:0; padding:0; border:none;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgl, .imgr{border:1px solid #272727; padding:5px;}
+.imgl{float:left; margin:0 10px 10px 0; clear:left;}
+.imgr{float:right; margin:0 0 10px 10px; clear:right;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left;}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0; padding:0; font-size:18px; font-weight:normal; line-height:normal;}
+
+.col1{border-top:1px solid #21211F;}
+.col1, .col1 a{color:#DDDBD9; background-color:#0D0D0C;}
+
+/* ----------------------------------------------Generalise-------------------------------------*/
+
+#header, .container, #copyright{position:relative; margin:0 auto; display:block; width:960px;}
+
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+
+#header h1{margin:0 0 30px 30px; padding:0; font-size:36px; line-height:normal;}
+#header h1 a{color:#DEDBD9; background-color:transparent;}
+#header h1 em{font-size:24px; color:#A7A5A4; background-color:transparent;}
+
+#header #topbar{display:block; margin:0; padding:10px 30px; background:url("../images/nav_bg.png") top left repeat #000000;}
+#header #topbar ul{margin:0; padding:0; list-style:none; float:left}
+#header #topbar li{display:inline; margin-right:25px;}
+#header #topbar li.last{ margin-right:0;}
+#header #topbar, #header #topbar li a{color:#A7A5A3; background-color:transparent; text-transform:lowercase; font-size:18px;}
+
+#header #topbar p{float:right; margin:0; padding:0;}
+#header #topbar p a{color:#7488EE; background-color:transparent; text-transform:none;}
+
+/* ----------------------------------------------Container-------------------------------------*/
+
+.container{padding:20px 0; line-height:1.4em;}
+.container h1, .container h2, .container h3, .container h4, .container h5, .container h6{margin:0 0 15px 0; color:#DDDB67; background-color:transparent;}
+
+/* ----------------------------------------------Services-------------------------------------*/
+
+.container .services{display:block; margin:0; padding:0 30px;}
+.container .services .box{display:block; float:left; width:270px; margin:0 45px 0 0; padding:0;}
+.container .services .last{margin:0;}
+
+/* ----------------------------------------------Gallery-------------------------------------*/
+
+.container .gallery{display:block; margin:0; padding:28px 0 0 28px; background:url("../images/gallery_bg.png"); border:1px solid #21211F;}
+.container .gallery ul{margin:0; padding:0; list-style:none;}
+.container .gallery ul li{display:block; float:left; width:280px; height:160px; margin:0 28px 28px 0; border:1px solid #21211F; overflow:hidden;}
+
+/* ----------------------------------------------About & Skills-------------------------------------*/
+
+.container #content{display:block; float:left; width:620px; padding:0 0 0 30px;}
+
+.container #column{display:block; float:right; width:230px; padding:0 30px 0 0}
+
+.container #column ul#skills{margin:25px 0 0 0; padding:0; list-style:none;}
+.container #column ul#skills li{display:block; width:100%; clear:both; margin-bottom:5px; color:#A7A5A3; background:url("../images/stars/sprite.gif") no-repeat;}
+.container #column ul#skills li.star0{background-position:100% -93px;}
+.container #column ul#skills li.star1{background-position:100% -73px;}
+.container #column ul#skills li.star2{background-position:100% -53px;}
+.container #column ul#skills li.star3{background-position:100% -35px;}
+.container #column ul#skills li.star4{background-position:100% -16px;}
+.container #column ul#skills li.star5{background-position:100% 4px;}
+
+/* ----------------------------------------------Contact & Back to top-------------------------------------*/
+
+.container #shout{display:block; margin:0 0 25px 0; padding:15px 30px; font-size:18px; font-style:italic; color:#A7A5A3; background-color:#0D0D0C; border:1px solid #21211F;}
+.container #shout a{color:#DDDB67; background-color:#0D0D0C;}
+
+.container #backtotop{padding:0 30px;}
+.container #backtotop a{color:#DDDB67; background-color:#161514; font-size:18px; font-style:italic; text-decoration:underline;}
+
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:25px 0; font-size:12px;}
+#copyright p{margin:0; padding:0;}
+#copyright p.fl_left{margin:0 0 0 30px;}
+#copyright p.fl_right{margin:0 30px 0 0;}

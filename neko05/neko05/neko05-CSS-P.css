@@ -1,0 +1,47 @@
+/***** BEGIN LICENSE BLOCK *****
+# 
+# This document is part of NEKODESIGN.NET
+#  css template : neko05
+# author : robin / robin[at]biboo.net
+#
+# this design in distribued under a "Attribution-NonCommercial-ShareAlike 2.0 France" Creative Commons licence :
+# http://creativecommons.org/licenses/by-nc-sa/2.0/fr/deed.en
+#
+# You are free:
+# * to Share — to copy, distribute and transmit the work
+# * to Remix — to adapt the work
+# Under the following conditions:
+# * Attribution : You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+# * Noncommercial : You may not use this work for commercial purposes.
+# * Share Alike : If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+#
+# For any reuse or distribution, you must make clear to others the license terms of this work.
+# Any of the above conditions can be waived if you get permission from the copyright holder.
+# Apart from the remix rights granted under this license, nothing in this license impairs or restricts the author's moral rights.
+#
+# Your fair dealing and other rights are in no way affected by the above.
+# This is a human-readable summary of the Legal Code : http://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode
+# 
+#
+# ***** END LICENSE BLOCK *****/
+/********************* positionning layout ***************************/
+/********************* positionning layout ***************************/
+
+/* Page
+********************************************/
+#page {
+	left: 50%;
+	margin-left: -465px;
+	position: absolute;
+	width: 930px;
+}
+
+#main {
+	float: left;
+	width: 630px;
+}
+
+#sidebar {
+	float: right;
+	width: 300px;
+}

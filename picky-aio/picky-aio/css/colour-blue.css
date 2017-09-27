@@ -1,0 +1,35 @@
+/*******************************************************************************************************************
+*  LINKS                                                                                                           
+*******************************************************************************************************************/
+a, a:link, a:focus {color:#1295d8;}
+a:hover {color:#000;}
+
+/*******************************************************************************************************************
+*  HEADER                                                                                                          
+*******************************************************************************************************************/
+#header a#logo {background:url("img/logo/blue.png") no-repeat 0 50%;}
+#header nav li.active a, #header nav li a:hover {border-color:#1295d8; background:#19bee7; color:#fff !important;} 
+#header nav li.active a span, #header nav li a:hover span {border-top:1px solid #19bee7;}
+
+/*******************************************************************************************************************
+*  INTRO                                                                                                          
+*******************************************************************************************************************/
+#intro {color:#fff; background-color:#19bee7;}
+
+/*******************************************************************************************************************
+*  OTHER STYLES                                                                                                    
+*******************************************************************************************************************/
+a.button {border:1px solid #1295d8; background:#19bee7; color:#fff;}
+a.button span {border-top:1px solid #32ffff;}
+
+/*******************************************************************************************************************
+*  CSS3                                                                                                    
+*******************************************************************************************************************/
+#header nav li.active a, #header nav li a:hover, #intro, a.button {
+    background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #19bee7), color-stop(100%, #1295d8)); 
+    background-image:-webkit-linear-gradient(top, #19bee7, #1295d8); 
+    background-image:-moz-linear-gradient(top, #19bee7, #1295d8); 
+    background-image:-ms-linear-gradient(top, #19bee7, #1295d8); 
+    background-image:-o-linear-gradient(top, #19bee7, #1295d8); 
+    background-image:linear-gradient(top, #19bee7, #1295d8); 
+}

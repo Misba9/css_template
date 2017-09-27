@@ -1,0 +1,170 @@
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 0;
+font : 73% "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #000;
+}
+			/*WRAP*/
+#wrapper {
+width : 750px;
+margin : 0 auto;
+border : 5px solid #fff;
+background : #eee url(img/sidebar.gif) repeat-y;
+color : #666;
+}
+			/*HEADER*/
+#header {
+width : 600px;
+height : 210px;
+float : right;
+margin : 0;
+background : #b2a591 url(img/banner.jpg) no-repeat;
+color : #666;
+}
+#banner {
+width : 100%;
+height : 35px;
+text-align: right;
+margin : 0;
+padding : 0;
+border-bottom : 1px solid #fff;
+color : #333;
+background : #369;
+}
+#banner a {
+margin : 5px;
+color : #fff;
+background : inherit;
+}
+#banner a:hover {
+color : #000;
+background : inherit;
+}
+			/*NAVIGATION*/
+#navcontainer {
+width : 150px;
+margin : 0 0 20px 0;
+}
+#navcontainer ul {
+margin-left : 0;
+padding-left : 0;
+list-style-type : none;
+}
+#navcontainer a {
+display : block;
+padding : 3px;
+width : 143px;
+border-bottom : 1px solid #eee;
+background : #369;
+color : #eee;
+}
+#navcontainer a:link, #navlist a:visited {
+color : #eee;
+background : #369;
+text-decoration : none;
+}
+#navcontainer a:hover {
+background : #036;
+color : #fff;
+}
+			/*SIDEBAR*/
+#sidebar {
+float : left;
+width : 150px;
+padding : 0;
+margin : 0;
+border-top : 1px solid #fff;
+font-size : 100%;
+line-height : 1.8em;
+background : #d1d4d7;
+color : #333;
+}
+			/*CONTENT*/
+#content {
+float : left;
+width : 570px;
+margin : 20px 0 0 20px;
+line-height : 1.8em;
+}
+			/*FOOTER*/
+#footer {
+clear : both;
+width : 600px;
+margin-left : 150px;
+padding-left : 5px;
+text-align : left;
+border-top : 5px solid #336699;
+}
+			/*TYPOGRAPHY*/
+p {
+margin : 10px 20px 10px 15px;
+color : #666;
+background-color : inherit;
+}
+h1 {
+margin : 0;
+padding : 20px;
+font-size : 200%;
+letter-spacing : 5px;
+color : #000;
+background : inherit;
+}
+h2 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 120%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #333;
+background : inherit;
+}
+h3 {
+margin : 10px 0 10px 15px;
+padding : 0 0 3px 3px;
+text-transform : uppercase;
+font-size : 120%;
+letter-spacing : 5px;
+color : #036;
+background : inherit;
+}
+blockquote {
+margin : 10px 20px 10px 15px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+			/*CLASS*/
+.img {
+margin : 0 0 10px 0;
+}
+.myborder {
+border : 1px solid #fff;
+padding : 5px;
+margin : 0 0 0 4px;
+}
+.myimg {
+float : left;
+border : 1px solid #eee;
+padding : 5px;
+margin : 5px 10px 10px 4px;
+}
+.mylogo {
+margin-right : auto;
+}
+			/*LINKS*/
+a, a:visited {
+text-decoration : none;
+color : #369;
+background : inherit;
+}
+a:hover {
+color : #333;
+background : inherit;
+}
+a img {
+border : none;
+}

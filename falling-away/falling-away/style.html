@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Falling Away - Styles</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="screen, tv, projection" href="css/html.css" />
+<link rel="stylesheet" type="text/css" media="screen, tv, projection" href="css/layout.css" />
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="css/ie6.css" media="screen, tv, projection" />
+<![endif]-->
+</head>
+<body>
+<div class="width100">
+  <div id="header" class="floatLeft width100">
+    <div class="floatLeft width25 rightBorder">
+      <div id="title">
+        <h1>Falling Away</h1>
+        <p> A tableless XHTML Strict 1.0 web template released under the <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons</a> license. </p>
+      </div>
+      <ul id="menu">
+        <li> <a href="#">The Template</a>
+          <ul>
+            <li><a href="#">Inspiration</a></li>
+            <li><a href="#">Coding</a></li>
+          </ul>
+        </li>
+        <li class="here"> <a href="#">Style Demo</a>
+          <ul>
+            <li><a href="style.html#tables">Tables &amp; Forms</a></li>
+            <li><a href="style.html#layout">Column Layout</a></li>
+          </ul>
+        </li>
+        <li> <a href="#">Photos</a> </li>
+        <li> <a href="#">Contact Me</a> </li>
+      </ul>
+    </div>
+    <div id="subMenu" class="floatRight width50">
+      <!-- Search Form: <label> and <input type="submit"> are for accessibility and are hidden by CSS -->
+      <form action="#" method="get" id="search">
+        <div>
+          <label for="searchTerm">Search Term:</label>
+          <input type="text" value="Search..." name="searchTerm" id="searchTerm" title="Start typing and hit ENTER" class="width25"/>
+          <input type="submit" value="Submit" title="Submit your search term" class="button"/>
+        </div>
+      </form>
+      <ul>
+        <li> <a href="#">Register/Login</a> </li>
+        <li> <a href="#">Need Help?</a> </li>
+        <li> <a href="#" class="iconRSS">Feed</a> </li>
+      </ul>
+    </div>
+  </div>
+  <div id="content">
+    <div class="floatLeft width100">
+      <div class="post floatLeft">
+        <div class="meta floatLeft width25">
+          <p> Style demo of some common XHTML elements. </p>
+        </div>
+        <div class="text floatRight width75">
+          <h1>Heading One</h1>
+          <h2>Heading Two</h2>
+          <h3>Heading Three</h3>
+          <p> A <a href="#">link</a>, <acronym title="">acronym</acronym>, <b class="highlight">highlight</b> and <del>deleted text</del>. </p>
+          <blockquote>
+            <p> This is a blockquote with author information included.  If you look at the source, you can see the author info gets its style from a combination of generic classes. <span class="block small"><a href="#">snop</a> on March 19th, 2006</span> </p>
+          </blockquote>
+          <ul class="arrow">
+            <li>Unordered List using "arrow" class</li>
+            <li>Uses a custom bullet to make items pop</li>
+          </ul>
+          <ol>
+            <li>Ordered List</li>
+            <li>Another bullet item</li>
+          </ol>
+        </div>
+      </div>
+      <div class="post floatLeft">
+        <div class="meta floatLeft width25">
+          <p> Big links class that can be used for large, clickable sections. </p>
+        </div>
+        <div class="text floatRight width75">
+          <h1>Big Links</h1>
+          <ul class="bigLinks">
+            <li> <a href="#"> <span class="title">Link One</span> <span class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean placerat lacus vitae ipsum. Integer odio orci, sagittis eget, blandit sit amet, varius vel, nisi.</span> </a> </li>
+            <li> <a href="#"> <span class="title">Link Two</span> <span class="desc">Sed neque odio, egestas ac, sagittis ut, auctor id, dolor. Ut luctus ullamcorper neque. </span> </a> </li>
+            <li> <a href="#"> <span class="title">Link Three</span> <span class="desc">Phasellus quis libero eget dui elementum cursus. Cras iaculis urna eget ipsum. Ut eleifend, sem ac fermentum consectetuer, elit magna tristique sem, a accumsan dui purus id elit.</span> </a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="post floatLeft"> <a name="tables"></a>
+        <div class="meta floatLeft width25">
+          <p> Tables and form layout demo because data is good. </p>
+        </div>
+        <div class="text floatRight width75">
+          <h1>Tables and Forms</h1>
+          <table summary="This table holds demo data to show how a styled table looks in the template.">
+            <caption>
+            Table Caption: A description could go here
+            </caption>
+            <thead>
+              <tr>
+                <th class="width30">Application</th>
+                <th>Description</th>
+                <th class="width10 aCenter">Version</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Product Name</td>
+                <td>Some Description text</td>
+                <td class="alignRight">1.0</td>
+              </tr>
+              <tr class="dark">
+                <td>Different Product Name</td>
+                <td>Some Longer Description text that wraps around to show vertical alignment. Some Longer Description text that wraps around to show vertical alignment</td>
+                <td class="alignRight">2.0</td>
+              </tr>
+              <tr>
+                <td>Product Name</td>
+                <td>Some Description text</td>
+                <td class="alignRight">3.0</td>
+              </tr>
+            </tbody>
+          </table>
+          <form id="dummy" action="#" method="post">
+            <p>
+              <label>Select Label</label>
+              <select name="dummy2">
+                <option value="1">Ottawa</option>
+                <option value="2">Calgary</option>
+                <option value="3">Moosejaw</option>
+              </select>
+            </p>
+            <p>
+              <label>Field Label</label>
+              <input type="text" name="dummy1" class="width50"/>
+            </p>
+            <p>
+              <label>Textarea Label</label>
+              <textarea name="dummy3" rows="5" cols="20" class="width50"></textarea>
+            </p>
+            <p>
+              <label>&nbsp;</label>
+              <input type="submit" value="Submit" class="button"/>
+              <input type="reset" value="Reset" class="button"/>
+            </p>
+          </form>
+        </div>
+      </div>
+      <div class="post floatLeft"> <a name="layout"></a>
+        <div class="meta floatLeft width25">
+          <p> Column Layout Demo.  In this case, they've been confined to a 75% width container, but it's no problem to have the columns expand across 100% of the template width. </p>
+        </div>
+        <div class="text floatRight width75">
+          <h1>Column Layout</h1>
+          <p> Below are some examples of how the columns in this template can be combined and positioned. </p>
+          <h2>3 Columns</h2>
+          <div class="width25 floatLeft rightMargin">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris magna. Suspendisse accumsan elit non tellus. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. </p>
+          </div>
+          <div class="width25 floatLeft rightMargin">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris magna. Suspendisse accumsan elit non tellus. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. </p>
+          </div>
+          <div class="width25 floatRight highlight">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris magna. Suspendisse accumsan elit non tellus. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. </p>
+          </div>
+          <h2>2 Columns</h2>
+          <div class="width25 floatLeft rightMargin">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris magna. Suspendisse accumsan elit non tellus. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. </p>
+          </div>
+          <div class="width50 floatLeft">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris magna. Suspendisse accumsan elit non tellus. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. </p>
+          </div>
+          <h2>2 Columns, using Big Links</h2>
+          <div class="width50 floatLeft rightMargin">
+            <ul class="bigLinks">
+              <li> <a href="#"> <span class="title">Link One</span> <span class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean placerat lacus vitae ipsum. Integer odio orci, sagittis eget, blandit sit amet, varius vel, nisi.</span> </a> </li>
+              <li> <a href="#"> <span class="title">Link Two</span> <span class="desc">Sed neque odio, egestas ac, sagittis ut, auctor id, dolor. Ut luctus ullamcorper neque. </span> </a> </li>
+              <li> <a href="#"> <span class="title">Link Three</span> <span class="desc">Phasellus quis libero eget dui elementum cursus. Cras iaculis urna eget ipsum. Ut eleifend, sem ac fermentum consectetuer, elit magna tristique sem, a accumsan dui purus id elit.</span> </a> </li>
+            </ul>
+          </div>
+          <div class="width25 floatRight">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris magna. Suspendisse accumsan elit non tellus. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. </p>
+            <p> Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. </p>
+          </div>
+          <h2>1 Column</h2>
+          <div class="width75 floatLeft">
+            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris magna. Suspendisse accumsan elit non tellus. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. Curabitur eros justo, malesuada convallis, sagittis vitae, convallis sit amet, lectus. Fusce tristique mattis ante. Aenean facilisis euismod dui. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="floatRight width75">
+    <ul>
+      <li class="first"> <a href="#">The Template</a> </li>
+      <li> <a href="#">Style Demo</a> </li>
+      <li> <a href="#">Photos</a> </li>
+      <li> <a href="#">Contact Me</a> </li>
+    </ul>
+    <p> Released under the <a target="_blank" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons License</a>.  Valid <a target="_blank" href="http://validator.w3.org/check?uri=referer">XHTML</a> &amp; <a target="_blank" href="http://jigsaw.w3.org/css-validator">CSS</a>.<br/>
+      Design by <a href="http://fullahead.org">FullAhead</a>.   Photo by <a href="http://www.sxc.hu/profile/claudmey">Claudia Meyer</a>. </p>
+  </div>
+</div>
+</body>
+</html>

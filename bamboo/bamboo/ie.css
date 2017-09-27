@@ -1,0 +1,8 @@
+#col2 #featured_post {
+	position: relative;
+	top:-70px;
+	z-index: 50;
+	
+}
+#col3 {margin:0 305px 0 199px; padding-top:35px; }
+#page {margin-left:34px; background:url(images/pagebg.jpg) repeat;}

@@ -1,0 +1,64 @@
+/*************************************************
+  AUTHOR: Luke Symes (luke.wpDesign.org)
+  PURPOSE: Style page using a green color scheme.
+*************************************************/
+
+a {
+color:#027C00;
+}
+
+a:hover {
+color:#03B100;
+}
+
+h3 {
+color:#287C00;
+}
+
+h4 {
+color:#027C00;
+}
+
+img {
+border-color:#D4FFBF;
+}
+
+img:hover {
+border-color:#03B100;
+}
+
+#header-{
+background:url(../img/green/hdr-colour.png) top repeat-x;
+}
+
+#navbar, #navbar li a {
+background:#C0FFBF url(../img/green/navbar.png) bottom repeat-x;
+}
+
+#navbar li a {
+color:#007C52;
+}
+
+#navbar li a:hover, #navbar li.current a {
+background:#81FF80;
+color:#027C00;
+}
+
+.sideContent li a {
+background:#C0FFBF url(../img/green/side-link.png) bottom repeat-x;
+border:1px solid #81FF80;
+color:#027C00;
+}
+
+.sideContent li a:hover {
+background:#81FF80;
+border-color:#03B100;
+}
+
+#footer {
+background:url(../img/green/ftr-colour.png) bottom repeat-x;
+}
+
+#header, #footer {
+background-color:#03B100;
+}

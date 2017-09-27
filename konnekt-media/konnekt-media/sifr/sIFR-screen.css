@@ -1,0 +1,42 @@
+.sIFR-flash {
+	visibility:visible !important;
+	margin:0;
+}
+.sIFR-replaced {
+	visibility:visible !important;
+}
+span.sIFR-alternate {
+	position:absolute;
+	left:0;
+	top:0;
+	width:0;
+	height:0;
+	display:block;
+	overflow:hidden;
+}
+.sIFR-flash + div[adblocktab=true] {
+	display:none !important;
+}
+.sIFR-hasFlash h1 {
+	visibility:hidden;
+}
+.sIFR-hasFlash h2 {
+	visibility:hidden;
+	letter-spacing:-9px;
+	font-size:55px;
+}
+.sIFR-hasFlash h3 {
+	visibility:hidden;
+	letter-spacing:-6px;
+	font-size:25px;
+}
+.sIFR-hasFlash h4 {
+	visibility:hidden;
+	letter-spacing:-5px;
+	font-size:21px;
+}
+.sIFR-hasFlash h5#pullquote {
+	letter-spacing:-4px;
+	visibility:hidden;
+	font-size:24px;
+}

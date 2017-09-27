@@ -1,0 +1,68 @@
+/*************************************************
+  AUTHOR: Luke Symes (luke.wpDesign.org)
+  PURPOSE: Fix some rendering bugs in Internet Explorer.
+*************************************************/
+
+* html body {
+/* Allow IE's lower than IE 6 to center the layout */
+text-align:center;
+}
+
+* html .widthLiquid {
+/* max-width hack for IE since it doesn't understand the valid css property */
+width: expression(document.body.clientWidth > 1000 ? "1000px" : "90%"); 
+}
+
+* html #wrap1 {
+/* Reset text-align for page */
+text-align:left;
+}
+
+.cnr, .shdw, .ShdwHoriz {
+/* Allow IE to correctly size absolutely positioned boxes */
+font-size:0;
+}
+
+* html .cnr {
+/* Give IE6 & below a GIF as it can't handle PNG's without a script */
+background-image:url(../img/rounded/rounded-corners.gif);
+}
+
+.BL, .BR {
+bottom:-1px;
+}
+
+* html #navbar li a {
+/* Give "layout" (give width not height, or horizontal menu will break) */
+width:1%;
+
+/* Don't wrap text */
+white-space:nowrap;
+}
+
+* html .sideContent {
+/* Needed for sideContent to display fully - dumb IE */
+position:relative;
+}
+
+* html a.thumbnail {
+/* Give linked thumbnails a border in IE - floatLeft or floatRight must be applied to <a>*/
+padding:2px;
+
+/* Layout is needed */
+width:1%;
+}
+
+* html a.thumbnail img {
+/* Reset img styles for IE */
+border:0;
+margin:0;
+padding:0;
+}
+
+/* Start IE Mac hide \*/
+.sideContent li a, #footer, * html #wrap2, * html #navbar, * html #contentWrap, * html #mainContent, * html .sideContent {
+/* Give "layout" to correct rendering issues */
+height:1%;
+}
+/* End IE Mac Hide */

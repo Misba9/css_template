@@ -1,0 +1,65 @@
+.box-holder-content blockquote {
+	margin:15px 30px 5px 30px;
+}
+.sIFR-hasFlash h1.h1-main-page {
+	font-size:44px;
+}
+.sIFR-hasFlash h2.h2-main-page {
+	font-size:28px;
+	line-height:28px;
+}
+div.box-holder h1 {
+	font-size:24px;
+}
+.left-column .title {
+	height:90px;
+}
+.left-column ul.left-content {
+	top:-30px;
+}
+.left-column ul.left-content li a.quote {
+	margin-bottom:-20px;
+	position:relative;
+}
+.left-column ul.left-content li a.brochure {
+	margin-bottom:-20px;
+	position:relative;
+}
+.left-column address {
+	position:relative;
+	top:-30px;
+	overflow:hidden;
+}
+div.address-force-up {
+	position:relative;
+	top:-30px;
+}
+.form-contact input.send {
+	height:47px;
+}
+img.map {
+	margin-top:0;
+	top:-15px;
+	position:relative;
+}
+.sIFR-hasFlash h1 {
+	visibility:hidden;
+	font-size:32px;
+	padding:0;
+	line-height:32px;
+}
+.sIFR-hasFlash h2 {
+	visibility:hidden;
+	font-size:28px;
+	line-height:28px;
+	margin:20px 0;
+}
+.sIFR-hasFlash h3 {
+	visibility:hidden;
+	font-size:20px;
+	line-height:20px;
+	margin:15px 0;
+}
+.sIFR-hasFlash .title h4 {
+	font-size:20px;
+}

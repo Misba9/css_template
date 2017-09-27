@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Yoga Theme</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../css/screen.css" media="screen">
+</head>
+
+<body>
+    <div id="container">
+    	<div id="columnContainer" class="clearfix">
+    	<div id="columnContainerTop" class="clearfix">
+        	<div id="content">
+            	<!-- TemplateBeginEditable name="content" -->
+            	<h1>Header 1</h1>
+                <h2>header 2</h2>
+                <p>Lorem ipsum dolor sit amet, <a href="#">consectetuer</a> adipiscing elit. Vestibulum eu lectus non odio suscipit aliquam. Aenean sit amet purus ac lorem rutrum porta. Maecenas tempus enim at arcu. In ut ante eu lorem ullamcorper molestie. Sed semper egestas tortor. Proin imperdiet erat non leo. Proin aliquet. Proin fermentum odio ac orci. Vestibulum id nulla eu lorem viverra scelerisque. Sed non risus. Duis pellentesque pharetra urna. Sed luctus lacus mollis mauris dignissim rutrum.</p>
+            	<ul>
+                	<li>list 1</li>
+                    <li>list 2</li>
+                    <li>list 3</li>
+            	</ul>
+            	<ol>
+                	<li>number 1</li>
+                    <li>number</li>
+                  <li>number 3</li>
+            	</ol>
+                <h3>header 3</h3>
+                <p>Proin mi. Donec volutpat orci sit amet erat. Nam quis nisl id risus tincidunt eleifend. Quisque nulla eros, bibendum sit amet, malesuada sit amet, placerat fringilla, purus. In semper. Nulla condimentum ante semper magna faucibus volutpat. Sed viverra egestas lectus. Phasellus scelerisque, dui non semper luctus, est erat sodales risus, in sodales tortor magna a urna. Sed quis purus. Sed bibendum enim sed enim. Suspendisse tempus. Curabitur vitae augue nec lacus cursus placerat. Proin porta blandit arcu. Quisque mauris ligula, lacinia consectetuer, vestibulum et, semper quis, nisl. In nec justo ut lectus faucibus iaculis. Nunc nec eros at elit ornare semper. Ut est sapien, tristique ut, iaculis vitae, luctus nec, augue. Ut sapien. Morbi scelerisque.</p>
+                 <h4>header 4</h4>
+                <p>Proin mi. Donec volutpat orci sit amet erat. Nam quis nisl id risus tincidunt eleifend. Quisque nulla eros, bibendum sit amet, malesuada sit amet, placerat fringilla, purus. In semper. Nulla condimentum ante semper magna faucibus volutpat. Sed viverra egestas lectus. Phasellus scelerisque, dui non semper luctus, est erat sodales risus, in sodales tortor magna a urna. Sed quis purus. Sed bibendum enim sed enim. Suspendisse tempus. Curabitur vitae augue nec lacus cursus placerat. Proin porta blandit arcu. Quisque mauris ligula, lacinia consectetuer, vestibulum et, semper quis, nisl. In nec justo ut lectus faucibus iaculis. Nunc nec eros at elit ornare semper. Ut est sapien, tristique ut, iaculis vitae, luctus nec, augue. Ut sapien. Morbi scelerisque.</p>
+                <h5>header 5</h5>
+              <p>Lorem ipsum dolor sit amet, <a href="#">consectetuer</a> adipiscing elit. Vestibulum eu lectus non odio suscipit aliquam. Aenean sit amet purus ac lorem rutrum porta. Maecenas tempus enim at arcu. In ut ante eu lorem ullamcorper molestie. Sed semper egestas tortor. Proin imperdiet erat non leo. Proin aliquet. Proin fermentum odio ac orci. Vestibulum id nulla eu lorem viverra scelerisque. Sed non risus. Duis pellentesque pharetra urna. Sed luctus lacus mollis mauris dignissim rutrum.</p>
+			<!-- TemplateEndEditable -->
+			</div>
+            <div id="sideNav">
+            	<div align="center"><strong>Navigate Our Yoga Site				</strong>
+          	  </div>
+            	<ul>
+                	<li><a href="../index.html">HOME Page</a></li>
+                    <li><a href="../about-us.html">About Us</a></li>
+					<li><a href="../insidepage.html">Inside Page 1</a></li>
+					<li><a href="../insidepage.html">Inside Page 2</a></li>
+                    <li><a href="../yoga-sites.html">Other Yoga Sites</a></li>
+            	</ul>
+				<!--  Begin Right Sidebar Ads -->
+				<p>
+				<script type="text/javascript"><!--
+google_ad_client = "pub-5596258944536347";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text_image";
+//2007-08-24: free-yoga-template
+google_ad_channel = "2205090054";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "b4880e";
+google_color_text = "666666";
+google_color_url = "b4880e";
+google_ui_features = "rc:6";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</p>
+<!--  END Right Sidebar Ads -->
+
+          </div>
+        </div>
+        <div id="footer">
+            <hr />
+            <p>Yoga Theme Navigation: <a href="../index.html">Home</a> :: <a href="../sitemap.html">Sitemap</a> :: <a href="../insidepage.html">Inside Page 1</a> :: <a href="../about-us.html">About Us</a> :: <a href="../yoga-sites.html">Other Yoga Sites</a> </p>
+			<p><!-- TemplateBeginEditable name="additional-footer" --><!-- TemplateEndEditable --></p>
+			
+		  </div>
+        </div>
+    	<div id="header">&nbsp;</div>
+    </div>
+</body>
+</html>

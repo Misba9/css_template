@@ -1,0 +1,36 @@
+/*
+$Id: color.css 63 2007-03-26 22:11:03Z Massimo $
+*/
+
+body { 
+	color: #4B4B4B;
+	background: #AFAFAF;
+}
+
+#container {
+	background-color: #E5E5E5;
+	background-image: url(../img/body.gif);
+	background-repeat: repeat-y;
+	color: #4B4B4B;
+}
+
+#header-{
+	color: #fff;
+	background-color: #800;
+	background-image: url(../img/header.gif);
+}
+
+#login {
+	color: #fff;
+	background: #000 url(../img/login.gif) no-repeat 0 50%;
+}
+
+#nav {
+	color: #fff;
+}
+
+#footer {
+	color: #fff;
+	background: #000 url(../img/footer.gif) no-repeat left bottom;
+}
+

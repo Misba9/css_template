@@ -1,0 +1,8 @@
+#slider .jcarousel-prev {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slider-arrow-left.png', sizingMethod='image');
+}
+#slider .jcarousel-next {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slider-arrow-right.png', sizingMethod='image');
+}

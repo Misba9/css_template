@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #515151 url('bg.jpg') fixed repeat-x;
+	color: #5a6b79;
+	font: 0.7em Tahoma, Arial, Verdana, sans-serif;
+}
+
+p {
+	margin: 1.5em 0 0;
+	line-height: 1.5em;
+	text-align: justify;
+}
+h1 {
+	color: #535966;
+	font: italic 1.8em "New York", Georgia, Tahoma, Arial, Verdana, sans-serif;
+	margin: 0 0 .8em;
+}
+h2 {
+	color: #a10000;
+	font: 1em Georgia, Tahoma, Arial, Verdana, sans-serif;
+	margin: 0 0 1.5em;
+}
+blockquote {
+	margin: 1.5em 0 0 1.4em;
+	padding: 0 0 0 .7em;
+	background: url('bg_quote.jpg') no-repeat 20px 7px;
+	border-left: 7px solid #71777c;
+	font: 10px Tahoma, Arial, Verdana, sans-serif;
+	line-height: 1.3em;
+	color: #4d5760;
+	text-align: justify;
+}
+
+#header {
+	background: url('bg_header.jpg') no-repeat;
+	height: 103px;
+	margin: 0 auto;
+	width: 450px;
+}
+#header ul {
+	height: 32px;
+	list-style: none;
+	width: 450px;
+}
+#header ul li {
+	float: left;
+	list-style: none;
+	padding: 72px 0 0 !important;
+	padding: 71px 0 0;
+}
+#header ul li a {
+	border-bottom: 1px solid #f9f9f9;
+	color: #848ea4;
+	display: block;
+	font: bold 1.1em/31px 'Trebuchet MS', Arial, Verdana, sans-serif;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+}
+#header ul li a:hover {
+	background: url('bg_li.gif') repeat-x;
+	color: #475779;
+}
+
+#content {
+	margin: 0 auto;
+	background: url('bg_content.jpg') repeat-y;
+	height: auto;
+	padding: 35px 14px 0 55px;
+	width: 381px;
+}
+#content a {
+	text-decoration: none;
+	border-bottom: 1px dotted #999;
+	color: #932828;
+}
+#content a:hover{
+	border-bottom: 1px dotted #999;
+	color: #f9f9f9;
+}
+#content ul {
+	list-style-image: url(list.gif);
+	padding: 0 9px 0 12px !important;
+	padding: 0 9px 0 17px;
+	margin: 1.5em 0 0;
+	line-height: 1.3em;
+}
+#content img {
+	margin: 1.5em 0 0;
+	padding: 5px;
+	border: 1px solid #c1a0a0;
+}
+
+#footer {
+	background: url('bg_footer.jpg') no-repeat;
+	color: #f9f9f9;
+	font: 0.9em Tahoma, Arial, Verdana, sans-serif;
+	height: 25px;
+	margin: 0 auto;
+	padding: 55px 5px 0 0;
+	text-align: right;
+	width: 445px;
+}
+#footer a {
+	text-decoration: underline;
+	color: #f9f9f9;
+}
+#footer a:hover {
+	text-decoration: none;
+}

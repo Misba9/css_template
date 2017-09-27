@@ -1,0 +1,37 @@
+#content {
+	_height:600px;
+	_margin-left:4px; 
+} 
+
+#searchform {
+_padding-right:63px;
+}
+	
+.entry ul li {
+_padding-left:8px;  
+}	
+	
+blockquote {
+_height:30px;
+}
+
+#header-bottom {
+_padding-top:5px;
+}
+
+#sidebar #searchform #s {
+_width:150px; 
+}
+
+#hb-popular-post {
+_margin-left:12px; 
+}
+
+#hb-contactus {
+_margin-left:50px;
+}
+
+#header-bottom {
+_height:185px; 
+}	
+

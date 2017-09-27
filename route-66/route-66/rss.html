@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Route 66 RSS</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<!-- ##### BEGIN LAYOUT ##### -->
+<div id="container">
+  <!-- ##### BEGIN header-##### -->
+  <div id="header">
+    <h1>Route 66</h1>
+  </div>
+  <!-- ##### END header-##### -->
+  <div id="wrapper">
+    <div id="content">
+      <div id="maintext">
+        <!-- ##### BEGIN CONTENT ##### -->
+        <span class="pagename">RSS Feed</span> <br />
+        <span class="headline">RSS Feed with PHP and lastRSS</span>
+        <blockquote>Create a RSS Feed with PHP and last RSS, a simple powerful PHP class to parse RSS. Just follow the few easy steps below.</blockquote>
+        <h4>Step 1:</h4>
+        <p>Download <strong>lastRSS</strong> from <a href="http://lastrss.oslab.net/">here</a>!</p>
+        <h4>Step 2:</h4>
+        <p>Copy and paste the code below in your site, where you want the RSS Feed to appear. Use for the site the file extension <strong>*.php</strong> instead of *.html, e.g. <strong>index.php</strong>.</p>
+        <div class="scrollbox"> &lt;?php<br />
+          /*<br />
+          ======================================================================<br />
+          lastRSS usage DEMO<br />
+          ======================================================================<br />
+          */<br />
+          <br />
+          // include lastRSS<br />
+          include "./lastRSS.php";<br />
+          <br />
+          // Create lastRSS object<br />
+          $rss = new lastRSS;<br />
+          <br />
+          // Set cache dir and cache time limit (1200 seconds)<br />
+          // (don't forget to chmod cache dir to 777 to allow writing)<br />
+          $rss-&gt;cache_dir = './temp';<br />
+          $rss-&gt;cache_time = 1200;<br />
+          <br />
+          // Limit number of returned items. 0 (zero) means "no limit"<br />
+          $rss-&gt;items_limit = 5;<br />
+          <br />
+          // Try to load and parse RSS file of The Open Designs Community<br />
+          if ($rs = $rss-&gt;get('http://www.openDesigns.org/Design-feed/')) {<br />
+          <br />
+          &nbsp;&nbsp;&nbsp;// Show clickable website title<br />
+          &nbsp;&nbsp;&nbsp;echo "&lt;h4&gt;&lt;a href=\"$rs[link]\"&gt;$rs[title]&lt;/a&gt;&lt;/h4&gt;\n";<br />
+          <br />
+          &nbsp;&nbsp;&nbsp;// Show last published articles (title, link, description)<br />
+          &nbsp;&nbsp;&nbsp;echo "";<br />
+          &nbsp;&nbsp;&nbsp;foreach($rs['items'] as $item) {<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo "\t&lt;p&gt;&lt;a href=\"$item[link]\"&gt;".$item['title']."&lt;/a&gt;&lt;br /&gt;".$item['description']."&lt;/p&gt;\n";<br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+          &nbsp;&nbsp;&nbsp;echo "&lt;/ul&gt;\n";<br />
+          &nbsp;&nbsp;&nbsp;}<br />
+          else {<br />
+          &nbsp;&nbsp;&nbsp;echo "Error: It's not possible to reach RSS file...\n";<br />
+          }<br />
+          ?&gt;<br />
+          <br />
+        </div>
+        <h4>Step 3:</h4>
+        <p>Change the following lines to your need:</p>
+        <p>$rss-&gt;items_limit = <strong>5</strong>; (number of returned items)</p>
+        <p>if ($rs = $rss-&gt;get('<strong>http://www.openDesigns.org/Design-feed/</strong>')) (URL of RSS Feed).</p>
+        <h4>Step 4:</h4>
+        <p>Upload the files to your server, create a folder named <strong>cache</strong> and CHMOD it to 777 and <strong>you're done</strong>!</p>
+        <!-- ##### END CONTENT ##### -->
+      </div>
+    </div>
+  </div>
+  <!-- ##### BEGIN LEFT COLUMN ##### -->
+  <div id="leftcolumn">
+    <!-- ##### BEGIN NAVIGATION ##### -->
+    <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="cms.html">A Simple CMS</a></li>
+      <li><a href="contact.html">Contact Form</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="rss.html">RSS feed</a></li>
+      <li><a href="template.html">Page Template</a></li>
+    </ul>
+    <!-- ##### END NAVIGATION ##### -->
+    <div class="infobox">
+      <h4>News</h4>
+      <!-- ##### BEGIN NEWS ##### -->
+      Here goes your text...
+      <!-- ##### END NEWS ##### -->
+    </div>
+  </div>
+  <!-- ##### END LEFT COLUMN ##### -->
+  <!-- ##### BEGIN FOOTER ##### -->
+  <div id="footer"> &copy; Copyright 2007 by Your Name | Design by <a href="http://www.wfiedler-online.de">wfiedler</a> </div>
+  <!-- ##### END FOOTER ##### -->
+</div>
+<!-- ##### END LAYOUT ##### -->
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* CSS Document */
+body{ margin:0px; padding:0px; background:#A0A0A3;}
+p{ margin:0px; padding:0px;}
+img{ border:0px;}
+
+#mainblock{  width:1000px; margin: auto;}
+#innerblock{ width:1000px; float:left; background:#002D41 url(../images/main_1px.jpg) repeat-x;}
+
+
+a:hover{ text-decoration: underline;}
+.topblock{ display:inline; clear:left; float:left;  width:900px; margin:95px 0px 0px 49px;}
+.tp_bg1{ display:inline; clear:left; float:left; background: url(../images/tp_bg1.jpg) no-repeat; width:900px; height:146px;}
+.tp_logo{ clear:left; float:left; margin:26px 0px 0px 38px;}
+.tp_hme{ float:left; width:70px; font: bold 11px/15px arial; color:#6E6E6E; margin:45px 0px 0px 75px; text-decoration:none;}
+.tp_hme1{ float:left; width:75px; font: bold 11px/15px arial; color:#6E6E6E; margin:45px 0px 0px 50px; text-decoration:none;}
+.tp_we{ clear:left; float:left; margin:90px 0px 0px 4px;}
+.we_txt{ clear:left; float:left; width:323px; font: 11px/15px arial; color:#000; margin:26px 0px 0px 25px; text-decoration:none;}
+
+.tp_abt{ float:left; width:50px; font: bold 11px/15px arial; color:#6E6E6E; margin:43px 0px 0px 20px; text-decoration:none;}
+.tp_abt1{ float:left; width:60px; font: bold 11px/15px arial; color:#6E6E6E; margin:43px 0px 0px 20px; text-decoration:none;}
+.tp_cont{ float:left; width:85px; font: bold 11px/15px arial; color:#6E6E6E; margin:43px 0px 0px 40px; text-decoration:none;}
+.tp_cont1{ float:left; width:100px; font: bold 11px/15px arial; color:#fff; margin:43px 0px 0px 20px; text-decoration:none;}
+.abt_hme{ clear:left; float:left; width:70px; font: bold 11px/15px arial; color:#fff; margin:45px 0px 0px 15px; text-decoration:none;}
+.abt_abt{ float:left; width:72px; font: bold 11px/15px arial; color:#382900; margin:43px 0px 0px 33px; text-decoration:none;}
+.sch_box{ float:left; width:140px; height:20px; background:#595958; border:1px solid #676867; margin:38px 0px 0px 45px;}
+.tp_prot{ clear:left; float:left; margin:110px 0px 0px 398px;}
+.sch_img{ float:left; margin:42px 0px 0px 15px;}
+.tp_click{ clear:left; float:left; width:150px; font: bold 11px/15px arial; color:#000; margin:14px 0px 0px 532px; text-decoration:none;}
+.down_arw{ float:left; margin:66px 0px 0px 15px;}
+.down_arw1{ float:left; margin:15px 0px 0px 15px;}
+
+
+
+.cp_div{ display: inline; clear:left; float:left; width:900px; background:#fff; padding-bottom:20px; margin-left:49px;}
+.lp_div{ display:inline; clear:left; float:left; width:336px; }
+.lp_img{ clear:left; float:left; margin:0px 0px 0px 0px;}
+.lates_1px{ clear:left; float:left; width:271px; background:#C3EBEF url(../images/lates_1px.jpg) repeat-x; margin-left:26px; padding-bottom:15px;}
+.lp_lates{ clear:left; float:left; margin:15px 0px 0px 20px;}
+.lates_txt{ float:left; width:200px; font: 11px/15px arial; color:#076493; margin:15px 0px 0px 20px; text-decoration:none; }
+.lp_news{ clear:left; float:left; margin:15px 0px 0px 30px;}
+.news_txt{ clear:left; float:left; width:250px; font: 11px/15px arial; color:#646464; margin:15px 0px 0px 30px; text-decoration:none; }
+.news_box{ clear:left; float:left; width:240px; height:20px; border:1px solid #C6C6C6; margin:20px 0px 0px 30px;}
+.news_sign{ clear:left; float:left; margin:20px 0px 0px 115px;}
+
+
+.rp_div{ display:inline; float:left; width:564px; }
+.rp_wel{ clear:left; float:left; margin:10px 0px 0px 0px;}
+.wel_txt{ clear:left; float:left; width:510px; font: 11px/15px arial; color:#646464; margin:20px 0px 0px 0px; text-decoration:none;}
+.part_bg{ clear:left; float:left; width:529px; height:153px;  background:url(../images/part_bg.jpg) no-repeat; margin:15px 0px 0px 0px;}
+.rp_part{ clear:left; float:left; margin:20px 0px 0px 25px;}
+.part_img1{ clear:left; float:left; margin:20px 0px 0px 25px;}
+.part_img2{ float:left; margin:20px 0px 0px 25px;}
+.part_txt{ clear:left; float:left; width:80px; font: 11px/15px arial; color:#708D94; margin:5px 0px 0px 40px; text-decoration:none;}
+.part_txt2{ float:left; width:80px; font: 11px/15px arial; color:#708D94; margin:5px 0px 0px 45px; text-decoration:none;}
+.rp_main{ clear:left; float:left; margin:20px 0px 0px 0px;}
+.main_txt{ clear:left; float:left; width:300px; font: 11px/15px arial; color:#2879AB; margin:5px 0px 0px 0px; text-decoration:none;}
+.rp_vieww{ clear:left; float:left; margin:15px 0px 0px 0px;}
+.lates_img1{ clear:left; float:left; margin:15px 0px 0px 0px;}
+.lates_img2{ float:left; margin:15px 0px 0px 20px;}
+
+.desi_1px{ clear:left; float:left; width:271px; background:#F0F4F4 url(../images/desi_1px.jpg) repeat-x; margin-left:26px; padding-bottom:15px;}
+.desi_txt{ clear:left; float:left; width:250px; font: 11px/15px arial; color:#646464; margin:15px 0px 0px 10px; text-decoration:none; }
+.testi_img1{ clear:left; float:left; margin:20px 0px 0px 0px;}
+.testi_txt{ float:left; width:400px; font: 11px/15px arial; color:#646464; margin:20px 0px 0px 20px; text-decoration:none; }
+
+
+.ft_bg{ display: inline; clear:left; float:left; width:900px; margin-left:49px; height:100px;}
+.ft_bar{ float:left; margin:32px 0px 0px 15px;}
+.ft_home{ clear:left; float:left; width:60px; font: 11px/15px tahoma; color:#426D81; margin:29px 0px 0px 250px; text-decoration:none; }
+.ft_dom{ float:left; width:65px; font: 11px/15px tahoma; color:#426D81; margin:29px 0px 0px 15px; text-decoration:none;}
+.ft_copy{ clear:left; float:left; width:290px; font: 11px/15px tahoma; color:#216077	; margin:8px 0px 0px 300px;}
+.ft_dom1{ float:left; width:70px; font: 11px/15px tahoma; color:#426D81; margin:29px 0px 0px 15px; text-decoration:none;}
+.ft_spl{ float:left; width:50px; font: 11px/15px tahoma; color:#426D81; margin:29px 0px 0px 15px; text-decoration:none;}
+
+

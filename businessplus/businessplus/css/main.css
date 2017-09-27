@@ -1,0 +1,324 @@
+h2.title {
+	font-size:22px;
+	color:#362A1C;
+}
+/*CENTER BODY*/
+.centerbody {
+	width:860px;
+	border:10px solid #F2F0F0;
+	float:left;
+	padding:10px;
+	background:#FFF;	
+}
+.insidebody {
+	margin:10px 0 0 0;
+}
+
+/*LEFT STYLE*/
+.left {
+	width:550px;
+	float:left;
+}
+.latest_work p {
+	line-height:18px;
+	margin:22px 0 0 0;
+}
+.latest_work h3 {
+	font-size:15px;
+	margin:20px 0 0 0;
+}
+.latest_work p.stat {
+	background:#F5F5F5;
+	padding:6px;	
+	margin:10px 0 0 0;
+}
+.latest_work p.stat a:link, a:visited {
+	text-decoration:none;
+	color:#333;
+}
+.latest_work p.stat a:hover {
+	text-decoration:none;
+	color:#656D09;
+}
+.latest_work img {
+	border:1px solid #f2f0f0;
+}
+
+/*RIGHT STYLE*/
+.right {
+	width:260px;
+	float:left;
+	margin:0 0 0 40px;
+}
+.aboutus {
+	margin:0 0 22px 0;
+}
+.aboutus p {
+	line-height:18px;
+	margin:22px 0 0 0;
+}
+.aboutus img {
+	border:8px solid #F5F5F5;
+	margin:0 0 6px 0;
+}
+
+.clientsays {
+	margin:0 0 22px 0;
+}
+.clientsays p {
+	line-height:18px;
+	margin:22px 0 0 0;
+}
+.clientsays p.client_title {
+	color:#68720a;
+	font-style:italic;
+	text-align:right;
+	margin:4px 0 0 0;
+	padding:0;
+	font-size:13px;
+}
+.clientsays p.client_title a:link {
+	color:#68720a;
+	font-style:italic;
+	text-align:right;
+	margin:4px 0 0 0;
+	padding:0;
+	font-size:13px;
+	text-decoration:none;
+}
+.clientsays p.client_title a:visited {
+	color:#68720a;
+	font-style:italic;
+	text-align:right;
+	margin:4px 0 0 0;
+	padding:0;
+	font-size:13px;
+	text-decoration:none;
+}
+.clientsays p.client_title  a:hover {
+	color:#646D09;
+	font-style:italic;
+	text-align:right;
+	margin:4px 0 0 0;
+	padding:0;
+	font-size:13px;
+}
+
+
+/*BLACK BG BUTTOM*/
+.black_btm {
+	background:#000;
+	margin:0 0 0 0;
+	padding:35px 0 25px 0;
+}
+.insidebtm {
+	width:900px; margin:0 auto;
+}
+.insidebtm h2 {
+	color:#999;
+	font-size:18px;
+	font-weight:normal;
+	margin:0 0 20px 0;
+}
+
+/*FLICKER*/
+.flicker {
+	width:250px;
+	float:left;
+	margin:0 0 50px 0;
+}
+.flicker ul {
+	margin:15px 0 0 0;
+	float:left;
+}
+.flicker ul li {
+	margin:0 15px 0 0;
+	float:left;
+}
+
+/*WEBRESOURCES*/
+.webresources {
+	width:350px;
+	float:left;
+	margin:0 0 0 20px; 
+}
+.webresources ul {
+	float:left;
+}
+.webresources ul li {
+	margin:15px 0 0 0;
+}
+.webresources span {
+	font-style:italic;
+}
+.webresources a:link {
+	color:#666;
+	text-decoration:none;
+}
+.webresources a:visited {
+	color:#666;
+	text-decoration:none;
+}
+.webresources a:hover {
+	color:#999;
+	text-decoration:none;
+}
+
+/*LOREM IPSUM*/
+.loremipsum {
+	width:250px;
+	float:left;
+	margin:0 0 50px 5px; 
+}
+.loremipsum p {
+	line-height:18px;
+	margin:10px 0 0 0;
+	float:left;
+}
+
+/*SERVICES SIDEPAGE*/
+.services {
+	margin:0 0 22px 0;
+}
+.services p {
+	line-height:18px;
+	margin:22px 0 0 0;
+}
+.services p.stitle {
+	font-weight:bold;
+	margin:22 0 0 0;
+	font-size:14px;
+}
+.services p.sdesc {
+	margin:8px 0 15px 0;
+	line-height:18px;
+}
+.services p.sdesc span {
+	color:#FF0000;
+}
+.services p.sdesc a:link {
+	color:#FF0000;
+	text-decoration:none;
+}
+.services p.sdesc a:visited {
+	color:#FF0000;
+	text-decoration:none;
+}
+.services p.sdesc a:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}
+
+/*ABOUT US PAGE*/
+.aboutus_page p {
+	line-height:18px;
+	margin:22px 0 0 0;
+}
+.aboutus_page h3 {
+	font-size:17px;
+	margin:20px 0 0 0;
+	letter-spacing:-1px;
+}
+.aboutus_page p.stat {
+	background:#F5F5F5;
+	padding:6px;	
+	margin:10px 0 0 0;
+}
+.aboutus_page img {
+	border:1px solid #f2f0f0;
+	float:left;
+	margin:0 10px 10px 0;
+}
+.aboutus_page p.bg_aboutus {
+	padding:10px;
+	background:#EEE;
+}
+
+/*SERVICES PAGE*/
+.services_page p {
+	line-height:18px;
+	margin:22px 0 0 0;
+}
+.services_page h3 {
+	font-size:17px;
+	margin:20px 0 0 0;
+	letter-spacing:-1px;
+}
+.services_page p.stat {
+	background:#F5F5F5;
+	padding:6px;	
+	margin:10px 0 0 0;
+}
+.services_page img {
+	border:1px solid #f2f0f0;
+	float:left;
+	margin:0 10px 10px 0;
+}
+.services_page p.bg_aboutus {
+	padding:10px;
+	background:#EEE;
+}
+
+/*CONTACT US PAGE*/
+.contact_page p {
+	line-height:18px;
+}
+.contact_page h3 {
+	font-size:17px;
+	margin:20px 0 0 0;
+	letter-spacing:-1px;
+}
+.contact_page p.bg_aboutus {
+	padding:10px;
+	background:#EEE;
+}
+.moreinfo {
+	background:#EEE;
+	padding:10px;
+	margin:0 0 50px 0;
+}
+.moreinfo a:link {
+	text-decoration:none;
+	color:#646D09;
+}
+.moreinfo a:visited {
+	text-decoration:none;
+	color:#646D09;
+}
+.moreinfo a:hover {
+	text-decoration:underline;
+	color:#646D09;
+}
+
+/*BACK TO TOP*/
+
+.backtop { 
+	width:880px;
+	padding:10px;
+	margin:20px auto 0;
+	text-align:right;
+	}
+
+	
+
+.backtop a:link {
+	background:#000;
+	color:#666;
+	text-decoration:none;
+	padding:10px;
+	clear:both;
+}
+.backtop a:visited {
+	background:#000;
+	color:#666;
+	text-decoration:none;
+	padding:10px;
+	clear:both;
+}
+.backtop a:hover {
+	background:#000;
+	color:#999;
+	text-decoration:none;
+	padding:10px;
+	clear:both;
+}

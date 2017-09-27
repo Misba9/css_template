@@ -1,0 +1,86 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#16171b; color:#616161; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#8fbc34; text-decoration:none;}
+p a:hover{ color:#000; text-decoration:none;}
+
+.headline{font:10px/14px Tahoma, Geneva, sans-serif; color:#8fbc34; font-weight:bold}
+
+#container{width:775px; position:relative; margin:0 auto; border:#fff 1px solid}
+#incontainer{width:736px; position:relative; margin:0 auto;}
+
+/* menu */
+
+#menuPan{width:736px; height:36px; position:relative}
+
+#menuPan ul.menu{position:absolute; top:0; left:0; width:736px}
+#menuPan ul.menu li{height:36px; margin-right:42px; float:left}
+#menuPan ul.menu li a{height:36px; display:block; text-indent:-20000px; }
+#menuPan ul.menu li a:hover{height:36px;}
+
+#menuPan ul.menu li.btn_1 a{width:101px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_1 a:hover{width:101px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_2 a{width:89px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_2 a:hover{width:89px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_3 a{width:89px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_3 a:hover{width:89px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_4 a{width:80px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_4 a:hover{width:80px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_5 a{width:83px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_5 a:hover{width:83px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_6{margin-right:0}
+#menuPan ul.menu li.btn_6 a{width:83px; background:url(../images/btn_6.gif) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_6 a:hover{width:83px; background:url(../images/btn_6_over.gif) 0 0 no-repeat;}
+
+/* top */
+
+#topPan{width:736px; height:94px; position:relative; background:url(../images/b_top.gif) 0 0 repeat-x}
+
+#topPan img#logo{position:absolute; top:19px; left:22px}
+#topPan img#slogan{position:absolute; top:30px; left:488px}
+
+/* header */
+
+#header{width:736px; height:255px;}
+
+/* content */
+
+#content{width:736px; background:#FFF url(../images/b_content.gif) 0 0 repeat-x; position:relative}
+
+#leftPan{width:225px; float:left; margin:23px 42px 0 22px; display:inline}
+#middlePan{width:178px; float:left; margin:23px 22px 0 0; }
+#rightPan{width:225px; float:left; margin:23px 0 0 0;}
+
+#welcome h2{height:21px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:10px}
+#welcome img{margin-bottom:12px;}
+#welcome p{width:215px; margin-left:5px}
+#welcome p.headline{margin-bottom:10px}
+
+#services h2{height:49px; position:relative; background:url(../images/h_services.gif) 0 0 no-repeat; margin-bottom:10px}
+#services ul{width:177px; margin-left:1px}
+#services ul li{font:10px/14px Tahoma, sans-serif; background:url(../images/check.gif) 0 3px no-repeat; padding-left:23px; height:22px;}
+#services ul li a{color:#8fbc34; text-decoration:none;}
+#services ul li a:hover{color:#000; text-decoration:underline;}
+
+#featproject h2{height:21px; position:relative; background:url(../images/h_project.gif) 0 0 no-repeat; margin-bottom:10px}
+#featproject img{margin-bottom:12px;}
+#featproject p{width:215px; margin-left:5px}
+#featproject p.headline{margin-bottom:10px}
+
+.clear#end{height:20px}
+
+/* footer */
+
+#footer{height:62px; clear:both; width:775px; background:#e1e4e9}
+#footer p{padding: 15px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
+#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#000}

@@ -1,0 +1,89 @@
+/**************************************************************
+   AUTHOR:  Luke Symes (luke.wpDesign.org)
+   PURPOSE: Styles the page for print.  Techniques adopted from
+            http://www.alistapart.com/articles/goingtoprint/
+ **************************************************************/
+#navbar, .sideContent, #footer {
+display:none;
+}
+
+#wrap1 {
+width:auto;
+margin:0 5%;
+}
+
+#wrap2 {
+padding:0;
+}
+
+img {
+border:1px solid #000;
+}
+
+img.floatLeft {
+margin:5px 15px 5px 5px;
+float:left;
+}
+
+img.floatRight {
+margin:5px 5px 5px 15px;
+float:right;
+}
+
+body {
+font:400 12pt/1.5 "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+color:#000;
+background:#FFF;
+}
+
+#header-{
+border:1px solid #777;
+}
+
+h1 {
+font-size:18pt;
+margin:0;
+padding:0.75em 1em 0;
+}
+
+h2 {
+font-size:16pt;
+margin:0;
+padding:0 1.125em 0.85em;
+}
+
+h3 {
+font-size:14pt;
+border-bottom:1px solid #777;
+line-height:1.286em;
+margin:1.286em 0;
+}
+
+h4, h5, h6 {
+font-size:12pt;
+border-bottom:1px solid #777;
+}
+
+p {
+font-size:1em;
+margin:1em 0 2em;
+}
+
+acronym {
+border:0;
+}
+
+a {
+color:#00F;
+}
+
+/* Prints the URL after a link in CSS2 supporting browsers */
+a:link:after, 
+a:visited:after {
+content:" (" attr(href) ") ";
+font-size:90%;
+}
+
+a.longLink:link:after, a.longLink:visited:after {
+content:"";
+}

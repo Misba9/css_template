@@ -1,0 +1,15 @@
+#slider {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/slider-bg.png', sizingMethod='image');
+}
+.jcarousel-prev {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/prev.png', sizingMethod='image');
+}
+.jcarousel-next {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/next.png', sizingMethod='image');
+}
+#slider .free {
+	background-image:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='css/images/free.png', sizingMethod='image');

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Route 66 CMS</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<!-- ##### BEGIN LAYOUT ##### -->
+<div id="container">
+  <!-- ##### BEGIN header-##### -->
+  <div id="header">
+    <h1>Route 66</h1>
+  </div>
+  <!-- ##### END header-##### -->
+  <div id="wrapper">
+    <!-- ##### BEGIN CONTENT ##### -->
+    <div id="content">
+      <div id="maintext"> <span class="pagename">Create a Simple CMS</span> <br />
+        <span class="headline">How to create a simple CMS with PHP</span>
+        <blockquote>If you're in need of a <strong>CMS</strong> (Content Management System) for small sites based on PHP and flat files (*.txt), just follow the <strong>5 steps</strong> below to create a <strong>really simple</strong> one within <strong>a few minutes</strong>.</blockquote>
+        <h4>Requirements:</h4>
+        <ul>
+          <li>A custom-made <a href="#">website template</a> or a self-made one</li>
+          <li>A <a href="#">source code editor</a></li>
+          <li><a href="#">PHP</a> installed on your server</li>
+        </ul>
+        <h4>Step 1:</h4>
+        <p>Rename your index.html/index.htm to <strong>index.php</strong> and put the code below at the very beginning of the page.</p>
+        <code> &lt;?php<br />
+        <br />
+        /* The variable below is an array of valid pages. When you add a new page, it must be added to this array. */<br />
+        <br />
+        $validPages = array(<br />
+        '<strong>news</strong>',<br />
+        '<strong>about</strong>',<br />
+        '<strong>gallery</strong>',<br />
+        '<strong>links</strong>',<br />
+        '<strong>contact</strong>'<br />
+        );<br />
+        ?&gt;<br />
+        &lt;!-- HTML code begins here &nbsp;--&gt;<br />
+        &lt;!DOCTYPE html PUBLIC etc... </code>
+        <h4>Step 2:</h4>
+        <p>Create the navigation list as shown below. Study exactly the code, how the additional pages will be created according to the array of valid pages shown in <strong>Step 1</strong>.</p>
+        <code> &lt;!-- ##### BEGIN NAVIGATION ##### --&gt;<br />
+        <br />
+        &lt;ul id="menu"&gt;<br />
+        &lt;li&gt;&lt;a href="index.php"&gt;Home&lt;/a&gt;&lt;/li&gt;<br />
+        &lt;li&gt;&lt;a href="index.php?p=<strong>news</strong>"&gt;News&lt;/a&gt;&lt;/li&gt;<br />
+        &lt;li&gt;&lt;a href="index.php?p=<strong>about</strong>"&gt;About us&lt;/a&gt;&lt;/li&gt;<br />
+        &lt;li&gt;&lt;a href="index.php?p=<strong>gallery</strong>"&gt;Gallery&lt;/a&gt;&lt;/li&gt;<br />
+        &lt;li&gt;&lt;a href="index.php?p=<strong>links</strong>"&gt;Links&lt;/a&gt;&lt;/li&gt;<br />
+        &lt;li&gt;&lt;a href="index.php?p=<strong>contact</strong>"&gt;Contact&lt;/a&gt;&lt;/li&gt;<br />
+        &lt;/ul&gt;<br />
+        <br />
+        &lt;!-- ##### END NAVIGATION ##### --&gt; </code>
+        <h4>Step 3:</h4>
+        <p>Copy and paste the code below, where your content goes, whereas <strong>home.txt</strong> will be the default content for the index.php.</p>
+        <code> &lt;!-- ##### BEGIN CONTENT ##### --&gt;<br />
+        <br />
+        &lt;?php<br />
+        if (isset($_GET['p']) &amp;&amp; in_array($_GET['p'], $validPages) &amp;&amp; file_exists("includes/" . $_GET['p'] . ".txt")) {<br />
+        <br />
+        include("includes/" . $_GET['p'] . ".txt");<br />
+        } else {<br />
+        <br />
+        include("includes/<strong>home.txt</strong>");<br />
+        }<br />
+        ?&gt;<br />
+        <br />
+        &lt;!-- ##### END CONTENT ##### --&gt; </code>
+        <h4>Step 4:</h4>
+        <p>With a normal <a href="#">source code editor</a> create your content files <strong>home.txt</strong>, <strong>about.txt</strong>, <strong>gallery.txt</strong>, <strong>links.txt</strong> and <strong>contact.txt</strong> and  store them in a folder named <strong>includes</strong>.</p>
+        <p>Fill in your content in the individual *.txt files using usual HTML code and CSS for formatting, for e.g.:</p>
+        <code> &lt;h1&gt;Welcome to our Homepage!&lt;/h1&gt;<br />
+        <br />
+        &lt;p&gt;Here goes your text...&lt;/p&gt;<br />
+        <br />
+        &lt;p&gt;&lt;a href="http://www.openDesigns.org"&gt;Open Designs&lt;/a&gt;&lt;/p&gt; </code>
+        <h4>Step 5:</h4>
+        <p>Upload the files (<strong>index.php</strong> and folder <strong>includes</strong> with the *.txt.files) to your host via <a href="#">FTP</a> and <strong>you're done</strong>!</p>
+        <p>Update the content of your sites by simply editing the individual *.txt files and upload them again.</p>
+        <p>If you want more sites, edit the index.php as described in Step 1 as well as the navigation list (Step 2), create the additional *.txt files and upload them to your server.</p>
+        <h4>Tips:</h4>
+        <p>For the <strong>News</strong> section in the right column you can use a simple PHP include, for e.g.:</p>
+        <code> &lt;!-- ##### BEGIN NEWS ##### --&gt;<br />
+        <br />
+        <strong>&lt;?php include("includes/shortnews.txt"); ?&gt;</strong><br />
+        <br />
+        &lt;!-- ##### END NEWS ##### --&gt; </code>
+        <p>Create a <strong>shortnews.txt</strong> file, fill in the content and store it as well in the <strong>includes</strong> folder on your server.</p>
+        <p>If you want internal links, use e.g. HTML code like this:</p>
+        <code> &lt;a href="<strong>index.php?p=news</strong>"&gt;Read more...&lt;/a&gt; </code>
+        <p>If you want to expand your little CMS, use a small web-based <strong>file manager</strong> written in PHP like <a href="#">ile Thingie</a>, in order to edit and upload files, to create new folders etc. directly on your server <strong>without FTP</strong>.</p>
+        <p>With the power of PHP you can have a simple working CMS for small sites within a few minutes and a few steps, using only one page. Isn't that easy?</p>
+        <h4>Credits:</h4>
+        <p><a href="#">InfernoForums</a> (Site Templating System Using PHP - Version 1)</p>
+      </div>
+    </div>
+    <!-- ##### END CONTENT ##### -->
+  </div>
+  <!-- ##### BEGIN LEFT COLUMN ##### -->
+  <div id="leftcolumn">
+    <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="cms.html">Create a Simple CMS</a></li>
+      <li><a href="contact.html">Contact Form</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="rss.html">RSS feed</a></li>
+      <li><a href="page.html">Empty Page</a></li>
+    </ul>
+    <div class="infobox">
+      <h4>News</h4>
+      HTML, short for Hypertext Markup Language, is the predominant markup language for the creation of web pages. It provides a means to describe the structure of text-based information in a document - by denoting certain text as headings, paragraphs, lists, and so on - and to supplement that text with interactive forms, embedded images, and other objects.
+      <p><a href="#">Read more...</a></p>
+    </div>
+  </div>
+  <!-- ##### END LEFT COLUMN ##### -->
+  <!-- ##### BEGIN FOOTER ##### -->
+  <div id="footer"> &copy; Copyright 2007 by Your Name | Design by <a href="http://www.wfiedler-online.de">wfiedler</a> </div>
+  <!-- ##### END FOOTER ##### -->
+</div>
+<!-- ##### END LAYOUT ##### -->
+</body>
+</html>

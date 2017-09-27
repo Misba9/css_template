@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Route 66 Contact</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<!-- ##### BEGIN LAYOUT ##### -->
+<div id="container">
+  <!-- ##### BEGIN header-##### -->
+  <div id="header">
+    <h1>Route 66</h1>
+  </div>
+  <!-- ##### END header-##### -->
+  <div id="wrapper">
+    <div id="content">
+      <div id="maintext">
+        <!-- ##### BEGIN CONTENT ##### -->
+        <span class="pagename">Contact Form</span> <br />
+        <span class="headline">A simple Contact form with PHP</span>
+        <blockquote>A simple secure PHP form-to-email script, which web browsers and bots can't get to! You can use it for multiple fields, without making any changes to the script.</blockquote>
+        <h4>Requirements:</h4>
+        <ul>
+          <li>A <a href="#">source code editor</a></li>
+          <li><a href="#">PHP</a> installed on your server.</li>
+        </ul>
+        <h4>Example:</h4>
+        <!-- ##### BEGIN CONTACT FORM ##### -->
+        <form id="myform" class="contact" action="#" method="post">
+          <div id="contactleft"> Name:<br />
+            <input name="Name" class="input" type="text" id="user" value="" />
+            <br />
+            Company:<br />
+            <input name="Company" class="input" type="text" id="company" value="" />
+            <br />
+            Phone:<br />
+            <input name="Phone" class="input" type="text" id="phone" value="" />
+            <br />
+            E-mail:<br />
+            <input name="Mail" class="input" type="text" id="email" value="" />
+          </div>
+          <div id="contactright"> Comments/Questions:<br />
+            <textarea name="Comments" id="comments" cols="" rows=""></textarea>
+            <p>
+              <input class="button" type="submit" value="Send Query" />
+            </p>
+          </div>
+        </form>
+        <br class="clear" />
+        <!-- ##### END CONTACT FORM ##### -->
+        <h4>Step 1:</h4>
+        <p>Copy and paste the PHP code below in a <a href="#">source code editor</a> and save it as <strong>FormToEmail.php</strong>. Please <strong>don't remove</strong> the Copyright notice!</p>
+        <div class="scrollbox">
+          <pre>
+
+&lt;?php
+
+/*
+
+COPYRIGHT FormToEmail.com 2003 - 2006
+
+You are not permitted to sell this script, but you can use it, copy it or distribute it, providing that you do not delete this copyright notice, and you do not remove any reference to FormToEmail.com
+
+*/
+
+$my_email = "YourName@YourSiteName.com";
+
+$continue = "/";
+
+// &nbsp;Initialise variables
+
+$errors = array();
+
+if($_SERVER['REQUEST_METHOD'] == "POST"){$form_input = $_POST;}elseif($_SERVER['REQUEST_METHOD'] == "GET"){$form_input = $_GET;}else{exit;}
+
+// Remove leading whitespace from all values.
+
+function recursive_array_check(&amp;$element_value)
+{
+
+if(!is_array($element_value)){$element_value = ltrim($element_value);}
+else
+{
+
+foreach($element_value as $key =&gt; $value){$element_value[$key] = recursive_array_check($value);}
+
+}
+
+return $element_value;
+
+}
+
+recursive_array_check($form_input);
+
+// Check referrer is from same site.
+
+if(!(isset($_SERVER['HTTP_REFERER']) &amp;&amp; !empty($_SERVER['HTTP_REFERER']) &amp;&amp; stristr($_SERVER['HTTP_REFERER'],$_SERVER['HTTP_HOST']))){$errors[] = "You must enable referrer logging to use the form";}
+
+// Check for a blank form.
+
+function recursive_array_check_blank($element_value)
+{
+
+global $set;
+
+if(!is_array($element_value)){if(!empty($element_value)){$set = 1;}}
+else
+{
+
+foreach($element_value as $value){if($set){break;} recursive_array_check_blank($value);}
+
+}
+
+}
+
+recursive_array_check_blank($form_input);
+
+if(!$set){$errors[] = "You cannot send a blank form";}
+
+// Strip HTML tags from all fields.
+
+function recursive_array_check2(&amp;$element_value)
+{
+
+if(!is_array($element_value)){$element_value = strip_tags($element_value);}
+else
+{
+
+foreach($element_value as $key =&gt; $value){$element_value[$key] = recursive_array_check2($value);}
+
+}
+
+return $element_value;
+
+}
+
+recursive_array_check2($form_input);
+
+// Validate name field.
+
+if(isset($form_input['name']) &amp;&amp; !empty($form_input['name']))
+{
+
+if(preg_match("`[\r\n]`",$form_input['name'])){$errors[] = "You have submitted an invalid new line character";}
+
+if(preg_match("/[^a-z' -]/i",stripslashes($form_input['name']))){$errors[] = "You have submitted an invalid character in the name field";}
+
+}
+
+// Validate email field.
+
+if(isset($form_input['email']) &amp;&amp; !empty($form_input['email']))
+{
+
+if(preg_match("`[\r\n]`",$form_input['email'])){$errors[] = "You have submitted an invalid new line character";}
+
+if(!preg_match('/^([a-z][a-z0-9_.-\/\%]*@[^\s\"\)\?&lt;&gt;]+\.[a-z]{2,6})$/i',$form_input['email'])){$errors[] = "Email address is invalid";}
+
+}
+
+// Display any errors and exit if errors exist.
+
+if(count($errors)){foreach($errors as $value){print "$value&lt;br&gt;";} exit;}
+
+// Build message.
+
+function build_message($request_input){if(!isset($message_output)){$message_output = "";}if(!is_array($request_input)){$message_output = $request_input;}else{foreach($request_input as $key =&gt; $value){if(!is_numeric($key)){$message_output .= "\n\n".$key.": ".build_message($value);}else{$message_output .= "\n\n".build_message($value);}}}return $message_output;}
+
+$message = build_message($form_input);
+
+$message = $message . "\n\n-- \nThank you for using FormToEmail from http://FormToEmail.com";
+
+$message = stripslashes($message);
+
+$subject = "FormToEmail Comments";
+
+$headers = "From: " . $form_input['email'] . "\n" . "Return-Path: " . $form_input['email'] . "\n" . "Reply-To: " . $form_input['email'] . "\n";
+
+mail($my_email,$subject,$message,$headers);
+
+?&gt;
+
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;title&gt;Form To Email PHP script from FormToEmail.com&lt;/title&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"&gt;
+&lt;/head&gt;
+
+&lt;body bgcolor="#ffffff" text="#000000"&gt;
+
+&lt;div&gt;
+&lt;center&gt;
+&lt;b&gt;Thank you &lt;?php print stripslashes($form_input['name']); ?&gt;&lt;/b&gt;
+&lt;br&gt;Your message has been sent
+&lt;p&gt;&lt;a href="&lt;?php print $continue; ?&gt;"&gt;Click here to continue&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;FormToEmail&lt;/b&gt; by &lt;a href="http://FormToEmail.com"&gt;FormToEmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+        </div>
+        <h4>Step 2:</h4>
+        <p>Change line <strong>$my_email = "YourName@YourSiteName.com";</strong> and fill in your E-mail address.</p>
+        <p>Upload the files to you're server and <strong>you're done</strong>!</p>
+        <h4>Credits:</h4>
+        <p><a href="#">FormToEmail</a></p>
+        <!-- ##### END CONTENT ##### -->
+      </div>
+    </div>
+  </div>
+  <!-- ##### BEGIN LEFT COLUMN ##### -->
+  <div id="leftcolumn">
+    <!-- ##### BEGIN NAVIGATION ##### -->
+    <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="cms.html">Create a Simple CMS</a></li>
+      <li><a href="contact.html">Contact Form</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="rss.html">RSS feed</a></li>
+      <li><a href="template.html">Page Template</a></li>
+    </ul>
+    <!-- ##### END NAVIGATION ##### -->
+    <div class="infobox">
+      <h4>News</h4>
+      <!-- ##### BEGIN NEWS ##### -->
+      HTML, short for Hypertext Markup Language, is the predominant markup language for the creation of web pages. It provides a means to describe the structure of text-based information in a document - by denoting certain text as headings, paragraphs, lists, and so on - and to supplement that text with interactive forms, embedded images, and other objects.
+      <p><a href="#">Read more...</a></p>
+      <!-- ##### END NEWS ##### -->
+    </div>
+  </div>
+  <!-- ##### END LEFT COLUMN ##### -->
+  <!-- ##### BEGIN FOOTER ##### -->
+  <div id="footer"> &copy; Copyright 2007 by Your Name | Design by <a href="http://www.wfiedler-online.de">wfiedler</a> </div>
+  <!-- ##### END FOOTER ##### -->
+</div>
+<!-- ##### END LAYOUT ##### -->
+</body>
+</html>

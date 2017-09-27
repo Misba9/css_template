@@ -1,0 +1,243 @@
+/* --------------- Einstellung für alle Elemente ---------------*/
+html * { 
+			margin: 0; 
+			padding:0; 
+		}
+
+body {
+	background: url(images/bg_body.jpg) left top repeat-x #faffe5;
+	text-align: center;
+	font-size: 82.50%;
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	color: #333;
+}
+
+#page {
+	margin: 0px auto 0px auto;
+	width:760px;
+	text-align: left;
+}
+
+/* --------------- Topmenue oben rechts---------------*/
+#topmenue {
+	clear: left;
+	float: left;
+	width: 760px;
+	height: 38px;
+	overflow: hidden;
+}
+
+#topmenue ul {
+	clear: both;
+	float: right;
+	margin: 10px 0px 10px 0px;
+	list-style-type: none;
+	color: #fff;
+	font-size: 75.00%;
+}
+#topmenue li {
+	float: left;
+	list-style-type: none;
+}
+#topmenue li a{
+	margin: 0px 5px 0px 5px;
+	color: #fff;
+	text-decoration: none;
+}
+#topmenue li a.active,
+#topmenue li a:hover.active{
+	text-decoration: underline;
+}
+
+/* --------------- header---------------*/
+#header {
+	clear: left;
+	width: 760px;
+	height: 221px;
+	background: url(images/bg_header.jpg) left top no-repeat #fff;
+}
+/* --------------- Hauptmenue---------------*/
+#hm {
+	float: left;
+	clear: left;
+	width: 760px;
+	height: 39px;
+	margin: 182px 0px 0px 0px;
+	overflow: hidden;
+}
+#hm ul{
+	margin: 0px 0px 0px 32px;
+	list-style-type: none;
+}
+#hm li{
+	float: left;
+	list-style-type: none;
+}
+#hm li a{
+	display: block;
+	width: 107px;
+	height: 32px;
+	margin: 0px 1px 0px 1px;
+	padding: 13px 0px 0px 0px;
+	background: url(images/hm_bg.jpg) left top no-repeat #f2ffc0;
+	color: #76a500;
+	font-weight: bold;
+	font-size: 82.50%;
+	text-decoration: none;
+	text-align: center;
+}
+#hm li a.active,
+#hm li a:hover.active{
+	background: url(images/hm_bg_active.jpg) left top no-repeat #f2ffc0;
+	color: #407600;
+}
+#hm li a:hover{
+	background: url(images/hm_bg_over.jpg) left top no-repeat #f2ffc0;
+}
+
+/* --------------- Intro---------------*/
+#intro {
+	width: 760px;
+	height: 131px;
+	background: url(images/bg_intro.jpg) left top repeat-x #9dcc15;
+}
+#introtext {
+	clear: left;
+	float: left;
+	width: 430px;
+	margin: 30px 0px 0px 139px;
+	color: #efffc4;
+	line-height: 1.7em;
+}
+#introtext h1{
+	margin: 0px 0px 10px 0px;
+	color: #e0ff8b;
+	font-size: 212.50%;
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	font-weight: normal;
+}
+
+/* --------------- Content Bereich---------------*/
+#ccontent {
+	clear: left;
+	float: left;
+	width: 756px;
+	padding: 40px 0px 20px 0px;
+	background: url(images/bg_submenue.gif) 129px top no-repeat #fff;
+	border-left: 3px solid #e4f3ba;
+	border-right: 3px solid #e4f3ba;
+}
+#submenue {
+	float: left;
+	width: 185px;
+	margin: 20px 0px 0px 29px;
+}
+#submenue h2{
+	margin: 0px 0px 5px 0px;
+	color: #89b800;
+	font-size: 150.00%;
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	font-weight: normal;
+}
+#submenue ul{
+	list-style-type: none;
+	border-top: 1px solid #ccc;
+}
+
+#submenue li{
+	list-style-type: none;
+}
+#submenue li a{
+	display: block;
+	margin: 2px 0px 2px 0px;
+	padding: 4px 0px 4px 20px;
+	background: url(images/pointer_gray.gif) left 8px no-repeat #fff;
+	border-bottom: 1px solid #ccc;
+	color: #333;
+	text-decoration: none;
+}
+#submenue li a:hover{
+	background: url(images/pointer_green.gif) left 8px no-repeat #fff;
+	color: #7fae00;
+}
+#submenue li a.active,
+#submenue li a:hover.active{
+	background: url(images/pointer_red.gif) left 8px no-repeat #efefef;
+	color: #bb050c;
+}
+
+
+#content {
+	float: right;
+	width: 470px;
+	margin: 0px 30px 0px 0px;
+	line-height: 1.7em;
+}
+#content p{
+	margin: 0px 0px 20px 0px;
+}
+#content a{
+	color: #bb050c;
+}
+#content h2{
+	margin: 0px 0px 20px 0px;
+	color: #bb050c;
+	font-size: 182.50%;
+	font-family: "Trebuchet MS", Tahoma, Verdana, Arial, sans-serif;
+	font-weight: normal;
+}
+#content p.infobox{
+	margin: 20px 0px 20px 0px;
+	padding: 10px 10px 10px 80px;
+	background: url(images/bg_infobox.gif) 10px 10px no-repeat #efefef;
+}
+
+/* --------------- Fusszeile ---------------*/
+#footer {
+	clear: left;
+	float: left;
+	width: 760px;
+	padding: 10px 0px 10px 0px;
+	background-color: #bd050d;
+	border-bottom: 10px solid #9ed106;
+	color: #fff;
+}
+#footer p.copyright {
+	margin: 5px 0px 5px 0px;
+	padding: 0px 10px 0px 10px;
+	text-align: right;
+	font-size: 75.00%;
+}
+#footer p.copyright a{
+	color: #ccc;
+}
+
+/* --------------- Formulare ---------------*/
+form {
+	clear: left;
+	line-height: normal;
+}
+label {
+	clear: left;
+	float: left;
+	margin: 10px 0px 0px 0px;
+}
+label.plabel {
+	font-weight: bold;
+}
+input,
+select,
+textarea {
+	clear: left;
+	float: left;
+	width: 465px;
+}
+input.submit {
+	width: auto;
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
+input.reset {
+	width: auto;
+	margin: 10px 0px 0px 0px;
+}

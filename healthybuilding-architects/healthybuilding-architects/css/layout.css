@@ -1,0 +1,23 @@
+#page1 #content .col-1, #page1 #content .col-2 {
+	width:178px;
+	margin-right:34px;
+}
+#page1 #content .col-3 {
+	width:178px;
+}
+#page2 #content .col-1, #page2 #content .col-2 {
+	width:178px;
+	margin-right:34px;
+}
+#page2 #content .col-3 {
+	width:178px;
+}
+#page5 #content .col-1 {
+	width:87px;
+}
+#page5 #content .col-2 {
+	width:175px;
+}
+#page5 #content .col-3 {
+	width:340px;
+}

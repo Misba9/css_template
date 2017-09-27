@@ -1,0 +1,53 @@
+body { margin: 0; padding: 0 0 10px 0; background: #030508 url(images/bg.jpg) no-repeat top left scroll;  color: #E6D7B3; font-family: Georgia, serif; font-size: 95%; }
+a, a:visited { color: #CC9966; text-decoration: none; }
+a:hover, a:active { color: #C7A759; text-decoration: underline; }
+
+#container { background: transparent; margin: 0 auto; padding: 0 0 10px 0 !important; width: 980px;  }
+#main { background:transparent url('images/divider1.jpg') center bottom no-repeat; float:left; margin:0 0 10px 270px !important;
+margin:0 0 10px 121px; padding:0 15px 10px 0 !important; padding: 0 8px 10px 7px; width:497px; }
+#main h1 { font-size: 1.4em; color: #C7A759; }
+#main h2 { font-size: 1.3em; color: #C7A759; }
+#main p { padding-bottom: 10px; margin: 0 0 10px 0; }
+#header { margin: 10px 0; width: 497px; height: 50px; }
+#header h1 { text-align: center; width: 497px; height: 50px; color: #C7A759; background: transparent url(images/divider1.jpg) center bottom no-repeat; font-size: 1.9em !important; }
+#desc { text-align:center; font-style: italic; }
+
+#right { float: left; width: 192px; color:#E6D7B3; background: transparent url(images/divider2.jpg) center bottom no-repeat; margin: 0; padding: 0 0 9px 0; height: auto; }
+#right p { padding: 10px; margin: 0; font-size: 0.85em !important; }
+#right h2 { background: transparent url(images/divider2.jpg) center top no-repeat; font-size: 1.2em; padding: 18px 0 0 0; margin: 10px 0 0 0; text-align: center; color: #C7A759; }
+
+#navcontainer { width: 192px; padding: 0; margin: 0 auto; font-family: Georgia, serif; background: transparent; color: #333; }
+
+#navcontainer ul { list-style: none; margin: 0; padding: 0; border: none; font-size: 0.85em !important; }
+
+#navcontainer li { border-bottom: 1px solid #C7A759; margin: 0; }
+
+#navcontainer li a, #navcontainer li a:visited { display: block; padding: 5px 5px 5px 0.5em; border-left: 10px solid #C7A759; border-right: 10px solid #D6BF85; background-color: #030508; color:#E6D7B3; text-decoration: none; width: 100%; }
+
+html>body #navcontainer li a, body #navcontainer li a:visited { width: auto; }
+
+#navcontainer li a:hover, #navcontainer li a:active { border-left: 10px solid #D6BF85; border-right: 10px solid #C7A759; background-color: #E6D7B3; color: #030508; }
+
+#farleft { margin: 0; padding: 10px; text-align: left; font-size: 0.75em; position: absolute; top: 500px; left: 0; width: 270px; font-size: 0.7em !important; }
+#farleft ul { list-style: none; margin: 0; padding: 0; }
+#farleft h2 { font-size: 1.3em; color: #C7A759; }
+
+img.centered {display:block; margin: 0 auto 5px auto; border:1px solid #C7A759; padding:2px; }
+
+img.alignright { float: right; display: inline; border:1px solid #C7A759; margin:5px 0 0 7px; padding:4px; }
+
+img.alignleft { float: left; display: inline; border:1px solid #C7A759; margin:5px 7px 0 0; padding:4px; }
+
+img.border { border:1px solid #C7A759; padding:2px; }
+
+.clear { clear: left; padding-top: 10px; }
+.clear2 {clear:right; padding-top: 10px; }
+
+form { margin: 0px; padding: 0px; }
+form input, form textarea, form submit { border: 1px solid #C7A759; background-color:#E6D7B3 }
+form option {padding: 0 5px;}
+
+.alignleft { float:left; text-align:left; }
+
+.alignright { float:right; text-align:right; }
+.center { text-align: center; }

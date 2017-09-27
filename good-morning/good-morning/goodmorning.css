@@ -1,0 +1,215 @@
+* {margin: 0; padding: 0; border: none; text-decoration: none;}
+html {
+	background: url(images/bg.gif) #005ea2 0% 0% repeat-x;
+	font: x-small "Tahoma", "Verdana", "Arial", sans-serif;
+	color: #0f0f0f;
+	text-align: center;
+	min-height: 100%;
+	font-size/* */:/**/small;
+	font-size: /**/small;
+}
+body {
+	background: url(images/bg-body.gif) 50% 100% repeat-x;
+	padding: 52px 0 20px 0;
+}
+#container {
+	width: 769px;
+	margin: 0 auto;
+	text-align: left;
+	background: url(images/bg-container.gif) #91cde6 0% 0% repeat-y;
+}
+#container:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#header {
+	background: url(images/header.jpg) 0% 100% no-repeat;
+	height: 233px;
+	position: relative;
+}
+#header h1 {
+	position: absolute;
+	top: 90px;
+	left: 80px;
+	font: bold 260% "Trebuchet MS", "Lucida Sans Unicode", "Verdana", "Arial", sans-serif;
+	color: #fff;
+}
+#mainmenu {
+	position: absolute;
+	bottom: 233px !important;
+	bottom: 232px; /* die, IE 6, die */
+	left: 30px;
+	margin: 0;
+	padding: 0;
+}
+#mainmenu li {
+	display: inline;
+	list-style: none;
+	font: bold 120% "Trebuchet MS", "Lucida Sans Unicode", "Verdana", "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#mainmenu li a {
+	display: block;
+	width: auto;
+	float: left;
+	margin-right: 10px;
+	padding: 6px 10px;
+}
+#mainmenu li a:link, #mainmenu li a:visited {
+	background: #058cc4;
+	color: #fff;
+}
+#mainmenu li a:hover, #mainmenu li a:active, #mainmenu li a:focus {
+	background: #fff;
+	color: #058cc4;
+}
+#mainmenu li.active a:link, #mainmenu li.active a:visited {
+	background: #b9def0;
+	color: #058cc4;
+}
+#footer {
+	width: 719px;
+	margin: 0 auto;
+	background: url(images/footer.gif) 0% 0% no-repeat;
+	color: #058cc4;
+	padding: 28px 25px 0 25px;
+}
+#footer p {
+	float: left;
+	width: auto;
+	padding: 10px 10px;
+	background: #058cc4;
+	color: #fff;
+	font: normal 100% "Trebuchet MS", "Lucida Sans Unicode", "Verdana", "Arial", sans-serif;
+}
+#footer p.credit {float: right;}
+#footer a:link, #footer a:visited {color: #fff; background: #058cc4;}
+#footer a:hover, #footer a:active, #footer a:focus {text-decoration: underline;}
+#footer:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#content {
+	width: 500px;
+	float: left;
+	padding: 15px 25px 0 25px;
+}
+#column {
+	width: 164px;
+	float: left;
+	margin-top: 25px;
+	padding: 10px;
+	background: #b8d8ec;
+	border: 3px solid #bfdfef;
+}
+#content, #column {
+	overflow: visible !important;
+	overflow: hidden; /* die, IE 6, die */
+}
+ul.menu li {
+	display: inline;
+	margin: 0;
+	list-style: none;
+}
+#column ul.menu li a {
+	display: block;
+	background: #bfdfef;
+	border-left: 1em solid #2c9fce;
+	padding: .3em .5em;
+	color: #006ec3;
+	font-weight: normal;
+}
+#column ul.menu li a:hover {
+	border-left: 1em solid #005ea2;
+	color: #00579b;
+	background: #acd9ec;
+}
+h2 {
+	font: bold 200% "Trebuchet MS", "Lucida Sans Unicode", "Verdana", "Arial", sans-serif;
+	color: #2c9fce;
+	padding-bottom: .2em;
+}
+h3 {
+	font: bold 140% "Trebuchet MS", "Lucida Sans Unicode", "Verdana", "Arial", sans-serif;
+	color: #00589C;
+	padding-bottom: .2em;
+}
+p, ol, ul {
+	text-align: justify;
+	padding-bottom: .5em;
+	line-height: 130%;
+}
+li {margin-left: 1.5em;}
+#content a:link {
+	color: #1AA800;
+	font-weight: bold;
+	background: #91cde6;
+}
+#content a:visited {
+	color: #007E03;
+	background: #91cde6;
+}
+#content a:hover, #content a:active, #content a:focus {
+	color: #fff;
+	background: #91cde6;
+}
+#column a:link {
+	color: #1AA800;
+	font-weight: bold;
+	background: #b8d8ec;
+}
+#column a:visited {
+	color: #007E03;
+	background: #b8d8ec;
+}
+#column a:hover, #column a:active, #column a:focus {
+	color: #fff;
+	background: #b8d8ec;
+}
+a:active, a:focus {outline: none;}
+code, b, i, strong, em {color: #00589c; font-size: 100%;}
+blockquote, .box {
+	border: solid #BFDFEF;
+	border-width: 3px 0;
+	background: #b1d8ec;
+	margin: 1em 0;
+	padding: .5em 1em;
+	font-style: italic;
+	color: #00589c;
+}
+form {padding-bottom: 1em;}
+label {
+	clear: both;
+	float: left;
+	margin-bottom: 1em;
+	width: 6em;
+	padding: .2em 0;
+}
+input, textarea {
+	float: left;
+	border: 2px solid #2c9fce;
+	background: #b1d8ec;
+	width: 300px;
+	padding: .2em;
+	margin-bottom: 1em;
+}
+textarea {
+	height: 100px;
+	overflow: auto;
+}
+input.button {
+	clear: both;
+	margin: 0 0 1em 6em;
+	width: auto;
+	background: #74b5cf;
+	border-color: #2393bf;
+	color: #005ea2;
+	cursor: pointer;
+}

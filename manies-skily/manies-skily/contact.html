@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+<title>Manies Skily | Contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<!--[if lte IE 7]><link rel="stylesheet" href="ie-fix.css" type="text/css" media="screen" /><![endif]-->
+<!--[if lte IE 8]><script src="js/html5.js" type="text/javascript"></script><![endif]-->
+</head>
+<body>
+<div id="outter">
+  <div id="inner">
+    <header>
+      <div class="alignCenter">
+        <h2 id="logo"><a class="pngfix" href="index.html">Manies Skily</a></h2>
+        <div id="socials">
+          <ul class="sociallinks">
+            <li><a href="#"><img alt="" src="images/sc_facebook.png"></a></li>
+            <li><a href="#"><img alt="" src="images/sc_twitter.png"></a></li>
+            <li><a href="#"><img alt="" src="images/sc_flickr.png"></a></li>
+            <li><a href="#"><img alt="" src="images/sc_linkedin.png"></a></li>
+            <li><a href="#"><img alt="" src="images/rss.png"></a></li>
+          </ul>
+        </div>
+        <nav id="nav-main" class="main jqueryslidemenu">
+          <ul class="nav">
+            <li><a href="index.html" class="current">Home</a>
+              <ul>
+                <li><a href="index-slider.html">Image Slider</a></li>
+                <li><a href="#">SubMenu 2</a></li>
+                <li><a href="#">SubMenu 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Illustration</a></li>
+            <li><a href="#">Graphic-Design</a></li>
+            <li><a href="#">Web-Design</a></li>
+            <li><a href="#">Logo</a></li>
+            <li><a href="#">Printing</a></li>
+            <li><a href="#">Photography</a></li>
+          </ul>
+        </nav>
+        <nav id="nav-main2" class="main2 jqueryslidemenu">
+          <ul class="nav">
+            <li><a href="about.html"> Aboutme</a></li>
+            <li><a href="services.html"> Services</a></li>
+            <li><a href="contact.html" class="current"> Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="content_wrapper">
+      <div class="alignCenter">
+        <div class="content">
+          <h1>Contact Me</h1>
+          <p class="subtitle">Quisque et purus purus. Quisque et elementum. </p>
+          <p><strong>All fields are required.</strong></p>
+          <div id="feedback">
+            <p class="error wrong_name"> Fill the correct name</p>
+            <p class="error wrong_email"> Incorrect email</p>
+            <p class="error wrong_message"> Enter your message</p>
+          </div>
+          <form action="#" id="contact_us" method="post">
+            <p class="label_name">Name</p>
+            <p class="input_form">
+              <input type="text" name="Name" />
+            </p>
+            <p class="label_name">Email</p>
+            <p class="input_form">
+              <input type="text" name="Email" />
+            </p>
+            <p class="label_name">Message</p>
+            <p class="input_form" id="textarea">
+              <textarea name="Message" rows="5" cols="4" id="message_input"></textarea>
+            </p>
+            <p id="submit">
+              <input type="submit" value="Send" name="submitButton" class="button" />
+            </p>
+            <p id="success">Your message was sent succesfully!</p>
+          </form>
+        </div>
+        <div class="sidebar rightside">
+          <p>I'm the man whose love art and design. I do styling beautiful website, sketching amazing illustration, create great logo, designing prints stuffs, shoot sexy photographs <a href="#">readmore</a></p>
+          <h3 class="title">My Portfolios</h3>
+          <ul class="list">
+            <li><a href="#">Illustration</a></li>
+            <li><a href="#">Graphic-Design</a></li>
+            <li><a href="#">Web-Design</a></li>
+            <li><a href="#">Logo</a></li>
+            <li><a href="#">Printing</a></li>
+            <li><a href="#">Photography</a></li>
+          </ul>
+          <h3 class="title">Hire me</h3>
+          <p><strong>Phone: </strong>+1234567<br>
+            <strong>Fax: </strong>+123456789<br>
+            <strong>E-mail: </strong>name@domain.com</p>
+          <p>Or fill out form on <a href="#">Contact</a> page</p>
+          <form action="#" id="search" method="post">
+            <div>
+              <input type="text" onFocus="if (this.value == 'Search')  {this.value = '';}" onBlur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search">
+              <input type="submit" value="Search" class="search_button" id="searchsubmit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="alignCenter"><span class="right">Designed by <a target="_blank" href="http://www.artfans.info/">Artfan Design</a></span></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+/* CSS Document */
+body{
+	margin:auto;
+	padding:0px;
+	background:#6C6C6C;
+	font:12px Georgia,Times New Roman, Times, serif,arial;
+	color:#E7F4EE;
+}
+p{
+	margin:0px;
+	padding:0px;
+}
+img{
+	border:0px;
+}
+.flt{
+	float:left;
+}
+.fld{
+	float:left;
+	display:inline;
+}
+	/* Top Panel Starts Here */
+#main_div{
+	margin:auto;
+	width:100%;
+	
+}
+#main_div_inner{
+	margin:auto;
+	width:1004px;
+}
+#tp_bg{
+	background:url(../images/tp_bg.jpg);
+	width:1004px;
+	height:254px;
+}
+#tp_bg a{
+	color:#F0E784;
+	text-decoration:none;
+}
+#tp_bg img{
+	float:left; margin:20px 100px 0px 259px;
+}
+.tp_smenu{
+	margin:66px 0px 0px 80px; width:145px;
+}
+.tp_smenu span{
+	float:right; text-align:right; font:bold 14px/31px Georgia, Times New Roman, Times, serif,arial; font-style:italic;
+}
+.tp_smenu b{
+	color:#fff;
+}
+.tp_logo{
+	width:225px; text-align:right; margin:130px 0px 0px 48px; float:left; display:inline;
+}
+.tp_logo span{
+	 font:bold 33px/33px Georgia, Times New Roman,arail, Times, serif; font-style:italic; 
+}
+.tp_logo u{
+   color:#C3C0BD; font:bold 15px Georgia, Times New Roman,arail, Times, serif; float:right;text-decoration:none;
+}
+.tp_logo b{
+	color:#084169;
+}
+	/* Left Panel */
+#lp_bg{
+	float:left; display:inline; background:#1F608E url(../images/lp_bg.jpg) repeat-x; width:313px; border-right:2px solid #fff;
+}
+.lp_txt{
+ width:240px; margin:10px 0px 0px 55px; font:12px/15px Georgia, Times New Roman, Times, serif; color:#CCCCCC;
+}
+.lp_abt{
+	margin:27px 0px 0px 43px;
+}
+.lp_bull2{
+	margin:27px 0px 0px 43px;
+}
+.lp_bull2 span{
+	color:#CCCCCC; font:bold 19px Georgia, Times New Roman,arail, Times, serif; font-style:italic; float:left; margin:-10px 0px 0px 10px; position:relative;
+}
+.lp_abt span{
+	color:#CCCCCC; font:bold 19px Georgia, Times New Roman,arail, Times, serif; font-style:italic; float:left; margin:-10px 0px 0px 10px; position:relative;
+}
+	/* Center Panel */
+#center_div{
+	float:left; display:inline; border-bottom:2px solid #fff; background:url(../images/cp_main_bg.jpg) repeat-y; margin:auto; width:1004px;
+}
+.cp_news{
+	margin:20px 0px 0px 22px;
+}
+.cp_news span{
+	color:#CCCCCC; font:bold 19px Georgia, Times New Roman,arail, Times, serif; font-style:italic; float:left; margin:-10px 0px 0px 10px; position:relative;
+}
+.cp_bg1{
+	background:#CC6633 url(../images/cp_bg.jpg) repeat-x; width:228px; border-right:2px solid #fff;
+}
+.cp_dat{
+	width:184px; margin:6px 0px 0px 34px; color:#fff;
+}
+.cp_getbg{
+	background:url(../images/cp_img2.jpg); width:228px; height:275px;
+}
+.cp_getbg span{
+	font:17px/20px Georgia, Times New Roman, Times, serif; margin:30px 0px 0px 7px; color:#3F0A0A;
+}
+.cp_getbg b{
+	color:#DE225B; font-size:25px;
+}
+	/* Right Panel */
+#rp_bg{
+	background:#237F54 url(../images/rp_bg.jpg) repeat-x; color:#E5F1EC; width:459px; float:left; display:inline;
+}
+.rp_bg1{
+	background:url(../images/rp_bot_bg.jpg) bottom right no-repeat; padding-bottom:45px; color:#E5F1EC; width:459px;
+}
+.rp_offtxt{
+	border-bottom:1px dotted #fff; width:459px; padding-bottom:20px;
+}
+.rp_offtxt1{
+	width:388px; margin:12px 0px 0px 44px;
+}
+.rp_bulbg{
+	width:204px; line-height:20px; margin:21px 0px 0px 48px;
+}
+.rp_bulbg img{
+	float:left;margin:8px 12px 0px 0px;
+}
+.rp_bulbg a{
+	color:#D7EDE3;
+}
+.rp_bulbg1{
+	width:204px; line-height:20px; margin:21px 0px 0px 0px;
+}
+.rp_bulbg1 img{
+	float:left;margin:8px 12px 0px 0px;
+}
+.rp_bulbg1 a{
+	color:#D7EDE3;
+}
+.rp_prof{
+	margin:15px 0px 0px 40px; width:210px;font:bold 21px Georgia, Times New Roman, Times, serif; font-style:italic;
+}
+.rp_port{
+	margin:24px 0px 0px 24px;
+}
+.rp_port span{
+	 font:bold 19px Georgia, Times New Roman,arail, Times, serif; font-style:italic; float:left; margin:-10px 0px 0px 10px; position:relative;
+		color:#E5F1EC;
+}
+ 	/* Footer */
+#fp_bg{
+	float:left; line-height:25px; color:#D9D9D9; padding:15px 0px 15px 0px; display:inline; background:#6D6D6D url(../images/fp_bg.jpg) repeat-x; width:1004px; text-align:center;
+}
+#fp_bg img{
+	margin:0px 13px 0px 13px;
+}
+#fp_bg span{
+	font-size:11px;
+}
+#fp_bg a{
+	text-decoration:none;
+	color:#D9D9D9;
+}

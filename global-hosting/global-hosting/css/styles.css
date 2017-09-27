@@ -1,0 +1,85 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#FFF url(../images/b_top.jpg) 0 0 repeat-x; color:#535353; font:10px/12px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+.headline{font:10px/12px Tahoma, sans-serif; color:#535353; font-weight:bold}
+.headline2{font:12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#5a7d86;}
+
+#container{width:674px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:674px; height:327px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:41px; left:0}
+
+#header ul.menu{position:absolute; top:123px; left:18px; width:475px}
+#header ul.menu li{height:19px; margin-right:19px; float:left}
+#header ul.menu li a{height:19px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:19px;}
+
+#header ul.menu li.btn_1 a{width:52px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_1 a:hover{width:52px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_2 a{width:58px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_2 a:hover{width:58px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_3 a{width:69px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_3 a:hover{width:69px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_4 a{width:81px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_4 a:hover{width:81px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_5{margin-right:0}
+#header ul.menu li.btn_5 a{width:72px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_5 a:hover{width:72px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#new{position: absolute; top:179px; left:18px; width:380px}
+#new h2{height:41px; position:relative; background:url(../images/h_new.jpg) 0 0 no-repeat; margin-bottom:14px}
+#new p{color:#fff}
+
+
+/* CONTENT */
+
+#content{width:674px; position:relative; clear:both; background:#f8f8f8}
+
+#plan1{width:185px; float:left; margin:26px 26px 0 18px; display:inline}
+#plan2{width:185px; float:left; margin:26px 28px 0 0;}
+#plan3{width:185px; float:left; margin:26px 0 0 0;}
+
+#plan1 h2{height:48px; position:relative; background:url(../images/h_plan.gif) 0 0 no-repeat; margin-bottom:10px}
+#plan2 h2{height:48px; position:relative; background:url(../images/h_plan-10.gif) 0 0 no-repeat; margin-bottom:10px}
+#plan3 h2{height:48px; position:relative; background:url(../images/h_plan-11.gif) 0 0 no-repeat; margin-bottom:10px}
+
+#plan1 p{margin-left:37px; margin-bottom:10px}
+#plan2 p{margin-left:37px; margin-bottom:10px}
+#plan3 p{margin-left:37px; margin-bottom:10px}
+
+
+/* CONTENT2 */
+
+#content2{width:674px; height:177px;  position:relative; clear:both; background: url(../images/b_down.jpg) 0 0 repeat-x}
+
+#c2_01{width:310px; float:left; margin:25px 20px 0 33px; display:inline}
+#c2_02{width:270px; float:left; margin:25px 0 0 0;}
+
+#c2_01 h2{height:33px; position:relative; background:url(../images/h_featured.gif) 0 0 no-repeat; margin-bottom:7px}
+#c2_02 h2{height:33px; position:relative; background:url(../images/h_why.gif) 0 0 no-repeat; margin-bottom:13px}
+
+.file{margin:0 0 15px 11px}
+.file img{float:left; margin-right:6px}
+.file p{float:left; width:225px}
+
+#c2_02 ul{width:235px; margin-left:20px}
+#c2_02 ul li{font:10px/14px Tahoma, sans-serif; background:url(../images/arrow.gif) 0 5px no-repeat; padding-left:11px; height:18px;}
+#c2_02 ul li a{color:#009bb6; text-decoration:underline;}
+#c2_02 ul li a:hover{color:#009bb6; text-decoration:none;}
+
+/* FOOTER */
+
+#footer{height:52px; clear:both; width:674px;}
+#footer p{padding: 13px 0 0 0; font:10px/14px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
+#footer p a{font:10px/14px Tahoma, sans-serif; font-weight:normal; color:#3b3b21; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#3b3b21}
